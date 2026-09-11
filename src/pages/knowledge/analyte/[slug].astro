@@ -4,9 +4,8 @@ import products from '../../../data/products.json';
 import whatIs from '../../../data/what-is-content.json';
 import whatIsDoa from '../../../data/what-is-doa.json';
 
-const allWhatIs = { ...whatIs, ...whatIsDoa };
-
 export function getStaticPaths() {
+  const allWhatIs = { ...whatIs, ...whatIsDoa };
   return Object.entries(allWhatIs).map(([slug, w]) => ({ params: { slug }, props: { slug, w } }));
 }
 
