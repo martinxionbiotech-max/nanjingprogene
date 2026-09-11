@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import products from '../../../data/products.json';
+import whatIs from '../../../data/what-is-content.json';
+
+export function getStaticPaths() {
+  return Object.entries(whatIs).map(([slug, w]) => ({ params: { slug }, props: { slug, w } }));
+}
+
+const { slug, w } = Astro.props;
+const related = products.products.find((p) => p.id === w.related);
+---
+
+<BaseLayout
+  title={`What Is ${w.name}? — Marker Explained | Progene Bio`}
+  description={`What is ${w.name}? ${w.what}`}
+  canonical={`/knowledge/analyte/${slug}/`}
+>
+
+  <h1>What Is {w.name}?</h1>
+
+  <div class="card">
+    <h2 style="margin-top:0;">What it is</h2>
+    <p>{w.what}</p>
+    <h2>Why it matters</h2>
+    <p>{w.significance}</p>
+  </div>
+
+  {related && (
+    <div class="card" style="margin-top:16px;">
+      <p style="margin:0;">
+        <strong>Related test:</strong> <a href={`/products/${related.id}/`}>{related.name}</a>
+        {related.specimen?.length ? ` — specimen: ${related.specimen.join(" / ")}` : ""}
+      </p>
+    </div>
+  )}
+
+  <p style="margin-top:16px;"><a href="/knowledge/">← Knowledge</a></p>
+
+</BaseLayout>

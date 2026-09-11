@@ -1,0 +1,86 @@
+{
+  "dengue-ns1": {
+    "name": "Dengue NS1 Antigen",
+    "what": "NS1 is a non-structural protein secreted by the dengue virus during replication. Unlike antibodies, it is a direct viral product, so its presence indicates active viral replication.",
+    "significance": "NS1 is detectable from the first day of fever, before IgM antibodies appear — making it the earliest serological marker of acute dengue.",
+    "related": "dengue-ns1"
+  },
+  "hbsag": {
+    "name": "Hepatitis B Surface Antigen (HBsAg)",
+    "what": "HBsAg is a protein on the surface of the hepatitis B virus. It is the earliest marker to appear after HBV infection.",
+    "significance": "A positive HBsAg indicates HBV infection (acute or chronic). It is the core marker for blood-bank and antenatal screening.",
+    "related": "hbsag"
+  },
+  "troponin": {
+    "name": "Cardiac Troponin (cTnI / cTnT)",
+    "what": "Troponin is a regulatory protein complex in cardiac muscle. Cardiac-specific isoforms (troponin I and troponin T) are released into blood when heart muscle is damaged.",
+    "significance": "Cardiac troponin is the preferred biomarker for diagnosing acute myocardial infarction (heart attack).",
+    "related": "troponin-i"
+  },
+  "d-dimer": {
+    "name": "D-Dimer",
+    "what": "D-dimer is a fibrin-degradation product — a protein fragment produced when a blood clot is broken down.",
+    "significance": "A negative D-dimer helps rule out venous thromboembolism (VTE) in low-risk patients; a positive result is non-specific.",
+    "related": "d-dimer"
+  },
+  "crp": {
+    "name": "C-Reactive Protein (CRP)",
+    "what": "CRP is an acute-phase protein produced by the liver in response to inflammation or infection.",
+    "significance": "Rapid CRP supports infection/inflammation triage and antibiotic-stewardship decisions in primary care.",
+    "related": "crp"
+  },
+  "pct": {
+    "name": "Procalcitonin (PCT)",
+    "what": "Procalcitonin is a precursor of calcitonin that rises markedly in systemic bacterial infection and sepsis, but much less in viral infection.",
+    "significance": "PCT helps distinguish bacterial from viral infection and guides antibiotic decisions.",
+    "related": "pct"
+  },
+  "psa": {
+    "name": "Prostate-Specific Antigen (PSA)",
+    "what": "PSA is a protein produced by prostate cells. It is normally present at low levels in blood but rises in prostate disease.",
+    "significance": "PSA is used in prostate cancer screening and monitoring; elevated levels prompt further evaluation.",
+    "related": "psa"
+  },
+  "afp": {
+    "name": "Alpha-Fetoprotein (AFP)",
+    "what": "AFP is a fetal protein that falls to low levels after birth but rises again in some liver cancers.",
+    "significance": "AFP is a tumor marker associated with hepatocellular carcinoma, used in high-risk surveillance.",
+    "related": "afp"
+  },
+  "hcg": {
+    "name": "Human Chorionic Gonadotropin (hCG)",
+    "what": "hCG is a hormone produced by the placenta shortly after implantation — the standard pregnancy hormone.",
+    "significance": "Detection of hCG in urine or blood is the basis of pregnancy tests.",
+    "related": "hcg"
+  },
+  "hiv-antibody": {
+    "name": "HIV-1/2 Antibodies",
+    "what": "Antibodies are the immune system's response to HIV infection, appearing weeks after exposure (the window period).",
+    "significance": "HIV antibody tests are the standard first-line screening; a reactive result is presumptive and needs confirmation.",
+    "related": "hiv-12"
+  },
+  "hcv-antibody": {
+    "name": "Hepatitis C Antibodies (Anti-HCV)",
+    "what": "Anti-HCV antibodies indicate exposure to the hepatitis C virus — current or past infection.",
+    "significance": "A positive anti-HCV does not confirm active infection; HCV RNA testing is required to confirm.",
+    "related": "hcv"
+  },
+  "h-pylori-antigen": {
+    "name": "H. pylori Antigen",
+    "what": "H. pylori antigen in stool is a direct marker of active Helicobacter pylori colonization of the stomach.",
+    "significance": "Stool antigen detects active infection and is suitable for post-treatment (test-of-cure) confirmation.",
+    "related": "hpylori-ag"
+  },
+  "lh": {
+    "name": "Luteinizing Hormone (LH)",
+    "what": "LH is a pituitary hormone that surges sharply just before ovulation.",
+    "significance": "Detecting the LH surge predicts ovulation ~24–36 hours later, supporting fertility tracking.",
+    "related": "lh"
+  },
+  "fsh": {
+    "name": "Follicle-Stimulating Hormone (FSH)",
+    "what": "FSH is a pituitary hormone that regulates ovarian function; levels rise as ovarian reserve declines.",
+    "significance": "Elevated FSH indicates reduced ovarian reserve / menopause, used in fertility evaluation.",
+    "related": "fsh"
+  }
+}
