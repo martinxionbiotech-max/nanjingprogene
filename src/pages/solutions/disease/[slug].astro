@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import products from '../../../data/products.json';
+import diseaseContent from '../../../data/disease-content.json';
 
 export function getStaticPaths() {
   return products.hubs.map((h) => ({ params: { slug: h.id }, props: { hub: h } }));
@@ -8,6 +9,7 @@ export function getStaticPaths() {
 
 const { hub } = Astro.props;
 const hubProducts = products.products.filter((p) => hub.products.includes(p.id));
+const dc = diseaseContent[hub.id];
 ---
 
 <BaseLayout
@@ -19,6 +21,17 @@ const hubProducts = products.products.filter((p) => hub.products.includes(p.id))
   <p><a href="/">← Home</a></p>
   <h1>{hub.name}</h1>
   <p>Point-of-care rapid testing for {hub.name.toLowerCase()}. OEM/ODM manufacturer.</p>
+
+  {dc && (
+    <>
+      <h2>Overview</h2>
+      <p>{dc.overview}</p>
+      <h2>Diagnostic Methods</h2>
+      <p>{dc.methods}</p>
+      <h2>Interpretation</h2>
+      <p>{dc.interpretation}</p>
+    </>
+  )}
 
   <h2>Products ({hubProducts.length})</h2>
   <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">

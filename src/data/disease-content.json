@@ -1,0 +1,62 @@
+{
+  "dengue": {
+    "overview": "Dengue is a mosquito-borne flavivirus infection endemic across tropical and subtropical regions. An estimated 100–400 million infections occur annually (WHO). Early diagnosis guides fluid management and case classification.",
+    "methods": "NS1 antigen (early, day 1–7) · IgM/IgG serology (later, ~day 3–5+) · combined NS1+IgM/IgG for the widest window. RT-PCR for confirmation.",
+    "interpretation": "NS1 positive = acute infection; IgM/IgG positive = recent or past exposure. Flavivirus cross-reactivity (Zika) must be considered in serology."
+  },
+  "malaria": {
+    "overview": "Malaria is a parasitic infection by Plasmodium species transmitted by Anopheles mosquitoes. WHO recommends rapid diagnostic tests (RDTs) where microscopy is unavailable.",
+    "methods": "HRP2 (P. falciparum-specific) · pLDH (Pan-Plasmodium) · combined Pf/Pan or Pf/Pv devices for species differentiation.",
+    "interpretation": "Pf-positive RDT + fever = treat for P. falciparum. HRP2 can persist after treatment; HRP2 gene deletions can cause false negatives."
+  },
+  "hiv-std": {
+    "overview": "HIV and syphilis are bloodborne/sexually transmitted infections. Screening is standard in antenatal care, blood donation and key-population programs.",
+    "methods": "Antibody tests (HIV-1/2, treponemal syphilis) · HIV p24 antigen · combined HIV/syphilis devices.",
+    "interpretation": "A reactive HIV/syphilis antibody result is presumptive and must be confirmed per national algorithms (HIV: serial tests; syphilis: non-treponemal RPR titer)."
+  },
+  "hepatitis": {
+    "overview": "Viral hepatitis (A/B/C/E) is a major global burden. HBsAg and anti-HCV are the core screening markers; HAV/HEV IgM indicate acute infection.",
+    "methods": "HBsAg (surface antigen) · anti-HCV (antibody) · HAV IgM · HEV IgG/IgM · combo cassettes.",
+    "interpretation": "HBsAg positive = HBV infection (acute or chronic). Anti-HCV positive = exposure, NOT active infection — confirm with HCV RNA."
+  },
+  "hpylori": {
+    "overview": "Helicobacter pylori colonizes the gastric mucosa and is linked to gastritis, peptic ulcer and gastric cancer. Non-invasive testing supports test-and-treat strategies.",
+    "methods": "Stool antigen (active infection) · serology (antibody, exposure) · urea breath test (reference non-invasive).",
+    "interpretation": "Stool antigen detects active infection and is suitable for post-treatment confirmation; serology cannot distinguish active from past infection."
+  },
+  "respiratory": {
+    "overview": "COVID-19, influenza and RSV are the major seasonal respiratory viruses. Rapid antigen tests support syndromic diagnosis and triage.",
+    "methods": "Antigen tests (SARS-CoV-2, Influenza A/B, RSV) · multiplex combo devices · RT-PCR for confirmation.",
+    "interpretation": "Antigen tests are fast but less sensitive than molecular; a negative result during high prevalence does not exclude infection."
+  },
+  "cardiac": {
+    "overview": "Cardiac biomarkers support the diagnosis of acute myocardial infarction and other cardiac conditions. Troponin is the preferred marker.",
+    "methods": "Troponin I/T · CK-MB · Myoglobin · H-FABP · D-Dimer (thrombosis) · CRP/PCT/SAA (inflammation).",
+    "interpretation": "Point-of-care assays are triage-grade; serial testing and clinical correlation are required. D-Dimer is for VTE exclusion, not diagnosis."
+  },
+  "doa-workplace": {
+    "overview": "Drug-of-abuse testing supports workplace screening, clinical toxicology and rehabilitation programs. Urine is the standard specimen.",
+    "methods": "Single-analyte tests (THC, COC, AMP, MET, MOP/OPI, BZO, Fentanyl, etc.) · multi-panel cups (2–14 analytes) with adulteration checks.",
+    "interpretation": "Screening results are presumptive; any positive analyte requires confirmatory testing (GC-MS/LC-MS). Cut-offs align with regulatory (SAMHSA-style) standards."
+  },
+  "pregnancy-fertility": {
+    "overview": "Reproductive hormone tests support pregnancy detection and fertility tracking.",
+    "methods": "hCG (pregnancy) · LH (ovulation) · FSH (menopause/fertility) · fFN and iGFBP-1 (preterm risk) · PDG.",
+    "interpretation": "hCG positive = pregnancy; LH surge predicts ovulation ~24–36h later. fFN/iGFBP-1 are risk-stratification aids, not diagnostic."
+  },
+  "tumor": {
+    "overview": "Tumor markers are proteins associated with certain cancers, used in screening support and monitoring of high-risk groups.",
+    "methods": "PSA (prostate) · AFP (hepatocellular) · CEA (colorectal) · CA-series.",
+    "interpretation": "Elevated tumor markers are not diagnostic of cancer — imaging and confirmatory testing are required; markers also rise in benign conditions."
+  },
+  "tropical": {
+    "overview": "Tropical and neglected diseases include chikungunya, Zika, leptospirosis, leishmaniasis, Chagas, filariasis, typhoid, cholera and tuberculosis.",
+    "methods": "IgM/IgG serology · antigen tests (cholera O1/O139, typhoid Ag) · combined panels.",
+    "interpretation": "Serology cross-reactivity is common among tropical pathogens; results require epidemiological context and confirmation where available."
+  },
+  "gastrointestinal": {
+    "overview": "Gastrointestinal infections (viral, bacterial, parasitic) and inflammatory bowel markers are common point-of-care needs.",
+    "methods": "Rotavirus/Adenovirus/Norovirus antigen · C. difficile (GDH + toxin) · Giardia/Cryptosporidium · Calprotectin/Lactoferrin (IBD) · FOB.",
+    "interpretation": "Antigen detection indicates active shedding; calprotectin/lactoferrin support IBD vs functional distinction, not diagnosis alone."
+  }
+}
