@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Diagnostic Window — Why Timing Determines Test Accuracy | Progene Bio"
+  description="What the diagnostic window is and why it matters: antigen vs antibody vs PCR detect infection at different times."
+  canonical="/knowledge/diagnostic-window/"
+>
+
+  <h1>The Diagnostic Window</h1>
+  <p>The period after infection during which a given test can detect it — and why choosing the wrong marker misses cases.</p>
+
+  <div class="card">
+    <table>
+      <thead><tr><th>Marker</th><th>Detectable from</th><th>Indicates</th></tr></thead>
+      <tbody>
+        <tr><th>Antigen</th><td>Early (acute phase)</td><td>Active pathogen present</td></tr>
+        <tr><th>IgM antibody</th><td>~days after onset</td><td>Recent infection</td></tr>
+        <tr><th>IgG antibody</th><td>~weeks after onset</td><td>Past infection / immunity</td></tr>
+        <tr><th>Nucleic acid (PCR)</th><td>Very early</td><td>Active infection (gold standard)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Practical rule</h2>
+  <p>
+    Test too early and the antibody may not have appeared; test too late and the antigen may be gone.
+    Combined antigen+antibody devices widen the window. See
+    <a href="/comparisons/dengue-ns1-vs-igg-igm/">Dengue NS1 vs IgM/IgG</a> for a worked example.
+  </p>
+
+</BaseLayout>

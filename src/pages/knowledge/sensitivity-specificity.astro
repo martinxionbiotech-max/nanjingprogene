@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Sensitivity & Specificity Explained — Interpreting Rapid Test Accuracy | Progene Bio"
+  description="What sensitivity, specificity, PPV and NPV mean for rapid diagnostic tests — and how to read test performance claims."
+  canonical="/knowledge/sensitivity-specificity/"
+>
+
+  <h1>Sensitivity &amp; Specificity</h1>
+  <p>The two core measures of diagnostic accuracy — and two more you actually care about in practice.</p>
+
+  <div class="card">
+    <table>
+      <thead><tr><th>Measure</th><th>Meaning</th><th>What it answers</th></tr></thead>
+      <tbody>
+        <tr><th>Sensitivity</th><td>True positive rate</td><td>How well does it catch people who DO have the condition?</td></tr>
+        <tr><th>Specificity</th><td>True negative rate</td><td>How well does it avoid false positives in people who DON'T?</td></tr>
+        <tr><th>PPV</th><td>Positive predictive value</td><td>If it's positive, how likely is it a true positive? (depends on prevalence)</td></tr>
+        <tr><th>NPV</th><td>Negative predictive value</td><td>If it's negative, how likely is it a true negative?</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Why PPV/NPV matter</h2>
+  <p>
+    A test with 95% sensitivity and 95% specificity can still give mostly false positives in a
+    low-prevalence population — that's why confirmatory testing and prevalence context matter.
+  </p>
+
+  <p>See also <a href="/comparisons/rapid-test-vs-pcr/">rapid test vs PCR</a> and <a href="/comparisons/igg-vs-igm/">IgG vs IgM</a>.</p>
+
+</BaseLayout>

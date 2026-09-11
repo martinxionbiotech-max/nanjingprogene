@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Screening vs Confirmatory Testing — Two-Tier Diagnosis | Progene Bio"
+  description="Screening tests (high sensitivity) vs confirmatory tests (high specificity) — why rapid tests are screening aids that need confirmation."
+  canonical="/knowledge/screening-vs-confirmatory/"
+>
+
+  <h1>Screening vs Confirmatory Testing</h1>
+
+  <div class="card">
+    <table>
+      <thead><tr><th></th><th>Screening test</th><th>Confirmatory test</th></tr></thead>
+      <tbody>
+        <tr><th>Goal</th><td>Catch all possible cases</td><td>Confirm the true cases</td></tr>
+        <tr><th>Priority</th><td>High sensitivity</td><td>High specificity</td></tr>
+        <tr><th>Typical example</th><td>Rapid antibody/antigen test</td><td>PCR, Western blot, RPR titer</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Why two tiers</h2>
+  <p>
+    A reactive rapid test is <strong>presumptive</strong> — it flags who needs confirmation. This is
+    standard practice for HIV, HCV, syphilis and drug-of-abuse testing.
+  </p>
+  <ul>
+    <li>HIV antibody reactive → confirm by serial tests per national algorithm</li>
+    <li>HCV antibody reactive → confirm with HCV RNA</li>
+    <li>Syphilis reactive → confirm with non-treponemal RPR titer</li>
+  </ul>
+
+</BaseLayout>
