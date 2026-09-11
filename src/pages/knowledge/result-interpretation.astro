@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="How to Read a Rapid Test Result — Control Line, Test Line | Progene Bio"
+  description="How to interpret a lateral-flow rapid test result — control line (validity), test line (positive), and common reading errors."
+  canonical="/knowledge/result-interpretation/"
+>
+
+  <h1>How to Read a Rapid Test Result</h1>
+
+  <div class="card">
+    <table>
+      <thead><tr><th>Lines</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><th>Control only</th><td>Negative</td></tr>
+        <tr><th>Control + Test</th><td>Positive (reactive)</td></tr>
+        <tr><th>No control line</th><td>Invalid — repeat with a new device</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Common errors</h2>
+  <ul>
+    <li><strong>Reading too late</strong> — a line appearing after the read window is invalid.</li>
+    <li><strong>Ignoring the control line</strong> — no control = invalid, regardless of test line.</li>
+    <li><strong>Treating faint line as negative</strong> — any visible test line within window = reactive.</li>
+  </ul>
+
+  <p>Always follow the product IFU; a reactive result is presumptive and may need confirmation.</p>
+
+</BaseLayout>
