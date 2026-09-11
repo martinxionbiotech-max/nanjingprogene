@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import products from '../../data/products.json';
 import skuCatalog from '../../data/sku-catalog.json';
+import productContent from '../../data/product-content.json';
 
 export function getStaticPaths() {
   return products.products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
@@ -10,6 +11,7 @@ export function getStaticPaths() {
 const { product } = Astro.props;
 const series = products.series.find((s) => s.id === product.series);
 const seriesSkus = skuCatalog[product.series] ?? [];
+const content = productContent[product.id];
 // rough match: SKUs whose product name contains the canonical target keyword
 const matchTerms = product.name.replace(/ Rapid Test.*| Test.*| Rapid.*/g, "").trim().split(" ").filter((w) => w.length > 3);
 const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.toLowerCase().includes(t.toLowerCase()))).slice(0, 12);
@@ -37,6 +39,25 @@ const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.to
       </tbody>
     </table>
   </div>
+
+  {content && (
+    <>
+      <h2>Intended Use</h2>
+      <p>{content.intended_use}</p>
+
+      <h2>Clinical Context</h2>
+      <p>{content.clinical_context}</p>
+
+      <h2>Test Principle</h2>
+      <p>{productContent.test_principle}</p>
+
+      <h2>Limitations</h2>
+      <p>{content.limitations}</p>
+
+      <h2>Procurement</h2>
+      <p>{content.procurement}</p>
+    </>
+  )}
 
   {relatedSkus.length > 0 && (
     <>

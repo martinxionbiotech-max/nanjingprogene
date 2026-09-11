@@ -1,0 +1,162 @@
+{
+  "test_principle": "Colloidal-gold immunochromatography (lateral flow). The device captures the target analyte (antigen or antibody) on a membrane via labeled antibodies, producing a visible test line within minutes. Qualitative or semi-quantitative, intended as a screening/triage aid — not a replacement for confirmatory laboratory testing.",
+
+  "dengue-ns1": {
+    "intended_use": "Qualitative detection of Dengue NS1 antigen for early diagnosis of dengue virus infection.",
+    "clinical_context": "NS1 antigen is detectable from day 1 of fever through early convalescence — before IgM reliably appears. NS1 antigen tests are most useful in the first week of illness (WHO recommends combined NS1 + IgM testing to cover acute and later phases).",
+    "limitations": "Sensitivity varies by serotype and timing; a negative NS1 does not rule out dengue. Confirm with serology or RT-PCR when clinically indicated.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette. CE-marked line."
+  },
+  "dengue-igg-igm": {
+    "intended_use": "Qualitative detection of Dengue IgM and IgG antibodies for serological diagnosis of dengue.",
+    "clinical_context": "IgM appears ~3–5 days after fever onset; IgG indicates past exposure or secondary infection. Combined IgM/IgG is standard for late-acute and convalescent dengue serology.",
+    "limitations": "Cross-reactivity with Zika and other flaviviruses is possible; interpret serology with travel and vaccination history.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette. CE-marked line."
+  },
+  "dengue-combo": {
+    "intended_use": "Combined detection of Dengue NS1 antigen and IgM/IgG antibodies in a single device.",
+    "clinical_context": "The NS1 + IgM/IgG combo widens the diagnostic window — capturing early (NS1) and later (IgM/IgG) phases in one test, improving case detection across the illness course.",
+    "limitations": "Same flavivirus cross-reactivity caveats as serology; combo results still require clinical correlation.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette, 25 T. CE-marked line."
+  },
+  "malaria-pf": {
+    "intended_use": "Detection of Plasmodium falciparum HRP2 antigen for malaria diagnosis.",
+    "clinical_context": "HRP2 is specific to P. falciparum (the most severe malaria species). WHO-recommended rapid diagnostic tests (RDTs) are standard in settings without microscopy.",
+    "limitations": "HRP2 can persist for weeks after treatment; HRP2 gene deletions can cause false negatives in some regions. Species-specific — does not detect P. vivax.",
+    "procurement": "Specimen: whole blood. Format: dipstick / cassette. CE-marked line."
+  },
+  "malaria-pf-pan": {
+    "intended_use": "Detection of P. falciparum (HRP2) and Pan-Plasmodium (pLDH) antigen for species differentiation.",
+    "clinical_context": "Combines Pf-specific HRP2 with Pan LDH (detects all human malaria species) — enables Pf vs non-Pf differentiation in one device, aligned with WHO RDT guidance.",
+    "limitations": "Cannot distinguish P. vivax from P. ovale/malariae; HRP2 persistence caveats apply.",
+    "procurement": "Specimen: whole blood. Format: cassette, 25 T. CE-marked line."
+  },
+  "malaria-pf-pv": {
+    "intended_use": "Detection of P. falciparum and P. vivax antigens for malaria species differentiation.",
+    "clinical_context": "Targets the two most common malaria species. Useful where both P. falciparum and P. vivax are endemic.",
+    "limitations": "Limited to Pf/Pv; other species require microscopy or Pan tests.",
+    "procurement": "Specimen: whole blood. Format: cassette, 25 T. CE-marked line."
+  },
+  "hiv-12": {
+    "intended_use": "Detection of antibodies to HIV-1 and HIV-2 in blood.",
+    "clinical_context": "HIV antibody tests detect immune response to infection; standard first-line screening. WHO testing strategies use serial antibody tests with confirmation.",
+    "limitations": "A reactive result is presumptive and must be confirmed per national algorithm; antibody tests miss very early infection (window period).",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette / dipstick. Registration in progress (Non-CE per current catalog)."
+  },
+  "hbsag": {
+    "intended_use": "Detection of Hepatitis B surface antigen (HBsAg) for HBV infection screening.",
+    "clinical_context": "HBsAg is the earliest serological marker of acute HBV and a marker of chronic infection. Widely used in blood-bank and antenatal screening.",
+    "limitations": "Reactive results require confirmatory testing (neutralization / HBV DNA); does not distinguish acute from chronic.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette / strip. Registration in progress."
+  },
+  "hcv": {
+    "intended_use": "Detection of antibodies to Hepatitis C virus.",
+    "clinical_context": "Anti-HCV indicates exposure (current or past infection). Standard first-line screen; active infection is confirmed by HCV RNA.",
+    "limitations": "A positive antibody result does not confirm active infection — reflex to HCV RNA is required.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette / strip. Registration in progress."
+  },
+  "hpylori-ab": {
+    "intended_use": "Detection of H. pylori antibodies in serum/plasma/whole blood.",
+    "clinical_context": "Serology indicates exposure but cannot distinguish active from past infection; used where endoscopy or stool testing is unavailable.",
+    "limitations": "Not recommended alone for test-and-treat decisions after treatment (antibodies persist); prefer stool antigen or urea breath test for active infection.",
+    "procurement": "Specimen: WB / S / P. Format: cassette / dipstick. CE-marked line."
+  },
+  "hpylori-ag": {
+    "intended_use": "Detection of H. pylori antigen in feces for active infection.",
+    "clinical_context": "Stool antigen detects active H. pylori infection; suitable for diagnosis and post-treatment confirmation (non-invasive).",
+    "limitations": "Sensitivity can be affected by recent PPI/antibiotic use; confirm equivocal results.",
+    "procurement": "Specimen: feces. Format: cassette / dipstick, 25 T. CE-marked line."
+  },
+  "syphilis": {
+    "intended_use": "Detection of Treponema pallidum antibodies for syphilis screening.",
+    "clinical_context": "Treponemal antibody tests detect immune response to T. pallidum. Used in antenatal and blood-donor screening and STD programs.",
+    "limitations": "Treponemal tests remain positive after treated infection — cannot distinguish active from past; confirm with non-treponemal (RPR) titer.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette / dipstick. CE-marked line."
+  },
+  "strep-a": {
+    "intended_use": "Detection of Group A Streptococcus antigen from throat swab for pharyngitis.",
+    "clinical_context": "Rapid antigen detection tests (RADT) for Strep A support point-of-care diagnosis of streptococcal pharyngitis, aiding antibiotic stewardship.",
+    "limitations": "Negative RADT may require throat culture in children/adolescents per guidelines; sensitivity lower than culture.",
+    "procurement": "Specimen: throat swab. Format: dipstick / cassette. CE-marked line."
+  },
+  "influenza-ab": {
+    "intended_use": "Detection of Influenza A and B nucleoprotein antigens from respiratory specimens.",
+    "clinical_context": "Rapid influenza antigen tests support seasonal respiratory diagnosis. Antigen tests are faster but less sensitive than molecular methods.",
+    "limitations": "A negative antigen result during high prevalence does not exclude influenza; molecular confirmation may be needed.",
+    "procurement": "Specimen: swab / nasal aspirate. Format: dipstick / cassette. CE-marked line."
+  },
+  "covid-ag": {
+    "intended_use": "Detection of SARS-CoV-2 antigen (nucleocapsid) from nasal/nasopharyngeal swab.",
+    "clinical_context": "Rapid antigen tests (RATs) detect active SARS-CoV-2 infection; most sensitive when viral load is high (early symptomatic phase).",
+    "limitations": "Less sensitive than RT-PCR, especially asymptomatic/low viral load; repeat testing is often recommended.",
+    "procurement": "Specimen: NP / nasal swab. Format: device, 20 T. CE-marked line."
+  },
+  "covid-flu-rsv": {
+    "intended_use": "Combined detection of SARS-CoV-2, Influenza A/B and RSV antigens.",
+    "clinical_context": "Multiplex respiratory antigen panel for syndromic differentiation of the three major winter respiratory viruses in one test.",
+    "limitations": "Antigen-test sensitivity limits apply to each target; confirm negatives clinically as needed.",
+    "procurement": "Specimen: nasopharyngeal swab. Format: cassette, 20 T. CE-marked line."
+  },
+  "troponin-i": {
+    "intended_use": "Detection of cardiac troponin I for myocardial injury assessment.",
+    "clinical_context": "Cardiac troponin is the preferred biomarker for acute myocardial infarction; rapid assays support point-of-care triage in chest-pain evaluation.",
+    "limitations": "Qualitative/semi-quantitative POC assays are for triage — not a substitute for high-sensitivity quantitative lab assays; serial testing required.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette, 25 T. CE-marked line."
+  },
+  "ck-mb": {
+    "intended_use": "Detection of CK-MB isoenzyme for myocardial injury.",
+    "clinical_context": "CK-MB is a cardiac marker with a later rise than troponin; largely superseded by troponin but still used in some protocols.",
+    "limitations": "Lower cardiac specificity than troponin; interpret with troponin and clinical context.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette, 25 T. CE-marked line."
+  },
+  "myoglobin": {
+    "intended_use": "Detection of myoglobin for early myocardial injury.",
+    "clinical_context": "Myoglobin rises earliest after myocardial injury but has low cardiac specificity; used as an early marker in some multi-marker panels.",
+    "limitations": "Low specificity (elevated in skeletal muscle injury/renal failure); not used alone.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette, 25 T. CE-marked line."
+  },
+  "d-dimer": {
+    "intended_use": "Detection of D-dimer for fibrinolysis/thrombosis assessment.",
+    "clinical_context": "D-dimer is a fibrin-degradation product; a negative result helps rule out venous thromboembolism (VTE) in low-risk patients.",
+    "limitations": "Positive D-dimer is non-specific (elevated in many conditions); used for exclusion, not diagnosis.",
+    "procurement": "Specimen: whole blood / plasma. Format: cassette / strip, 25 T. CE-marked line."
+  },
+  "crp": {
+    "intended_use": "Semi-quantitative detection of C-reactive protein for inflammation.",
+    "clinical_context": "CRP is an acute-phase protein; rapid CRP supports infection/inflammation triage and antibiotic-stewardship decisions in primary care.",
+    "limitations": "Non-specific — elevated in many inflammatory conditions; semi-quantitative POC results are triage-grade.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: strip / cassette. CE-marked line."
+  },
+  "hcg": {
+    "intended_use": "Detection of human chorionic gonadotropin (hCG) for pregnancy.",
+    "clinical_context": "hCG is the standard pregnancy hormone; rapid tests detect early pregnancy from urine or serum.",
+    "limitations": "Very early or ectopic pregnancy may give low/negative results; confirm clinically.",
+    "procurement": "Specimen: urine / serum. Format: dipstick / midstream / cassette. CE/FDA line."
+  },
+  "lh": {
+    "intended_use": "Detection of luteinizing hormone (LH) surge for ovulation prediction.",
+    "clinical_context": "The LH surge precedes ovulation by ~24–36 hours; LH tests support fertility tracking.",
+    "limitations": "Not a contraceptive; some conditions (PCOS) cause persistently elevated LH.",
+    "procurement": "Specimen: urine. Format: dipstick / device. CE-marked line."
+  },
+  "psa": {
+    "intended_use": "Detection of prostate-specific antigen (PSA) for prostate cancer screening support.",
+    "clinical_context": "PSA is a prostate biomarker used in screening and monitoring; elevated PSA prompts further evaluation (biopsy).",
+    "limitations": "Elevated PSA is not specific to cancer (BPH, prostatitis); POC semi-quantitative results are screening-grade.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette / strip. CE-marked line."
+  },
+  "afp": {
+    "intended_use": "Detection of alpha-fetoprotein (AFP) for hepatocellular carcinoma screening support.",
+    "clinical_context": "AFP is a tumor marker associated with hepatocellular carcinoma; used in high-risk surveillance and monitoring.",
+    "limitations": "Not diagnostic alone — imaging and confirmatory testing required; elevated in other liver conditions.",
+    "procurement": "Specimen: whole blood / serum / plasma. Format: cassette. CE-marked line."
+  },
+  "doa-thc": { "intended_use": "Detection of Δ9-THC-COOH (cannabis metabolite) in urine for drug screening.", "clinical_context": "Workplace and clinical drug-of-abuse screening. Cut-off typically 50 ng/mL.", "limitations": "Screening result — presumptive positive requires confirmatory (GC-MS/LC-MS).", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
+  "doa-coc": { "intended_use": "Detection of benzoylecgonine (cocaine metabolite) in urine.", "clinical_context": "Cocaine screening; cut-offs 100–300 ng/mL.", "limitations": "Presumptive positive requires confirmation.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
+  "doa-amp": { "intended_use": "Detection of amphetamine in urine.", "clinical_context": "Amphetamine screening; cut-offs 300–1000 ng/mL.", "limitations": "Cross-reactivity with some sympathomimetics possible; confirm positives.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
+  "doa-met": { "intended_use": "Detection of methamphetamine in urine.", "clinical_context": "Methamphetamine screening; cut-off 1000 ng/mL.", "limitations": "Presumptive positive requires confirmation.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
+  "doa-mop": { "intended_use": "Detection of morphine in urine.", "clinical_context": "Opiate (morphine) screening; cut-off 300 ng/mL.", "limitations": "Positive may reflect prescription opiates; confirm to identify source.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
+  "doa-opi": { "intended_use": "Detection of opiates in urine.", "clinical_context": "Opiate-class screening; cut-off 2000 ng/mL.", "limitations": "Class-level test — confirm specific opiate by lab method.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line." },
+  "doa-bzo": { "intended_use": "Detection of benzodiazepines in urine.", "clinical_context": "Benzodiazepine screening; cut-offs 100–300 ng/mL.", "limitations": "Cross-reactivity varies by benzodiazepine; confirm positives.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
+  "doa-multi-panel": { "intended_use": "Integrated multi-drug screening cup (2–14 analytes) with adulteration checks.", "clinical_context": "Workplace and clinical multi-panel screening with built-in adulteration strips (pH, specific gravity, oxidants).", "limitations": "Panel is presumptive; any positive analyte requires confirmatory testing.", "procurement": "Specimen: urine. Format: cup, 2–14 panel. CE-marked line." }
+}
