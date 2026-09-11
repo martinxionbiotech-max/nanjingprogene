@@ -1,0 +1,6382 @@
+{
+  "infectious": [
+    {
+      "cat_no": "IAD-602",
+      "product": "Adenovirus Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IRO-602",
+      "product": "Rotavirus Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "INO-602",
+      "product": "Norovirus Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IRAC-625",
+      "product": "Rotavirus and Adenovirus Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "INRA-635",
+      "product": "Norovirus, Rotavirus and Adenovirus Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IAS-602",
+      "product": "Astrovirus Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMVD-645",
+      "product": "Norovirus, Rotavirus, Adenovirus and Astrovirus Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICAM-602",
+      "product": "Campylobacter Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICDG-602",
+      "product": "Clostridium difficile GDH Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICDT-625",
+      "product": "Clostridium difficile Toxin A +Toxin B Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICD-635",
+      "product": "Clostridium difficile GDH+ Toxin A +Toxin B Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IEH-602",
+      "product": "Entamoeba histolytica Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IGL-602",
+      "product": "Giardia Lamblia Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICR-602",
+      "product": "Cryptosporidium Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICGC-625",
+      "product": "Cryptosporidiumand Giardia LambliaCombo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IEGC-602",
+      "product": "Entamoeba/Giardia/Crypto Rapid Test Cassette (1 Window)",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IEGC-635",
+      "product": "Entamoeba/Giardia/Crypto Combo Rapid Test Cassette  (3 Windows)",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHP-302",
+      "product": "H. pylori Antibody Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHP-401",
+      "product": "H. pylori Antibody Rapid Test Dipstick",
+      "specimen": "WB/S/P",
+      "format": "Dipstick",
+      "kit_size": "50T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHP-402",
+      "product": "H. pylori Antibody Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHP-601",
+      "product": "H. pylori Antigen Rapid Test Dipstick",
+      "specimen": "Feces",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHP-602",
+      "product": "H. pylori Antigen Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHP-602H",
+      "product": "H. pylori Antigen Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "1 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IVCA-602",
+      "product": "Vibrio cholerae O1 (VC O1) Rapid Test Cassette (Feces) O1",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IVCB-602",
+      "product": "Vibrio cholerae O139 (VC O139) Rapid Test Cassette (Feces) O139 +1 variants",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICHA-302",
+      "product": "Chagas Rapid Test Cassette",
+      "specimen": "S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICHA-402",
+      "product": "Chagas Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICHI-302",
+      "product": "Chikungunya IgG/IgM Rapid Test Cassette",
+      "specimen": "S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ICHI-402",
+      "product": "Chikungunya IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IDEN-402",
+      "product": "Dengue  IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IDES-402",
+      "product": "Dengue NS1 Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IDEC-425",
+      "product": "Dengue IgG/IgM And NS1 Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IZIG-402",
+      "product": "Zika NS1 Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IZIB-402",
+      "product": "Zika IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IZIC-425",
+      "product": "Zika IgG/IgM and NS1 Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IFIL-302",
+      "product": "Filariasis IgG/IgM Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IFIL-402",
+      "product": "Filariasis IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ITY-302",
+      "product": "Typhoid  IgG/IgM Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ITY-402",
+      "product": "Typhoid  IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ITY-401",
+      "product": "Typhoid  IgG/IgM Rapid Test Dipstick",
+      "specimen": "WB/S/P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISTY-602",
+      "product": "Salmonella Typhi Antigen Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ILEI-402",
+      "product": "Leishmania IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ILEP-402",
+      "product": "Leptospira IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMA-401",
+      "product": "Malaria P.f. Rapid Test Dipstick",
+      "specimen": "WB",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMA-402",
+      "product": "Malaria P.f. Rapid Test Cassette",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMPN-402",
+      "product": "Malaria P.f./ Pan Rapid Test Cassette",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMPV-402",
+      "product": "Malaria P.f./P.v. Rapid Test Cassette +1 variants",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHA-302",
+      "product": "HAV IgM Rapid Test Cassette +14 variants",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHB-355",
+      "product": "HBV Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHC-301",
+      "product": "HCV Rapid Test Dipstick",
+      "specimen": "S / P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHC-302",
+      "product": "HCV Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHC-401",
+      "product": "HCV Rapid Test Dipstick",
+      "specimen": "WB/S/P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHC-402",
+      "product": "HCV Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHE-302",
+      "product": "HEV IgG/IgM Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHI-302",
+      "product": "HIV 1.2 Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHI-401",
+      "product": "HIV 1.2 Rapid Test Dipstick",
+      "specimen": "WB/S/P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHI-402",
+      "product": "HIV 1.2 Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHI-402S",
+      "product": "HIV 1.2 Rapid Test Cassette Single Use Kit +3 variants",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "1 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHIG-402",
+      "product": "HIV p24 Antigen Rapid test Cassette +1 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISY-301",
+      "product": "Syphilis Rapid Test Dipstick - 3.0 +1 variants",
+      "specimen": "S / P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISY-302",
+      "product": "Syphilis Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISY-401",
+      "product": "Syphilis Rapid Test Dipstick - 2.5 +2 variants",
+      "specimen": "WB / S/ P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISY-402",
+      "product": "Syphilis Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHBC-325",
+      "product": "HBsAg and HCV Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IHBC-425",
+      "product": "HBsAg and HCV Combo Rapid Test Cassette",
+      "specimen": "WB/ S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMID-325",
+      "product": "Syphilis/HIV1.2 Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IISC-325",
+      "product": "Syphilis/HIV1.2.O Combo Rapid Test Cassette",
+      "specimen": "S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IISC-425",
+      "product": "Syphilis/HIV1.2.O Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IISC-402",
+      "product": "HIV1.2 and Syphilis(in one strip) Combo Rapid Test Cassette +1 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IBCH-335",
+      "product": "HBsAg/HCV/HIV Combo Rapid Test Cassette",
+      "specimen": "S/ P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMID-345",
+      "product": "HBsAg /HCV /HIV /Syphilis Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMID-445",
+      "product": "HBsAg /HCV /HIV /Syphilis Combo Rapid Test Cassette",
+      "specimen": "WB/S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IST-501",
+      "product": "Strep A Rapid Test Dipstick (Control Line in Red)",
+      "specimen": "Throat Swab",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IST-502",
+      "product": "Strep A Rapid Test Cassette (Control Line in Red)",
+      "specimen": "Throat Swab",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISTB-501",
+      "product": "Strep A Rapid Test Dipstick (Control Line in Blue)",
+      "specimen": "Throat Swab",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISTB-502",
+      "product": "Strep A Rapid Test Cassette (Control Line in Blue)",
+      "specimen": "Throat Swab",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ILEG-102",
+      "product": "Legionella pneumophila Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IECG-402",
+      "product": "EBV VCA IgG Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IENG-402",
+      "product": "EBNA IgG Rapid Test Cassette +1 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMO-402",
+      "product": "MONO Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMP-502",
+      "product": "Mycoplasma pneumoniae Antigen Rapid Test Cassette",
+      "specimen": "Swab",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMPM-402",
+      "product": "Mycoplasma Pneumoniae IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IMP-425",
+      "product": "Mycoplasma Pneumoniae IgG/IgM Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IAD-502",
+      "product": "Adenovirus pneumoniae Antigen Rapid Test Cassette",
+      "specimen": "Swab",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IIN-501",
+      "product": "Influenza A+B Rapid Test Dipstick",
+      "specimen": "Swab / Nasal Aspirate",
+      "format": "Dipstick",
+      "kit_size": "25T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IIN-502",
+      "product": "Influenza A+B Rapid Test Cassette",
+      "specimen": "Swab / Nasal Aspirate",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IFLA-501",
+      "product": "Influenza A Rapid Test Dipstick",
+      "specimen": "Swab / Nasal Aspirate",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IFLA-502",
+      "product": "Influenza A Rapid Test Cassette",
+      "specimen": "Swab / Nasal Aspirate",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IRS-502",
+      "product": "RSV Rapid Test Cassette",
+      "specimen": "Nasopharyngeal swab/Nasal Aspirate",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IRIC-525",
+      "product": "RSV&Influenza A+B Combo Rapid Test Cassette",
+      "specimen": "Swab / Nasal Aspirate",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IARC-525",
+      "product": "Adenovirus&RSV Combo Rapid Test Cassette",
+      "specimen": "Nasopharyngeal Swab",
+      "format": "Cassette",
+      "kit_size": "10T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IARI-535",
+      "product": "Adenovirus, RSV and Influenza A+B Combo Rapid Test Cassette",
+      "specimen": "Nasopharyngeal Swab",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISP-102",
+      "product": "Streptococcus pneumoniae Antigen Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ISLC-125",
+      "product": "Legionella pneumophila and Streptococcus pneumoniae Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "IBA-402",
+      "product": "Brucella Abortus Antigen Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ILY-402",
+      "product": "Lyme IgG/IgM Rapid Test",
+      "specimen": "WB/S / P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ITSU-402",
+      "product": "Scrub Typhus IgG/IgM Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ITE-402",
+      "product": "Tetanus Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    },
+    {
+      "cat_no": "ITB-401",
+      "product": "Tuberculosis (TB) Rapid Test Dipstick",
+      "specimen": "WB/S/P",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "infectious"
+    }
+  ],
+  "doa": [
+    {
+      "cat_no": "DABP-102",
+      "product": "AB-PINACA (ABP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DABP-114",
+      "product": "AB-PINACA (ABP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DABP-101",
+      "product": "AB-PINACA (ABP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAC-102",
+      "product": "Acetaminophen (ACE) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "5000 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAC-114",
+      "product": "Acetaminophen (ACE) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAC-101",
+      "product": "Acetaminophen (ACE) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DACL-102",
+      "product": "7-Aminoclonazepam (7-ACL) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DACL-114",
+      "product": "7-Aminoclonazepam (7-ACL) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DACL-101",
+      "product": "7-Aminoclonazepam (7-ACL) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAL-102",
+      "product": "Alcohol (ALC) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "0.0002",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAL-114",
+      "product": "Alcohol (ALC) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAL-101",
+      "product": "Alcohol (ALC) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DALP-102",
+      "product": "Alprazolam(ALP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DALP-114",
+      "product": "Alprazolam(ALP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DALP-101",
+      "product": "Alprazolam(ALP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAM-102",
+      "product": "Amphetamine (AMP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL,                                           500 ng/mL,                                 1000 ng/mL*",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAM-114",
+      "product": "Amphetamine (AMP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAM-101",
+      "product": "Amphetamine (AMP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAP-102",
+      "product": "Î±-Pyrrolidinovalerophenone  (Î±-PVP ) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "1000 ng/mL*, 500ng/mL, 300ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAP-114",
+      "product": "Î±-Pyrrolidinovalerophenone (Î±-PVP ) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAP-101",
+      "product": "Î±-Pyrrolidinovalerophenone (Î±-PVP ) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBA-102",
+      "product": "Barbiturate (BAR) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "200 ng/mL,                                       300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBA-114",
+      "product": "Barbiturate (BAR) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBA-101",
+      "product": "Barbiturate (BAR) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBU-102",
+      "product": "Buprenorphine (BUP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "5 ng/mL,10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBU-114",
+      "product": "Buprenorphine (BUP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBU-101",
+      "product": "Buprenorphine (BUP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBZ-102",
+      "product": "Benzodiazepines (BZO) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL, 200 ng/mL,  300 ng/mL*",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBZ-114",
+      "product": "Benzodiazepines (BZO) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBZ-101",
+      "product": "Benzodiazepines (BZO) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCA-102",
+      "product": "Cathine (CAT) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "150 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCA-114",
+      "product": "Cathine (CAT) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCA-101",
+      "product": "Cathine (CAT) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCAF-102",
+      "product": "Caffeine(CAF) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "1000 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCAF-114",
+      "product": "Caffeine(CAF) Rapid Test  Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCAF-101",
+      "product": "Caffeine(CAF) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCAR-102",
+      "product": "Carisoprodol(CAR) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40T",
+      "cut_off": "2000ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCAR-114",
+      "product": "Carisoprodol(CAR) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCAR-101",
+      "product": "Carisoprodol(CAR) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCNB-102",
+      "product": "Cannabinol (CNB) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCNB-114",
+      "product": "Cannabinol (CNB) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCNB-101",
+      "product": "Cannabinol (CNB) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCFY-102",
+      "product": "Carfentanyl(CFYL) Rapid Tests Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL*, 250 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCFY-114",
+      "product": "Carfentanyl(CFYL) Rapid Tests Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCFY-101",
+      "product": "Carfentanyl(CFYL) Rapid Tests Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCL-102",
+      "product": "Clonazepam (CLO) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "150 ng/mL, 400 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCL-114",
+      "product": "Clonazepam (CLO) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCL-101",
+      "product": "Clonazepam (CLO) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCO-102",
+      "product": "COCAINE (COC) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL,  150 ng/mL, 300 ng/mL*",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCO-114",
+      "product": "COCAINE (COC) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCO-101",
+      "product": "COCAINE (COC) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-102",
+      "product": "Cotinine (COT) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10 ng/mL, 50 ng/mL,  100 ng/mL, 200 ng/mL*,  500 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-114",
+      "product": "Cotinine (COT) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-101",
+      "product": "Cotinine (COT) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DDI-102",
+      "product": "Diazepam (DIA) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DDI-114",
+      "product": "Diazepam (DIA) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DDI-101",
+      "product": "Diazepam (DIA) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DED-102",
+      "product": "Ethylenediamine-dimethylphosphinic acid (EDDP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL*, 100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DED-114",
+      "product": "Ethylenediamine-dimethylphosphinic acid (EDDP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DED-101",
+      "product": "Ethylenediamine-dimethylphosphinic acid (EDDP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DET-102",
+      "product": "Ethyl Glucuronide (ETG) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL*,                                          1000 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DET-114",
+      "product": "Ethyl Glucuronide (ETG) Rapid Test  Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DET-101",
+      "product": "Ethyl Glucuronide (ETG) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFLX-102",
+      "product": "Fluoxetine (FLX) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFLX-114",
+      "product": "Fluoxetine (FLX) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFLX-101",
+      "product": "Fluoxetine (FLX) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFY-102",
+      "product": "Fentanyl (FYL) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10 ng/mL ,20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFY-114",
+      "product": "Fentanyl (FYL) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFY-101",
+      "product": "Fentanyl (FYL) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DGAB-102",
+      "product": "Gabapentin(GAB) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "2000 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DGAB-114",
+      "product": "Gabapentin(GAB) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DGAB-101",
+      "product": "Gabapentin(GAB) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DGHB-102",
+      "product": "Î³-Hydroxybutyric acid (GHB) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "10Î¼g/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKE-102",
+      "product": "Ketamine (KET)Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL, 1000 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKE-114",
+      "product": "Ketamine (KET)Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKE-101",
+      "product": "Ketamine (KET)Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKRA-102",
+      "product": "Kratom(KRA) Rapid TestÂ  Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40T",
+      "cut_off": "2000ng/ml.",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKRA-114",
+      "product": "Kratom(KRA) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKRA-101",
+      "product": "Kratom(KRA) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DLS-102",
+      "product": "Lysergic Acid Diethylamide (LSD) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10 ng/mL,20 ng/mL*,        50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DLS-114",
+      "product": "Lysergic Acid Diethylamide (LSD) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DLS-101",
+      "product": "Lysergic Acid Diethylamide (LSD) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMA-102",
+      "product": "6-Monoacetylmorphine (6-MAM) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMA-114",
+      "product": "6-Monoacetylmorphine (6-MAM)Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMA-101",
+      "product": "6-Monoacetylmorphine(6-MAM) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMCA-102",
+      "product": "Methcathinone(MCAT) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMCA-114",
+      "product": "Methcathinone(MCAT) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMCA-101",
+      "product": "Methcathinone(MCAT) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMD-102",
+      "product": "Ecstasy (MDMA) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL*,                                             1000 ng/mL",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMD-114",
+      "product": "Ecstasy (MDMA) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMD-101",
+      "product": "Ecstasy (MDMA) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDA-102",
+      "product": "Tenamfetamine (MDA) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDA-114",
+      "product": "Tenamfetamine (MDA) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDA-101",
+      "product": "Tenamfetamine (MDA) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDP-102",
+      "product": "Methylenedioxypyrovalerone (MDPV) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "1000 ng/mL*, 500ng/mL, 300ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDP-114",
+      "product": "Methylenedioxypyrovalerone (MDPV) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDP-101",
+      "product": "Methylenedioxypyrovalerone (MDPV) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-102",
+      "product": "Methamphetamine (MET) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL,                                   500 ng/mL,                                     1000 ng/mL*",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-114",
+      "product": "Methamphetamine (MET) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-101",
+      "product": "Methamphetamine (MET) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMEP-102",
+      "product": "Mephedrone HCI (MEP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMEP-114",
+      "product": "Mephedrone HCI(MEP)  Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40  T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMEP-101",
+      "product": "Mephedrone HCI(MEP)  Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMES-102",
+      "product": "Mescaline (MES) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL*, 300ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMES-114",
+      "product": "Mescaline (MES) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40  T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMES-101",
+      "product": "Mescaline (MES) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMO-102",
+      "product": "Morphine (MOP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL,  300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMO-114",
+      "product": "Morphine (MOP)  Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMO-101",
+      "product": "Morphine (MOP)  Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMP-102",
+      "product": "Methylphenidate(MPD) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "1000 ng/mL* 300 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMP-114",
+      "product": "Methylphenidate(MPD) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMP-101",
+      "product": "Methylphenidate(MPD) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMPR-102",
+      "product": "Meperidine (MPRD) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMPR-114",
+      "product": "Meperidine (MPRD) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMPR-101",
+      "product": "Meperidine (MPRD) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMQ-102",
+      "product": "Methaqualone (MQL) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMQ-114",
+      "product": "Methaqualone (MQL) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMQ-101",
+      "product": "Methaqualone (MQL) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMT-102",
+      "product": "Methadone (MTD) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "200 ng/mL,  300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMT-114",
+      "product": "Methadone (MTD) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMT-101",
+      "product": "Methadone (MTD) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOP-102",
+      "product": "Opiates (OPI) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "2000 ng/mL*",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOP-114",
+      "product": "Opiates (OPI)  Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOP-101",
+      "product": "Opiates (OPI)  Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOX-102",
+      "product": "Oxycodone (OXY) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOX-114",
+      "product": "Oxycodone (OXY) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOX-101",
+      "product": "Oxycodone (OXY) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPC-102",
+      "product": "Phencyclidine (PCP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "25 ng/mL*",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPC-114",
+      "product": "Phencyclidine (PCP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPC-101",
+      "product": "Phencyclidine (PCP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPG-102",
+      "product": "Pregabalin (PGB) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50Î¼g/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPG-114",
+      "product": "Pregabalin (PGB) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPG-101",
+      "product": "Pregabalin (PGB) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPP-102",
+      "product": "Propoxyphene (PPX) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPP-114",
+      "product": "Propoxyphene (PPX)  Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPP-101",
+      "product": "Propoxyphene (PPX)  Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DQTP-102",
+      "product": "Quetiapine(QTP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "1000 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DQTP-114",
+      "product": "Quetiapine(QTP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DQTP-101",
+      "product": "Quetiapine(QTP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPAP-102",
+      "product": "Papaverine (PAP) Rapid test cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPAP-114",
+      "product": "Papaverine (PAP) Rapid test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPAP-101",
+      "product": "Papaverine (PAP) Rapid test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSM-102",
+      "product": "Synthetic Marijuana (K2) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL*, 30 ng/mL,",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSM-114",
+      "product": "Synthetic Marijuana (K2) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSM-101",
+      "product": "Synthetic Marijuana (K2) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTC-102",
+      "product": "Tricyclic Antidepressants (TCA) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL,1000 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTC-114",
+      "product": "Tricyclic Antidepressants (TCA) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTC-101",
+      "product": "Tricyclic Antidepressants (TCA) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTH-102",
+      "product": "Marijuana (THC) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "25 ng/mL,20 ng/mL,             50 ng/mL*, 150 ng/mL,    300 ng/mL",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTH-114",
+      "product": "Marijuana (THC)  Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTH-101",
+      "product": "Marijuana (THC)  Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE/FDA",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTLD-102",
+      "product": "Tilidine (TLD) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTLD-114",
+      "product": "Tilidine (TLD) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTLD-101",
+      "product": "Tilidine (TLD) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTM-102",
+      "product": "Tramadol (TML) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL*,200 ng/mL, 300 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTM-114",
+      "product": "Tramadol (TML) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTM-101",
+      "product": "Tramadol (TML) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTRO-102",
+      "product": "Tropicmide(TRO)Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "350 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTRO-114",
+      "product": "Tropicmide(TRO)Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTRO-101",
+      "product": "Tropicmide(TRO) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTZD-102",
+      "product": "Trazodone(TZD) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "200 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTZD-114",
+      "product": "Trazodone(TZD) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTZD-101",
+      "product": "Trazodone(TZD) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DUR-102",
+      "product": "UR-144 Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "25 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DUR-114",
+      "product": "UR-144 Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DUR-101",
+      "product": "UR-144 Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZAL-102",
+      "product": "Zaleplon(ZAL) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZAL-114",
+      "product": "Zaleplon(ZAL) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZAL-101",
+      "product": "Zaleplon(ZAL) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZO-102",
+      "product": "Zolpidem(ZOL) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZO-114",
+      "product": "Zolpidem(ZOL) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZO-101",
+      "product": "Zolpidem(ZOL) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZOP-102",
+      "product": "Zopiclone(ZOP) Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZOP-114",
+      "product": "Zopiclone(ZOP) Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DZOP-101",
+      "product": "Zopiclone(ZOP) Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAT-111",
+      "product": "Adulteration Dipstick +5 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-125",
+      "product": "Multi-Drug 2 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-135",
+      "product": "Multi-Drug 3 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-145",
+      "product": "Multi-Drug 4 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-155",
+      "product": "Multi-Drug 5 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-165",
+      "product": "Multi-Drug 6 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-175",
+      "product": "Multi-Drug 7 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-185",
+      "product": "Multi-Drug 8 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-195",
+      "product": "Multi-Drug 9 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1105",
+      "product": "Multi-Drug 10 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1115",
+      "product": "Multi-Drug 11 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1125",
+      "product": "Multi-Drug 12 Drugs Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-124",
+      "product": "Multi-Drug 2 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-134",
+      "product": "Multi-Drug 3 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-144",
+      "product": "Multi-Drug 4 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-154",
+      "product": "Multi-Drug 5 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-164",
+      "product": "Multi-Drug 6 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-174",
+      "product": "Multi-Drug 7 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-184",
+      "product": "Multi-Drug 8 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-194",
+      "product": "Multi-Drug 9 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1104",
+      "product": "Multi-Drug 10 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1114",
+      "product": "Multi-Drug 11 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1124",
+      "product": "Multi-Drug 12 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1134",
+      "product": "Multi-Drug 13 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1144",
+      "product": "Multi-Drug 14 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1154",
+      "product": "Multi-Drug 15 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1164",
+      "product": "Multi-Drug 16 Drugs Rapid Test Panel",
+      "specimen": "Urine",
+      "format": "Panel",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-127-A1",
+      "product": "Multi-Drug 2 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-137-A1",
+      "product": "Multi-Drug 3 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-147-A1",
+      "product": "Multi-Drug 4 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-157-A1",
+      "product": "Multi-Drug 5 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-167-A1",
+      "product": "Multi-Drug 6 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-177-A1",
+      "product": "Multi-Drug 7 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-187-A1",
+      "product": "Multi-Drug 8 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-197-A1",
+      "product": "Multi-Drug 9 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1107-A1",
+      "product": "Multi-Drug 10 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1117-A1",
+      "product": "Multi-Drug 11 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1127-A1",
+      "product": "Multi-Drug 12 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1137-A1",
+      "product": "Multi-Drug 13 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1147-A1",
+      "product": "Multi-Drug 14 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1157-A1",
+      "product": "Multi-Drug 15 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-127-A2",
+      "product": "Multi-Drug 2 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-137-A2",
+      "product": "Multi-Drug 3 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-147-A2",
+      "product": "Multi-Drug 4 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-157-A2",
+      "product": "Multi-Drug 5 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-167-A2",
+      "product": "Multi-Drug 6 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-177-A2",
+      "product": "Multi-Drug 7 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-187-A2",
+      "product": "Multi-Drug 8 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-197-A2",
+      "product": "Multi-Drug 9 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1107-A2",
+      "product": "Multi-Drug 10 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1117-A2",
+      "product": "Multi-Drug 11 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1127-A2",
+      "product": "Multi-Drug 12 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-127-A3",
+      "product": "Multi-Drug 2 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-137-A3",
+      "product": "Multi-Drug 3 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-147-A3",
+      "product": "Multi-Drug 4 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-157-A3",
+      "product": "Multi-Drug 5 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-167-A3",
+      "product": "Multi-Drug 6 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-177-A3",
+      "product": "Multi-Drug 7 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-187-A3",
+      "product": "Multi-Drug 8 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-197-A3",
+      "product": "Multi-Drug 9 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1107-A3",
+      "product": "Multi-Drug 10 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1117-A3",
+      "product": "Multi-Drug 11 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1127-A3",
+      "product": "Multi-Drug 12 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1137-A3",
+      "product": "Multi-Drug 13 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1147-A3",
+      "product": "Multi-Drug 14 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1157-A3",
+      "product": "Multi-Drug 15 Drugs Rapid Test 1-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-127-B1",
+      "product": "Multi-Drug 2 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-137-B1",
+      "product": "Multi-Drug 3 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-147-B1",
+      "product": "Multi-Drug 4 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-157-B1",
+      "product": "Multi-Drug 5 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-167-B1",
+      "product": "Multi-Drug 6 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-177-B1",
+      "product": "Multi-Drug 7 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-187-B1",
+      "product": "Multi-Drug 8 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-197-B1",
+      "product": "Multi-Drug 9 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1107-B1",
+      "product": "Multi-Drug 10 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1117-B1",
+      "product": "Multi-Drug 11 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1127-B1",
+      "product": "Multi-Drug 12 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-127-B2",
+      "product": "Multi-Drug 2 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-137-B2",
+      "product": "Multi-Drug 3 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-147-B2",
+      "product": "Multi-Drug 4 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-157-B2",
+      "product": "Multi-Drug 5 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-167-B2",
+      "product": "Multi-Drug 6 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-177-B2",
+      "product": "Multi-Drug 7 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-187-B2",
+      "product": "Multi-Drug 8 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-197-B2",
+      "product": "Multi-Drug 9 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1107-B2",
+      "product": "Multi-Drug 10 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1117-B2",
+      "product": "Multi-Drug 11 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1127-B2",
+      "product": "Multi-Drug 12 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1137-B2",
+      "product": "Multi-Drug 13 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1147-B2",
+      "product": "Multi-Drug 14 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1157-B2",
+      "product": "Multi-Drug 15 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-1167-B2",
+      "product": "Multi-Drug 16 Drugs Rapid Test 2-Step Cup",
+      "specimen": "Urine",
+      "format": "Cup",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAL-801",
+      "product": "Alcohol Rapid Test Dipstick",
+      "specimen": "Oral Fluid",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "0.0002",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAL-802",
+      "product": "Alcohol Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "0.0002",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAL-902",
+      "product": "Breath Alcohol Testï¼With/Without Blow bagï¼",
+      "specimen": "Breath",
+      "format": "Cassette",
+      "kit_size": "15T/20 T",
+      "cut_off": "0.0008",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAM-802",
+      "product": "Amphetamine (AMP) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAM-803",
+      "product": "Amphetamine (AMP) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAP-802",
+      "product": "Amphetamine (AMP) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAP-803",
+      "product": "Î±-Pyrrolidinovalerophenone  (Î±-PVP ) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBA-802",
+      "product": "Barbiturates (BAR) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBA-803",
+      "product": "Barbiturates (BAR) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBU-802",
+      "product": "Buprenorphine (BUP) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBU-803",
+      "product": "Buprenorphine (BUP) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBZ-802",
+      "product": "Benzodiazepines (BZO) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL , 30 ng/mL*                                              50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBZ-803",
+      "product": "Benzodiazepines (BZO) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "30 ng/mL*  , 50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCO-802",
+      "product": "COCAINE (COC) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCO-803",
+      "product": "COCAINE (COC) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCFY-802",
+      "product": "Carfentanyl(CFYL) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCFY-803",
+      "product": "Carfentanyl(CFYL) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-802",
+      "product": "Cotinine (COT) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-803",
+      "product": "Cotinine (COT) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFY-802",
+      "product": "Fentanyl (FYL) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50ng/ml*, 20ng/ml",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFY-803",
+      "product": "Fentanyl (FYL) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50ng/ml*, 20ng/ml",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKE-802",
+      "product": "Ketamine(KET) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKE-803",
+      "product": "Ketamine(KET) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMA-802",
+      "product": "6-Monoacetylmorphine(6-MAM) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMA-803",
+      "product": "6-Monoacetylmorphine(6-MAM) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMD-802",
+      "product": "Ecstasy (MDMA) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMD-803",
+      "product": "Ecstasy (MDMA) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDP-802",
+      "product": "Methylenedioxypyrovalerone (MDPV) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDP-803",
+      "product": "Methylenedioxypyrovalerone (MDPV) Rapid Test Mistream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "300 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-802",
+      "product": "Methamphetamine (MET) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-803",
+      "product": "Methamphetamine (MET) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMT-802",
+      "product": "Methadone (MTD) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "30 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMT-803",
+      "product": "Methadone (MTD) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "30 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOP-802",
+      "product": "Opiates (OPI) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "40 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOP-803",
+      "product": "Opiates (OPI) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "40 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOX-802",
+      "product": "Oxycodone (OXY) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOX-803",
+      "product": "Oxycodone (OXY) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPC-802",
+      "product": "Phencyclidine (PCP) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPC-803",
+      "product": "Phencyclidine (PCP) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "10 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSM-802",
+      "product": "Synthetic Marijuana (K2) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "25 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSM-803",
+      "product": "Synthetic Marijuana (K2) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "25 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTH-802",
+      "product": "Marijuana (THC) Rapid Test Cassette +1 variants",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "12 ng/mL, 20 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTH-803",
+      "product": "Marijuana (THC) Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "50 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTM-802",
+      "product": "Tramadol(TML) Rapid Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "30 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTM-803",
+      "product": "Tramadol(TML) Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "30 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-823-A",
+      "product": "Multi-Drug 2 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-833-A",
+      "product": "Multi-Drug 3 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-843-A",
+      "product": "Multi-Drug 4 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-853-A",
+      "product": "Multi-Drug 5 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-863-A",
+      "product": "Multi-Drug 6 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-873-A",
+      "product": "Multi-Drug 7 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-823-B",
+      "product": "Multi-Drug 2 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-833-B",
+      "product": "Multi-Drug 3 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-843-B",
+      "product": "Multi-Drug 4 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-853-B",
+      "product": "Multi-Drug 5 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-863-B",
+      "product": "Multi-Drug 6 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-873-B",
+      "product": "Multi-Drug 7 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-883-B",
+      "product": "Multi-Drug 8 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-893-B",
+      "product": "Multi-Drug 9 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-823-D",
+      "product": "Multi-Drug 2 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-833-D",
+      "product": "Multi-Drug 3 Drugs Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-843-D",
+      "product": "Multi-Drug 4 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-853-D",
+      "product": "Multi-Drug 5 Drugs Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-863-D",
+      "product": "Multi-Drug 6 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-873-D",
+      "product": "Multi-Drug 7 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-883-D",
+      "product": "Multi-Drug 8 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-893-D",
+      "product": "Multi-Drug 9 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8103-D",
+      "product": "Multi-Drug 10 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8113-D",
+      "product": "Multi-Drug 11 Drugs Rapid Test Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8123-D",
+      "product": "Multi-Drug 12 Drugs Rapid Test  Midstream",
+      "specimen": "Oral Fluid",
+      "format": "Midstream",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-827-C",
+      "product": "Multi-Drug 2 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-837-C",
+      "product": "Multi-Drug 3 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-847-C",
+      "product": "Multi-Drug 4 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-857-C",
+      "product": "Multi-Drug 5 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-867-C",
+      "product": "Multi-Drug 6 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-877-C",
+      "product": "Multi-Drug 7 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-887-C",
+      "product": "Multi-Drug 8 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-897-C",
+      "product": "Multi-Drug 9 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8107-C",
+      "product": "Multi-Drug 10 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8117-C",
+      "product": "Multi-Drug 11 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8127-C",
+      "product": "Multi-Drug 12 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8137-C",
+      "product": "Multi-Drug 13 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8147-C",
+      "product": "Multi-Drug 14 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8157-C",
+      "product": "Multi-Drug 15 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8167-C",
+      "product": "Multi-Drug 16 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-825-A",
+      "product": "Oral Fluid Multi-Drug  2 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-835-A",
+      "product": "Oral Fluid Multi-Drug  3 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-845-A",
+      "product": "Oral Fluid Multi-Drug  4 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-855-A",
+      "product": "Oral Fluid Multi-Drug  5 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-865-A",
+      "product": "Oral Fluid Multi-Drug  6 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-875-A",
+      "product": "Oral Fluid Multi-Drug  7 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-885-A",
+      "product": "Oral Fluid Multi-Drug  8 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-895-A",
+      "product": "Oral Fluid Multi-Drug  9 Drugs Test A Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-825-B",
+      "product": "Oral Fluid Multi-Drug  2 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-835-B",
+      "product": "Oral Fluid Multi-Drug  3 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-845-B",
+      "product": "Oral Fluid Multi-Drug  4 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-855-B",
+      "product": "Oral Fluid Multi-Drug  5 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-865-B",
+      "product": "Oral Fluid Multi-Drug  6 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-875-B",
+      "product": "Oral Fluid Multi-Drug  7 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-885-B",
+      "product": "Oral Fluid Multi-Drug  8 Drugs Test Cassette",
+      "specimen": "Oral Fluid",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-827",
+      "product": "Multi-Drug 2 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-837",
+      "product": "Multi-Drug 3 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-847",
+      "product": "Multi-Drug 4 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-857",
+      "product": "Multi-Drug 5 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-867",
+      "product": "Multi-Drug 6 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-877",
+      "product": "Multi-Drug 7 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-887",
+      "product": "Multi-Drug 8 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-897",
+      "product": "Multi-Drug 9 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8107",
+      "product": "Multi-Drug 10 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8117",
+      "product": "Multi-Drug 11 Drugs Rapid Test  Cup",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSD-8127",
+      "product": "Multi-Drug 12 Drugs Rapid Test  Cup +46 variants",
+      "specimen": "Oral Fluid",
+      "format": "Cup",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DAM-402",
+      "product": "AMP Rapid Test Cassette",
+      "specimen": "",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "80 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBA-402",
+      "product": "BAR Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBU-402",
+      "product": "BUP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "5 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DBZ-402",
+      "product": "BZO Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCO-402",
+      "product": "COC Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-402",
+      "product": "COT Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10 ng/mL,100 ng/mL*",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DED-402",
+      "product": "EDDP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DET-402",
+      "product": "ETG Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "500 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DFY-402",
+      "product": "FYL Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "15 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DKE-402",
+      "product": "KET Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "200 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DLS-402",
+      "product": "LSD Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "20 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMD-402",
+      "product": "MDMA Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDA-402",
+      "product": "MDA Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "80 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMDP-402",
+      "product": "MDPV Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-402",
+      "product": "MET Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "70 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMO-402",
+      "product": "MOP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "40 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DMT-402",
+      "product": "MTD Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "40 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOX-402",
+      "product": "OXY Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "20 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPC-402",
+      "product": "PCP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "20 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DPP-402",
+      "product": "PPX Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DSM-402",
+      "product": "K2 Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "100 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTC-402",
+      "product": "TCA Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "300 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTH-402",
+      "product": "THC Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "35 ng/mL*,50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DTM-402",
+      "product": "TML Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "50 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-425",
+      "product": "Multi-drug 2 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-435",
+      "product": "Multi-drug 3 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-445",
+      "product": "Multi-drug 4 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-455",
+      "product": "Multi-drug 5 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-465",
+      "product": "Multi-drug 6 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-475",
+      "product": "Multi-drug 7 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-485",
+      "product": "Multi-drug 8 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-495",
+      "product": "Multi-drug 9 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-4105",
+      "product": "Multi-drug 10 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-4115",
+      "product": "Multi-drug 11 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-4125",
+      "product": "Multi-drug 12 drugs Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DME-902",
+      "product": "MET Rapid Test Cassette",
+      "specimen": "Hair",
+      "format": "Cassette",
+      "kit_size": "20T",
+      "cut_off": "0.2 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DCT-902",
+      "product": "COT Rapid Test Cassette",
+      "specimen": "Hair",
+      "format": "Cassette",
+      "kit_size": "21T",
+      "cut_off": "0.2 ng/mL",
+      "status": "CE",
+      "series": "doa"
+    },
+    {
+      "cat_no": "DOA-925",
+      "product": "Multi-drug 2 drugs test cassette",
+      "specimen": "Hair",
+      "format": "Cassette",
+      "kit_size": "22T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "doa"
+    }
+  ],
+  "cardiac-tumor": [
+    {
+      "cat_no": "TAF-402",
+      "product": "AFP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "10ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TCE-402",
+      "product": "CEA Rapid Test Cassette +2 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "5ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TPS-402",
+      "product": "PSA Rapid Test Cassette +3 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "3ng/mL",
+      "status": "CE0123",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TFO-602",
+      "product": "FOB Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "25ng/mLï¼40ng/mL,50ng/mL*ï¼100ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TFO-602H",
+      "product": "FOB Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "1 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TFO-601",
+      "product": "FOB Rapid Test Dipstick",
+      "specimen": "Feces",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TFO-601H",
+      "product": "FOB Rapid Test Dipstick",
+      "specimen": "Feces",
+      "format": "Dipstick",
+      "kit_size": "1 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TCFC-625",
+      "product": "Calprotectin and FOB Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TTFC-625",
+      "product": "Transferrin and FOB Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "THPB-625",
+      "product": "Hb+Hb-Hp Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "50ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "TTFH-635",
+      "product": "Transferrin/FOB and Hb-Hp Combo Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CTI-402",
+      "product": "cTnI Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "0.5 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CTNT-402",
+      "product": "Cardiac Troponin T Rapid Test Cassete",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "0.5 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CCK-402",
+      "product": "CK-MB Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "5 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CMY-402",
+      "product": "Myoglobin Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "50 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CFA-402",
+      "product": "H-FABP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "8 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CFC-425",
+      "product": "H-FABP and cTnI Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CMA-435",
+      "product": "Myoglobin/CK-MB/Troponin I Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CMA-445",
+      "product": "H-FABP and Myoglobin/CK-MB/Cardiac Troponin I Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "See Insert",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CBN-402",
+      "product": "NT-proBNP Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "0.45 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CDM-402",
+      "product": "D-dimer Rapid Test Cassette",
+      "specimen": "WB / P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "500 ng/mL*",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CCR-401",
+      "product": "C-reactive protein Rapid Test Dipstick",
+      "specimen": "WB/S/P",
+      "format": "Dipstick",
+      "kit_size": "10 T",
+      "cut_off": "10 Î¼g/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CCR-402",
+      "product": "C-reactive protein Rapid Test Cassette +3 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "10 Î¼g/mL*, 0.5 Î¼g/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CPC-302",
+      "product": "Procalcitonin(PCT) Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "1 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    },
+    {
+      "cat_no": "CPC-402",
+      "product": "Procalcitonin(PCT) Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "1 ng/mL",
+      "status": "CE",
+      "series": "cardiac-tumor"
+    }
+  ],
+  "womens-health": [
+    {
+      "cat_no": "FHC-101",
+      "product": "Pregnancy (hCG) Rapid Test Dipstick -  2.5 +9 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T, 100 T",
+      "cut_off": "20 mIU/mL, 25 mIU/mL*",
+      "status": "CE/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-201",
+      "product": "Pregnancy (hCG) Rapid Test Dipstick +1 variants",
+      "specimen": "S/P/U",
+      "format": "Dipstick",
+      "kit_size": "50 T, 100 T",
+      "cut_off": "20 mIU/mL, 25 mIU/mL*",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-102",
+      "product": "Pregnancy (hCG) Rapid Test Cassette +5 variants",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "20 mIU/mL, 25 mIU/mL*",
+      "status": "CE/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-202",
+      "product": "Pregnancy (hCG) Rapid Test Cassette +1 variants",
+      "specimen": "S/P/U",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "20 mIU/mL, 25 mIU/mL*",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-111",
+      "product": "Pregnancy (hCG) Rapid Test Dipstick (Canister Pack) - 2.5 +5 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "20 mIU/mL, 25 mIU/mL*",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-211",
+      "product": "Pregnancy (hCG) Rapid Test Dipstick (Canister Pack) +1 variants",
+      "specimen": "S/P/U",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "20 mIU/mL, 25 mIU/mL*",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-101H",
+      "product": "Pregnancy (hCG) Rapid Test Dipstick +2 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "1 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE0123/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-102H",
+      "product": "Pregnancy (hCG) Rapid Test Cassette +2 variants",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "1 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE0123/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-103",
+      "product": "Pregnancy (hCG) Rapid Test Midstream +2 variants",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "No Box",
+      "cut_off": "25 mIU/mL",
+      "status": "CE/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-103H",
+      "product": "Pregnancy (hCG) Rapid Test Midstream +2 variants",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "1 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE0123/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-103HI",
+      "product": "Pregnancy (hCG) Rapid Test Midstream With Indicator +1 variants",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "1 T",
+      "cut_off": "25 mIU/mL*",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FHC-402",
+      "product": "Pregnancy (hCG) Rapid Test Cassette +1 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-101",
+      "product": "Ovulation (LH) Rapid Test Dipstick +1 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "35 mIU/mL, 40 mIU/mL*",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-102",
+      "product": "Ovulation (LH) Rapid Test Cassette +1 variants",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "35 mIU/mL, 40 mIU/mL*",
+      "status": "CE/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-111",
+      "product": "Ovulation (LH) Rapid Test Dipstick (Canister Pack) +1 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "35 mIU/mL, 40 mIU/mL*",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-101H",
+      "product": "Ovulation (LH) Rapid Test Dipstick +2 variants",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "5 T",
+      "cut_off": "40 mIU/mL",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-102H",
+      "product": "Ovulation (LH) Rapid Test Cassette +2 variants",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "5 T",
+      "cut_off": "40 mIU/mL",
+      "status": "CE0123/FDA",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-103",
+      "product": "Ovulation (LH) Rapid Test Midstream +2 variants",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "No Box",
+      "cut_off": "40 mIU/mL",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FLH-103H",
+      "product": "Ovulation (LH) Rapid Test Midstream +2 variants",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "5 T",
+      "cut_off": "40 mIU/mL",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFS-101",
+      "product": "FSH Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFS-102",
+      "product": "FSH Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFS-103",
+      "product": "FSH Rapid Test Midstream",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "2 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFS-101H",
+      "product": "FSH Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "2 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFS-102H",
+      "product": "FSH Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "2 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFS-103H",
+      "product": "FSH Rapid Test Midstream",
+      "specimen": "Urine",
+      "format": "Midstream",
+      "kit_size": "2 T",
+      "cut_off": "25 mIU/mL",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FFF-502",
+      "product": "Fetal Fibronectin (fFN) Rapid Test Cassette",
+      "specimen": "Vaginal Secretion",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "FIG-502",
+      "product": "Insulin-like Growth Factor-binding Protein 1  (iGFBP-1)  Rapid Test Cassette",
+      "specimen": "Vaginal Secretion",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICG-302",
+      "product": "CMV IgG  Rapid test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICG-402",
+      "product": "CMV IgG  Rapid test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICM-302",
+      "product": "CMV IgM  Rapid test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICM-402",
+      "product": "CMV IgM  Rapid test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICGM-302",
+      "product": "CMV IgG/IgM  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICGM-325",
+      "product": "CMV IgG/IgM  Combo Rapid test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICGM-402",
+      "product": "CMV IgG/IgM  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICGM-425",
+      "product": "CMV IgG/IgM  Combo Rapid test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRG-302",
+      "product": "Rubella IgG  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRG-402",
+      "product": "Rubella IgG  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRM-302",
+      "product": "Rubella IgM  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRM-402",
+      "product": "Rubella IgM  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRGM-302",
+      "product": "Rubella IgG/IgM  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRGM-325",
+      "product": "Rubella IgG/IgM  Combo  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRGM-402",
+      "product": "Rubella IgG/IgM  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IRGM-425",
+      "product": "Rubella IgG/IgM  Combo  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISG-302",
+      "product": "HSV 1/2 IgG  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISG-402",
+      "product": "HSV 1/2 IgG  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISM-302",
+      "product": "HSV 1/2 IgM  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISM-402",
+      "product": "HSV 1/2 IgM  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISGM-302",
+      "product": "HSV 1/2  IgG/IgM  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISGM-325",
+      "product": "HSV 1/2 IgG/IgM  Combo  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISGM-402",
+      "product": "HSV 1/2  IgG/IgM  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISGM-425",
+      "product": "HSV 1/2 IgG/IgM  Combo  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITG-302",
+      "product": "TOXO IgG Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITG-402",
+      "product": "TOXO IgG Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITM-302",
+      "product": "TOXO IgM   Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITM-402",
+      "product": "TOXO IgM   Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITGM-302",
+      "product": "TOXO IgG/IgM  Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITGM-325",
+      "product": "TOXO IgG/IgM  Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITGM-402",
+      "product": "TOXO IgG/IgM  Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITGM-425",
+      "product": "TOXO IgG/IgM  Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITOG-345",
+      "product": "ToRCH IgG Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITOG-445",
+      "product": "ToRCH IgG Combo Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITOM-345",
+      "product": "ToRCH IgM Combo Rapid Test Cassette",
+      "specimen": "S / P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITOM-445",
+      "product": "ToRCH IgM Combo Rapid Test Cassette +4 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IVPH-504",
+      "product": "Vaginal pH Rapid Test Panel",
+      "specimen": "Vaginal Secretion",
+      "format": "Panel",
+      "kit_size": "40 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IVPH-504H",
+      "product": "Vaginal pH Rapid Test Panel",
+      "specimen": "Vaginal Secretion",
+      "format": "Panel",
+      "kit_size": "1 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICA-502",
+      "product": "Candida albicans Rapid Test",
+      "specimen": "Swab",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ITV-502",
+      "product": "Trichomonas Vaginalis Rapid Test Cassette",
+      "specimen": "Vaginal Swab",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IGO-502",
+      "product": "Gonorrhea Rapid Test Cassette",
+      "specimen": "Swab",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ICH-502",
+      "product": "Chlamydia Rapid Test Cassette",
+      "specimen": "Swab / Urine",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE0123",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "IGC-525",
+      "product": "Gonorrhea and Chlamydia Combo Rapid Test Cassette",
+      "specimen": "Swab",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "",
+      "status": "Non-CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISB-501",
+      "product": "Strep B Rapid Test Dipstick",
+      "specimen": "Swab",
+      "format": "Dipstick",
+      "kit_size": "25 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    },
+    {
+      "cat_no": "ISB-502",
+      "product": "Strep B Rapid Test Cassette",
+      "specimen": "Swab",
+      "format": "Cassette",
+      "kit_size": "20 T",
+      "cut_off": "",
+      "status": "CE",
+      "series": "womens-health"
+    }
+  ],
+  "other": [
+    {
+      "cat_no": "OAL-914",
+      "product": "Breast milk Alcohol Rapid Test Panel",
+      "specimen": "Breast Milk",
+      "format": "Panel",
+      "kit_size": "25 T/40 T",
+      "cut_off": "0.0001",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OFE-402",
+      "product": "Ferritin Rapid test cassette +1 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "30ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OFE-402H",
+      "product": "Ferritin Rapid test cassette",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "1 T",
+      "cut_off": "30ng/mL",
+      "status": "CE0123",
+      "series": "other"
+    },
+    {
+      "cat_no": "OSC-902",
+      "product": "Sperm Concentration Rapid Test Cassette",
+      "specimen": "Sperm",
+      "format": "Cassette",
+      "kit_size": "2 T",
+      "cut_off": "15million/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OSC-902H",
+      "product": "Sperm Concentration Rapid Test Cassette",
+      "specimen": "Sperm",
+      "format": "Cassette",
+      "kit_size": "1T/2T",
+      "cut_off": "15million/mL",
+      "status": "CE0123",
+      "series": "other"
+    },
+    {
+      "cat_no": "OSP-902",
+      "product": "SP-10 Male Fertility Rapid Test Cassette",
+      "specimen": "Sperm",
+      "format": "Cassette",
+      "kit_size": "1 T/2T",
+      "cut_off": "15 million/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OTS-402",
+      "product": "TSH Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "5Î¼IU/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OTS-402H",
+      "product": "TSH Rapid Test Cassette",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "1 T",
+      "cut_off": "5Î¼IU/mL",
+      "status": "CE0123",
+      "series": "other"
+    },
+    {
+      "cat_no": "OVD-402",
+      "product": "Vitamin D Rapid Test Cassette",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "10-30-100 ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OHA-402",
+      "product": "HbA1c Rapid Test Cassette",
+      "specimen": "WB",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "6%~9%",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OBS-901",
+      "product": "Blood Stain Rapid Test Dipstick",
+      "specimen": "Stain",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "50ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OBS-902",
+      "product": "Blood Stain Rapid Test Cassette",
+      "specimen": "Stain",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "50ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OHS-901",
+      "product": "Human Semen Rapid Test Dipstick",
+      "specimen": "Stain",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "4ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OHS-902",
+      "product": "Human Semen Rapid Test Cassette",
+      "specimen": "Stain",
+      "format": "Cassette",
+      "kit_size": "40 T",
+      "cut_off": "4ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OCAL-602",
+      "product": "Calprotectin Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "50Î¼g/g",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OLF-602",
+      "product": "Lactoferrin Rapid Test Cassette",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "100ng/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OIBD-625",
+      "product": "Calprotectin and Lactoferrin Combo Rapid Test Cassette +1 variants",
+      "specimen": "Feces",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "/",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OIGE-402",
+      "product": "IgE Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "200IU/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "ORF-302",
+      "product": "Rheumatoid Factor  Rapid Test  Cassette",
+      "specimen": "S/P",
+      "format": "Cassette",
+      "kit_size": "20T",
+      "cut_off": "25IU/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OMIA-101",
+      "product": "Micro-Albumin Semi-Quantitative Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "20Î¼g/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OMIA-102",
+      "product": "Micro-Albumin Semi-Quantitative Rapid Test Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "20Î¼g/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OMAL-101",
+      "product": "Micro-Albumin Qualitative Rapid Test Dipstick",
+      "specimen": "Urine",
+      "format": "Dipstick",
+      "kit_size": "50 T",
+      "cut_off": "20Î¼g/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OMAL-102",
+      "product": "Micro-Albumin Qualitative Rapid Test  Cassette",
+      "specimen": "Urine",
+      "format": "Cassette",
+      "kit_size": "25 T",
+      "cut_off": "20Î¼g/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OSA-402",
+      "product": "SAA Rapid Test Cassette",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "10Î¼g/mL",
+      "status": "CE",
+      "series": "other"
+    },
+    {
+      "cat_no": "OCSC-425",
+      "product": "SAA and CRP Combo Rapid Test Cassette +15 variants",
+      "specimen": "WB/S/P",
+      "format": "Cassette",
+      "kit_size": "10 T",
+      "cut_off": "10Î¼g/mL",
+      "status": "CE",
+      "series": "other"
+    }
+  ]
+}

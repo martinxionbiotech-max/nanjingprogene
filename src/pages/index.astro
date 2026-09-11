@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import products from '../data/products.json';
+
+const series = products.series;
+const flagships = products.products.filter(p => p.priority === "P1");
+const hubs = products.hubs;
+---
+
+<BaseLayout
+  title="Nanjing Progene Bio — IVD Rapid Tests & POCT OEM/ODM Manufacturer"
+  description="600+ IVD rapid test SKUs across 12 series — infectious disease, drug of abuse, cardiac & tumor markers, women's health. CE-certified, GMP facility in Nanjing. OEM/ODM."
+>
+
+  <section style="padding: 24px 0;">
+    <h1 style="font-size:1.9rem; margin:0 0 8px;">Your Trusted OEM/ODM Partner for IVD Rapid Tests</h1>
+    <p style="color:#4a5568; max-width:720px;">
+      Nanjing Progene Biotechnology designs and manufactures colloidal-gold rapid diagnostic tests and POCT devices.
+      600+ SKUs across 12 series, CE-certified, shipped worldwide from a GMP facility in Nanjing.
+    </p>
+  </section>
+
+  <h2>Product Series ({series.length})</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Series</th><th>SKUs</th><th>Priority</th></tr></thead>
+      <tbody>
+        {series.map(s => (
+          <tr>
+            <td>{s.name}</td>
+            <td>{s.sku_count ?? "expanding"}</td>
+            <td>{s.priority}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Flagship Products (P1, {flagships.length})</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px;">
+    {flagships.map(p => (
+      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+        <strong>{p.name}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
+        <div style="margin-top:8px;">
+          <span class="pill pill-p1">{p.priority}</span>
+          {p.ce && <span class="pill pill-ce" style="margin-left:6px;">CE</span>}
+          {p.fda && <span class="pill" style="background:#e3f2fd;color:#0d47a1;margin-left:6px;">FDA</span>}
+        </div>
+      </a>
+    ))}
+  </div>
+
+  <h2>Disease &amp; Topic Hubs ({hubs.length})</h2>
+  <div class="card">
+    <ul style="columns:2; list-style:none; padding-left:0;">
+      {hubs.map(h => (
+        <li style="margin:4px 0;"><a href={`/solutions/disease/${h.id}/`}>{h.name}</a></li>
+      ))}
+    </ul>
+  </div>
+
+</BaseLayout>

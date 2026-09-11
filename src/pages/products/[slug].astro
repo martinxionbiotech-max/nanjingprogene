@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import products from '../../data/products.json';
+import skuCatalog from '../../data/sku-catalog.json';
+
+export function getStaticPaths() {
+  return products.products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
+}
+
+const { product } = Astro.props;
+const series = products.series.find((s) => s.id === product.series);
+const seriesSkus = skuCatalog[product.series] ?? [];
+// rough match: SKUs whose product name contains the canonical target keyword
+const matchTerms = product.name.replace(/ Rapid Test.*| Test.*| Rapid.*/g, "").trim().split(" ").filter((w) => w.length > 3);
+const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.toLowerCase().includes(t.toLowerCase()))).slice(0, 12);
+---
+
+<BaseLayout
+  title={`${product.name} — ${series?.name ?? ""} | Progene Bio`}
+  description={`${product.name} — detects ${product.target}. ${product.method}. Specimen: ${(product.specimen ?? []).join("/")}. OEM/ODM IVD manufacturer.`}
+  canonical={`/products/${product.id}/`}
+>
+
+  <p><a href="/products/">← All products</a></p>
+  <h1>{product.name}</h1>
+
+  <div class="card">
+    <table>
+      <tbody>
+        <tr><th>Target / Analyte</th><td>{product.target}</td></tr>
+        <tr><th>Disease / Indication</th><td>{product.disease}</td></tr>
+        <tr><th>Series</th><td>{series?.name ?? product.series}</td></tr>
+        <tr><th>Method</th><td>{product.method}</td></tr>
+        <tr><th>Specimen</th><td>{(product.specimen ?? []).join(" / ")}</td></tr>
+        <tr><th>Regulatory</th><td>{product.ce ? "CE" : "Non-CE / registration in progress"}{product.fda ? " · FDA" : ""}</td></tr>
+        <tr><th>OEM/ODM</th><td>Available — private label &amp; custom panel</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  {relatedSkus.length > 0 && (
+    <>
+      <h2>Available SKUs (this series)</h2>
+      <div class="card">
+        <table>
+          <thead><tr><th>Cat. No.</th><th>Product</th><th>Specimen</th><th>Format</th><th>Kit Size</th><th>Status</th></tr></thead>
+          <tbody>
+            {relatedSkus.map((s) => (
+              <tr>
+                <td>{s.cat_no}</td>
+                <td>{s.product}</td>
+                <td>{s.specimen}</td>
+                <td>{s.format}</td>
+                <td>{s.kit_size}</td>
+                <td>{s.status}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )}
+
+  <div class="card" style="margin-top:20px;">
+    <p style="margin:0;"><strong>Request a quotation / sample</strong> — datasheet, IFU, MOQ and OEM/ODM options on request.</p>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "description": `Rapid test for ${product.target}. ${product.method}.`,
+    "category": series?.name ?? product.series,
+    "brand": { "@type": "Brand", "name": "Progene Bio" },
+    "manufacturer": { "@type": "Organization", "name": "Nanjing Progene Biotechnology Co., Ltd" }
+  })} />
+
+</BaseLayout>
