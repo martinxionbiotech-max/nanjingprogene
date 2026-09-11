@@ -1,0 +1,188 @@
+{
+  "troponin-t": {
+    "intended_use": "Detection of cardiac troponin T for myocardial injury assessment.",
+    "clinical_context": "Cardiac troponin T (cTnT) is a myocardial-specific biomarker; with troponin I, one of the two troponin isoforms used in acute MI diagnosis.",
+    "limitations": "Qualitative POC assay is triage-grade; high-sensitivity quantitative assays and serial testing are the clinical standard.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "h-fabp": {
+    "intended_use": "Detection of heart-type fatty acid binding protein for early myocardial injury.",
+    "clinical_context": "H-FABP rises early after myocardial injury and is used as an early marker in some cardiac panels.",
+    "limitations": "Not a standalone diagnostic; use with troponin and clinical context.",
+    "procurement": "Specimen: WB/S/P. Format: cassette, 25 T. CE-marked line."
+  },
+  "pct": {
+    "intended_use": "Detection of procalcitonin (PCT) for bacterial infection/sepsis risk assessment.",
+    "clinical_context": "PCT rises in systemic bacterial infection and sepsis; supports antibiotic-stewardship decisions.",
+    "limitations": "Semi-quantitative POC results are triage-grade; interpret with clinical context.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "saa": {
+    "intended_use": "Detection of serum amyloid A (SAA) for inflammation.",
+    "clinical_context": "SAA is an acute-phase protein; used alongside CRP in infection/inflammation triage.",
+    "limitations": "Non-specific acute-phase marker.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "cea": {
+    "intended_use": "Detection of carcinoembryonic antigen (CEA) for colorectal cancer monitoring support.",
+    "clinical_context": "CEA is a tumor marker used in colorectal cancer monitoring and, with other markers, in screening support.",
+    "limitations": "Not diagnostic alone; elevated in benign conditions and smoking. Imaging/confirmatory testing required.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "fsh": {
+    "intended_use": "Detection of follicle-stimulating hormone (FSH) for menopause/fertility assessment.",
+    "clinical_context": "Elevated FSH indicates reduced ovarian reserve / menopause; used in fertility evaluation.",
+    "limitations": "Interpret with age and clinical context; not a standalone diagnosis.",
+    "procurement": "Specimen: urine. Format: dipstick / device. CE-marked line."
+  },
+  "ffn": {
+    "intended_use": "Detection of fetal fibronectin (fFN) in cervicovaginal secretion for preterm birth risk.",
+    "clinical_context": "fFN is used to stratify preterm delivery risk in symptomatic pregnant women.",
+    "limitations": "Risk-stratification aid, not diagnostic; interpret with gestational age and clinical findings.",
+    "procurement": "Specimen: vaginal secretion. Format: device / strip. CE-marked line."
+  },
+  "igfbp-1": {
+    "intended_use": "Detection of IGFBP-1 in vaginal secretion for preterm birth risk.",
+    "clinical_context": "Phosphorylated IGFBP-1 is a marker of cervical ripening; used for preterm delivery risk assessment.",
+    "limitations": "Risk-stratification aid; not diagnostic alone.",
+    "procurement": "Specimen: vaginal secretion. Format: device / strip. CE-marked line."
+  },
+  "hpv-16-18": {
+    "intended_use": "Detection of HPV 16/18 antigen for high-risk HPV screening support.",
+    "clinical_context": "HPV 16 and 18 cause the majority of cervical cancers; genotyping supports risk stratification.",
+    "limitations": "POC antigen detection is screening-grade; confirm with molecular (PCR) genotyping.",
+    "procurement": "Specimen: cervical swab. Format: device. CE-marked line."
+  },
+  "chikungunya": {
+    "intended_use": "Detection of Chikungunya IgG/IgM antibodies.",
+    "clinical_context": "Chikungunya is a mosquito-borne alphavirus; serology supports diagnosis in endemic regions.",
+    "limitations": "Cross-reactivity with dengue possible; confirm with molecular where available.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "zika": {
+    "intended_use": "Detection of Zika NS1 / IgG/IgM.",
+    "clinical_context": "Zika is a mosquito-borne flavivirus; antigen/serology support diagnosis, especially in pregnancy risk assessment.",
+    "limitations": "Strong dengue cross-reactivity in serology; interpret with travel/exposure history.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "leptospira": {
+    "intended_use": "Detection of Leptospira IgG/IgM antibodies.",
+    "clinical_context": "Leptospirosis is a zoonotic bacterial infection; serology supports diagnosis.",
+    "limitations": "Serology has timing and cross-reactivity limitations; confirm with reference methods.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "leishmania": {
+    "intended_use": "Detection of Leishmania IgG/IgM antibodies.",
+    "clinical_context": "Leishmaniasis is a parasitic infection; serology supports diagnosis in endemic areas.",
+    "limitations": "Serology is supportive; parasitological/molecular confirmation preferred.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "typhoid": {
+    "intended_use": "Detection of Salmonella Typhi IgG/IgM antibodies or antigen.",
+    "clinical_context": "Typhoid fever serology/antigen supports diagnosis where blood culture is unavailable.",
+    "limitations": "Serology has sensitivity/specificity limits; culture is the reference.",
+    "procurement": "Specimen: WB/S/P (Ab) / feces (Ag). Format: cassette / dipstick. CE-marked line."
+  },
+  "cholera-o1-o139": {
+    "intended_use": "Detection of Vibrio cholerae O1/O139 antigen in feces.",
+    "clinical_context": "Cholera antigen detection supports outbreak screening and rapid diagnosis.",
+    "limitations": "Confirmatory culture/typing recommended in surveillance.",
+    "procurement": "Specimen: feces. Format: cassette. CE-marked line."
+  },
+  "tb-igg-igm": {
+    "intended_use": "Detection of tuberculosis (TB) IgG/IgM antibodies.",
+    "clinical_context": "TB serology is a screening aid in resource-limited settings.",
+    "limitations": "Serology is not recommended as a standalone TB diagnostic (WHO); culture/molecular remain reference.",
+    "procurement": "Specimen: WB/S/P. Format: dipstick / cassette. CE-marked line."
+  },
+  "mycoplasma": {
+    "intended_use": "Detection of Mycoplasma pneumoniae IgM/IgG or antigen.",
+    "clinical_context": "M. pneumoniae is a common cause of atypical pneumonia; IgM/antigen support diagnosis.",
+    "limitations": "Serology timing affects sensitivity; molecular confirmation where needed.",
+    "procurement": "Specimen: WB/S/P (serology) / swab (antigen). Format: cassette. CE-marked line."
+  },
+  "doa-mtd": {
+    "intended_use": "Detection of methadone (MTD) in urine.",
+    "clinical_context": "Methadone screening in opioid treatment programs and workplace testing; cut-off 300 ng/mL.",
+    "limitations": "Presumptive positive requires confirmation.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick. CE-marked line."
+  },
+  "doa-fentanyl": {
+    "intended_use": "Detection of fentanyl in urine.",
+    "clinical_context": "Fentanyl screening for the synthetic-opioid crisis; cut-offs 20–200 ng/mL.",
+    "limitations": "Presumptive; confirm with LC-MS.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick. CE-marked line."
+  },
+  "doa-ketamine": {
+    "intended_use": "Detection of ketamine in urine.",
+    "clinical_context": "Ketamine screening; cut-off 1000 ng/mL.",
+    "limitations": "Presumptive; confirm positives.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick. CE-marked line."
+  },
+  "doa-xylazine": {
+    "intended_use": "Detection of xylazine in urine.",
+    "clinical_context": "Xylazine (veterinary sedative) is an emerging adulterant in the illicit opioid supply.",
+    "limitations": "Presumptive; confirm with lab method.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick. CE-marked line."
+  },
+  "fob": {
+    "intended_use": "Detection of fecal occult blood (FOB) for colorectal screening.",
+    "clinical_context": "FOB testing supports colorectal cancer screening programs.",
+    "limitations": "Positive FOB requires colonoscopy follow-up; dietary/interference caveats apply.",
+    "procurement": "Specimen: feces. Format: device / strip. CE-marked line."
+  },
+  "ferritin": {
+    "intended_use": "Detection of ferritin for iron status.",
+    "clinical_context": "Ferritin reflects iron stores; low ferritin indicates iron deficiency.",
+    "limitations": "Ferritin is an acute-phase reactant — elevated in inflammation independent of iron status.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "calprotectin": {
+    "intended_use": "Detection of fecal calprotectin for intestinal inflammation.",
+    "clinical_context": "Calprotectin distinguishes inflammatory bowel disease (IBD) from functional disorders (IBS).",
+    "limitations": "Screening aid — not diagnostic; elevated in other gut inflammation.",
+    "procurement": "Specimen: feces. Format: cassette. CE-marked line."
+  },
+  "lactoferrin": {
+    "intended_use": "Detection of fecal lactoferrin for intestinal inflammation.",
+    "clinical_context": "Lactoferrin is a fecal marker of intestinal inflammation, used alongside calprotectin.",
+    "limitations": "Screening aid; not diagnostic alone.",
+    "procurement": "Specimen: feces. Format: cassette. CE-marked line."
+  },
+  "hba1c": {
+    "intended_use": "Detection of glycated hemoglobin (HbA1c) for diabetes.",
+    "clinical_context": "HbA1c reflects average blood glucose over ~2–3 months; used in diabetes diagnosis and monitoring.",
+    "limitations": "POC semi-quantitative HbA1c is screening-grade; lab HbA1c is the reference.",
+    "procurement": "Specimen: whole blood. Format: cassette / strip. CE-marked line."
+  },
+  "vitamin-d": {
+    "intended_use": "Detection of 25-OH Vitamin D for deficiency screening.",
+    "clinical_context": "Vitamin D deficiency screening; semi-quantitative POC assay.",
+    "limitations": "Screening-grade; quantitative lab assay is the reference.",
+    "procurement": "Specimen: whole blood. Format: cassette. CE-marked line."
+  },
+  "tsh": {
+    "intended_use": "Detection of thyroid-stimulating hormone (TSH) for thyroid screening.",
+    "clinical_context": "TSH is the first-line thyroid function test.",
+    "limitations": "POC qualitative TSH is screening-grade; quantitative lab TSH is reference.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "total-ige": {
+    "intended_use": "Detection of total IgE for allergy screening.",
+    "clinical_context": "Total IgE supports atopy/allergy assessment.",
+    "limitations": "Non-specific — elevated in parasitic infection and other conditions; specific IgE tests are more informative.",
+    "procurement": "Specimen: WB/S/P. Format: cassette / strip. CE-marked line."
+  },
+  "chagas": {
+    "intended_use": "Detection of Trypanosoma cruzi antibodies for Chagas disease.",
+    "clinical_context": "Chagas is a parasitic infection endemic to Latin America; serology supports diagnosis.",
+    "limitations": "Confirmatory testing recommended per regional algorithms.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  },
+  "filariasis": {
+    "intended_use": "Detection of filarial IgG/IgM antibodies.",
+    "clinical_context": "Filariasis (lymphatic filariasis) serology supports diagnosis in endemic regions.",
+    "limitations": "Serology cross-reactivity with other helminths possible.",
+    "procurement": "Specimen: WB/S/P. Format: cassette. CE-marked line."
+  }
+}
