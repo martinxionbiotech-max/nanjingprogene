@@ -1,0 +1,32 @@
+{
+  "hospital-clinic": {
+    "name": "Rapid Testing in Hospitals & Clinics",
+    "overview": "Point-of-care rapid tests speed triage in emergency departments and clinics — cardiac markers for chest pain, infectious-disease tests for fever, and inflammation markers for sepsis risk.",
+    "products": ["troponin-i", "ck-mb", "d-dimer", "crp", "pct", "influenza-ab", "covid-flu-rsv", "strep-a"],
+    "benefits": ["Faster triage (minutes vs lab hours)", "Reduced central-lab load", "Immediate treatment decisions"]
+  },
+  "pharmacy-retail": {
+    "name": "Rapid Testing in Pharmacy & Retail",
+    "overview": "High-volume consumer and near-patient tests for pharmacy retail — pregnancy, ovulation, and common self-test formats.",
+    "products": ["hcg", "lh", "fsh"],
+    "benefits": ["High turnover, repeat purchase", "Simple visual readout", "Private-label retail packaging"]
+  },
+  "workplace-drug": {
+    "name": "Workplace Drug Testing",
+    "overview": "Drug-of-abuse screening for workplace and occupational-health programs — single-analyte tests and integrated multi-panel cups with adulteration checks.",
+    "products": ["doa-thc", "doa-coc", "doa-amp", "doa-met", "doa-mop", "doa-opi", "doa-bzo", "doa-multi-panel"],
+    "benefits": ["SAMHSA-style cut-offs", "Tamper-evident panel cups", "Presumptive screen → lab confirmation workflow"]
+  },
+  "blood-bank-antenatal": {
+    "name": "Blood Bank & Antenatal Screening",
+    "overview": "Transfusion-transmissible infection screening (HBsAg, HCV, HIV, syphilis) for blood banks and antenatal programs.",
+    "products": ["hbsag", "hcv", "hiv-12", "syphilis"],
+    "benefits": ["High sensitivity screening", "Combined combo cassettes reduce steps", "Serial confirmation per national algorithms"]
+  },
+  "public-health": {
+    "name": "Public Health & Outbreak Programs",
+    "overview": "Field-ready rapid tests for disease surveillance, outbreak response and NGO/government tender programs — dengue, malaria, cholera, typhoid and tropical pathogens.",
+    "products": ["dengue-combo", "malaria-pf-pan", "cholera-o1-o139", "typhoid", "chikungunya", "zika", "leptospira", "tb-igg-igm"],
+    "benefits": ["Room-temperature stable (no cold chain)", "Instrument-free, field-deployable", "Bulk/tender supply with documentation"]
+  }
+}

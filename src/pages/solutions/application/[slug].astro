@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import products from '../../../data/products.json';
+import appContent from '../../../data/application-content.json';
+
+export function getStaticPaths() {
+  return Object.entries(appContent).map(([slug, a]) => ({ params: { slug }, props: { slug, a } }));
+}
+
+const { slug, a } = Astro.props;
+const appProducts = (a.products ?? []).map((id) => products.products.find((p) => p.id === id)).filter(Boolean);
+---
+
+<BaseLayout
+  title={`${a.name} — Rapid Test Applications | Progene Bio`}
+  description={`${a.name}: ${a.overview}`}
+  canonical={`/solutions/application/${slug}/`}
+>
+
+  <h1>{a.name}</h1>
+  <p>{a.overview}</p>
+
+  <h2>Why it works</h2>
+  <ul>
+    {a.benefits.map((b) => <li>{b}</li>)}
+  </ul>
+
+  <h2>Relevant products ({appProducts.length})</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {appProducts.map((p) => (
+      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+        <strong>{p.name}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
+      </a>
+    ))}
+  </div>
+
+  <div class="card" style="margin-top:20px;">
+    <p style="margin:0;"><strong>Building a program in this setting?</strong> <a href="/rfq/">Request a quote →</a></p>
+  </div>
+
+</BaseLayout>
