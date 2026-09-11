@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import products from '../../data/products.json';
+import seriesContent from '../../data/series-content.json';
+
+export function getStaticPaths() {
+  return Object.entries(seriesContent).map(([slug, sc]) => ({ params: { slug }, props: { slug, sc } }));
+}
+
+const { slug, sc } = Astro.props;
+const seriesMeta = products.series.find((s) => s.id === slug);
+const keyProducts = (sc.key_products ?? [])
+  .map((id) => products.products.find((p) => p.id === id))
+  .filter(Boolean);
+const allSeriesProducts = products.products.filter((p) => p.series === slug);
+---
+
+<BaseLayout
+  title={`${sc.name} — OEM/ODM Manufacturer | Progene Bio`}
+  description={`${sc.name}: ${sc.overview}`}
+  canonical={`/products/series/${slug}/`}
+>
+
+  <p><a href="/products/">← All products</a></p>
+  <h1>{sc.name}</h1>
+  <p>{sc.overview}</p>
+
+  <div class="card">
+    <table>
+      <tbody>
+        <tr><th>SKUs</th><td>{seriesMeta?.sku_count ?? "Expanding"}</td></tr>
+        <tr><th>Method</th><td>{seriesMeta?.method ?? "—"}</td></tr>
+        <tr><th>OEM/ODM</th><td>Available — private label &amp; custom panels</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Sub-categories</h2>
+  <ul>
+    {sc.sub_categories.map((c) => <li>{c}</li>)}
+  </ul>
+
+  <h2>Key Products ({allSeriesProducts.length})</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {allSeriesProducts.map((p) => (
+      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+        <strong>{p.name}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
+        <div style="margin-top:8px; font-size:.8rem;">Specimen: {(p.specimen ?? []).join(" / ")}</div>
+      </a>
+    ))}
+  </div>
+
+  <h2>Buyer angle</h2>
+  <p>{sc.buyer_angle}</p>
+
+  {sc.related_comparisons.length > 0 && (
+    <>
+      <h2>Related comparisons</h2>
+      <ul>
+        {sc.related_comparisons.map((c) => (
+          <li><a href={`/comparisons/${c.slug}/`}>{c.title}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <div class="card" style="margin-top:20px;">
+    <p style="margin:0;"><strong>Need a custom panel or private label?</strong> <a href="/rfq/">Request a quote →</a></p>
+  </div>
+
+</BaseLayout>
