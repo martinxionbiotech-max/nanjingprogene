@@ -1,0 +1,31 @@
+# Nanjing Progene Bio — llms.txt
+
+> Nanjing Progene Biotechnology Co., Ltd (南京普诺基生物科技有限公司) — IVD rapid test & POCT OEM/ODM manufacturer.
+> 600+ SKUs across 12 series. Colloidal-gold lateral flow + fluorescence immunoassay. GMP facility, Nanjing, China.
+
+## Company
+- [About](https://nanjingprogene.com/about/): company profile, certifications, OEM/ODM.
+- [Manufacturing](https://nanjingprogene.com/manufacturing/): vertical integration, QC, OEM/ODM capabilities.
+- [Certifications](https://nanjingprogene.com/evidence/certifications/): CE (IVDR), ISO 13485, FDA 510(k) partial, FSC.
+- [Contact](https://nanjingprogene.com/contact/)
+- [RFQ](https://nanjingprogene.com/rfq/): request quote, sample, datasheet, OEM/ODM.
+
+## Product series
+- [Drug of Abuse (DOA)](https://nanjingprogene.com/products/): 416 SKUs — THC, COC, AMP, MET, MOP/OPI, BZO, Fentanyl, multi-panel cups.
+- [Infectious Disease](https://nanjingprogene.com/products/): 99 SKUs — dengue, malaria, HIV, HBsAg, HCV, H. pylori, syphilis, respiratory.
+- [Cardiac & Tumor Markers](https://nanjingprogene.com/products/): troponin, CK-MB, D-dimer, CRP, PCT, PSA, AFP.
+- [Women's Health](https://nanjingprogene.com/products/): hCG, LH, FSH, fFN, iGFBP-1.
+
+## Disease hubs
+- [Dengue](https://nanjingprogene.com/solutions/disease/dengue/) · [Malaria](https://nanjingprogene.com/solutions/disease/malaria/) · [HIV/STD](https://nanjingprogene.com/solutions/disease/hiv-std/) · [Hepatitis](https://nanjingprogene.com/solutions/disease/hepatitis/) · [H. pylori](https://nanjingprogene.com/solutions/disease/hpylori/) · [Respiratory](https://nanjingprogene.com/solutions/disease/respiratory/) · [Cardiac](https://nanjingprogene.com/solutions/disease/cardiac/) · [DOA/Workplace](https://nanjingprogene.com/solutions/disease/doa-workplace/) · [Pregnancy & Fertility](https://nanjingprogene.com/solutions/disease/pregnancy-fertility/) · [Tumor](https://nanjingprogene.com/solutions/disease/tumor/) · [Tropical](https://nanjingprogene.com/solutions/disease/tropical/) · [Gastrointestinal](https://nanjingprogene.com/solutions/disease/gastrointestinal/)
+
+## Knowledge
+- [Testing Methodologies](https://nanjingprogene.com/knowledge/testing-methodologies/): lateral flow vs FIA.
+- [Specimen Types](https://nanjingprogene.com/knowledge/specimens/)
+- [Antigen vs Antibody](https://nanjingprogene.com/comparisons/antigen-vs-antibody/)
+- [Rapid Test vs PCR](https://nanjingprogene.com/comparisons/rapid-test-vs-pcr/)
+- [Dengue NS1 vs IgM/IgG](https://nanjingprogene.com/comparisons/dengue-ns1-vs-igg-igm/)
+
+## Machine-readable data
+- [Products JSON](https://nanjingprogene.com/datasets/products.json): 72 canonical product entities (target, method, specimen, CE/FDA, priority).
+- [SKU catalog](https://nanjingprogene.com/datasets/sku-catalog.json): 637 SKUs across 5 published series.

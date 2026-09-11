@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Antigen vs Antibody Test — What's the Difference? | Progene Bio"
+  description="Antigen tests detect the pathogen's protein (active infection); antibody tests detect the immune response (exposure). How to choose."
+  canonical="/comparisons/antigen-vs-antibody/"
+>
+
+  <h1>Antigen vs Antibody Test</h1>
+
+  <div class="card">
+    <table>
+      <thead><tr><th></th><th>Antigen test</th><th>Antibody test</th></tr></thead>
+      <tbody>
+        <tr><th>Detects</th><td>Pathogen protein</td><td>Host immune response (IgM/IgG)</td></tr>
+        <tr><th>Indicates</th><td>Active infection</td><td>Exposure (current or past)</td></tr>
+        <tr><th>Typical timing</th><td>Early (acute phase)</td><td>Later (days to weeks)</td></tr>
+        <tr><th>Example</th><td>Dengue NS1, H. pylori stool antigen, Strep A</td><td>HIV, HCV, Dengue IgM/IgG, Syphilis</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Key interpretation rule</h2>
+  <ul>
+    <li>Antigen positive = the pathogen is likely present now.</li>
+    <li>Antibody positive = the person was exposed; may not indicate current infection (e.g., HCV antibody needs RNA confirmation).</li>
+  </ul>
+
+  <p>Choosing the right marker depends on the diagnostic window — see <a href="/comparisons/dengue-ns1-vs-igg-igm/">Dengue NS1 vs IgM/IgG</a> for a worked example.</p>
+
+</BaseLayout>
