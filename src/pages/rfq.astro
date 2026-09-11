@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import products from '../data/products.json';
+---
+
+<BaseLayout
+  title="Request a Quote (RFQ) — Progene Bio IVD Manufacturer"
+  description="Request a quotation, sample or OEM/ODM consultation from Nanjing Progene Biotechnology — IVD rapid test manufacturer."
+  canonical="/rfq/"
+>
+
+  <h1>Request a Quote</h1>
+  <p>Our team responds within 24 hours with formulation options, MOQ and pricing.</p>
+
+  <div class="card">
+    <form name="rfq" method="POST" action="/rfq/thanks/" data-netlify="true" netlify>
+      <input type="hidden" name="form-name" value="rfq" />
+
+      <p><strong>Product</strong></p>
+      <select name="product" style="width:100%;padding:8px;">
+        <option value="">— Select a product (or specify below) —</option>
+        {products.products.filter(p => p.priority === "P1").map(p => (
+          <option value={p.id}>{p.name}</option>
+        ))}
+        <option value="other">Other / multiple products</option>
+      </select>
+
+      <p><strong>Buyer type</strong></p>
+      <select name="buyer_type" style="width:100%;padding:8px;">
+        <option>Distributor</option>
+        <option>Laboratory</option>
+        <option>Hospital / clinic</option>
+        <option>Government / tender</option>
+        <option>NGO / aid program</option>
+        <option>OEM / private label</option>
+      </select>
+
+      <p><strong>Destination country</strong></p>
+      <input type="text" name="country" style="width:100%;padding:8px;" />
+
+      <p><strong>Certification requirement</strong></p>
+      <select name="certification" style="width:100%;padding:8px;">
+        <option>CE</option>
+        <option>FDA 510(k)</option>
+        <option>Other / country registration</option>
+        <option>None specified</option>
+      </select>
+
+      <p><strong>Estimated annual volume</strong></p>
+      <input type="text" name="volume" placeholder="e.g., 10,000 tests/year" style="width:100%;padding:8px;" />
+
+      <p><strong>Your requirements</strong></p>
+      <textarea name="message" rows="5" style="width:100%;padding:8px;"
+        placeholder="Target analyte, specimen, format, packaging, private label, sample request, MOQ, target price…"></textarea>
+
+      <p><strong>Your contact</strong></p>
+      <input type="text" name="name" placeholder="Name" style="width:100%;padding:8px;margin-bottom:8px;" />
+      <input type="email" name="email" placeholder="Email" style="width:100%;padding:8px;margin-bottom:8px;" />
+      <input type="text" name="company" placeholder="Company" style="width:100%;padding:8px;margin-bottom:12px;" />
+
+      <button type="submit" style="background:#0f1f3d;color:#fff;border:none;padding:10px 22px;border-radius:6px;font-size:1rem;cursor:pointer;">Submit RFQ</button>
+    </form>
+  </div>
+
+</BaseLayout>
