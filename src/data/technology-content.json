@@ -11,7 +11,65 @@
       "Absorbent pad — wicks excess sample",
       "Backing card — structural support"
     ],
-    "image": "/images/test-strip-flow.jpg"
+    "image": "/images/test-strip-flow.jpg",
+    "applications": [
+      "Infectious-disease screening (dengue, malaria, HIV, COVID, influenza)",
+      "Pregnancy and fertility testing (hCG, LH)",
+      "Drug-of-abuse screening",
+      "Cardiac markers (troponin, CK-MB, D-dimer)",
+      "Veterinary diagnostics",
+      "Food-safety and environmental testing"
+    ],
+    "performance_factors": [
+      "Antibody affinity and specificity",
+      "Conjugate quality and label uniformity",
+      "Membrane pore size and coating",
+      "Sample matrix and viscosity",
+      "Flow rate and reagent release",
+      "Storage and humidity stability"
+    ],
+    "limitations": [
+      "Qualitative visual readout — faint lines are subjective",
+      "Sensitivity may be lower than laboratory methods such as PCR",
+      "Matrix effects and nonspecific binding raise background",
+      "Limited quantitative capability in visual formats"
+    ],
+    "faq": [
+      {
+        "q": "What is colloidal gold lateral flow?",
+        "a": "An immunochromatographic assay using gold nanoparticles as the visible label on a nitrocellulose strip."
+      },
+      {
+        "q": "Is lateral flow the same as immunochromatography?",
+        "a": "Lateral flow is the physical format; immunochromatography is the antibody-based recognition mechanism. Most lateral-flow rapid tests are immunochromatographic."
+      },
+      {
+        "q": "How long does a lateral-flow test take?",
+        "a": "Typically 10–15 minutes to a visible result, depending on the assay."
+      }
+    ],
+    "related": [
+      {
+        "title": "What is immunochromatography?",
+        "href": "/knowledge/immunochromatography/"
+      },
+      {
+        "title": "Colloidal gold conjugation",
+        "href": "/knowledge/technology/conjugation/"
+      },
+      {
+        "title": "Nitrocellulose membrane",
+        "href": "/knowledge/technology/membrane/"
+      },
+      {
+        "title": "What is colloidal gold?",
+        "href": "/knowledge/colloidal-gold/"
+      },
+      {
+        "title": "Rapid test vs ELISA",
+        "href": "/comparisons/rapid-test-vs-elisa/"
+      }
+    ]
   },
   "conjugation": {
     "name": "Colloidal Gold Conjugation",
@@ -24,7 +82,51 @@
       "Stabilization and blocking",
       "Conjugate pad dispensing and drying"
     ],
-    "image": "/images/test-strip-flow.jpg"
+    "image": "/images/test-strip-flow.jpg",
+    "applications": [
+      "Detection-antibody labeling for lateral-flow tests",
+      "Antigen labeling for capture formats",
+      "Signal generation in sandwich and competitive assays"
+    ],
+    "performance_factors": [
+      "Antibody concentration and pH during conjugation",
+      "Particle size and uniformity",
+      "Blocking to prevent aggregation",
+      "Conjugate stability over storage"
+    ],
+    "limitations": [
+      "Conjugate aggregation reduces reproducibility",
+      "Over- or under-loading changes signal intensity",
+      "Conjugation conditions are antibody-dependent"
+    ],
+    "faq": [
+      {
+        "q": "What is colloidal gold conjugation?",
+        "a": "Attaching antibodies to gold nanoparticles so they serve as the visible detection label in a lateral-flow test."
+      },
+      {
+        "q": "Why does conjugation quality matter?",
+        "a": "It determines signal intensity, line clarity and batch-to-batch consistency."
+      },
+      {
+        "q": "What affects conjugation?",
+        "a": "Antibody concentration, pH, particle size and blocking all affect conjugate stability and performance."
+      }
+    ],
+    "related": [
+      {
+        "title": "What is colloidal gold?",
+        "href": "/knowledge/colloidal-gold/"
+      },
+      {
+        "title": "Colloidal gold lateral flow",
+        "href": "/knowledge/technology/lateral-flow/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
+    ]
   },
   "membrane": {
     "name": "Nitrocellulose Membrane & Test Lines",
@@ -36,7 +138,46 @@
       "Control line — anti-species antibody (validity check)",
       "Membrane pore size — controls flow rate and line sharpness"
     ],
-    "image": "/images/test-strip-flow.jpg"
+    "image": "/images/test-strip-flow.jpg",
+    "applications": [
+      "Immobilization of capture antibodies at test and control lines",
+      "Substrate for capillary sample migration in lateral flow"
+    ],
+    "performance_factors": [
+      "Pore size (controls flow rate)",
+      "Coating density and line width",
+      "Blocking (reduces nonspecific binding)",
+      "Membrane uniformity"
+    ],
+    "limitations": [
+      "Pore-size variation affects reproducibility",
+      "Nonspecific binding raises background",
+      "Humidity and storage affect membrane stability"
+    ],
+    "faq": [
+      {
+        "q": "What is a nitrocellulose membrane?",
+        "a": "The strip component that immobilizes capture reagents and through which the sample migrates by capillary action."
+      },
+      {
+        "q": "Why does pore size matter?",
+        "a": "It controls flow rate and line sharpness, which affect sensitivity and readability."
+      }
+    ],
+    "related": [
+      {
+        "title": "Colloidal gold lateral flow",
+        "href": "/knowledge/technology/lateral-flow/"
+      },
+      {
+        "title": "Reagent dispensing & line coating",
+        "href": "/knowledge/technology/reagent-dispensing/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
+    ]
   },
   "fia": {
     "name": "Fluorescence Immunoassay (FIA)",
@@ -47,6 +188,46 @@
       "Fluorescent label (e.g., europium/fluorescent microspheres)",
       "Fluorescence analyzer (reader)",
       "Calibration curve for quantification"
+    ],
+    "applications": [
+      "Quantitative cardiac and inflammatory markers (troponin, CRP, PCT)",
+      "Quantitative hormone assays",
+      "Semi-quantitative infectious-disease markers"
+    ],
+    "performance_factors": [
+      "Fluorophore brightness and stability",
+      "Reader calibration",
+      "Background fluorescence",
+      "Conjugate uniformity"
+    ],
+    "limitations": [
+      "Requires a reader instrument",
+      "Higher cost than visual formats",
+      "Reader calibration and QC are required"
+    ],
+    "faq": [
+      {
+        "q": "What is fluorescence immunoassay (FIA)?",
+        "a": "An immunochromatographic assay using fluorescent labels and a reader to produce quantitative or semi-quantitative results."
+      },
+      {
+        "q": "How does FIA differ from visual lateral flow?",
+        "a": "It uses fluorescent labels read by an instrument, enabling quantification instead of naked-eye line reading."
+      }
+    ],
+    "related": [
+      {
+        "title": "Colloidal gold lateral flow",
+        "href": "/knowledge/technology/lateral-flow/"
+      },
+      {
+        "title": "Testing methodologies",
+        "href": "/knowledge/testing-methodologies/"
+      },
+      {
+        "title": "Rapid test vs ELISA",
+        "href": "/comparisons/rapid-test-vs-elisa/"
+      }
     ]
   },
   "reagent-dispensing": {

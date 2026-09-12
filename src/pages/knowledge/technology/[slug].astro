@@ -38,6 +38,43 @@ const { slug, t } = Astro.props;
     {t.components.map((c) => <li>{c}</li>)}
   </ul>
 
+  {t.applications && (
+    <>
+      <h2>Applications</h2>
+      <ul>{t.applications.map((a) => <li>{a}</li>)}</ul>
+    </>
+  )}
+
+  {t.performance_factors && (
+    <>
+      <h2>What affects performance</h2>
+      <ul>{t.performance_factors.map((p) => <li>{p}</li>)}</ul>
+    </>
+  )}
+
+  {t.limitations && (
+    <>
+      <h2>Limitations</h2>
+      <ul>{t.limitations.map((l) => <li>{l}</li>)}</ul>
+    </>
+  )}
+
+  {t.faq && t.faq.length > 0 && (
+    <>
+      <h2>Frequently Asked Questions</h2>
+      <div class="card">
+        {t.faq.map((f) => <p><strong>{f.q}</strong> {f.a}</p>)}
+      </div>
+    </>
+  )}
+
+  {t.related && (
+    <>
+      <h2>Related knowledge</h2>
+      <ul>{t.related.map((r) => <li><a href={r.href}>{r.title}</a></li>)}</ul>
+    </>
+  )}
+
   <div class="card" style="margin-top:16px;">
     <p style="margin:0;"><strong>See this technology in our products →</strong> <a href="/products/">Browse catalog</a></p>
   </div>
@@ -50,5 +87,13 @@ const { slug, t } = Astro.props;
     "headline": t.name,
     "description": t.what
   })} />
+
+  {t.faq && t.faq.length > 0 && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": t.faq.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+    })} />
+  )}
 
 </BaseLayout>
