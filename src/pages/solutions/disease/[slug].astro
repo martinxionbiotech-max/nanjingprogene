@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import products from '../../../data/products.json';
 import diseaseContent from '../../../data/disease-content.json';
 import authorTake from '../../../data/author-take.json';
+import faqContent from '../../../data/faq-content.json';
 
 export function getStaticPaths() {
   return products.hubs.map((h) => ({ params: { slug: h.id }, props: { hub: h } }));
@@ -12,6 +13,7 @@ const { hub } = Astro.props;
 const hubProducts = products.products.filter((p) => hub.products.includes(p.id));
 const dc = diseaseContent[hub.id];
 const at = authorTake[hub.id];
+const faqs = faqContent[hub.id] ?? [];
 ---
 
 <BaseLayout
@@ -44,6 +46,20 @@ const at = authorTake[hub.id];
       </ul>
       <p style="font-size:.82rem;color:#64748b;">{authorTake._disclosure}</p>
     </div>
+  )}
+
+  {faqs.length > 0 && (
+    <>
+      <h2>Frequently Asked Questions</h2>
+      <div class="card">
+        {faqs.map((f) => (
+          <div style="margin-bottom:12px;">
+            <h3 style="margin:0 0 4px; font-size:1rem;">{f.q}</h3>
+            <p style="margin:0;">{f.a}</p>
+          </div>
+        ))}
+      </div>
+    </>
   )}
 
   <h2>Products ({hubProducts.length})</h2>
