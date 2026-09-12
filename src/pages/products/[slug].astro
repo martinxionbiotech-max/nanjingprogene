@@ -62,6 +62,11 @@ const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27
     </table>
   </div>
 
+  <div class="card" style="border-left:4px solid #e8a33d;">
+    <h2 style="margin-top:0;">Direct Answer</h2>
+    <p>This rapid test detects {product.target} in {(product.specimen ?? []).join(" / ")} to support {product.disease}. It is a {product.method} screening test — a reactive result is presumptive and should be confirmed per the intended use.</p>
+  </div>
+
   {content && (
     <>
       <h2>Intended Use</h2>
@@ -78,6 +83,18 @@ const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27
 
       <h2>Procurement</h2>
       <p>{content.procurement}</p>
+
+      <h2>Interpretation</h2>
+      <div class="card">
+        <table>
+          <thead><tr><th>Result</th><th>Lines</th><th>Meaning</th></tr></thead>
+          <tbody>
+            <tr><th>Positive</th><td>Test + control line</td><td>Target detected (presumptive positive)</td></tr>
+            <tr><th>Negative</th><td>Control line only</td><td>Below cut-off / not detected</td></tr>
+            <tr><th>Invalid</th><td>No control line</td><td>Repeat with a new device</td></tr>
+          </tbody>
+        </table>
+      </div>
     </>
   )}
 
@@ -111,6 +128,8 @@ const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27
       <a class="btn" href="/rfq/" style="margin-left:8px;">Request Datasheet</a>
     </p>
   </div>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
