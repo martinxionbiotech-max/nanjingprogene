@@ -4,6 +4,10 @@ import products from '../../../data/products.json';
 import diseaseContent from '../../../data/disease-content.json';
 import authorTake from '../../../data/author-take.json';
 import faqContent from '../../../data/faq-content.json';
+import whatIs from '../../../data/what-is-content.json';
+import whatIsDoa from '../../../data/what-is-doa.json';
+import whatIsClinical from '../../../data/what-is-clinical.json';
+import whatIsExtra from '../../../data/what-is-extra.json';
 
 export function getStaticPaths() {
   return products.hubs.map((h) => ({ params: { slug: h.id }, props: { hub: h } }));
@@ -14,6 +18,15 @@ const hubProducts = products.products.filter((p) => hub.products.includes(p.id))
 const dc = diseaseContent[hub.id];
 const at = authorTake[hub.id];
 const faqs = faqContent[hub.id] ?? [];
+const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical, ...whatIsExtra };
+const comparisonTitles = {
+  'antigen-vs-antibody': 'Antigen vs Antibody', 'cassette-vs-dipstick': 'Cassette vs Dipstick',
+  'covid-vs-flu-vs-rsv': 'COVID vs Flu vs RSV', 'dengue-ns1-vs-igg-igm': 'Dengue NS1 vs IgM/IgG',
+  'hiv-vs-syphilis': 'HIV vs Syphilis', 'hpylori-antigen-vs-antibody': 'H. pylori Antigen vs Antibody',
+  'igg-vs-igm': 'IgG vs IgM', 'malaria-pf-vs-pan': 'Malaria Pf vs Pf/Pan', 'malaria-pf-vs-pv': 'Malaria Pf vs Pv',
+  'ns1-vs-pcr': 'NS1 vs PCR', 'rapid-test-vs-elisa': 'Rapid Test vs ELISA',
+  'rapid-test-vs-pcr': 'Rapid Test vs PCR', 'troponin-i-vs-t': 'Troponin I vs T',
+};
 ---
 
 <BaseLayout
@@ -77,6 +90,16 @@ const faqs = faqContent[hub.id] ?? [];
       </div>
     </>
   )}
+
+  <div class="card">
+    <h2>Related knowledge</h2>
+    <ul style="margin:0;">
+      <li><a href="/knowledge/technology/lateral-flow/">Technology: Colloidal gold lateral flow</a></li>
+      {dc.related_analytes?.map((a) => allWhatIs[a] && <li><a href={`/knowledge/analyte/${a}/`}>Analyte: {allWhatIs[a].name}</a></li>)}
+      {dc.related_comparisons?.map((c) => <li><a href={`/comparisons/${c}/`}>Comparison: {comparisonTitles[c] ?? c}</a></li>)}
+      <li><a href="/oem/">OEM / ODM solution</a></li>
+    </ul>
+  </div>
 
   <h2>Products ({hubProducts.length})</h2>
   <div class="product-grid">
