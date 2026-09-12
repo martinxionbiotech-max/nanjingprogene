@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="FAQ — IVD Rapid Test Manufacturing & OEM/ODM | Progene Bio"
+  description="Frequently asked questions about Progene Bio IVD rapid tests — products, OEM/ODM, certifications, MOQ, samples, documentation and shipping."
+  canonical="/faq/"
+>
+
+  <h1>Frequently Asked Questions</h1>
+
+  <div class="card">
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">What products do you manufacture?</h3>
+      <p style="margin:0;">IVD rapid tests and POCT devices — colloidal-gold lateral-flow and fluorescence immunoassay. 600+ SKUs across 12 series: drug of abuse, infectious disease, cardiac &amp; tumor markers, women's health, veterinary and more.</p>
+    </div>
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">Do you offer OEM / ODM?</h3>
+      <p style="margin:0;">Yes — private label, custom analyte panels, custom cut-offs, packaging and IFU. See the <a href="/oem/">OEM/ODM page</a> for capabilities and commercial terms.</p>
+    </div>
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">What certifications do you hold?</h3>
+      <p style="margin:0;">CE marking (self-declaration under IVDD 98/79/EC), ISO 13485:2016 (GB/T 42061), and China NMPA registration. See the <a href="/evidence/certifications/">certifications page</a> for details and certificate numbers.</p>
+    </div>
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">What is your MOQ?</h3>
+      <p style="margin:0;">Product-dependent — low MOQ is available on specialty assays. Confirm your specific MOQ and lead time via <a href="/rfq/">RFQ</a>.</p>
+    </div>
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">Can I request samples?</h3>
+      <p style="margin:0;">Yes — samples are available for evaluation. Request via the <a href="/rfq/">RFQ form</a> or <a href="/contact/">contact us</a>.</p>
+    </div>
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">Do you provide documentation (IFU, datasheet)?</h3>
+      <p style="margin:0;">Yes — IFU, datasheet, validation, COA and CE technical files are available on request for buyer qualification.</p>
+    </div>
+    <div style="margin-bottom:14px;">
+      <h3 style="margin:0 0 4px;">Do you ship internationally?</h3>
+      <p style="margin:0;">Yes — we export worldwide with full export documentation per destination.</p>
+    </div>
+    <div style="margin-bottom:0;">
+      <h3 style="margin:0 0 4px;">How do I become a distributor?</h3>
+      <p style="margin:0;">Submit an <a href="/rfq/">RFQ</a> with your target market and volume — our export team responds within one business day.</p>
+    </div>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"What products do you manufacture?","acceptedAnswer":{"@type":"Answer","text":"IVD rapid tests and POCT devices — colloidal-gold lateral-flow and fluorescence immunoassay. 600+ SKUs across 12 series: drug of abuse, infectious disease, cardiac and tumor markers, women's health, veterinary and more."}},
+      {"@type":"Question","name":"Do you offer OEM / ODM?","acceptedAnswer":{"@type":"Answer","text":"Yes — private label, custom analyte panels, custom cut-offs, packaging and IFU."}},
+      {"@type":"Question","name":"What certifications do you hold?","acceptedAnswer":{"@type":"Answer","text":"CE marking (self-declaration under IVDD 98/79/EC), ISO 13485:2016 (GB/T 42061), and China NMPA registration."}},
+      {"@type":"Question","name":"What is your MOQ?","acceptedAnswer":{"@type":"Answer","text":"Product-dependent — low MOQ is available on specialty assays. Confirm via RFQ."}},
+      {"@type":"Question","name":"Can I request samples?","acceptedAnswer":{"@type":"Answer","text":"Yes — samples are available for evaluation on request."}},
+      {"@type":"Question","name":"Do you provide documentation (IFU, datasheet)?","acceptedAnswer":{"@type":"Answer","text":"Yes — IFU, datasheet, validation, COA and CE technical files are available on request."}},
+      {"@type":"Question","name":"Do you ship internationally?","acceptedAnswer":{"@type":"Answer","text":"Yes — we export worldwide with full export documentation."}},
+      {"@type":"Question","name":"How do I become a distributor?","acceptedAnswer":{"@type":"Answer","text":"Submit an RFQ with your target market and volume — our export team responds within one business day."}}
+    ]
+  })} />
+
+</BaseLayout>

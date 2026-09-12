@@ -90,4 +90,22 @@ const ceCount = products.products.filter(p => p.ce).length;
     </ul>
   </div>
 
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "@id": "https://nanjingprogene.com/#medicalbusiness",
+    "name": "Nanjing Progene Biotechnology Co., Ltd",
+    "alternateName": "南京普诺基生物科技有限公司",
+    "url": "https://nanjingprogene.com",
+    "email": "martin@senobiocorp.com",
+    "telephone": "+86 17731388498",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "No. 26, Hengguang Road",
+      "addressLocality": "Nanjing",
+      "addressRegion": "Jiangsu",
+      "addressCountry": "CN"
+    }
+  })} />
+
 </BaseLayout>
