@@ -3,33 +3,64 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="IgG vs IgM Antibody Test — Acute vs Past Infection | Progene Bio"
-  description="IgG vs IgM antibody tests — IgM indicates recent infection, IgG indicates past or established immunity. How to interpret serology."
+  title="IgG vs IgM Antibody Test — Recent vs Past Infection | Progene Bio"
+  description="IgG vs IgM antibody tests — timing, what each indicates, and how the IgM/IgG pattern distinguishes recent from past infection."
   canonical="/comparisons/igg-vs-igm/"
 >
 
   <h1>IgG vs IgM Antibody Test</h1>
 
+  <p><strong>Direct answer:</strong> IgM appears first after infection and indicates a recent or active immune response; IgG appears later, persists long-term and indicates past exposure or immunity. Together they help distinguish recent from past infection.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
       <thead><tr><th></th><th>IgM</th><th>IgG</th></tr></thead>
       <tbody>
         <tr><th>Appears</th><td>First (days after infection)</td><td>Later (weeks)</td></tr>
-        <tr><th>Indicates</th><td>Recent / acute infection</td><td>Past infection / established immunity</td></tr>
-        <tr><th>Persistence</th><td>Weeks–months</td><td>Years / lifelong</td></tr>
+        <tr><th>Persists</th><td>Weeks to months</td><td>Months to years</td></tr>
+        <tr><th>Indicates</th><td>Recent / active infection</td><td>Past exposure / immunity</td></tr>
+        <tr><th>Example use</th><td>Acute dengue, HAV IgM</td><td>Rubella immunity, past exposure</td></tr>
       </tbody>
     </table>
   </div>
 
-  <h2>Interpretation</h2>
+  <h2>What each marker indicates</h2>
   <ul>
-    <li><strong>IgM+/IgG−</strong> = recent infection (acute phase)</li>
-    <li><strong>IgM+/IgG+</strong> = active or late-acute infection</li>
-    <li><strong>IgM−/IgG+</strong> = past infection or immunity</li>
+    <li><strong>IgM positive:</strong> likely recent infection — but cross-reactivity can cause false positives.</li>
+    <li><strong>IgG positive:</strong> past exposure or immunity — may not indicate current infection.</li>
   </ul>
 
-  <p>
-    Timing depends on the pathogen — see <a href="/comparisons/dengue-ns1-vs-igg-igm/">Dengue NS1 vs IgM/IgG</a> for a worked example.
-  </p>
+  <h2>Testing window</h2>
+  <p>IgM is most useful in the acute phase; IgG becomes reliable later. Paired or combined IgM/IgG testing widens the window.</p>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>IgM:</strong> early indicator of recent infection.</li>
+    <li><strong>IgG:</strong> immunity assessment (e.g., rubella, varicella); persists for monitoring.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>IgM:</strong> cross-reactivity, false positives.</li>
+    <li><strong>IgG:</strong> cannot confirm active infection alone; timing-dependent.</li>
+  </ul>
+
+  <h2>False positive / negative considerations</h2>
+  <ul>
+    <li><strong>False positive IgM:</strong> cross-reactivity with related pathogens.</li>
+    <li><strong>False negative IgG:</strong> testing before seroconversion.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Serology is supportive; confirm active infection with antigen or molecular (PCR) testing where applicable.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/comparisons/antigen-vs-antibody/">Antigen vs Antibody</a></li>
+    <li><a href="/comparisons/dengue-ns1-vs-igg-igm/">Dengue NS1 vs IgM/IgG</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

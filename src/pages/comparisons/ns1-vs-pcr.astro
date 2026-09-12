@@ -4,12 +4,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="Dengue NS1 Rapid Test vs PCR — Speed vs Sensitivity | Progene Bio"
-  description="Dengue NS1 antigen rapid test vs PCR molecular test — timing, sensitivity, cost and when to use each for dengue diagnosis."
+  description="Dengue NS1 antigen rapid test vs PCR molecular test — timing, sensitivity, cost, strengths, limitations and when to use each."
   canonical="/comparisons/ns1-vs-pcr/"
 >
 
   <h1>Dengue NS1 Rapid Test vs PCR</h1>
 
+  <p><strong>Direct answer:</strong> The NS1 rapid test gives a point-of-care result in minutes at lower cost; RT-PCR is the higher-sensitivity reference that runs in a laboratory. Rapid NS1 screens fast; PCR confirms.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
       <thead><tr><th></th><th>NS1 antigen rapid test</th><th>RT-PCR</th></tr></thead>
@@ -24,11 +27,46 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </table>
   </div>
 
-  <p>
-    NS1 rapid tests screen fast at the point of care; PCR confirms with the highest sensitivity.
-    A negative NS1 during clinical suspicion should be confirmed by PCR. See
-    <a href="/products/dengue-ns1/">Dengue NS1</a> and
-    <a href="/comparisons/dengue-ns1-vs-igg-igm/">NS1 vs IgM/IgG</a>.
-  </p>
+  <h2>What each method detects</h2>
+  <ul>
+    <li><strong>NS1 antigen</strong> is a viral protein — present during active replication.</li>
+    <li><strong>PCR</strong> detects viral RNA directly — the most sensitive and specific target.</li>
+  </ul>
+
+  <h2>Testing window</h2>
+  <p>NS1 is best in the first week of fever; PCR also works early and can detect low viral loads later, including during secondary infection.</p>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>NS1 rapid:</strong> instrument-free, minutes, field-deployable, low cost.</li>
+    <li><strong>PCR:</strong> highest sensitivity/specificity; detects low viremia and confirms serotypes.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>NS1:</strong> lower sensitivity, serotype variation, misses late/low-viral-load cases.</li>
+    <li><strong>PCR:</strong> requires laboratory, trained staff, cold-chain reagents and higher cost.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>NS1 false negative:</strong> testing too late or low viremia.</li>
+    <li><strong>PCR false negative:</strong> improper sample handling; rare false positives from contamination.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>A negative NS1 during clinical suspicion should be confirmed by PCR; PCR is itself the reference method.</p>
+
+  <h2>Procurement considerations</h2>
+  <p>Field programs favor NS1 rapid tests for screening and reserve PCR for reference laboratories.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/products/dengue-ns1/">Dengue NS1</a></li>
+    <li><a href="/comparisons/dengue-ns1-vs-igg-igm/">NS1 vs IgM/IgG</a></li>
+    <li><a href="/comparisons/rapid-test-vs-pcr/">Rapid Test vs PCR (general)</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

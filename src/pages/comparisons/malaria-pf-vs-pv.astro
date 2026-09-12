@@ -3,28 +3,67 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Malaria P. falciparum vs P. vivax — Species Differentiation | Progene Bio"
-  description="Plasmodium falciparum (HRP2) vs Plasmodium vivax (pLDH) rapid tests — why species differentiation matters for treatment."
+  title="Malaria P. falciparum vs P. vivax — Two Species | Progene Bio"
+  description="Malaria P. falciparum vs P. vivax — why species identification matters for treatment, and how rapid tests differentiate them."
   canonical="/comparisons/malaria-pf-vs-pv/"
 >
 
   <h1>Malaria P. falciparum vs P. vivax</h1>
 
+  <p><strong>Direct answer:</strong> P. falciparum causes the most severe malaria and requires prompt artemisinin-based treatment; P. vivax is generally less severe but requires additional treatment for dormant liver stages (hypnozoites). Identifying the species guides treatment.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
-      <thead><tr><th></th><th>P. falciparum</th><th>P. vivax</th></tr></thead>
+      <thead><tr><th></th><th>P. falciparum (Pf)</th><th>P. vivax (Pv)</th></tr></thead>
       <tbody>
-        <tr><th>Severity</th><td>Most severe (cerebral malaria)</td><td>Milder, but relapsing</td></tr>
-        <tr><th>Detected by</th><td>HRP2 antigen</td><td>pLDH (Pan)</td></tr>
-        <tr><th>Liver stage</th><td>No</td><td>Yes (hypnozoites → relapse)</td></tr>
-        <tr><th>Treatment</th><td>Artemisinin-based (ACT)</td><td>ACT + primaquine (anti-relapse)</td></tr>
+        <tr><th>Severity</th><td>Most severe, can be fatal</td><td>Usually less severe</td></tr>
+        <tr><th>Relapse</th><td>No liver stage</td><td>Yes (hypnozoites)</td></tr>
+        <tr><th>Rapid test marker</th><td>HRP2 (or pLDH)</td><td>pLDH</td></tr>
+        <tr><th>Treatment</th><td>ACT</td><td>ACT + primaquine (anti-relapse)</td></tr>
       </tbody>
     </table>
   </div>
 
-  <p>
-    Species matters for treatment — P. vivax requires anti-relapse therapy. See
-    <a href="/products/malaria-pf-pv/">Malaria Pf/Pv</a> and <a href="/products/malaria-pf-pan/">Malaria Pf/Pan</a>.
-  </p>
+  <h2>What each test detects</h2>
+  <ul>
+    <li><strong>Pf:</strong> HRP2 antigen (specific to falciparum) or pan pLDH.</li>
+    <li><strong>Pv:</strong> species-specific pLDH — distinguishes vivax from falciparum.</li>
+  </ul>
+
+  <h2>Testing window</h2>
+  <p>Both are detectable during active parasitemia from symptom onset; low parasite densities can give false negatives.</p>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>Species differentiation:</strong> guides correct treatment and avoids overtreating with anti-relapse drugs.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>HRP2:</strong> can persist after treatment; HRP2-deleted strains cause false negatives.</li>
+    <li><strong>pLDH:</strong> lower sensitivity at very low parasitemia.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>False negative:</strong> low parasitemia, HRP2 deletion.</li>
+    <li><strong>False positive:</strong> persistent HRP2 after treatment.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Microscopy is the reference for species confirmation and parasitemia quantification.</p>
+
+  <h2>Procurement considerations</h2>
+  <p>For vivax-endemic regions, stock Pf/Pv or Pf/Pan devices; confirm cut-offs and stability before tender bidding.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/products/malaria-pf/">Malaria Pf</a></li>
+    <li><a href="/products/malaria-pf-pv/">Malaria Pf/Pv</a></li>
+    <li><a href="/comparisons/malaria-pf-vs-pan/">Malaria Pf vs Pf/Pan</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

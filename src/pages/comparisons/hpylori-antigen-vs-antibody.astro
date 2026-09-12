@@ -3,29 +3,65 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="H. pylori Antigen vs Antibody Test — Stool vs Blood | Progene Bio"
-  description="H. pylori stool antigen (active infection) vs serum antibody (exposure) — which to use for diagnosis and post-treatment confirmation."
+  title="H. pylori Antigen vs Antibody Test — Active vs Exposure | Progene Bio"
+  description="H. pylori stool antigen vs antibody test — active infection vs exposure, and which to use for diagnosis and test-of-cure."
   canonical="/comparisons/hpylori-antigen-vs-antibody/"
 >
 
   <h1>H. pylori Antigen vs Antibody Test</h1>
 
+  <p><strong>Direct answer:</strong> The stool antigen test detects H. pylori antigen and indicates active infection (and works for test-of-cure); the antibody test detects immune exposure and cannot distinguish active from past infection.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
-      <thead><tr><th></th><th>Stool antigen</th><th>Serum antibody</th></tr></thead>
+      <thead><tr><th></th><th>Stool antigen</th><th>Antibody (serology)</th></tr></thead>
       <tbody>
-        <tr><th>Specimen</th><td>Feces</td><td>Whole blood / serum / plasma</td></tr>
-        <tr><th>Detects</th><td>Active infection</td><td>Exposure (current or past)</td></tr>
-        <tr><th>Post-treatment use</th><td>Yes (confirms eradication)</td><td>No (antibodies persist)</td></tr>
-        <tr><th>Best for</th><td>Diagnosis + test-of-cure</td><td>Initial screen where endoscopy unavailable</td></tr>
+        <tr><th>Detects</th><td>H. pylori antigen in stool</td><td>Anti-H. pylori antibodies</td></tr>
+        <tr><th>Indicates</th><td>Active infection</td><td>Exposure (current or past)</td></tr>
+        <tr><th>Test-of-cure</th><td>Yes (after eradication)</td><td>No (stays positive)</td></tr>
+        <tr><th>Specimen</th><td>Stool</td><td>Whole blood / serum / plasma</td></tr>
       </tbody>
     </table>
   </div>
 
-  <p>
-    For test-and-treat decisions, prefer stool antigen (or urea breath test). Serology alone cannot
-    distinguish active from past infection. See <a href="/products/hpylori-ag/">H. pylori antigen</a> and
-    <a href="/products/hpylori-ab/">H. pylori antibody</a>.
-  </p>
+  <h2>What each test detects</h2>
+  <ul>
+    <li><strong>Stool antigen:</strong> bacterial antigen shed in stool during active colonization.</li>
+    <li><strong>Antibody:</strong> immune response that persists after the infection clears.</li>
+  </ul>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>Stool antigen:</strong> detects active infection, suitable for test-and-treat and post-treatment confirmation.</li>
+    <li><strong>Antibody:</strong> cheap, widely available; useful where endoscopy/stool testing is unavailable.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>Stool antigen:</strong> PPI or antibiotic use can suppress detection (false negative).</li>
+    <li><strong>Antibody:</strong> cannot confirm active infection or eradication.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>Stool antigen false negative:</strong> recent PPI/antibiotics.</li>
+    <li><strong>Antibody false positive:</strong> persistent antibodies from past infection.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Urea breath test or endoscopy with biopsy is the reference; stool antigen is a non-invasive alternative.</p>
+
+  <h2>Procurement considerations</h2>
+  <p>For clinics running test-and-treat, stool antigen is the preferred rapid option; serology suits low-resource screening.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/products/hpylori-ag/">H. pylori Antigen</a></li>
+    <li><a href="/products/hpylori-ab/">H. pylori Antibody</a></li>
+    <li><a href="/knowledge/analyte/h-pylori-antigen/">H. pylori antigen explainer</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

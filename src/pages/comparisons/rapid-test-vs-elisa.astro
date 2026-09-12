@@ -3,29 +3,66 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Rapid Test vs ELISA — Immunoassay Methods Compared | Progene Bio"
-  description="Lateral-flow rapid test vs ELISA (enzyme-linked immunosorbent assay) — speed, format, throughput and sensitivity."
+  title="Rapid Test vs ELISA — Lateral Flow vs Plate Assay | Progene Bio"
+  description="Rapid lateral-flow test vs ELISA — time, setting, throughput, cost, strengths, limitations and when to choose each."
   canonical="/comparisons/rapid-test-vs-elisa/"
 >
 
   <h1>Rapid Test vs ELISA</h1>
 
+  <p><strong>Direct answer:</strong> Rapid lateral-flow tests give a single result in minutes at the point of care; ELISA is a laboratory plate assay offering higher throughput, semi-quantitative output and often better sensitivity, but with longer turnaround.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
       <thead><tr><th></th><th>Rapid test (lateral flow)</th><th>ELISA</th></tr></thead>
       <tbody>
-        <tr><th>Format</th><td>Single-use device</td><td>Microplate, multi-well</td></tr>
-        <tr><th>Time</th><td>Minutes</td><td>Hours</td></tr>
-        <tr><th>Throughput</th><td>One sample per device</td><td>Batch (96-well)</td></tr>
-        <tr><th>Instrument</th><td>None (visual)</td><td>Plate reader required</td></tr>
-        <tr><th>Sensitivity</th><td>Lower (triage)</td><td>Higher (lab reference)</td></tr>
+        <tr><th>Format</th><td>Cassette / strip</td><td>96-well plate</td></tr>
+        <tr><th>Time</th><td>10–30 min</td><td>1–3 hours</td></tr>
+        <tr><th>Throughput</th><td>One sample per device</td><td>Batch (many samples/plate)</td></tr>
+        <tr><th>Readout</th><td>Visual (qualitative)</td><td>Photometric (semi-quantitative)</td></tr>
+        <tr><th>Setting</th><td>Point of care</td><td>Laboratory</td></tr>
+        <tr><th>Cost per test</th><td>Lower</td><td>Higher (but lower per-sample in batch)</td></tr>
       </tbody>
     </table>
   </div>
 
-  <p>
-    Rapid tests excel at point-of-care triage; ELISA suits centralized laboratory batch testing. See
-    <a href="/knowledge/testing-methodologies/">testing methodologies</a> for more.
-  </p>
+  <h2>What each method detects</h2>
+  <ul>
+    <li><strong>Rapid test:</strong> antigen or antibody via labeled-antibody capture on a membrane — visual line.</li>
+    <li><strong>ELISA:</strong> enzyme-linked antibody reaction read by a plate reader — gives an optical-density value.</li>
+  </ul>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>Rapid:</strong> fast, portable, no instrument, immediate single-patient decisions.</li>
+    <li><strong>ELISA:</strong> higher throughput, quantitative/semi-quantitative, often higher sensitivity, objective readout.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>Rapid:</strong> qualitative, lower sensitivity, subjective reading.</li>
+    <li><strong>ELISA:</strong> lab-bound, longer turnaround, more complex workflow.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>Rapid false negative:</strong> low antigen/antibody load; faint lines misread.</li>
+    <li><strong>ELISA false positive:</strong> cross-reactivity; both require confirmatory testing where relevant.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Both are screening tools; confirmation uses molecular (PCR) or reference methods depending on the analyte.</p>
+
+  <h2>Procurement considerations</h2>
+  <p>Distributors pair rapid tests (screening) with ELISA or molecular confirmation (reference) to cover both speed and accuracy.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/comparisons/rapid-test-vs-pcr/">Rapid Test vs PCR</a></li>
+    <li><a href="/comparisons/antigen-vs-antibody/">Antigen vs Antibody</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

@@ -3,33 +3,66 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Rapid Test vs PCR — Differences in Speed, Sensitivity & Use | Progene Bio"
-  description="Rapid antigen/antibody test vs PCR (molecular) — how they differ in principle, speed, sensitivity and when each is appropriate."
+  title="Rapid Test vs PCR — When Speed vs Sensitivity Matters | Progene Bio"
+  description="Rapid antigen test vs PCR molecular test — time, sensitivity, cost, strengths, limitations and how to choose for diagnosis."
   canonical="/comparisons/rapid-test-vs-pcr/"
 >
 
   <h1>Rapid Test vs PCR</h1>
 
+  <p><strong>Direct answer:</strong> Rapid antigen tests give a result in minutes at the point of care but are less sensitive; PCR detects nucleic acid with higher sensitivity in a laboratory. Use rapid tests to screen fast and PCR to confirm.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
-      <thead><tr><th></th><th>Rapid test (lateral flow)</th><th>PCR (molecular)</th></tr></thead>
+      <thead><tr><th></th><th>Rapid test (lateral flow)</th><th>PCR</th></tr></thead>
       <tbody>
-        <tr><th>Target</th><td>Antigen or antibody</td><td>Nucleic acid (RNA/DNA)</td></tr>
-        <tr><th>Time to result</th><td>Minutes (3–20)</td><td>Hours (lab) or ~30–60 min (POC)</td></tr>
-        <tr><th>Where</th><td>Point of care, no instrument</td><td>Laboratory / instrument</td></tr>
-        <tr><th>Sensitivity</th><td>Lower (triage-grade)</td><td>Higher (gold standard)</td></tr>
+        <tr><th>Target</th><td>Antigen / antibody</td><td>Nucleic acid (RNA/DNA)</td></tr>
+        <tr><th>Time to result</th><td>10–30 min</td><td>Hours</td></tr>
+        <tr><th>Sensitivity</th><td>Lower</td><td>Higher</td></tr>
+        <tr><th>Setting</th><td>Point of care</td><td>Laboratory</td></tr>
+        <tr><th>Instrument</th><td>None (visual read)</td><td>Thermal cycler</td></tr>
         <tr><th>Cost</th><td>Lower</td><td>Higher</td></tr>
       </tbody>
     </table>
   </div>
 
-  <h2>When to use each</h2>
+  <h2>What each method detects</h2>
   <ul>
-    <li><strong>Rapid test:</strong> screening, triage, resource-limited settings, rapid public-health surveys.</li>
-    <li><strong>PCR:</strong> confirmation, low-viral-load cases, and where high sensitivity is required.</li>
-    <li>A negative rapid test during high clinical suspicion should be confirmed by molecular testing.</li>
+    <li><strong>Rapid test:</strong> a target protein (antigen) or the immune response (antibody) — visible line readout.</li>
+    <li><strong>PCR:</strong> amplifies and detects pathogen genetic material — the reference standard for many infections.</li>
   </ul>
 
-  <p>Rapid tests are a triage aid, not a replacement for confirmatory laboratory testing.</p>
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>Rapid:</strong> fast, portable, instrument-free, low cost, easy to deploy in field and clinic.</li>
+    <li><strong>PCR:</strong> highest sensitivity/specificity, detects low pathogen load, quantifiable.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>Rapid:</strong> lower sensitivity, window period, subjective visual reading.</li>
+    <li><strong>PCR:</strong> lab infrastructure, trained staff, longer turnaround, higher cost.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>Rapid false negative:</strong> low viral/antigen load, testing outside the window.</li>
+    <li><strong>PCR false negative:</strong> sample degradation or collection error; false positives from contamination are rare but possible.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Rapid tests are screening-grade; PCR is typically the confirmatory method when accuracy is critical.</p>
+
+  <h2>Procurement considerations</h2>
+  <p>Distributors often supply rapid tests for screening volume and partner with labs for PCR confirmation.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/comparisons/rapid-test-vs-elisa/">Rapid Test vs ELISA</a></li>
+    <li><a href="/comparisons/ns1-vs-pcr/">Dengue NS1 vs PCR</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

@@ -10,11 +10,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   <h1>Malaria Pf vs Pf/Pan Rapid Test</h1>
 
+  <p><strong>Direct answer:</strong> A Pf-only test detects P. falciparum via HRP2; a Pf/Pan test adds a pan-malarial line (pLDH) that catches the non-falciparum species (P. vivax, ovale, malariae). Pf/Pan is the safer default because malaria treatment differs by species.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
       <thead><tr><th></th><th>Pf only</th><th>Pf/Pan</th></tr></thead>
       <tbody>
-        <tr><th>Detects</th><td>P. falciparum (HRP2)</td><td>P. falciparum + all species (HRP2 + pLDH)</td></tr>
+        <tr><th>Detects</th><td>P. falciparum (HRP2)</td><td>P. falciparum (HRP2) + all species (pLDH)</td></tr>
         <tr><th>Coverage</th><td>Falciparum only</td><td>Falciparum + vivax/ovale/malariae</td></tr>
         <tr><th>Misses</th><td>Non-falciparum malaria</td><td>— (Pan line catches others)</td></tr>
         <tr><th>Best for</th><td>Falciparum-endemic regions</td><td>Mixed-species regions, species differentiation</td></tr>
@@ -22,10 +25,43 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </table>
   </div>
 
-  <p>
-    Pf/Pan is the safer default because it detects non-falciparum species too — treatment differs by
-    species. See <a href="/products/malaria-pf/">Malaria Pf</a> and
-    <a href="/products/malaria-pf-pan/">Malaria Pf/Pan</a>.
-  </p>
+  <h2>What each test detects</h2>
+  <ul>
+    <li><strong>Pf (HRP2):</strong> histidine-rich protein 2, specific to P. falciparum.</li>
+    <li><strong>Pan (pLDH):</strong> lactate dehydrogenase common to all Plasmodium species.</li>
+  </ul>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>Pf:</strong> high sensitivity for falciparum; lower cost.</li>
+    <li><strong>Pf/Pan:</strong> species differentiation, full malaria coverage in one device.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>Pf:</strong> HRP2 deletion can cause false negatives; misses non-falciparum.</li>
+    <li><strong>Pf/Pan:</strong> slightly higher cost; HRP2 persists after treatment (positive ≠ treatment failure).</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>False negative:</strong> low parasitemia, HRP2 gene deletion (Pf).</li>
+    <li><strong>False positive:</strong> persistent HRP2 antigenemia after treatment.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Microscopy remains the reference; RDTs support rapid field diagnosis and species-guided treatment.</p>
+
+  <h2>Procurement considerations</h2>
+  <p>For mixed-species or P. vivax regions, stock Pf/Pan. Confirm room-temperature stability and CE scope for tender programs.</p>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/products/malaria-pf/">Malaria Pf</a></li>
+    <li><a href="/products/malaria-pf-pan/">Malaria Pf/Pan</a></li>
+    <li><a href="/comparisons/malaria-pf-vs-pv/">Malaria Pf vs Pv</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>
