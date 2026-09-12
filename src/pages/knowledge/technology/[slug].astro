@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import technologyContent from '../../../data/technology-content.json';
+
+export function getStaticPaths() {
+  return Object.entries(technologyContent).map(([slug, t]) => ({ params: { slug }, props: { slug, t } }));
+}
+
+const { slug, t } = Astro.props;
+---
+
+<BaseLayout
+  title={`${t.name} — IVD Technology Explained | Progene Bio`}
+  description={`${t.name}: ${t.what}`}
+  canonical={`/knowledge/technology/${slug}/`}
+>
+
+  <p><a href="/knowledge/">← Knowledge base</a></p>
+  <h1>{t.name}</h1>
+
+  <div class="card">
+    <h2 style="margin-top:0;">What it is</h2>
+    <p>{t.what}</p>
+    <h2>How it works</h2>
+    <p>{t.how}</p>
+    <h2>Why it matters</h2>
+    <p>{t.why_matters}</p>
+  </div>
+
+  <h2>Key components</h2>
+  <ul>
+    {t.components.map((c) => <li>{c}</li>)}
+  </ul>
+
+  <div class="card" style="margin-top:16px;">
+    <p style="margin:0;"><strong>See this technology in our products →</strong> <a href="/products/">Browse catalog</a></p>
+  </div>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": t.name,
+    "description": t.what
+  })} />
+
+</BaseLayout>
