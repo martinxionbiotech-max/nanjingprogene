@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /*?*
+Disallow: /admin/
+Disallow: /rfq/thanks/
+
+Sitemap: https://progenebio.net/sitemap-index.xml
