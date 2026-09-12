@@ -4,6 +4,7 @@ import products from '../../data/products.json';
 import skuCatalog from '../../data/sku-catalog.json';
 import productContent from '../../data/product-content.json';
 import productContentP2 from '../../data/product-content-p2.json';
+import productContentP3 from '../../data/product-content-p3.json';
 
 export function getStaticPaths() {
   return products.products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
@@ -12,7 +13,7 @@ export function getStaticPaths() {
 const { product } = Astro.props;
 const series = products.series.find((s) => s.id === product.series);
 const seriesSkus = skuCatalog[product.series] ?? [];
-const content = productContent[product.id] ?? productContentP2[product.id];
+const content = productContent[product.id] ?? productContentP2[product.id] ?? productContentP3[product.id];
 // rough match: SKUs whose product name contains the canonical target keyword
 const matchTerms = product.name.replace(/ Rapid Test.*| Test.*| Rapid.*/g, "").trim().split(" ").filter((w) => w.length > 3);
 const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.toLowerCase().includes(t.toLowerCase()))).slice(0, 12);

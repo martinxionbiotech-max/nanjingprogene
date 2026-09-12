@@ -1,0 +1,248 @@
+{
+  "doa-oxy": {
+    "intended_use": "Qualitative detection of Oxycodone in urine for drug screening.",
+    "clinical_context": "Oxycodone is a semi-synthetic opioid analgesic with high misuse potential. Cut-off typically 100.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-bup": {
+    "intended_use": "Qualitative detection of Buprenorphine in urine for drug screening.",
+    "clinical_context": "Buprenorphine is an opioid used in medication-assisted treatment (MAT), also tested to confirm compliance. Cut-off typically 5.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-tml": {
+    "intended_use": "Qualitative detection of Tramadol in urine for drug screening.",
+    "clinical_context": "Tramadol is a synthetic opioid analgesic with misuse potential. Cut-off typically 100.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-mdma": {
+    "intended_use": "Qualitative detection of MDMA (Ecstasy) in urine for drug screening.",
+    "clinical_context": "MDMA is a stimulant/entactogen used recreationally. Cut-off typically 500.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-pcp": {
+    "intended_use": "Qualitative detection of Phencyclidine (PCP) in urine for drug screening.",
+    "clinical_context": "PCP is a dissociative hallucinogen. Cut-off typically 25.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-bar": {
+    "intended_use": "Qualitative detection of Barbiturates in urine for drug screening.",
+    "clinical_context": "Barbiturates are sedative-hypnotic drugs with overdose risk. Cut-off typically 300.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-tca": {
+    "intended_use": "Qualitative detection of Tricyclic antidepressants in urine for drug screening.",
+    "clinical_context": "TCAs are antidepressants with significant overdose toxicity. Cut-off typically 1000.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-6mam": {
+    "intended_use": "Qualitative detection of 6-Monoacetylmorphine (6-MAM) in urine for drug screening.",
+    "clinical_context": "6-MAM is the heroin-specific metabolite, confirming heroin (not just opiate) use. Cut-off typically 10.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-etg": {
+    "intended_use": "Qualitative detection of Ethyl glucuronide (EtG) in urine for drug screening.",
+    "clinical_context": "EtG is an alcohol metabolite that detects recent alcohol use over a longer window. Cut-off typically 500.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-alc": {
+    "intended_use": "Qualitative detection of Alcohol (ethanol) in urine for drug screening.",
+    "clinical_context": "Alcohol testing supports workplace and clinical screening. Cut-off typically 0.02%.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-cot": {
+    "intended_use": "Qualitative detection of Cotinine (nicotine metabolite) in urine for drug screening.",
+    "clinical_context": "Cotinine confirms tobacco/nicotine exposure. Cut-off typically 200.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-alp": {
+    "intended_use": "Qualitative detection of Alprazolam in urine for drug screening.",
+    "clinical_context": "Alprazolam is a short-acting benzodiazepine. Cut-off typically 300.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-clo": {
+    "intended_use": "Qualitative detection of Clonazepam in urine for drug screening.",
+    "clinical_context": "Clonazepam is a benzodiazepine used for anxiety and seizures. Cut-off typically 300.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-dia": {
+    "intended_use": "Qualitative detection of Diazepam in urine for drug screening.",
+    "clinical_context": "Diazepam is a long-acting benzodiazepine. Cut-off typically 300.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-car": {
+    "intended_use": "Qualitative detection of Carisoprodol in urine for drug screening.",
+    "clinical_context": "Carisoprodol is a muscle relaxant with misuse potential. Cut-off typically 500.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-abp": {
+    "intended_use": "Qualitative detection of AB-PINACA in urine for drug screening.",
+    "clinical_context": "AB-PINACA is a synthetic cannabinoid (K2/Spice). Cut-off typically 50.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-cfyl": {
+    "intended_use": "Qualitative detection of Carfentanyl in urine for drug screening.",
+    "clinical_context": "Carfentanyl is an ultra-potent synthetic opioid. Cut-off typically 5.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-eddp": {
+    "intended_use": "Qualitative detection of EDDP in urine for drug screening.",
+    "clinical_context": "EDDP is the methadone metabolite, distinguishing methadone use from other opiates. Cut-off typically 100.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-caffeine": {
+    "intended_use": "Qualitative detection of Caffeine in urine for drug screening.",
+    "clinical_context": "Caffeine screening for stimulant detection. Cut-off typically 200.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-cnb": {
+    "intended_use": "Qualitative detection of Cannabinol (CNB) in urine for drug screening.",
+    "clinical_context": "Cannabinol is a cannabis marker used in some testing protocols. Cut-off typically 50.",
+    "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "hev-igg-igm": {
+    "intended_use": "Qualitative detection of Hepatitis E virus antibodies.",
+    "clinical_context": "HEV serology supports hepatitis E diagnosis, especially in endemic regions.",
+    "limitations": "Serology is supportive; molecular confirmation where available.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "ebv": {
+    "intended_use": "Qualitative detection of Epstein-Barr virus antibodies (VCA/EBNA).",
+    "clinical_context": "EBV serology supports mononucleosis diagnosis.",
+    "limitations": "Interpret antibody pattern with clinical context.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "astrovirus": {
+    "intended_use": "Qualitative detection of Astrovirus antigen.",
+    "clinical_context": "Astrovirus causes gastroenteritis, mainly in children.",
+    "limitations": "Antigen detection indicates active shedding.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "c-diff-gdh": {
+    "intended_use": "Qualitative detection of Clostridium difficile GDH antigen.",
+    "clinical_context": "GDH is a sensitive screening marker for C. difficile; combine with toxin testing.",
+    "limitations": "GDH alone cannot distinguish toxigenic from non-toxigenic strains.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "c-diff-toxin": {
+    "intended_use": "Qualitative detection of C. difficile toxin A and B.",
+    "clinical_context": "Toxin A/B detection confirms toxigenic C. difficile.",
+    "limitations": "Combine with GDH for a full two-step algorithm.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "giardia": {
+    "intended_use": "Qualitative detection of Giardia lamblia antigen.",
+    "clinical_context": "Giardia is a common intestinal parasite causing diarrhea.",
+    "limitations": "Antigen detection indicates active infection.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "cryptosporidium": {
+    "intended_use": "Qualitative detection of Cryptosporidium antigen.",
+    "clinical_context": "Cryptosporidium causes waterborne diarrheal disease.",
+    "limitations": "Antigen detection indicates active infection.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "entamoeba": {
+    "intended_use": "Qualitative detection of Entamoeba histolytica antigen.",
+    "clinical_context": "E. histolytica causes amebic dysentery and liver abscess.",
+    "limitations": "Distinguish from non-pathogenic E. dispar where relevant.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "brucella": {
+    "intended_use": "Qualitative detection of Brucella antibodies.",
+    "clinical_context": "Brucellosis is a zoonotic bacterial infection; serology supports diagnosis.",
+    "limitations": "Serology is supportive; culture is the reference.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "campylobacter": {
+    "intended_use": "Qualitative detection of Campylobacter antigen.",
+    "clinical_context": "Campylobacter is a leading bacterial cause of gastroenteritis.",
+    "limitations": "Antigen detection is a screening aid.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "legionella": {
+    "intended_use": "Qualitative detection of Legionella pneumophila antigen.",
+    "clinical_context": "Legionella urinary antigen is the standard rapid diagnostic for Legionnaires' disease.",
+    "limitations": "Detects serogroup 1 primarily.",
+    "procurement": "Specimen: Urine. Format: cassette. CE-marked line."
+  },
+  "strep-pneumoniae": {
+    "intended_use": "Qualitative detection of Streptococcus pneumoniae antigen.",
+    "clinical_context": "S. pneumoniae urinary antigen supports pneumococcal pneumonia diagnosis.",
+    "limitations": "Antigen detection is a supportive aid.",
+    "procurement": "Specimen: Urine. Format: cassette. CE-marked line."
+  },
+  "mycoplasma-pn": {
+    "intended_use": "Qualitative detection of Mycoplasma pneumoniae IgM.",
+    "clinical_context": "M. pneumoniae is a common cause of atypical pneumonia.",
+    "limitations": "Serology timing affects sensitivity.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "lyme": {
+    "intended_use": "Qualitative detection of Borrelia antibodies.",
+    "clinical_context": "Lyme serology supports tick-borne Borrelia diagnosis.",
+    "limitations": "Two-tier testing is recommended for confirmation.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "scrub-typhus": {
+    "intended_use": "Qualitative detection of Orientia tsutsugamushi antibodies.",
+    "clinical_context": "Scrub typhus serology supports diagnosis in endemic Asia-Pacific regions.",
+    "limitations": "Serology cross-reactivity possible.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "tetanus": {
+    "intended_use": "Qualitative detection of Clostridium tetani antibody.",
+    "clinical_context": "Tetanus antibody testing assesses immunity status.",
+    "limitations": "Interpret with vaccination history.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "salmonella-typhi-ag": {
+    "intended_use": "Qualitative detection of Salmonella Typhi antigen.",
+    "clinical_context": "Salmonella Typhi antigen detection supports typhoid diagnosis.",
+    "limitations": "Culture is the reference.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "combo-hiv-syphilis": {
+    "intended_use": "Qualitative detection of HIV antibodies + Treponema pallidum antibodies.",
+    "clinical_context": "Combined HIV/syphilis screening for antenatal and blood-bank programs.",
+    "limitations": "Reactive results require confirmation per national algorithms.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "combo-hcv-hiv": {
+    "intended_use": "Qualitative detection of HCV antibodies + HIV antibodies.",
+    "clinical_context": "Combined HCV/HIV screening for key-population programs.",
+    "limitations": "Anti-HCV indicates exposure, not active infection.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "combo-hbsag-hcv-hiv-syphilis": {
+    "intended_use": "Qualitative detection of HBsAg + HCV + HIV + syphilis antibodies.",
+    "clinical_context": "4-in-1 screening panel for blood-bank and antenatal programs.",
+    "limitations": "Each marker follows its own confirmation pathway.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "combo-hbsag-hcv": {
+    "intended_use": "Qualitative detection of HBsAg + HCV antibodies.",
+    "clinical_context": "Combined HBV/HCV screening.",
+    "limitations": "Anti-HCV indicates exposure, not active infection.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  }
+}

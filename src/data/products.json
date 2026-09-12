@@ -1263,6 +1263,561 @@
       "specimen": [],
       "ce": null,
       "priority": "P4"
+    },
+    {
+      "id": "doa-oxy",
+      "name": "Oxycodone Rapid Test",
+      "series": "doa",
+      "target": "Oxycodone",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-bup",
+      "name": "Buprenorphine Rapid Test",
+      "series": "doa",
+      "target": "Buprenorphine",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-tml",
+      "name": "Tramadol Rapid Test",
+      "series": "doa",
+      "target": "Tramadol",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-mdma",
+      "name": "MDMA (Ecstasy) Rapid Test",
+      "series": "doa",
+      "target": "MDMA (Ecstasy)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-pcp",
+      "name": "PCP Rapid Test",
+      "series": "doa",
+      "target": "Phencyclidine (PCP)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-bar",
+      "name": "Barbiturates (BAR) Rapid Test",
+      "series": "doa",
+      "target": "Barbiturates",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-tca",
+      "name": "Tricyclic Antidepressants (TCA) Rapid Test",
+      "series": "doa",
+      "target": "Tricyclic antidepressants",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-6mam",
+      "name": "6-MAM (Heroin Metabolite) Rapid Test",
+      "series": "doa",
+      "target": "6-Monoacetylmorphine (6-MAM)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-etg",
+      "name": "Ethyl Glucuronide (ETG) Rapid Test",
+      "series": "doa",
+      "target": "Ethyl glucuronide (EtG)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-alc",
+      "name": "Alcohol (ALC) Rapid Test",
+      "series": "doa",
+      "target": "Alcohol (ethanol)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-cot",
+      "name": "Cotinine (COT) Rapid Test",
+      "series": "doa",
+      "target": "Cotinine (nicotine metabolite)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-alp",
+      "name": "Alprazolam (ALP) Rapid Test",
+      "series": "doa",
+      "target": "Alprazolam",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-clo",
+      "name": "Clonazepam (CLO) Rapid Test",
+      "series": "doa",
+      "target": "Clonazepam",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-dia",
+      "name": "Diazepam (DIA) Rapid Test",
+      "series": "doa",
+      "target": "Diazepam",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-car",
+      "name": "Carisoprodol (CAR) Rapid Test",
+      "series": "doa",
+      "target": "Carisoprodol",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-abp",
+      "name": "AB-PINACA (Synthetic Cannabinoid) Rapid Test",
+      "series": "doa",
+      "target": "AB-PINACA",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-cfyl",
+      "name": "Carfentanyl (CFYL) Rapid Test",
+      "series": "doa",
+      "target": "Carfentanyl",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-eddp",
+      "name": "EDDP (Methadone Metabolite) Rapid Test",
+      "series": "doa",
+      "target": "EDDP",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-caffeine",
+      "name": "Caffeine (CAF) Rapid Test",
+      "series": "doa",
+      "target": "Caffeine",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "doa-cnb",
+      "name": "Cannabinol (CNB) Rapid Test",
+      "series": "doa",
+      "target": "Cannabinol (CNB)",
+      "disease": "Drug of abuse screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "hev-igg-igm",
+      "name": "HEV IgG/IgM Rapid Test",
+      "series": "infectious",
+      "target": "Hepatitis E virus antibodies",
+      "disease": "Hepatitis E",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "ebv",
+      "name": "EBV Antibody Rapid Test",
+      "series": "infectious",
+      "target": "Epstein-Barr virus antibodies (VCA/EBNA)",
+      "disease": "Infectious mononucleosis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "astrovirus",
+      "name": "Astrovirus Rapid Test",
+      "series": "infectious",
+      "target": "Astrovirus antigen",
+      "disease": "Astrovirus gastroenteritis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "c-diff-gdh",
+      "name": "C. difficile GDH Rapid Test",
+      "series": "infectious",
+      "target": "Clostridium difficile GDH antigen",
+      "disease": "C. difficile infection",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "c-diff-toxin",
+      "name": "C. difficile Toxin A+B Rapid Test",
+      "series": "infectious",
+      "target": "C. difficile toxin A and B",
+      "disease": "C. difficile infection (confirmatory)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "giardia",
+      "name": "Giardia Rapid Test",
+      "series": "infectious",
+      "target": "Giardia lamblia antigen",
+      "disease": "Giardiasis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "cryptosporidium",
+      "name": "Cryptosporidium Rapid Test",
+      "series": "infectious",
+      "target": "Cryptosporidium antigen",
+      "disease": "Cryptosporidiosis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "entamoeba",
+      "name": "Entamoeba histolytica Rapid Test",
+      "series": "infectious",
+      "target": "Entamoeba histolytica antigen",
+      "disease": "Amebiasis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "brucella",
+      "name": "Brucella Antibody Rapid Test",
+      "series": "infectious",
+      "target": "Brucella antibodies",
+      "disease": "Brucellosis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "campylobacter",
+      "name": "Campylobacter Rapid Test",
+      "series": "infectious",
+      "target": "Campylobacter antigen",
+      "disease": "Campylobacter enteritis",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "legionella",
+      "name": "Legionella pneumophila Rapid Test",
+      "series": "infectious",
+      "target": "Legionella pneumophila antigen",
+      "disease": "Legionnaires' disease",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "strep-pneumoniae",
+      "name": "S. pneumoniae Antigen Rapid Test",
+      "series": "infectious",
+      "target": "Streptococcus pneumoniae antigen",
+      "disease": "Pneumococcal pneumonia",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "mycoplasma-pn",
+      "name": "Mycoplasma pneumoniae IgM Rapid Test",
+      "series": "infectious",
+      "target": "Mycoplasma pneumoniae IgM",
+      "disease": "Atypical pneumonia",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "lyme",
+      "name": "Lyme IgG/IgM Rapid Test",
+      "series": "infectious",
+      "target": "Borrelia antibodies",
+      "disease": "Lyme disease",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "scrub-typhus",
+      "name": "Scrub Typhus IgG/IgM Rapid Test",
+      "series": "infectious",
+      "target": "Orientia tsutsugamushi antibodies",
+      "disease": "Scrub typhus",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "tetanus",
+      "name": "Tetanus Antibody Rapid Test",
+      "series": "infectious",
+      "target": "Clostridium tetani antibody",
+      "disease": "Tetanus immunity",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "salmonella-typhi-ag",
+      "name": "Salmonella Typhi Antigen Rapid Test",
+      "series": "infectious",
+      "target": "Salmonella Typhi antigen",
+      "disease": "Typhoid fever",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "combo-hiv-syphilis",
+      "name": "HIV 1/2 + Syphilis Combo Rapid Test",
+      "series": "infectious",
+      "target": "HIV antibodies + Treponema pallidum antibodies",
+      "disease": "HIV and syphilis co-screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "combo-hcv-hiv",
+      "name": "HCV + HIV Combo Rapid Test",
+      "series": "infectious",
+      "target": "HCV antibodies + HIV antibodies",
+      "disease": "HCV/HIV co-screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "combo-hbsag-hcv-hiv-syphilis",
+      "name": "HBsAg/HCV/HIV/Syphilis Combo Rapid Test",
+      "series": "infectious",
+      "target": "HBsAg + HCV + HIV + syphilis antibodies",
+      "disease": "Transfusion-transmissible infection screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "combo-hbsag-hcv",
+      "name": "HBsAg + HCV Combo Rapid Test",
+      "series": "infectious",
+      "target": "HBsAg + HCV antibodies",
+      "disease": "Hepatitis B/C co-screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Whole blood",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
     }
   ],
   "hubs": [
