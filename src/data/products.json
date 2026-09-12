@@ -110,7 +110,8 @@
         "P"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "dengue-igg-igm",
@@ -125,7 +126,8 @@
         "P"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "dengue-combo",
@@ -140,7 +142,8 @@
         "P"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "malaria-pf",
@@ -153,7 +156,8 @@
         "WB"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "malaria-pf-pan",
@@ -166,7 +170,8 @@
         "WB"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "malaria-pf-pv",
@@ -179,7 +184,8 @@
         "WB"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "hiv-12",
@@ -193,8 +199,9 @@
         "S",
         "P"
       ],
-      "ce": false,
-      "priority": "P1"
+      "ce": true,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "hiv-p24",
@@ -209,7 +216,8 @@
         "P"
       ],
       "ce": false,
-      "priority": "P2"
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "hbsag",
@@ -224,7 +232,8 @@
         "P"
       ],
       "ce": false,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "hcv",
@@ -239,7 +248,8 @@
         "P"
       ],
       "ce": false,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "hav-igm",
@@ -252,8 +262,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "hev",
@@ -266,8 +277,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "hpylori-ab",
@@ -282,7 +294,8 @@
         "P"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "hpylori-ag",
@@ -295,7 +308,8 @@
         "Feces"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "syphilis",
@@ -310,7 +324,8 @@
         "P"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "strep-a",
@@ -322,8 +337,9 @@
       "specimen": [
         "Throat swab"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "influenza-ab",
@@ -337,7 +353,8 @@
         "Nasal aspirate"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "rsv",
@@ -350,8 +367,9 @@
         "NP swab",
         "Nasal aspirate"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "covid-ag",
@@ -365,7 +383,8 @@
         "Nasal swab"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "covid-flu-rsv",
@@ -378,7 +397,8 @@
         "NP swab"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "rotavirus",
@@ -390,8 +410,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "adenovirus",
@@ -403,8 +424,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "rota-adeno",
@@ -416,8 +438,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "norovirus",
@@ -429,8 +452,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "typhoid",
@@ -444,8 +468,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "cholera-o1-o139",
@@ -457,8 +482,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "chikungunya",
@@ -472,8 +498,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "zika",
@@ -487,8 +514,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "leptospira",
@@ -502,8 +530,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "leishmania",
@@ -517,8 +546,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "tb-igg-igm",
@@ -532,8 +562,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "mycoplasma",
@@ -547,8 +578,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "chagas",
@@ -562,8 +594,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "filariasis",
@@ -577,8 +610,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "troponin-i",
@@ -592,8 +626,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "troponin-t",
@@ -607,8 +642,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "ck-mb",
@@ -622,8 +658,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "myoglobin",
@@ -637,8 +674,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "h-fabp",
@@ -652,8 +690,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "d-dimer",
@@ -666,8 +705,9 @@
         "WB",
         "P"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "crp",
@@ -681,8 +721,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "pct",
@@ -696,8 +737,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "saa",
@@ -711,8 +753,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "psa",
@@ -726,8 +769,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "afp",
@@ -741,8 +785,9 @@
         "S",
         "P"
       ],
-      "ce": null,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "cea",
@@ -756,8 +801,9 @@
         "S",
         "P"
       ],
-      "ce": null,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "hcg",
@@ -771,7 +817,8 @@
         "Serum"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "lh",
@@ -784,7 +831,8 @@
         "Urine"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "fsh",
@@ -796,8 +844,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "ffn",
@@ -809,8 +858,9 @@
       "specimen": [
         "Vaginal secretion"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "igfbp-1",
@@ -822,8 +872,9 @@
       "specimen": [
         "Vaginal secretion"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "hpv-16-18",
@@ -835,8 +886,9 @@
       "specimen": [
         "Cervical swab"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "fob",
@@ -849,7 +901,8 @@
         "Feces"
       ],
       "ce": true,
-      "priority": "P2"
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "ferritin",
@@ -863,8 +916,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "calprotectin",
@@ -876,8 +930,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "lactoferrin",
@@ -889,8 +944,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "hba1c",
@@ -902,8 +958,9 @@
       "specimen": [
         "WB"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "vitamin-d",
@@ -915,8 +972,9 @@
       "specimen": [
         "WB"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "tsh",
@@ -930,8 +988,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "total-ige",
@@ -945,8 +1004,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "doa-thc",
@@ -986,7 +1046,7 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
+      "ce": false,
       "fda": true,
       "priority": "P1"
     },
@@ -1028,8 +1088,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P1"
+      "ce": false,
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "doa-bzo",
@@ -1041,7 +1102,7 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
+      "ce": false,
       "fda": true,
       "priority": "P1"
     },
@@ -1055,8 +1116,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "doa-fentanyl",
@@ -1068,8 +1130,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "doa-ketamine",
@@ -1082,7 +1145,8 @@
         "Urine"
       ],
       "ce": true,
-      "priority": "P2"
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "doa-xylazine",
@@ -1094,8 +1158,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P2"
+      "ce": false,
+      "priority": "P2",
+      "fda": false
     },
     {
       "id": "doa-multi-panel",
@@ -1108,7 +1173,8 @@
         "Urine"
       ],
       "ce": true,
-      "priority": "P1"
+      "priority": "P1",
+      "fda": false
     },
     {
       "id": "canine-heartworm",
@@ -1121,8 +1187,9 @@
         "Whole blood",
         "Serum"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "canine-parvovirus",
@@ -1134,8 +1201,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "canine-distemper",
@@ -1148,8 +1216,9 @@
         "Whole blood",
         "Serum"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "feline-felv-fiv",
@@ -1162,8 +1231,9 @@
         "Whole blood",
         "Serum"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "bovine-pregnancy",
@@ -1176,8 +1246,9 @@
         "Whole blood",
         "Serum"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "bovine-mastitis",
@@ -1189,8 +1260,9 @@
       "specimen": [
         "Milk"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "urine-reagent-strip",
@@ -1202,8 +1274,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "fia-quantitative",
@@ -1217,8 +1290,9 @@
         "S",
         "P"
       ],
-      "ce": true,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "lfia-reader",
@@ -1228,8 +1302,9 @@
       "disease": "Instrument",
       "method": "instrument",
       "specimen": [],
-      "ce": null,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "urine-analyzer",
@@ -1239,8 +1314,9 @@
       "disease": "Instrument",
       "method": "instrument",
       "specimen": [],
-      "ce": null,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "reader-analyzer",
@@ -1250,8 +1326,9 @@
       "disease": "Instrument",
       "method": "instrument",
       "specimen": [],
-      "ce": null,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "fluorescence-analyzer",
@@ -1261,8 +1338,9 @@
       "disease": "Instrument",
       "method": "instrument",
       "specimen": [],
-      "ce": null,
-      "priority": "P4"
+      "ce": false,
+      "priority": "P4",
+      "fda": false
     },
     {
       "id": "doa-oxy",
@@ -1274,8 +1352,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-bup",
@@ -1287,8 +1366,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-tml",
@@ -1300,8 +1380,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-mdma",
@@ -1314,7 +1395,8 @@
         "Urine"
       ],
       "ce": true,
-      "priority": "P3"
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-pcp",
@@ -1326,8 +1408,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-bar",
@@ -1339,8 +1422,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-tca",
@@ -1352,8 +1436,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-6mam",
@@ -1365,8 +1450,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-etg",
@@ -1378,8 +1464,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-alc",
@@ -1391,8 +1478,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-cot",
@@ -1404,8 +1492,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-alp",
@@ -1417,8 +1506,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-clo",
@@ -1430,8 +1520,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-dia",
@@ -1443,8 +1534,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-car",
@@ -1456,8 +1548,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-abp",
@@ -1469,8 +1562,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-cfyl",
@@ -1482,8 +1576,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-eddp",
@@ -1495,8 +1590,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-caffeine",
@@ -1508,8 +1604,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "doa-cnb",
@@ -1521,8 +1618,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "ebv",
@@ -1536,8 +1634,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "astrovirus",
@@ -1549,8 +1648,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "c-diff-gdh",
@@ -1562,8 +1662,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "c-diff-toxin",
@@ -1575,8 +1676,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "giardia",
@@ -1588,8 +1690,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "cryptosporidium",
@@ -1601,8 +1704,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "entamoeba",
@@ -1614,8 +1718,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "brucella",
@@ -1629,8 +1734,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "campylobacter",
@@ -1642,8 +1748,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "legionella",
@@ -1655,8 +1762,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "strep-pneumoniae",
@@ -1668,8 +1776,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "lyme",
@@ -1683,8 +1792,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "scrub-typhus",
@@ -1698,8 +1808,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "tetanus",
@@ -1713,8 +1824,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "salmonella-typhi-ag",
@@ -1726,8 +1838,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "combo-hiv-syphilis",
@@ -1741,8 +1854,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "combo-hcv-hiv",
@@ -1756,8 +1870,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "combo-hbsag-hcv-hiv-syphilis",
@@ -1771,8 +1886,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "combo-hbsag-hcv",
@@ -1786,8 +1902,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "cmv-igg-igm",
@@ -1801,8 +1918,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "rubella",
@@ -1816,8 +1934,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "toxo",
@@ -1831,8 +1950,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "torch",
@@ -1846,8 +1966,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "hsv",
@@ -1861,8 +1982,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "chlamydia",
@@ -1875,8 +1997,9 @@
         "Swab",
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "gonorrhea",
@@ -1889,8 +2012,9 @@
         "Swab",
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "gc-chlamydia-combo",
@@ -1903,8 +2027,9 @@
         "Swab",
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "strep-b",
@@ -1916,8 +2041,9 @@
       "specimen": [
         "Swab"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "trichomonas",
@@ -1929,8 +2055,9 @@
       "specimen": [
         "Swab"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "candida",
@@ -1942,8 +2069,9 @@
       "specimen": [
         "Swab"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "vaginal-ph",
@@ -1955,8 +2083,9 @@
       "specimen": [
         "Swab"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "nt-probnp",
@@ -1970,8 +2099,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "hb-hp",
@@ -1983,8 +2113,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "calprotectin-fob",
@@ -1996,8 +2127,9 @@
       "specimen": [
         "Feces"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "microalbumin",
@@ -2009,8 +2141,9 @@
       "specimen": [
         "Urine"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "rheumatoid-factor",
@@ -2024,8 +2157,9 @@
         "Serum",
         "Plasma"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "sp-10",
@@ -2037,8 +2171,9 @@
       "specimen": [
         "Semen"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "sperm-concentration",
@@ -2050,8 +2185,9 @@
       "specimen": [
         "Semen"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "blood-stain",
@@ -2064,8 +2200,9 @@
         "Swab",
         "Other"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "semen-detection",
@@ -2078,8 +2215,9 @@
         "Swab",
         "Other"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     },
     {
       "id": "breast-milk-alcohol",
@@ -2091,8 +2229,9 @@
       "specimen": [
         "Breast milk"
       ],
-      "ce": true,
-      "priority": "P3"
+      "ce": false,
+      "priority": "P3",
+      "fda": false
     }
   ],
   "hubs": [
