@@ -1,62 +1,170 @@
 {
   "dengue": [
-    {"q": "How accurate are dengue rapid tests?", "a": "NS1 antigen tests are most sensitive in the first week; IgM/IgG serology is more reliable later. Combined NS1+IgM/IgG devices offer the best overall detection across the illness course. All rapid results are screening-grade and may need confirmation."},
-    {"q": "Can a dengue rapid test distinguish primary from secondary infection?", "a": "IgG/IgM patterns provide clues (IgM-dominant suggests primary; rapid IgG rise suggests secondary), but a rapid test alone cannot definitively classify — interpret with clinical and epidemiological context."},
-    {"q": "What is the diagnostic window for dengue NS1?", "a": "NS1 is typically detectable from day 1 of fever through the first week, before IgM reliably appears — making it the earliest serological marker of acute dengue."}
+    {
+      "q": "How accurate are dengue rapid tests?",
+      "a": "NS1 antigen tests are most sensitive in the first week; IgM/IgG serology is more reliable later. Combined NS1+IgM/IgG devices offer the best overall detection across the illness course. All rapid results are screening-grade and may need confirmation."
+    },
+    {
+      "q": "Can a dengue rapid test distinguish primary from secondary infection?",
+      "a": "IgG/IgM patterns provide clues (IgM-dominant suggests primary; rapid IgG rise suggests secondary), but a rapid test alone cannot definitively classify — interpret with clinical and epidemiological context."
+    },
+    {
+      "q": "What is the diagnostic window for dengue NS1?",
+      "a": "NS1 is typically detectable from day 1 of fever through the first week, before IgM reliably appears — making it the earliest viral antigen marker of acute dengue."
+    }
   ],
   "malaria": [
-    {"q": "Which malaria rapid test should I stock?", "a": "A Pf/Pan (or Pf/Pv) combo — it detects P. falciparum (HRP2) and other species (pLDH) in one device, which matters because treatment differs by species."},
-    {"q": "How soon after fever does a malaria RDT turn positive?", "a": "RDTs detect antigen during active parasitemia, typically from symptom onset; very low parasite densities can give false negatives, so repeat testing may be needed."},
-    {"q": "Does HRP2 persist after treatment?", "a": "Yes — HRP2 can remain detectable for weeks after treatment, so a positive Pf HRP2 result does not always indicate treatment failure."}
+    {
+      "q": "Which malaria rapid test should I stock?",
+      "a": "A Pf/Pan (or Pf/Pv) combo — it detects P. falciparum (HRP2) and other species (pLDH) in one device, which matters because treatment differs by species."
+    },
+    {
+      "q": "How soon after fever does a malaria RDT turn positive?",
+      "a": "RDTs detect antigen during active parasitemia, typically from symptom onset; very low parasite densities can give false negatives, so repeat testing may be needed."
+    },
+    {
+      "q": "Does HRP2 persist after treatment?",
+      "a": "Yes — HRP2 can remain detectable for weeks after treatment, so a positive Pf HRP2 result does not always indicate treatment failure."
+    }
   ],
   "hiv-std": [
-    {"q": "What is the window period for an HIV rapid test?", "a": "Antibody tests typically become reactive 3–6 weeks after exposure (window period). A negative result inside the window does not rule out infection — repeat or confirm by antigen/antibody or molecular testing."},
-    {"q": "Can a syphilis rapid test tell active from past infection?", "a": "No — treponemal antibody tests stay positive after treatment. Distinguish active from past infection with a non-treponemal (RPR) titer."},
-    {"q": "Why do HIV and syphilis get screened together?", "a": "Both are bloodborne/STIs with overlapping risk groups and are standard in antenatal and blood-donor screening; combined devices reduce cost and steps."}
+    {
+      "q": "What is the window period for an HIV rapid test?",
+      "a": "Antibody tests typically become reactive 3–6 weeks after exposure (window period). A negative result inside the window does not rule out infection — repeat or confirm by antigen/antibody or molecular testing."
+    },
+    {
+      "q": "Can a syphilis rapid test tell active from past infection?",
+      "a": "No — treponemal antibody tests stay positive after treatment. Distinguish active from past infection with a non-treponemal (RPR) titer."
+    },
+    {
+      "q": "Why do HIV and syphilis get screened together?",
+      "a": "Both are bloodborne/STIs with overlapping risk groups and are standard in antenatal and blood-donor screening; combined devices reduce cost and steps."
+    }
   ],
   "hepatitis": [
-    {"q": "Does a positive HCV antibody test mean active infection?", "a": "No — anti-HCV indicates exposure (current or past). Active infection requires confirmation with HCV RNA."},
-    {"q": "What is the earliest marker of hepatitis B?", "a": "HBsAg is the earliest serological marker of acute HBV and a marker of chronic infection."},
-    {"q": "Can rapid tests distinguish acute from chronic hepatitis B?", "a": "No — HBsAg positivity alone cannot distinguish acute from chronic; this requires additional markers (IgM anti-HBc) and clinical context."}
+    {
+      "q": "Does a positive HCV antibody test mean active infection?",
+      "a": "No — anti-HCV indicates exposure (current or past). Active infection requires confirmation with HCV RNA."
+    },
+    {
+      "q": "What is the earliest marker of hepatitis B?",
+      "a": "HBsAg is the earliest viral antigen marker of acute HBV and a marker of chronic infection."
+    },
+    {
+      "q": "Can rapid tests distinguish acute from chronic hepatitis B?",
+      "a": "No — HBsAg positivity alone cannot distinguish acute from chronic; this requires additional markers (IgM anti-HBc) and clinical context."
+    }
   ],
   "hpylori": [
-    {"q": "Which H. pylori test is best for test-of-cure?", "a": "Stool antigen (or urea breath test) — they detect active infection and can confirm eradication. Antibody tests stay positive after treatment and are unsuitable for test-of-cure."},
-    {"q": "Do antibiotics or PPIs affect H. pylori stool antigen?", "a": "Yes — recent PPI or antibiotic use can suppress detection and cause false negatives; testing is usually done after a washout period."},
-    {"q": "Is H. pylori serology useful?", "a": "It indicates exposure but cannot distinguish active from past infection; use it mainly where stool testing or endoscopy is unavailable."}
+    {
+      "q": "Which H. pylori test is best for test-of-cure?",
+      "a": "Stool antigen (or urea breath test) — they detect active infection and can confirm eradication. Antibody tests stay positive after treatment and are unsuitable for test-of-cure."
+    },
+    {
+      "q": "Do antibiotics or PPIs affect H. pylori stool antigen?",
+      "a": "Yes — recent PPI or antibiotic use can suppress detection and cause false negatives; testing is usually done after a washout period."
+    },
+    {
+      "q": "Is H. pylori serology useful?",
+      "a": "It indicates exposure but cannot distinguish active from past infection; use it mainly where stool testing or endoscopy is unavailable."
+    }
   ],
   "respiratory": [
-    {"q": "How accurate are rapid flu/COVID/RSV antigen tests?", "a": "Antigen tests are fast but less sensitive than molecular (PCR). A negative result during high prevalence does not exclude infection — confirm clinically or by PCR."},
-    {"q": "When should I use a multiplex respiratory test?", "a": "During respiratory season, when COVID, flu and RSV circulate together and symptoms overlap — a combo resolves the differential in one test."},
-    {"q": "Do rapid antigen tests detect asymptomatic infection?", "a": "Sensitivity is lower in asymptomatic or low-viral-load cases; antigen tests are most reliable in the early symptomatic phase."}
+    {
+      "q": "How accurate are rapid flu/COVID/RSV antigen tests?",
+      "a": "Antigen tests are fast but less sensitive than molecular (PCR). A negative result during high prevalence does not exclude infection — confirm clinically or by PCR."
+    },
+    {
+      "q": "When should I use a multiplex respiratory test?",
+      "a": "During respiratory season, when COVID, flu and RSV circulate together and symptoms overlap — a combo resolves the differential in one test."
+    },
+    {
+      "q": "Do rapid antigen tests detect asymptomatic infection?",
+      "a": "Sensitivity is lower in asymptomatic or low-viral-load cases; antigen tests are most reliable in the early symptomatic phase."
+    }
   ],
   "cardiac": [
-    {"q": "Can a rapid troponin test rule out a heart attack?", "a": "A point-of-care qualitative troponin is a triage aid, not a replacement for high-sensitivity quantitative lab assays and serial testing."},
-    {"q": "What is D-dimer used for?", "a": "D-dimer is used to help rule out venous thromboembolism (VTE) — a negative result is the clinical value; a positive result is non-specific."},
-    {"q": "Which cardiac markers come in a panel?", "a": "Common POC panels combine troponin I, CK-MB, myoglobin and sometimes D-dimer or H-FABP for early myocardial-injury assessment."}
+    {
+      "q": "Can a rapid troponin test rule out a heart attack?",
+      "a": "A point-of-care qualitative troponin is a triage aid, not a replacement for high-sensitivity quantitative lab assays and serial testing."
+    },
+    {
+      "q": "What is D-dimer used for?",
+      "a": "D-dimer is used to help rule out venous thromboembolism (VTE) — a negative result is the clinical value; a positive result is non-specific."
+    },
+    {
+      "q": "Which cardiac markers come in a panel?",
+      "a": "Common POC panels combine troponin I, CK-MB, myoglobin and sometimes D-dimer or H-FABP for early myocardial-injury assessment."
+    }
   ],
   "doa-workplace": [
-    {"q": "What does a presumptive positive drug screen mean?", "a": "A screening result that flags possible drug use; it must be confirmed by a definitive lab method (GC-MS/LC-MS) before any adverse action."},
-    {"q": "What are adulteration checks in a drug test cup?", "a": "Built-in strips for pH, specific gravity and oxidants that detect sample tampering at the point of collection."},
-    {"q": "What cut-off levels should a workplace program use?", "a": "Most align with SAMHSA-style cut-offs (e.g., THC 50 ng/mL, amphetamine/methamphetamine 500–1000 ng/mL, cocaine 150–300 ng/mL)."}
+    {
+      "q": "What does a presumptive positive drug screen mean?",
+      "a": "A screening result that flags possible drug use; it must be confirmed by a definitive lab method (GC-MS/LC-MS) before any adverse action."
+    },
+    {
+      "q": "What are adulteration checks in a drug test cup?",
+      "a": "Built-in strips for pH, specific gravity and oxidants that detect sample tampering at the point of collection."
+    },
+    {
+      "q": "What cut-off levels should a workplace program use?",
+      "a": "Most align with SAMHSA-style cut-offs (e.g., THC 50 ng/mL, amphetamine/methamphetamine 500–1000 ng/mL, cocaine 150–300 ng/mL)."
+    }
   ],
   "pregnancy-fertility": [
-    {"q": "How early can a pregnancy test detect hCG?", "a": "Many tests detect hCG around the first day of a missed period (20–25 mIU/mL sensitivity); testing too early can give a false negative."},
-    {"q": "When is the best time to test for the LH surge?", "a": "Mid-cycle, testing daily in the afternoon/evening; the LH surge precedes ovulation by ~24–36 hours."},
-    {"q": "Can fFN or IGFBP-1 diagnose preterm labor?", "a": "No — they are risk-stratification aids used with clinical findings and gestational age, not standalone diagnostics."}
+    {
+      "q": "How early can a pregnancy test detect hCG?",
+      "a": "Many tests detect hCG around the first day of a missed period (20–25 mIU/mL sensitivity); testing too early can give a false negative."
+    },
+    {
+      "q": "When is the best time to test for the LH surge?",
+      "a": "Mid-cycle, testing daily in the afternoon/evening; the LH surge precedes ovulation by ~24–36 hours."
+    },
+    {
+      "q": "Can fFN or IGFBP-1 diagnose preterm labor?",
+      "a": "No — they are risk-stratification aids used with clinical findings and gestational age, not standalone diagnostics."
+    }
   ],
   "tumor": [
-    {"q": "Can a tumor marker rapid test diagnose cancer?", "a": "No — PSA, AFP and CEA rise in benign conditions too, and confirmation requires imaging and other testing. They are monitoring/screening-support aids."},
-    {"q": "What is PSA used for?", "a": "Prostate cancer screening support and monitoring; elevated PSA prompts further evaluation (biopsy), but is not cancer-specific."},
-    {"q": "What is AFP associated with?", "a": "Hepatocellular carcinoma (liver cancer) — used in high-risk surveillance and monitoring, alongside imaging."}
+    {
+      "q": "Can a tumor marker rapid test diagnose cancer?",
+      "a": "No — PSA, AFP and CEA rise in benign conditions too, and confirmation requires imaging and other testing. They are monitoring/screening-support aids."
+    },
+    {
+      "q": "What is PSA used for?",
+      "a": "Prostate cancer screening support and monitoring; elevated PSA prompts further evaluation (biopsy), but is not cancer-specific."
+    },
+    {
+      "q": "What is AFP associated with?",
+      "a": "Hepatocellular carcinoma (liver cancer) — used in high-risk surveillance and monitoring, alongside imaging."
+    }
   ],
   "tropical": [
-    {"q": "Do dengue, Zika and chikungunya tests cross-react?", "a": "Yes — they are related viruses and serology can cross-react, so results must be interpreted with travel and epidemiological context."},
-    {"q": "Do tropical rapid tests need cold chain?", "a": "No — colloidal-gold lateral-flow tests are room-temperature stable, a key advantage for remote and tropical distribution."},
-    {"q": "What documentation do tender programs need?", "a": "CE/ISO certificates, validation data, COA, stability data and export documentation — request the full dossier before bidding."}
+    {
+      "q": "Do dengue, Zika and chikungunya tests cross-react?",
+      "a": "Yes — they are related viruses and serology can cross-react, so results must be interpreted with travel and epidemiological context."
+    },
+    {
+      "q": "Do tropical rapid tests need cold chain?",
+      "a": "No — colloidal-gold lateral-flow tests are room-temperature stable, a key advantage for remote and tropical distribution."
+    },
+    {
+      "q": "What documentation do tender programs need?",
+      "a": "CE/ISO certificates, validation data, COA, stability data and export documentation — request the full dossier before bidding."
+    }
   ],
   "gastrointestinal": [
-    {"q": "Which viruses does a gastro rapid test panel cover?", "a": "Common panels detect rotavirus, adenovirus and norovirus — alone or in combination devices."},
-    {"q": "What does calprotectin tell you?", "a": "Fecal calprotectin distinguishes inflammatory bowel disease (IBD) from functional disorders (IBS) — elevated levels indicate gut inflammation."},
-    {"q": "Is FOB testing useful for colorectal screening?", "a": "Yes — fecal occult blood testing is a first-line screening tool; a positive result requires colonoscopy follow-up."}
+    {
+      "q": "Which viruses does a gastro rapid test panel cover?",
+      "a": "Common panels detect rotavirus, adenovirus and norovirus — alone or in combination devices."
+    },
+    {
+      "q": "What does calprotectin tell you?",
+      "a": "Fecal calprotectin distinguishes inflammatory bowel disease (IBD) from functional disorders (IBS) — elevated levels indicate gut inflammation."
+    },
+    {
+      "q": "Is FOB testing useful for colorectal screening?",
+      "a": "Yes — fecal occult blood testing is a first-line screening tool; a positive result requires colonoscopy follow-up."
+    }
   ]
 }

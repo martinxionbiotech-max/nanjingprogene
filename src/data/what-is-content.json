@@ -1,8 +1,8 @@
 {
   "dengue-ns1": {
     "name": "Dengue NS1 Antigen",
-    "what": "NS1 is a non-structural protein secreted by the dengue virus during replication. Unlike antibodies, it is a direct viral product, so its presence indicates active viral replication.",
-    "significance": "NS1 is detectable from the first day of fever, before IgM antibodies appear — making it the earliest serological marker of acute dengue.",
+    "what": "NS1 is a non-structural protein secreted by the dengue virus. Unlike antibodies, it is a direct viral product, so circulating NS1 supports recent or current dengue infection.",
+    "significance": "NS1 is detectable from the first day of fever, before IgM antibodies appear — making it the earliest viral antigen marker of acute dengue.",
     "related": "dengue-ns1",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Positive = dengue NS1 antigen detected (acute infection). Negative = below detection limit.",
@@ -23,7 +23,7 @@
     "significance": "Cardiac troponin is the preferred biomarker for diagnosing acute myocardial infarction (heart attack).",
     "related": "troponin-i",
     "specimen": "Whole blood / serum / plasma",
-    "interpretation": "Elevated = myocardial injury; negative = below threshold.",
+    "interpretation": "Elevation indicates myocardial injury, which is not synonymous with myocardial infarction. Interpretation requires serial testing, the rise/fall pattern, ECG and clinical context.",
     "limitations": "POC qualitative troponin is triage-grade; serial high-sensitivity testing is the standard; rises in non-MI conditions."
   },
   "d-dimer": {

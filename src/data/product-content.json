@@ -44,7 +44,7 @@
   },
   "hbsag": {
     "intended_use": "Detection of Hepatitis B surface antigen (HBsAg) for HBV infection screening.",
-    "clinical_context": "HBsAg is the earliest serological marker of acute HBV and a marker of chronic infection. Widely used in blood-bank and antenatal screening.",
+    "clinical_context": "HBsAg is the earliest viral antigen marker of acute HBV and a marker of chronic infection. Widely used in blood-bank and antenatal screening.",
     "limitations": "Reactive results require confirmatory testing (neutralization / HBV DNA); does not distinguish acute from chronic.",
     "procurement": "Specimen: whole blood / serum / plasma. Format: cassette / strip. Registration in progress."
   },
