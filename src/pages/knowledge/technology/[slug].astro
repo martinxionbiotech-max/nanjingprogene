@@ -75,6 +75,13 @@ const { slug, t } = Astro.props;
     </>
   )}
 
+  {t.references && t.references.length > 0 && (
+    <>
+      <h2>References</h2>
+      <ul class="small muted">{t.references.map((r) => <li>{r}</li>)}</ul>
+    </>
+  )}
+
   <div class="card" style="margin-top:16px;">
     <p style="margin:0;"><strong>See this technology in our products →</strong> <a href="/products/">Browse catalog</a></p>
   </div>

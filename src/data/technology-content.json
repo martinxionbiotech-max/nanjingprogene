@@ -69,6 +69,12 @@
         "title": "Rapid test vs ELISA",
         "href": "/comparisons/rapid-test-vs-elisa/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "Koczula KM, Gallotta A. Lateral flow assays. Essays Biochem. 2016;60(1):111-120.",
+      "Bahadır EB, Sezgintürk MK. Lateral flow assays: principles, designs and labels. TrAC Trends Anal Chem. 2016;82:286-306.",
+      "侧向层析标记物研究进展 (Research advance of lateral flow assay labels). Journal of Biomedical Engineering. PMC9935128."
     ]
   },
   "conjugation": {
@@ -126,6 +132,12 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "Koczula KM, Gallotta A. Lateral flow assays. Essays Biochem. 2016;60(1):111-120.",
+      "Bahadır EB, Sezgintürk MK. Lateral flow assays: principles, designs and labels. TrAC Trends Anal Chem. 2016;82:286-306.",
+      "侧向层析标记物研究进展 (Research advance of lateral flow assay labels). Journal of Biomedical Engineering. PMC9935128."
     ]
   },
   "membrane": {
@@ -177,6 +189,11 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "Koczula KM, Gallotta A. Lateral flow assays. Essays Biochem. 2016;60(1):111-120.",
+      "侧向层析标记物研究进展 (Research advance of lateral flow assay labels). Journal of Biomedical Engineering. PMC9935128."
     ]
   },
   "fia": {
@@ -228,6 +245,11 @@
         "title": "Rapid test vs ELISA",
         "href": "/comparisons/rapid-test-vs-elisa/"
       }
+    ],
+    "references": [
+      "Sajid M, Kawde AN, Daud M. Designs, formats and applications of lateral flow assay. J Saudi Chem Soc. 2015;19(6):689-705.",
+      "Koczula KM, Gallotta A. Lateral flow assays. Essays Biochem. 2016;60(1):111-120.",
+      "Bahadır EB, Sezgintürk MK. Lateral flow assays: principles, designs and labels. TrAC Trends Anal Chem. 2016;82:286-306."
     ]
   },
   "reagent-dispensing": {
@@ -280,6 +302,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "drying": {
@@ -324,6 +350,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "strip-assembly": {
@@ -367,6 +397,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "cassette-assembly": {
@@ -411,6 +445,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "packaging": {
@@ -455,6 +493,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "stability": {
@@ -503,6 +545,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "qc": {
@@ -548,6 +594,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "lot-release": {
@@ -592,6 +642,10 @@
         "title": "IVD manufacturing",
         "href": "/manufacturing/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   },
   "oem-development": {
@@ -638,6 +692,10 @@
         "title": "OEM / ODM",
         "href": "/oem/"
       }
+    ],
+    "references": [
+      "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
+      "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
     ]
   }
 }
