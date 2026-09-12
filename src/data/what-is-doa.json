@@ -7,7 +7,23 @@
     "specimen": "Urine",
     "cutoff": "50 ng/mL",
     "interpretation": "Positive = THC metabolite (Δ9-THC-COOH) detected above cut-off (presumptive). Negative = below cut-off.",
-    "limitations": "Presumptive result — confirm positives by GC-MS/LC-MS. Passively-exposed individuals may rarely screen positive."
+    "limitations": "Presumptive result — confirm positives by GC-MS/LC-MS. Passively-exposed individuals may rarely screen positive.",
+    "faq": [
+      {
+        "q": "What is the THC cut-off?",
+        "a": "Typically 50 ng/mL for workplace urine screening, aligned with SAMHSA-style thresholds."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Workplace drug screening",
+        "href": "/solutions/scenario/workplace-screening/"
+      },
+      {
+        "title": "What is a cut-off?",
+        "href": "/knowledge/cutoff/"
+      }
+    ]
   },
   "cocaine": {
     "name": "Cocaine (Benzoylecgonine)",
@@ -37,7 +53,19 @@
     "specimen": "Urine",
     "cutoff": "500–1000 ng/mL",
     "interpretation": "Positive = methamphetamine detected (presumptive). Negative = below cut-off.",
-    "limitations": "Cross-reactivity with some sympathomimetics possible; confirm positives by GC-MS/LC-MS."
+    "limitations": "Cross-reactivity with some sympathomimetics possible; confirm positives by GC-MS/LC-MS.",
+    "faq": [
+      {
+        "q": "Can cold medication cause a positive methamphetamine result?",
+        "a": "Some sympathomimetics can cross-react; confirm positives by GC-MS/LC-MS."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Workplace drug screening",
+        "href": "/solutions/scenario/workplace-screening/"
+      }
+    ]
   },
   "morphine": {
     "name": "Morphine",
@@ -77,7 +105,19 @@
     "specimen": "Urine",
     "cutoff": "Low ng/mL (assay-dependent)",
     "interpretation": "Positive = fentanyl detected (presumptive). Negative = below cut-off.",
-    "limitations": "Does not detect all fentanyl analogs; confirm positives by LC-MS/MS."
+    "limitations": "Does not detect all fentanyl analogs; confirm positives by LC-MS/MS.",
+    "faq": [
+      {
+        "q": "Does a fentanyl test detect all analogs?",
+        "a": "No — some analogs are not detected; confirm positives by LC-MS/MS."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Workplace drug screening",
+        "href": "/solutions/scenario/workplace-screening/"
+      }
+    ]
   },
   "ketamine": {
     "name": "Ketamine",

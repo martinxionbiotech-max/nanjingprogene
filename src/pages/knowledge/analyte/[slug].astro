@@ -63,8 +63,32 @@ const related = products.products.find((p) => p.id === w.related);
     </div>
   )}
 
+  {w.faq && w.faq.length > 0 && (
+    <div class="card" style="margin-top:16px;">
+      <h2 style="margin-top:0;">Frequently Asked Questions</h2>
+      {w.faq.map((f) => <p><strong>{f.q}</strong> {f.a}</p>)}
+    </div>
+  )}
+
+  {w.related_knowledge && w.related_knowledge.length > 0 && (
+    <div class="card" style="margin-top:16px;">
+      <h2 style="margin-top:0;">Related knowledge</h2>
+      <ul style="margin:0;">
+        {w.related_knowledge.map((r) => <li><a href={r.href}>{r.title}</a></li>)}
+      </ul>
+    </div>
+  )}
+
   <p style="margin-top:16px;"><a href="/knowledge/">← Knowledge</a></p>
 
   <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
+
+  {w.faq && w.faq.length > 0 && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": w.faq.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+    })} />
+  )}
 
 </BaseLayout>

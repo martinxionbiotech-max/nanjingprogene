@@ -6,7 +6,23 @@
     "related": "dengue-ns1",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Positive = dengue NS1 antigen detected (acute infection). Negative = below detection limit.",
-    "limitations": "Best in the first week; sensitivity varies by serotype; a negative result does not exclude dengue."
+    "limitations": "Best in the first week; sensitivity varies by serotype; a negative result does not exclude dengue.",
+    "faq": [
+      {
+        "q": "Is NS1 an antigen or an antibody?",
+        "a": "NS1 is a viral antigen — a direct viral product, unlike IgM/IgG antibodies."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Dengue hub",
+        "href": "/solutions/disease/dengue/"
+      },
+      {
+        "title": "Dengue NS1 vs IgM/IgG",
+        "href": "/comparisons/dengue-ns1-vs-igg-igm/"
+      }
+    ]
   },
   "hbsag": {
     "name": "Hepatitis B Surface Antigen (HBsAg)",
@@ -15,7 +31,19 @@
     "related": "hbsag",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Positive = HBsAg detected (active HBV infection, acute or chronic).",
-    "limitations": "Does not distinguish acute from chronic; correlate with other HBV markers."
+    "limitations": "Does not distinguish acute from chronic; correlate with other HBV markers.",
+    "faq": [
+      {
+        "q": "Does a positive HBsAg mean active infection?",
+        "a": "Yes — HBsAg indicates active HBV infection, acute or chronic."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Hepatitis hub",
+        "href": "/solutions/disease/hepatitis/"
+      }
+    ]
   },
   "troponin": {
     "name": "Cardiac Troponin (cTnI / cTnT)",
@@ -24,7 +52,23 @@
     "related": "troponin-i",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevation indicates myocardial injury, which is not synonymous with myocardial infarction. Interpretation requires serial testing, the rise/fall pattern, ECG and clinical context.",
-    "limitations": "POC qualitative troponin is triage-grade; serial high-sensitivity testing is the standard; rises in non-MI conditions."
+    "limitations": "POC qualitative troponin is triage-grade; serial high-sensitivity testing is the standard; rises in non-MI conditions.",
+    "faq": [
+      {
+        "q": "Is elevated troponin always a heart attack?",
+        "a": "No — myocardial injury is not synonymous with infarction; other conditions also raise troponin."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      },
+      {
+        "title": "Troponin I vs T",
+        "href": "/comparisons/troponin-i-vs-t/"
+      }
+    ]
   },
   "d-dimer": {
     "name": "D-Dimer",
@@ -33,7 +77,19 @@
     "related": "d-dimer",
     "specimen": "Whole blood / plasma",
     "interpretation": "Negative = VTE unlikely (high negative predictive value). Positive = non-specific, needs imaging.",
-    "limitations": "Positive result is non-specific (surgery, pregnancy, inflammation); used for VTE exclusion, not diagnosis."
+    "limitations": "Positive result is non-specific (surgery, pregnancy, inflammation); used for VTE exclusion, not diagnosis.",
+    "faq": [
+      {
+        "q": "What does a negative D-dimer mean?",
+        "a": "It makes venous thromboembolism unlikely (high negative predictive value); a positive is non-specific."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      }
+    ]
   },
   "crp": {
     "name": "C-Reactive Protein (CRP)",
@@ -42,7 +98,19 @@
     "related": "crp",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = systemic inflammation or infection; low = unlikely significant inflammation.",
-    "limitations": "Non-specific — does not localize or identify the cause of inflammation."
+    "limitations": "Non-specific — does not localize or identify the cause of inflammation.",
+    "faq": [
+      {
+        "q": "What does an elevated CRP indicate?",
+        "a": "Systemic inflammation or infection — non-specific, not localized."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      }
+    ]
   },
   "pct": {
     "name": "Procalcitonin (PCT)",
@@ -51,7 +119,19 @@
     "related": "pct",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = supports bacterial infection/sepsis; low = less likely bacterial.",
-    "limitations": "Supportive marker — interpret with clinical context; not a standalone diagnosis."
+    "limitations": "Supportive marker — interpret with clinical context; not a standalone diagnosis.",
+    "faq": [
+      {
+        "q": "What does an elevated PCT indicate?",
+        "a": "It supports bacterial infection or sepsis — interpret with clinical context."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      }
+    ]
   },
   "psa": {
     "name": "Prostate-Specific Antigen (PSA)",
@@ -69,7 +149,19 @@
     "related": "afp",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = supports hepatocellular carcinoma monitoring (or other conditions).",
-    "limitations": "Not diagnostic — rises in benign liver disease and pregnancy; use with imaging."
+    "limitations": "Not diagnostic — rises in benign liver disease and pregnancy; use with imaging.",
+    "faq": [
+      {
+        "q": "Is elevated AFP diagnostic of cancer?",
+        "a": "No — it rises in benign liver disease and pregnancy; use with imaging."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Tumor markers hub",
+        "href": "/solutions/disease/tumor/"
+      }
+    ]
   },
   "hcg": {
     "name": "Human Chorionic Gonadotropin (hCG)",
@@ -78,7 +170,19 @@
     "related": "hcg",
     "specimen": "Urine / serum",
     "interpretation": "Positive = pregnancy likely. Negative = below detection threshold.",
-    "limitations": "Testing too early can give false negative; certain tumors also raise hCG."
+    "limitations": "Testing too early can give false negative; certain tumors also raise hCG.",
+    "faq": [
+      {
+        "q": "How early can hCG detect pregnancy?",
+        "a": "From around the day of the missed period; testing too early can give a false negative."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Pregnancy & fertility",
+        "href": "/solutions/scenario/pregnancy/"
+      }
+    ]
   },
   "hiv-antibody": {
     "name": "HIV-1/2 Antibodies",
@@ -87,7 +191,19 @@
     "related": "hiv-12",
     "specimen": "Whole blood / serum / plasma / oral fluid",
     "interpretation": "Reactive = HIV antibodies detected (presumptive). Non-reactive = not detected.",
-    "limitations": "Window period ~3–6 weeks; reactive results require confirmation per national algorithm."
+    "limitations": "Window period ~3–6 weeks; reactive results require confirmation per national algorithm.",
+    "faq": [
+      {
+        "q": "What is the HIV window period?",
+        "a": "Antibodies typically appear 3–6 weeks after exposure; reactive results need confirmation."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "HIV / STD hub",
+        "href": "/solutions/disease/hiv-std/"
+      }
+    ]
   },
   "hcv-antibody": {
     "name": "Hepatitis C Antibodies (Anti-HCV)",
@@ -96,7 +212,19 @@
     "related": "hcv",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Reactive = HCV antibodies detected (exposure). Non-reactive = not detected.",
-    "limitations": "Anti-HCV indicates exposure, not active infection — confirm with HCV RNA."
+    "limitations": "Anti-HCV indicates exposure, not active infection — confirm with HCV RNA.",
+    "faq": [
+      {
+        "q": "Does a reactive HCV antibody mean active infection?",
+        "a": "No — it indicates exposure; confirm active infection with HCV RNA."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Hepatitis hub",
+        "href": "/solutions/disease/hepatitis/"
+      }
+    ]
   },
   "h-pylori-antigen": {
     "name": "H. pylori Antigen",
@@ -105,7 +233,23 @@
     "related": "hpylori-ag",
     "specimen": "Stool",
     "interpretation": "Positive = H. pylori antigen detected (active infection). Negative = not detected.",
-    "limitations": "Recent PPI/antibiotic use can cause false negatives; suitable for test-of-cure."
+    "limitations": "Recent PPI/antibiotic use can cause false negatives; suitable for test-of-cure.",
+    "faq": [
+      {
+        "q": "Can a stool antigen test confirm cure?",
+        "a": "Yes — it detects active infection and is suitable for test-of-cure after eradication."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "H. pylori hub",
+        "href": "/solutions/disease/hpylori/"
+      },
+      {
+        "title": "H. pylori Ag vs Ab",
+        "href": "/comparisons/hpylori-antigen-vs-antibody/"
+      }
+    ]
   },
   "lh": {
     "name": "Luteinizing Hormone (LH)",
@@ -114,7 +258,19 @@
     "related": "lh",
     "specimen": "Urine",
     "interpretation": "Surge = ovulation expected within ~24–36 h (fertile window).",
-    "limitations": "Surge timing varies; individual cycle patterns differ."
+    "limitations": "Surge timing varies; individual cycle patterns differ.",
+    "faq": [
+      {
+        "q": "What does an LH surge mean?",
+        "a": "Ovulation is expected within about 24–36 hours — the fertile window."
+      }
+    ],
+    "related_knowledge": [
+      {
+        "title": "Pregnancy & fertility",
+        "href": "/solutions/scenario/pregnancy/"
+      }
+    ]
   },
   "fsh": {
     "name": "Follicle-Stimulating Hormone (FSH)",
