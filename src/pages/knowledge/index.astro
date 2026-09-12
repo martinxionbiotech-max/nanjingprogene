@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import whatIs from '../../data/what-is-content.json';
 import whatIsDoa from '../../data/what-is-doa.json';
 import whatIsClinical from '../../data/what-is-clinical.json';
+import technologyContent from '../../data/technology-content.json';
 
 const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical };
 
@@ -18,12 +19,11 @@ const guides = [
   { title: "Supplier Evaluation Checklist", desc: "How to evaluate an IVD rapid test supplier.", href: "/knowledge/procurement-guide/" },
 ];
 
-const technology = [
-  { title: "Colloidal Gold Lateral Flow", desc: "How lateral-flow immunoassay works.", href: "/knowledge/technology/lateral-flow/" },
-  { title: "Colloidal Gold Conjugation", desc: "Antibody–gold nanoparticle conjugation.", href: "/knowledge/technology/conjugation/" },
-  { title: "Nitrocellulose Membrane", desc: "Test and control lines.", href: "/knowledge/technology/membrane/" },
-  { title: "Fluorescence Immunoassay (FIA)", desc: "Quantitative readout.", href: "/knowledge/technology/fia/" },
-];
+const technology = Object.entries(technologyContent).map(([slug, t]) => ({
+  title: t.name,
+  desc: t.what.split('.')[0] + '.',
+  href: `/knowledge/technology/${slug}/`,
+}));
 
 const analytes = Object.entries(allWhatIs).sort((a, b) => a[1].name.localeCompare(b[1].name));
 ---
@@ -56,7 +56,7 @@ const analytes = Object.entries(allWhatIs).sort((a, b) => a[1].name.localeCompar
     ))}
   </div>
 
-  <h2>Diagnostic Technology</h2>
+  <h2>Diagnostic Technology ({technology.length})</h2>
   <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
     {technology.map((g) => (
       <a class="card" href={g.href} style="display:block;">

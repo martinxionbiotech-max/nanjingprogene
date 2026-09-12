@@ -4,27 +4,147 @@
     "what": "Lateral flow immunoassay (LFIA) is the technology behind rapid diagnostic tests — a paper-based strip that detects a target analyte via labeled antibodies and capillary flow, producing a visible line within minutes.",
     "how": "A sample is applied to the sample pad and migrates by capillary action through the conjugate pad (where colloidal-gold–labeled antibodies bind the analyte), along the nitrocellulose membrane (where the test and control lines are immobilized), and into the absorbent pad. A visible test line forms when the labeled complex is captured.",
     "why_matters": "It is instrument-free, room-temperature-stable and read by eye — the basis for point-of-care screening across infectious disease, cardiac markers and drug testing. Understanding the components is how buyers evaluate batch consistency and cut-off reliability.",
-    "components": ["Sample pad — receives and pre-treats the sample", "Conjugate pad — holds gold-labeled antibodies", "Nitrocellulose membrane — test and control lines", "Absorbent pad — wicks excess sample", "Backing card — structural support"]
+    "components": [
+      "Sample pad — receives and pre-treats the sample",
+      "Conjugate pad — holds gold-labeled antibodies",
+      "Nitrocellulose membrane — test and control lines",
+      "Absorbent pad — wicks excess sample",
+      "Backing card — structural support"
+    ]
   },
   "conjugation": {
     "name": "Colloidal Gold Conjugation",
     "what": "Conjugation is the process of attaching detection antibodies to colloidal gold nanoparticles (typically ~40 nm), producing the colored label that makes the test line visible.",
     "how": "Gold nanoparticles are synthesized and then passively adsorb antibodies via electrostatic and hydrophobic interaction; the conjugate is stabilized, blocked and dispensed onto the conjugate pad. Batch-to-batch control of particle size and antibody density determines signal intensity and consistency.",
     "why_matters": "Conjugate quality directly affects sensitivity and the clarity of the result line — a key QC point and a common source of batch variation that buyers should ask about.",
-    "components": ["Gold nanoparticle synthesis (uniform ~40 nm)", "Antibody adsorption (passive conjugation)", "Stabilization and blocking", "Conjugate pad dispensing and drying"]
+    "components": [
+      "Gold nanoparticle synthesis (uniform ~40 nm)",
+      "Antibody adsorption (passive conjugation)",
+      "Stabilization and blocking",
+      "Conjugate pad dispensing and drying"
+    ]
   },
   "membrane": {
     "name": "Nitrocellulose Membrane & Test Lines",
     "what": "The nitrocellulose membrane is where the test and control lines are immobilized — the readout zone of a lateral-flow test.",
     "how": "A capture antibody is dispensed at the test line and an anti-species (control) antibody at the control line. As the sample–conjugate complex flows past, it binds at the test line (proportional to analyte) and always binds at the control line (confirming the test ran correctly).",
     "why_matters": "The control line validates each device, and test-line intensity reflects analyte level — understanding this is key to reading results and spotting invalid tests.",
-    "components": ["Test line — capture antibody (analyte-specific)", "Control line — anti-species antibody (validity check)", "Membrane pore size — controls flow rate and line sharpness"]
+    "components": [
+      "Test line — capture antibody (analyte-specific)",
+      "Control line — anti-species antibody (validity check)",
+      "Membrane pore size — controls flow rate and line sharpness"
+    ]
   },
   "fia": {
     "name": "Fluorescence Immunoassay (FIA)",
     "what": "Fluorescence immunoassay uses a fluorescent label instead of colloidal gold and is read by a dedicated analyzer, producing quantitative (not just qualitative) results.",
     "how": "A fluorescent conjugate binds the analyte and is captured at the test line; a fluorescence analyzer measures the emitted signal intensity, which is converted to a concentration via a calibration curve.",
     "why_matters": "FIA upgrades rapid tests from qualitative triage to quantitative measurement — relevant for cardiac markers, hormones and inflammation markers where a numeric result adds clinical value.",
-    "components": ["Fluorescent label (e.g., europium/fluorescent microspheres)", "Fluorescence analyzer (reader)", "Calibration curve for quantification"]
+    "components": [
+      "Fluorescent label (e.g., europium/fluorescent microspheres)",
+      "Fluorescence analyzer (reader)",
+      "Calibration curve for quantification"
+    ]
+  },
+  "reagent-dispensing": {
+    "name": "Reagent Dispensing & Line Coating",
+    "what": "The process of dispensing test and control lines onto nitrocellulose membrane, and conjugate onto the conjugate pad, using precision dispensers.",
+    "how": "Antibody solutions are applied at a controlled flow rate and line width to produce sharp, uniform lines; conjugate is sprayed onto the conjugate pad before drying.",
+    "why_matters": "Line sharpness and uniformity directly determine readability and reproducibility — inconsistent dispensing is a primary source of batch-to-batch variation.",
+    "components": [
+      "Precision dispenser (line / air-jet)",
+      "Line width and density control",
+      "Conjugate pad spraying",
+      "Membrane coating inspection"
+    ]
+  },
+  "drying": {
+    "name": "Drying",
+    "what": "Controlled removal of moisture from dispensed membranes and pads before assembly.",
+    "how": "Membranes and pads are dried under controlled temperature and humidity to fix reagents in place without denaturing antibodies.",
+    "why_matters": "Residual moisture destabilizes reagents and shortens shelf life; overdrying can damage antibodies — both affect lot consistency.",
+    "components": [
+      "Controlled temperature and humidity",
+      "Residual moisture control",
+      "Drying validation"
+    ]
+  },
+  "strip-assembly": {
+    "name": "Strip Assembly & Lamination",
+    "what": "Laminating the sample pad, conjugate pad, membrane and absorbent pad onto a backing card.",
+    "how": "Pads are overlapped at controlled positions and laminated onto the card; correct overlap drives capillary flow.",
+    "why_matters": "Pad overlap and alignment determine capillary flow and reproducible results — misalignment causes flow failure.",
+    "components": [
+      "Backing card",
+      "Pad overlap control",
+      "Lamination inspection"
+    ]
+  },
+  "cassette-assembly": {
+    "name": "Cassette Assembly",
+    "what": "Cutting laminated cards into strips and loading them into cassettes, panel cups or other housings.",
+    "how": "Cards are cut to width, strips inserted into housings with correct orientation, and each device visually inspected.",
+    "why_matters": "Correct orientation and seating prevent flow failure and invalid results in the field.",
+    "components": [
+      "Strip cutting",
+      "Cassette / panel loading",
+      "Visual inspection"
+    ]
+  },
+  "packaging": {
+    "name": "Packaging & Desiccant",
+    "what": "Sealing finished devices in foil pouches with desiccant to protect against humidity, then labeling and boxing.",
+    "how": "Devices are pouched with desiccant, labeled with lot number and expiry, and packed into kits.",
+    "why_matters": "Humidity is the main environmental threat to lateral-flow stability; desiccant and sealed pouches extend shelf life.",
+    "components": [
+      "Foil pouch sealing",
+      "Desiccant",
+      "Lot and expiry labeling"
+    ]
+  },
+  "stability": {
+    "name": "Stability & Shelf Life",
+    "what": "Confirming a test performs consistently across its labeled shelf life and storage range.",
+    "how": "Real-time and accelerated stability studies validate performance at temperature and humidity extremes before shelf life is assigned.",
+    "why_matters": "Stability data underpins the labeled shelf life and the no-cold-chain advantage of colloidal-gold tests.",
+    "components": [
+      "Real-time stability",
+      "Accelerated aging",
+      "Temperature and humidity stress"
+    ]
+  },
+  "qc": {
+    "name": "Quality Control",
+    "what": "Lot-level testing against reference panels before release.",
+    "how": "Each lot is tested for sensitivity, specificity and precision against known positive and negative samples; the internal control line validates each individual device.",
+    "why_matters": "QC ensures batch-to-batch consistency and catches failures before shipment.",
+    "components": [
+      "Reference panel testing",
+      "Internal control line",
+      "Sensitivity / specificity verification"
+    ]
+  },
+  "lot-release": {
+    "name": "Batch Release & Traceability",
+    "what": "The documented decision to release a manufactured lot for sale.",
+    "how": "A lot is released only when it meets specification; lot-level traceability links each device back to its raw materials and process records.",
+    "why_matters": "Release criteria and traceability support recalls, audits and regulatory compliance.",
+    "components": [
+      "Release criteria",
+      "Lot records",
+      "Raw-material traceability"
+    ]
+  },
+  "oem-development": {
+    "name": "OEM/ODM Development & Validation",
+    "what": "Turning a buyer specification — analyte, cut-off, packaging, branding — into a production-ready SKU.",
+    "how": "Custom formulations are developed, then re-validated for cut-off, sensitivity and specificity before release.",
+    "why_matters": "OEM customization must be re-validated — changing cut-off or format changes performance, so each custom SKU is qualified independently.",
+    "components": [
+      "Custom formulation",
+      "Cut-off design",
+      "Re-validation",
+      "Private-label packaging"
+    ]
   }
 }
