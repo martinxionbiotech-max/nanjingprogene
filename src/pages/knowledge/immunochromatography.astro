@@ -3,32 +3,234 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="What Is Immunochromatography? — Lateral Flow Explained | Progene Bio"
-  description="What is immunochromatography? The antibody-based lateral-flow technique behind rapid tests — how antigen-antibody binding produces a visible line."
+  title="What Is Immunochromatography? — Principle, Formats & Test Strip | Progene Bio"
+  description="Immunochromatography explained — antigen-antibody recognition on a membrane, sandwich vs competitive formats, test-strip components, applications and limitations."
   canonical="/knowledge/immunochromatography/"
 >
 
   <h1>What Is Immunochromatography?</h1>
-  <p><strong>Direct answer:</strong> Immunochromatography is the antibody-based technique behind lateral-flow rapid tests — it uses antigen-antibody binding on a membrane to capture a target and produce a visible colored line, without any instrument.</p>
 
-  <h2>How it works</h2>
+  <p><strong>Direct answer:</strong> Immunochromatography is an analytical technique that combines chromatographic migration of a liquid sample with specific molecular recognition — most commonly antigen-antibody binding — to detect a target analyte and produce a visible signal on a test strip. It is the principle behind most lateral-flow rapid tests (pregnancy tests, infectious-disease and drug-of-abuse strips), enabling instrument-free results in minutes.</p>
+
+  <h2>Terminology</h2>
+  <p>These terms overlap but are not perfect synonyms:</p>
+  <ul>
+    <li><strong>Immunochromatography</strong> — the <em>principle</em>: chromatography plus immunorecognition (antibody-antigen).</li>
+    <li><strong>Immunochromatographic assay</strong> — a test that applies that principle.</li>
+    <li><strong>Lateral flow assay (LFA)</strong> — the broader <em>platform</em>: a strip through which sample flows laterally by capillary action.</li>
+    <li><strong>Lateral flow immunoassay (LFIA)</strong> — an LFA that uses antibody-based recognition (i.e., an immunochromatographic LFA).</li>
+    <li><strong>Rapid diagnostic test (RDT)</strong> — a usage category, which may or may not use immunochromatography.</li>
+  </ul>
+  <p>Not every lateral-flow assay is immunochromatographic — lateral flow can also use nucleic-acid hybridization or other chemistries. Most commercial rapid antigen/antibody strips, however, are LFIAs.</p>
+
+  <h2>How Immunochromatography Works</h2>
   <ol>
-    <li>A sample is applied and migrates along the strip by capillary action.</li>
-    <li>Labeled antibodies (e.g., colloidal gold) bind the target analyte.</li>
-    <li>The complex is captured at the test line by immobilized antibodies, producing a visible line.</li>
-    <li>The control line confirms the test ran correctly.</li>
+    <li><strong>Sample application</strong> — a liquid sample (blood, serum, urine, swab eluate) is added to the sample pad.</li>
+    <li><strong>Capillary-driven migration</strong> — the sample flows laterally along the strip by capillary action.</li>
+    <li><strong>Release of labeled conjugate</strong> — the sample rehydrates a dried labeled reagent (e.g., antibody-conjugated colloidal gold).</li>
+    <li><strong>Target recognition</strong> — the labeled antibody binds the target analyte, if present.</li>
+    <li><strong>Immune-complex formation</strong> — the label-antibody-analyte complex is carried along the membrane.</li>
+    <li><strong>Capture at the test line</strong> — immobilized capture antibodies bind the complex, concentrating the label at the line.</li>
+    <li><strong>Signal generation</strong> — accumulated label (gold, latex, fluorophore) produces a visible or instrument-readable line.</li>
+    <li><strong>Control-line confirmation</strong> — a separate line binds excess reagent to confirm the test ran correctly.</li>
+    <li><strong>Interpretation</strong> — the test line indicates target presence; the control line validates the result.</li>
   </ol>
 
-  <h2>Why it matters</h2>
-  <p>Immunochromatography is the foundation of instrument-free rapid testing — it is why tests can be run anywhere, store at room temperature, and give results in minutes. "Lateral flow" and "immunochromatographic assay" describe the same technique.</p>
+  <h2>Components of an Immunochromatographic Test Strip</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Component</th><th>Function</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><th>Sample pad</th><td>Receives the sample and buffers it</td><td>Conditions the sample for consistent flow and release</td></tr>
+        <tr><th>Conjugate pad</th><td>Holds the dried labeled antibody</td><td>Releases label uniformly for reproducible signal</td></tr>
+        <tr><th>Nitrocellulose membrane</th><td>Immobilizes capture reagents; migration substrate</td><td>Pore size and coating affect flow rate and line sharpness</td></tr>
+        <tr><th>Test line</th><td>Captures the target complex</td><td>Determines sensitivity and specificity</td></tr>
+        <tr><th>Control line</th><td>Binds excess reagent</td><td>Validates the test — distinguishes a true negative from a failed test</td></tr>
+        <tr><th>Absorbent pad</th><td>Wicks excess fluid</td><td>Sustains capillary flow to completion</td></tr>
+        <tr><th>Backing card</th><td>Mechanical support</td><td>Holds components in alignment</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-  <h2>Related</h2>
+  <h2>Sandwich Immunochromatography</h2>
+  <p>In the sandwich format, the target is captured <em>between</em> two antibodies: a labeled detection antibody and an immobilized capture antibody, binding different sites on the analyte. This works well for larger targets with multiple epitopes (proteins, hormones, viral antigens). Generally, higher target concentration produces a stronger test-line signal — a qualitative trend, not a universal quantitative law.</p>
+
+  <h2>Competitive Immunochromatography</h2>
+  <p>For small molecules (drugs, toxins, some hormones) with limited binding sites, a competitive format is used. Here the labeled reagent competes with the target for a fixed number of capture sites, so higher target concentration produces a <em>weaker</em> test-line signal. The readout is inverted relative to the sandwich format.</p>
+
+  <div class="card">
+    <table>
+      <thead><tr><th>Feature</th><th>Sandwich</th><th>Competitive</th></tr></thead>
+      <tbody>
+        <tr><th>Typical analytes</th><td>Larger molecules (proteins, viral antigens)</td><td>Small molecules (drugs, haptens)</td></tr>
+        <tr><th>Principle</th><td>Target captured between two antibodies</td><td>Target competes with label for binding sites</td></tr>
+        <tr><th>Test-line signal</th><td>Stronger with more target</td><td>Weaker with more target</td></tr>
+        <tr><th>Common applications</th><td>hCG, dengue NS1, troponin</td><td>Drug-of-abuse tests (THC, opiates)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>How the Test Line Produces a Signal</h2>
+  <p>The visible signal comes from a reporter particle conjugated to the detection antibody. Common reporters:</p>
+  <ul>
+    <li><strong>Colloidal gold</strong> — red-purple nanoparticles; the most common visual label.</li>
+    <li><strong>Colored latex particles</strong> — alternative visual labels with tunable color.</li>
+    <li><strong>Fluorescent particles</strong> — require a reader but enable quantitative output.</li>
+    <li><strong>Other nanoparticles</strong> — upconverting or magnetic particles for specialized formats.</li>
+  </ul>
+  <p>Colorimetric labels allow naked-eye reading; fluorescent labels need a reader but improve sensitivity and enable quantification. Immunochromatographic assays are therefore not exclusively visual.</p>
+
+  <h2>What Can Immunochromatography Detect?</h2>
+  <ul>
+    <li>Proteins and viral/bacterial <strong>antigens</strong> (e.g., dengue NS1, influenza, Strep A)</li>
+    <li><strong>Antibodies</strong> (IgM/IgG serology — HIV, HCV, syphilis)</li>
+    <li><strong>Hormones</strong> (hCG, LH, FSH)</li>
+    <li><strong>Cardiac and inflammatory biomarkers</strong> (troponin, CRP, PCT, D-dimer)</li>
+    <li><strong>Small molecules</strong> — drugs of abuse and metabolites (THC, opiates, benzodiazepines)</li>
+    <li>Veterinary and food-safety analytes</li>
+  </ul>
+
+  <h2>Applications of Immunochromatography</h2>
+  <ul>
+    <li><strong>Human diagnostics</strong> — point-of-care infectious disease, pregnancy, cardiac and drug screening.</li>
+    <li><strong>Veterinary diagnostics</strong> — companion and livestock disease screening.</li>
+    <li><strong>Food safety</strong> — detecting residues, toxins and contaminants.</li>
+    <li><strong>Environmental testing</strong> — water and field-sample screening.</li>
+    <li><strong>Research and field testing</strong> — decentralized assays where lab access is limited.</li>
+  </ul>
+  <p>In each case, the value is the same: rapid, instrument-free (or minimally instrumented) results at the point of need.</p>
+
+  <h2>What Affects Test Performance?</h2>
+  <p>Performance (sensitivity, specificity, limit of detection, reproducibility, background) is shaped by:</p>
+  <ul>
+    <li><strong>Antibody affinity and specificity</strong> — drive target binding and cross-reactivity.</li>
+    <li><strong>Conjugate quality</strong> — label uniformity affects signal intensity and consistency.</li>
+    <li><strong>Membrane characteristics</strong> — pore size and coating affect flow rate and line sharpness.</li>
+    <li><strong>Sample matrix</strong> — viscosity and interfering substances can alter flow and background.</li>
+    <li><strong>Blocking and reagent stability</strong> — affect nonspecific binding and shelf life.</li>
+    <li><strong>Environmental conditions</strong> — temperature and humidity influence storage and performance.</li>
+  </ul>
+
+  <h2>Limitations of Immunochromatography</h2>
+  <ul>
+    <li>Sensitivity may be lower than laboratory methods such as PCR.</li>
+    <li>Visual interpretation can be subjective (faint lines).</li>
+    <li>Matrix effects and nonspecific binding can raise background.</li>
+    <li>Antibody cross-reactivity can cause false positives.</li>
+    <li>Visual formats offer limited quantitative capability.</li>
+    <li>Reagent stability and environmental storage impose constraints.</li>
+  </ul>
+  <p>Instrument-assisted LFIA (fluorescence readers) addresses some of these — improving quantification and objectivity — but does not remove all assay-development challenges.</p>
+
+  <h2>What Is the Hook Effect?</h2>
+  <p>The hook (or high-dose hook / prozone) effect occurs in sandwich immunoassays at very high analyte concentrations, when excess target saturates both antibodies and disrupts sandwich-complex formation, paradoxically <em>reducing</em> the observed signal. It matters clinically when an unexpectedly weak or negative result occurs despite strong clinical suspicion. It is an assay-design-dependent phenomenon, not a universal feature of every test.</p>
+
+  <h2>Immunochromatography vs ELISA vs PCR</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Feature</th><th>Immunochromatography</th><th>ELISA</th><th>PCR</th></tr></thead>
+      <tbody>
+        <tr><th>Detection principle</th><td>Antibody-antigen on a membrane</td><td>Enzyme-linked antibody, plate reader</td><td>Nucleic-acid amplification</td></tr>
+        <tr><th>Target type</th><td>Antigens, antibodies, small molecules</td><td>Antigens, antibodies</td><td>DNA/RNA</td></tr>
+        <tr><th>Speed</th><td>Minutes</td><td>1–3 hours</td><td>Hours</td></tr>
+        <tr><th>Equipment</th><td>None (or reader)</td><td>Plate reader</td><td>Thermal cycler</td></tr>
+        <tr><th>Quantification</th><td>Qualitative / semi-quantitative</td><td>Quantitative</td><td>Quantitative (Ct)</td></tr>
+        <tr><th>Field use</th><td>Excellent</td><td>Limited (lab)</td><td>Limited (lab)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Method choice depends on target, required sensitivity, turnaround time, equipment, sample type, cost and intended use — no single method is universally "better".</p>
+
+  <h2>Is Immunochromatography the Same as a Lateral Flow Assay?</h2>
+  <p>Not exactly. <strong>Lateral flow</strong> describes the physical format (sample migrates laterally along a strip). <strong>Immunochromatography</strong> describes the recognition mechanism (chromatography plus antibody-antigen binding). A lateral-flow assay that uses antibody recognition is an immunochromatographic LFIA; a lateral-flow assay using another chemistry is not. The terms are often used interchangeably in commercial contexts, but technically they are related, not identical.</p>
+
+  <h2>Advantages of Immunochromatography</h2>
+  <ul>
+    <li>Rapid turnaround (minutes)</li>
+    <li>Simple, low-skill operation</li>
+    <li>Portable and decentralized</li>
+    <li>Minimal equipment (visual) or a small reader (quantitative)</li>
+    <li>Integrated, single-use strip format</li>
+    <li>Potential room-temperature storage, depending on formulation</li>
+    <li>Scalable, low-cost manufacturing</li>
+  </ul>
+
+  <h2>Immunochromatography in Simple Terms</h2>
+  <p>Think of a river carrying a dye that only sticks to a specific fish. You add a drop of sample to one end; the liquid flows along the strip. If the target molecule is present, a labeled antibody grabs it and carries it downstream until a capture line "catches" the complex, forming a visible line — like a colored net that only appears when the right fish swims through.</p>
+
+  <h2>Key Immunochromatography Terms</h2>
+  <div class="card">
+    <table>
+      <tbody>
+        <tr><th>Antigen</th><td>A molecule recognized by an antibody (often the target of a test).</td></tr>
+        <tr><th>Antibody</th><td>A protein that binds a specific antigen.</td></tr>
+        <tr><th>Capture antibody</th><td>An antibody immobilized at the test line.</td></tr>
+        <tr><th>Detection antibody</th><td>A labeled antibody that binds the target in solution.</td></tr>
+        <tr><th>Conjugate</th><td>A labeled reagent (antibody + reporter particle).</td></tr>
+        <tr><th>Reporter</th><td>The signal particle (gold, latex, fluorophore).</td></tr>
+        <tr><th>Test line</th><td>Where the target complex is captured — indicates a positive result.</td></tr>
+        <tr><th>Control line</th><td>Confirms the test ran correctly.</td></tr>
+        <tr><th>Nitrocellulose membrane</th><td>The substrate on which capture reagents are immobilized.</td></tr>
+        <tr><th>LFIA</th><td>Lateral flow immunoassay — an antibody-based lateral-flow test.</td></tr>
+        <tr><th>Sensitivity</th><td>The proportion of true positives correctly detected.</td></tr>
+        <tr><th>Specificity</th><td>The proportion of true negatives correctly identified.</td></tr>
+        <tr><th>Limit of detection</th><td>The lowest analyte concentration reliably detectable.</td></tr>
+        <tr><th>Cross-reactivity</th><td>Binding of a related (non-target) molecule.</td></tr>
+        <tr><th>Hook effect</th><td>Signal suppression at very high analyte concentration.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is immunochromatography?</strong> A technique combining chromatographic sample migration with antibody-antigen recognition to detect a target and produce a signal on a test strip.</p>
+    <p><strong>How does immunochromatography work?</strong> A sample migrates by capillary action, a labeled antibody binds the target, and the complex is captured at a test line to form a visible signal.</p>
+    <p><strong>Is immunochromatography the same as lateral flow?</strong> Related but not identical — lateral flow is the physical format; immunochromatography is the antibody-based recognition mechanism.</p>
+    <p><strong>What is the difference between sandwich and competitive formats?</strong> Sandwich captures the target between two antibodies (signal rises with target); competitive uses target competition for binding sites (signal falls as target rises).</p>
+    <p><strong>What is the purpose of the control line?</strong> It confirms the test ran correctly and distinguishes a true negative from a failed test.</p>
+    <p><strong>Can immunochromatography be quantitative?</strong> Visual formats are qualitative; fluorescence readers can provide semi-quantitative or quantitative output.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
   <ul>
     <li><a href="/knowledge/technology/lateral-flow/">Colloidal gold lateral flow (technology)</a></li>
+    <li><a href="/knowledge/technology/conjugation/">Colloidal gold conjugation</a></li>
+    <li><a href="/knowledge/technology/membrane/">Nitrocellulose membrane</a></li>
     <li><a href="/knowledge/colloidal-gold/">What is colloidal gold?</a></li>
+    <li><a href="/comparisons/rapid-test-vs-elisa/">Rapid test vs ELISA</a></li>
+    <li><a href="/comparisons/rapid-test-vs-pcr/">Rapid test vs PCR</a></li>
+    <li><a href="/comparisons/antigen-vs-antibody/">Antigen vs antibody</a></li>
+    <li><a href="/manufacturing/">IVD manufacturing</a></li>
+  </ul>
+
+  <h2>References</h2>
+  <ul class="small muted">
+    <li>Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats — a literature survey. Analytical and Bioanalytical Chemistry. 2009;393(2):569–582.</li>
+    <li>Koczula KM, Gallotta A. Lateral flow assays. Essays in Biochemistry. 2016;60(1):111–120.</li>
   </ul>
 
   <p><a href="/knowledge/">← Knowledge base</a></p>
   <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "What Is Immunochromatography?",
+    "description": "Immunochromatography combines chromatographic migration with antibody-antigen recognition to detect analytes on a test strip — the principle behind lateral-flow rapid tests.",
+    "about": ["Immunochromatography", "Lateral flow assay", "Immunoassay", "Point-of-care testing"]
+  })} />
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "What is immunochromatography?", "acceptedAnswer": {"@type": "Answer", "text": "A technique combining chromatographic sample migration with antibody-antigen recognition to detect a target and produce a signal on a test strip."}},
+      {"@type": "Question", "name": "How does immunochromatography work?", "acceptedAnswer": {"@type": "Answer", "text": "A sample migrates by capillary action, a labeled antibody binds the target, and the complex is captured at a test line to form a visible signal."}},
+      {"@type": "Question", "name": "Is immunochromatography the same as lateral flow?", "acceptedAnswer": {"@type": "Answer", "text": "Related but not identical — lateral flow is the physical format; immunochromatography is the antibody-based recognition mechanism."}},
+      {"@type": "Question", "name": "What is the difference between sandwich and competitive formats?", "acceptedAnswer": {"@type": "Answer", "text": "Sandwich captures the target between two antibodies (signal rises with target); competitive uses target competition for binding sites (signal falls as target rises)."}},
+      {"@type": "Question", "name": "What is the purpose of the control line?", "acceptedAnswer": {"@type": "Answer", "text": "It confirms the test ran correctly and distinguishes a true negative from a failed test."}},
+      {"@type": "Question", "name": "Can immunochromatography be quantitative?", "acceptedAnswer": {"@type": "Answer", "text": "Visual formats are qualitative; fluorescence readers can provide semi-quantitative or quantitative output."}}
+    ]
+  })} />
 
 </BaseLayout>
