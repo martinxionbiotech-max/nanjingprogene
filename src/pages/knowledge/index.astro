@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import whatIs from '../../data/what-is-content.json';
+import whatIsDoa from '../../data/what-is-doa.json';
+import whatIsClinical from '../../data/what-is-clinical.json';
+
+const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical };
+
+const guides = [
+  { title: "Testing Methodologies", desc: "Lateral flow vs fluorescence immunoassay (FIA).", href: "/knowledge/testing-methodologies/" },
+  { title: "Specimen Types", desc: "Blood, serum, plasma, swab, urine, feces, oral fluid.", href: "/knowledge/specimens/" },
+  { title: "Sensitivity & Specificity", desc: "PPV, NPV and reading test accuracy.", href: "/knowledge/sensitivity-specificity/" },
+  { title: "The Diagnostic Window", desc: "Why timing determines test accuracy.", href: "/knowledge/diagnostic-window/" },
+  { title: "Screening vs Confirmatory", desc: "Two-tier diagnosis explained.", href: "/knowledge/screening-vs-confirmatory/" },
+  { title: "Storage & Transport", desc: "Temperature, shelf life and no cold chain.", href: "/knowledge/storage-transport/" },
+  { title: "How to Read a Result", desc: "Control line, test line and common errors.", href: "/knowledge/result-interpretation/" },
+  { title: "QC Requirements", desc: "Internal control, lot records, ISO 13485.", href: "/knowledge/qc-requirements/" },
+  { title: "Supplier Evaluation Checklist", desc: "How to evaluate an IVD rapid test supplier.", href: "/knowledge/procurement-guide/" },
+];
+
+const analytes = Object.entries(allWhatIs).sort((a, b) => a[1].name.localeCompare(b[1].name));
+---
+
+<BaseLayout
+  title="Knowledge Base — IVD Testing Guides & Analyte Explainers | Progene Bio"
+  description="IVD knowledge base: testing methodologies, specimens, sensitivity/specificity, diagnostic window, and 'What is X' analyte explainers."
+  canonical="/knowledge/"
+>
+
+  <h1>Knowledge Base</h1>
+  <p>Guides and analyte explainers for IVD rapid testing — written for buyers and point-of-care users.</p>
+
+  <h2>Testing Guides</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {guides.map((g) => (
+      <a class="card" href={g.href} style="display:block;">
+        <strong>{g.title}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{g.desc}</div>
+      </a>
+    ))}
+  </div>
+
+  <h2>Analyte Explainers ({analytes.length})</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px;">
+    {analytes.map(([slug, w]) => (
+      <a class="card" href={`/knowledge/analyte/${slug}/`} style="display:block; padding:12px 14px;">
+        <strong style="font-size:.95rem;">{w.name}</strong>
+      </a>
+    ))}
+  </div>
+
+</BaseLayout>
