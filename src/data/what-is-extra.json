@@ -6,7 +6,22 @@
     "specimen": "WB/S/P",
     "interpretation": "Positive = recent HAV infection",
     "limitations": "IgM timing affects sensitivity",
-    "related": "hav-igm"
+    "related": "hav-igm",
+    "faq": [
+      {
+        "q": "What does HAV IgM positive mean?",
+        "a": "Acute hepatitis A infection."
+      }
+    ],
+    "references": [
+      "WHO. Hepatitis testing guidelines."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Hepatitis hub",
+        "href": "/solutions/disease/hepatitis/"
+      }
+    ]
   },
   "hev": {
     "name": "Hepatitis E (HEV)",
@@ -15,7 +30,16 @@
     "specimen": "WB/S/P",
     "interpretation": "Positive = HEV exposure",
     "limitations": "Serology supportive; molecular confirmation where available",
-    "related": "hev"
+    "related": "hev",
+    "faq": [
+      {
+        "q": "What is HEV?",
+        "a": "Hepatitis E virus; serology supports diagnosis in endemic regions."
+      }
+    ],
+    "references": [
+      "WHO. Hepatitis E fact sheet."
+    ]
   },
   "ebv": {
     "name": "Epstein-Barr Virus (EBV)",
@@ -24,7 +48,16 @@
     "specimen": "WB/S/P",
     "interpretation": "Pattern distinguishes acute vs past",
     "limitations": "Interpret with clinical context",
-    "related": "ebv"
+    "related": "ebv",
+    "faq": [
+      {
+        "q": "What does EBV testing show?",
+        "a": "Antibody pattern (VCA/EBNA) distinguishes acute from past infection."
+      }
+    ],
+    "references": [
+      "CDC. Epstein-Barr virus laboratory testing."
+    ]
   },
   "hiv-p24": {
     "name": "HIV p24 Antigen",
@@ -33,7 +66,22 @@
     "specimen": "WB/S/P",
     "interpretation": "Positive = early HIV antigen",
     "limitations": "Reactive requires confirmation",
-    "related": "hiv-p24"
+    "related": "hiv-p24",
+    "faq": [
+      {
+        "q": "Why test HIV p24 antigen?",
+        "a": "It appears before antibodies, narrowing the HIV window period."
+      }
+    ],
+    "references": [
+      "WHO. Consolidated guidelines on HIV testing services."
+    ],
+    "related_knowledge": [
+      {
+        "title": "HIV / STD hub",
+        "href": "/solutions/disease/hiv-std/"
+      }
+    ]
   },
   "rotavirus": {
     "name": "Rotavirus",
@@ -42,7 +90,22 @@
     "specimen": "Feces",
     "interpretation": "Positive = active shedding",
     "limitations": "Antigen indicates active infection",
-    "related": "rotavirus"
+    "related": "rotavirus",
+    "faq": [
+      {
+        "q": "What does a rotavirus antigen test show?",
+        "a": "Active rotavirus shedding — a leading cause of pediatric gastroenteritis."
+      }
+    ],
+    "references": [
+      "WHO. Rotavirus surveillance guidance."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Gastrointestinal hub",
+        "href": "/solutions/disease/gastrointestinal/"
+      }
+    ]
   },
   "adenovirus": {
     "name": "Adenovirus",
@@ -51,7 +114,16 @@
     "specimen": "Feces/Swab",
     "interpretation": "Positive = active infection",
     "limitations": "Antigen indicates active infection",
-    "related": "adenovirus"
+    "related": "adenovirus",
+    "faq": [
+      {
+        "q": "What does an adenovirus antigen test detect?",
+        "a": "Active adenovirus infection (respiratory or gastrointestinal)."
+      }
+    ],
+    "references": [
+      "CDC. Adenovirus testing guidance."
+    ]
   },
   "norovirus": {
     "name": "Norovirus",
@@ -60,7 +132,16 @@
     "specimen": "Feces",
     "interpretation": "Positive = active shedding",
     "limitations": "Supports outbreak screening",
-    "related": "norovirus"
+    "related": "norovirus",
+    "faq": [
+      {
+        "q": "What does a norovirus antigen test show?",
+        "a": "Active norovirus shedding — a leading cause of gastroenteritis outbreaks."
+      }
+    ],
+    "references": [
+      "CDC. Norovirus testing guidance."
+    ]
   },
   "c-difficile": {
     "name": "Clostridium difficile",
@@ -114,7 +195,16 @@
     "specimen": "Urine",
     "interpretation": "Positive = serogroup 1 antigen",
     "limitations": "Detects serogroup 1 primarily",
-    "related": "legionella"
+    "related": "legionella",
+    "faq": [
+      {
+        "q": "What does a Legionella antigen test detect?",
+        "a": "Legionella pneumophila serogroup 1 antigen in urine."
+      }
+    ],
+    "references": [
+      "CDC. Legionnaires disease testing guidance."
+    ]
   },
   "mycoplasma-pn": {
     "name": "Mycoplasma pneumoniae",
@@ -150,7 +240,22 @@
     "specimen": "Swab",
     "interpretation": "Positive = Strep A present",
     "limitations": "Culture is reference",
-    "related": "strep-a"
+    "related": "strep-a",
+    "faq": [
+      {
+        "q": "What does a positive Strep A test mean?",
+        "a": "Group A Streptococcus is present — culture is the reference."
+      }
+    ],
+    "references": [
+      "IDSA. Group A streptococcal pharyngitis guideline."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Respiratory hub",
+        "href": "/solutions/disease/respiratory/"
+      }
+    ]
   },
   "rsv": {
     "name": "Respiratory Syncytial Virus (RSV)",
@@ -159,7 +264,22 @@
     "specimen": "Swab",
     "interpretation": "Positive = active infection",
     "limitations": "Antigen indicates active infection",
-    "related": "rsv"
+    "related": "rsv",
+    "faq": [
+      {
+        "q": "What does an RSV antigen test detect?",
+        "a": "Active RSV infection — a major cause of infant/elderly respiratory illness."
+      }
+    ],
+    "references": [
+      "CDC. RSV testing guidance."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Respiratory hub",
+        "href": "/solutions/disease/respiratory/"
+      }
+    ]
   },
   "ffn": {
     "name": "Fetal Fibronectin (fFN)",
@@ -258,7 +378,22 @@
     "specimen": "WB/S/P",
     "interpretation": "Elevated = cardiac stress",
     "limitations": "POC is triage-grade",
-    "related": "nt-probnp"
+    "related": "nt-probnp",
+    "faq": [
+      {
+        "q": "What does elevated NT-proBNP mean?",
+        "a": "Cardiac stress — used for heart-failure assessment; POC is triage-grade."
+      }
+    ],
+    "references": [
+      "ESC. Guidelines for the diagnosis and treatment of heart failure."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      }
+    ]
   },
   "fob": {
     "name": "Fecal Occult Blood (FOB)",

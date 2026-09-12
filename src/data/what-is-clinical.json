@@ -6,7 +6,22 @@
     "related": "myoglobin",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = muscle (including cardiac) injury.",
-    "limitations": "Low cardiac specificity — use in panels with troponin."
+    "limitations": "Low cardiac specificity — use in panels with troponin.",
+    "faq": [
+      {
+        "q": "Is myoglobin cardiac-specific?",
+        "a": "No — it is an early but non-specific marker; use with troponin."
+      }
+    ],
+    "references": [
+      "Thygesen K et al. 2019."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      }
+    ]
   },
   "ck-mb": {
     "name": "CK-MB (Creatine Kinase-MB)",
@@ -15,7 +30,22 @@
     "related": "ck-mb",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = myocardial injury (cardiac isoenzyme).",
-    "limitations": "Largely superseded by troponin; interpret with other markers."
+    "limitations": "Largely superseded by troponin; interpret with other markers.",
+    "faq": [
+      {
+        "q": "Is CK-MB still used?",
+        "a": "Largely superseded by troponin but retained in cardiac panels as an adjunct."
+      }
+    ],
+    "references": [
+      "Thygesen K et al. Fourth universal definition of myocardial infarction. Eur Heart J. 2019;40(3):237-269."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Cardiac markers hub",
+        "href": "/solutions/disease/cardiac/"
+      }
+    ]
   },
   "h-fabp": {
     "name": "H-FABP (Heart Fatty Acid-Binding Protein)",
@@ -24,7 +54,16 @@
     "related": "h-fabp",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = early myocardial injury.",
-    "limitations": "Used as an early marker alongside troponin; not standalone."
+    "limitations": "Used as an early marker alongside troponin; not standalone.",
+    "faq": [
+      {
+        "q": "What is H-FABP used for?",
+        "a": "An early cardiac marker used alongside troponin; not standalone."
+      }
+    ],
+    "references": [
+      "Clinical guidance on early cardiac markers."
+    ]
   },
   "cea": {
     "name": "CEA (Carcinoembryonic Antigen)",
@@ -33,7 +72,22 @@
     "related": "cea",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = supports colorectal cancer monitoring.",
-    "limitations": "Rises in benign conditions and smokers; not diagnostic alone."
+    "limitations": "Rises in benign conditions and smokers; not diagnostic alone.",
+    "faq": [
+      {
+        "q": "Is elevated CEA diagnostic of cancer?",
+        "a": "No — it rises in benign conditions and smoking; use for monitoring with imaging."
+      }
+    ],
+    "references": [
+      "NCCN. Colorectal cancer guidelines."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Tumor markers hub",
+        "href": "/solutions/disease/tumor/"
+      }
+    ]
   },
   "hba1c": {
     "name": "HbA1c (Glycated Hemoglobin)",
@@ -42,7 +96,16 @@
     "related": "hba1c",
     "specimen": "Whole blood (fingerstick)",
     "interpretation": "Reflects average glucose over ~2–3 months; % used for diabetes diagnosis/control.",
-    "limitations": "Affected by hemoglobin variants and anemia."
+    "limitations": "Affected by hemoglobin variants and anemia.",
+    "faq": [
+      {
+        "q": "What is normal HbA1c?",
+        "a": "Below ~5.7% is normal; ≥6.5% supports a diabetes diagnosis (varies by guideline)."
+      }
+    ],
+    "references": [
+      "ADA / WHO. Diagnostic criteria for diabetes."
+    ]
   },
   "vitamin-d": {
     "name": "Vitamin D (25-OH)",
@@ -51,7 +114,16 @@
     "related": "vitamin-d",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Low = vitamin D deficiency/insufficiency.",
-    "limitations": "Screening aid; confirm borderline results quantitatively."
+    "limitations": "Screening aid; confirm borderline results quantitatively.",
+    "faq": [
+      {
+        "q": "What does low vitamin D mean?",
+        "a": "Deficiency or insufficiency; confirm borderline results quantitatively."
+      }
+    ],
+    "references": [
+      "Clinical guidance on vitamin D testing."
+    ]
   },
   "tsh": {
     "name": "TSH (Thyroid-Stimulating Hormone)",
@@ -60,7 +132,16 @@
     "related": "tsh",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "High = hypothyroid; low = hyperthyroid (first-line thyroid test).",
-    "limitations": "Interpret with free T4 and clinical context."
+    "limitations": "Interpret with free T4 and clinical context.",
+    "faq": [
+      {
+        "q": "What does a high TSH mean?",
+        "a": "Typically hypothyroidism; low TSH suggests hyperthyroidism — interpret with free T4."
+      }
+    ],
+    "references": [
+      "Clinical guidance on thyroid testing."
+    ]
   },
   "ferritin": {
     "name": "Ferritin",
@@ -69,7 +150,16 @@
     "related": "ferritin",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Low = depleted iron stores (iron-deficiency anemia).",
-    "limitations": "Also an acute-phase reactant — can rise in inflammation."
+    "limitations": "Also an acute-phase reactant — can rise in inflammation.",
+    "faq": [
+      {
+        "q": "What does low ferritin mean?",
+        "a": "Depleted iron stores (iron-deficiency anemia)."
+      }
+    ],
+    "references": [
+      "WHO. Guidelines on iron-deficiency anaemia."
+    ]
   },
   "calprotectin": {
     "name": "Calprotectin",
@@ -87,6 +177,15 @@
     "related": "saa",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = acute inflammation/infection.",
-    "limitations": "Non-specific — used alongside CRP."
+    "limitations": "Non-specific — used alongside CRP.",
+    "faq": [
+      {
+        "q": "What is SAA used for?",
+        "a": "An acute-phase marker of inflammation/infection, used alongside CRP."
+      }
+    ],
+    "references": [
+      "Clinical guidance on inflammatory markers."
+    ]
   }
 }

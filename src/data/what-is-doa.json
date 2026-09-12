@@ -36,7 +36,22 @@
     "specimen": "Urine",
     "cutoff": "150–300 ng/mL",
     "interpretation": "Positive = benzoylecgonine (cocaine metabolite) detected (presumptive).",
-    "limitations": "Presumptive — confirm by GC-MS/LC-MS."
+    "limitations": "Presumptive — confirm by GC-MS/LC-MS.",
+    "faq": [
+      {
+        "q": "What does a positive cocaine test mean?",
+        "a": "The cocaine metabolite benzoylecgonine is present — a presumptive result; confirm by GC-MS/LC-MS."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Workplace drug screening",
+        "href": "/solutions/scenario/workplace-screening/"
+      }
+    ]
   },
   "amphetamine": {
     "name": "Amphetamine",
@@ -46,7 +61,16 @@
     "specimen": "Urine",
     "cutoff": "500–1000 ng/mL",
     "interpretation": "Positive = amphetamine detected (presumptive).",
-    "limitations": "Cross-reactivity with some sympathomimetics; confirm positives."
+    "limitations": "Cross-reactivity with some sympathomimetics; confirm positives.",
+    "faq": [
+      {
+        "q": "Can cold medication cause a positive amphetamine result?",
+        "a": "Some sympathomimetics can cross-react; confirm positives by GC-MS/LC-MS."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ]
   },
   "methamphetamine": {
     "name": "Methamphetamine",
@@ -81,7 +105,16 @@
     "specimen": "Urine",
     "cutoff": "300 ng/mL",
     "interpretation": "Positive = morphine detected (presumptive).",
-    "limitations": "May reflect prescription opiates; confirm to identify source."
+    "limitations": "May reflect prescription opiates; confirm to identify source.",
+    "faq": [
+      {
+        "q": "Does a morphine test detect heroin?",
+        "a": "It detects morphine and 6-MAM may indicate heroin use; confirm to identify the source."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ]
   },
   "opiates": {
     "name": "Opiates (Class)",
@@ -91,7 +124,16 @@
     "specimen": "Urine",
     "cutoff": "2000 ng/mL (morphine-based)",
     "interpretation": "Positive = opiates detected (presumptive).",
-    "limitations": "Does not detect synthetic opioids (fentanyl, oxycodone); confirm positives."
+    "limitations": "Does not detect synthetic opioids (fentanyl, oxycodone); confirm positives.",
+    "faq": [
+      {
+        "q": "Do opiate tests detect synthetic opioids?",
+        "a": "Classic opiate assays do not detect fentanyl or oxycodone — use dedicated tests."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ]
   },
   "benzodiazepines": {
     "name": "Benzodiazepines",
@@ -101,7 +143,16 @@
     "specimen": "Urine",
     "cutoff": "300 ng/mL",
     "interpretation": "Positive = benzodiazepines detected (presumptive).",
-    "limitations": "Cross-reactivity varies by benzodiazepine; confirm positives."
+    "limitations": "Cross-reactivity varies by benzodiazepine; confirm positives.",
+    "faq": [
+      {
+        "q": "Do BZO tests detect all benzodiazepines?",
+        "a": "Cross-reactivity varies by benzodiazepine; confirm positives."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ]
   },
   "fentanyl": {
     "name": "Fentanyl",
@@ -136,7 +187,16 @@
     "specimen": "Urine",
     "cutoff": "1000 ng/mL",
     "interpretation": "Positive = ketamine detected (presumptive).",
-    "limitations": "Presumptive — confirm by GC-MS/LC-MS."
+    "limitations": "Presumptive — confirm by GC-MS/LC-MS.",
+    "faq": [
+      {
+        "q": "How is ketamine detected?",
+        "a": "As a presumptive urine screen; confirm by GC-MS/LC-MS."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ]
   },
   "methadone": {
     "name": "Methadone",
@@ -146,7 +206,16 @@
     "specimen": "Urine",
     "cutoff": "300 ng/mL",
     "interpretation": "Positive = methadone detected (presumptive).",
-    "limitations": "Detects methadone (not EDDP metabolite); confirm for compliance monitoring."
+    "limitations": "Detects methadone (not EDDP metabolite); confirm for compliance monitoring.",
+    "faq": [
+      {
+        "q": "What does a methadone test detect?",
+        "a": "Methadone itself (not its EDDP metabolite); used for compliance monitoring."
+      }
+    ],
+    "references": [
+      "SAMHSA. Workplace drug testing guidelines."
+    ]
   },
   "xylazine": {
     "name": "Xylazine",
@@ -156,6 +225,15 @@
     "specimen": "Urine",
     "cutoff": "Assay-dependent",
     "interpretation": "Positive = xylazine detected (presumptive).",
-    "limitations": "Emerging adulterant — confirm by LC-MS/MS; limited cross-reactivity data."
+    "limitations": "Emerging adulterant — confirm by LC-MS/MS; limited cross-reactivity data.",
+    "faq": [
+      {
+        "q": "What is xylazine?",
+        "a": "A veterinary sedative emerging as an illicit-drug adulterant; confirm by LC-MS/MS."
+      }
+    ],
+    "references": [
+      "CDC. Xylazine public health advisory."
+    ]
   }
 }

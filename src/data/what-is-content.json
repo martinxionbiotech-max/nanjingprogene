@@ -158,7 +158,22 @@
     "related": "psa",
     "specimen": "Whole blood / serum / plasma",
     "interpretation": "Elevated = supports prostate cancer screening/monitoring.",
-    "limitations": "Rises in BPH and prostatitis; not diagnostic — use with imaging."
+    "limitations": "Rises in BPH and prostatitis; not diagnostic — use with imaging.",
+    "faq": [
+      {
+        "q": "Is elevated PSA always prostate cancer?",
+        "a": "No — it rises in BPH and prostatitis; use with imaging."
+      }
+    ],
+    "references": [
+      "NCCN. Prostate cancer early detection guidelines."
+    ],
+    "related_knowledge": [
+      {
+        "title": "Tumor markers hub",
+        "href": "/solutions/disease/tumor/"
+      }
+    ]
   },
   "afp": {
     "name": "Alpha-Fetoprotein (AFP)",
@@ -315,6 +330,15 @@
     "related": "fsh",
     "specimen": "Urine / blood",
     "interpretation": "Elevated = supports menopause/ovarian assessment.",
-    "limitations": "Interpret with LH and clinical context."
+    "limitations": "Interpret with LH and clinical context.",
+    "faq": [
+      {
+        "q": "What does elevated FSH mean?",
+        "a": "Supports menopause / reduced ovarian reserve; interpret with LH."
+      }
+    ],
+    "references": [
+      "Clinical guidance on reproductive hormone testing."
+    ]
   }
 }
