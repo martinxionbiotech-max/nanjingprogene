@@ -77,4 +77,16 @@ const faqs = faqContent[hub.id] ?? [];
     <p><strong>Need a full {hub.name} testing panel?</strong> Request datasheets, IFU and OEM/ODM options.</p>
   </div>
 
+  {faqs.length > 0 && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map((f) => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    })} />
+  )}
+
 </BaseLayout>
