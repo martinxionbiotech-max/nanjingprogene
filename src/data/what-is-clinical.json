@@ -3,60 +3,90 @@
     "name": "Myoglobin",
     "what": "Myoglobin is a muscle protein released into blood when muscle — including heart muscle — is damaged.",
     "significance": "It rises earliest after myocardial injury but has low cardiac specificity; used as an early marker in multi-marker panels.",
-    "related": "myoglobin"
+    "related": "myoglobin",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = muscle (including cardiac) injury.",
+    "limitations": "Low cardiac specificity — use in panels with troponin."
   },
   "ck-mb": {
     "name": "CK-MB (Creatine Kinase-MB)",
     "what": "CK-MB is a cardiac-specific isoenzyme of creatine kinase, released when heart muscle is injured.",
     "significance": "A classic cardiac marker, largely superseded by troponin but still used in some protocols.",
-    "related": "ck-mb"
+    "related": "ck-mb",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = myocardial injury (cardiac isoenzyme).",
+    "limitations": "Largely superseded by troponin; interpret with other markers."
   },
   "h-fabp": {
     "name": "H-FABP (Heart Fatty Acid-Binding Protein)",
     "what": "H-FABP is a small cytoplasmic protein abundant in heart muscle, released early after myocardial injury.",
     "significance": "Used as an early cardiac marker in some panels, alongside troponin.",
-    "related": "h-fabp"
+    "related": "h-fabp",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = early myocardial injury.",
+    "limitations": "Used as an early marker alongside troponin; not standalone."
   },
   "cea": {
     "name": "CEA (Carcinoembryonic Antigen)",
     "what": "CEA is a glycoprotein normally produced during fetal development; levels rise in some cancers, especially colorectal cancer.",
     "significance": "Used in colorectal cancer monitoring and, with other markers, screening support.",
-    "related": "cea"
+    "related": "cea",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = supports colorectal cancer monitoring.",
+    "limitations": "Rises in benign conditions and smokers; not diagnostic alone."
   },
   "hba1c": {
     "name": "HbA1c (Glycated Hemoglobin)",
     "what": "HbA1c is hemoglobin with glucose attached, reflecting average blood glucose over the preceding 2–3 months.",
     "significance": "The standard marker for diabetes diagnosis and long-term glucose control monitoring.",
-    "related": "hba1c"
+    "related": "hba1c",
+    "specimen": "Whole blood (fingerstick)",
+    "interpretation": "Reflects average glucose over ~2–3 months; % used for diabetes diagnosis/control.",
+    "limitations": "Affected by hemoglobin variants and anemia."
   },
   "vitamin-d": {
     "name": "Vitamin D (25-OH)",
     "what": "25-hydroxyvitamin D is the main circulating form of vitamin D, reflecting body stores.",
     "significance": "Used to screen for vitamin D deficiency.",
-    "related": "vitamin-d"
+    "related": "vitamin-d",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Low = vitamin D deficiency/insufficiency.",
+    "limitations": "Screening aid; confirm borderline results quantitatively."
   },
   "tsh": {
     "name": "TSH (Thyroid-Stimulating Hormone)",
     "what": "TSH is a pituitary hormone that controls thyroid hormone production; it is the first-line thyroid function test.",
     "significance": "Abnormal TSH indicates hypothyroidism (high TSH) or hyperthyroidism (low TSH).",
-    "related": "tsh"
+    "related": "tsh",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "High = hypothyroid; low = hyperthyroid (first-line thyroid test).",
+    "limitations": "Interpret with free T4 and clinical context."
   },
   "ferritin": {
     "name": "Ferritin",
     "what": "Ferritin is the body's iron-storage protein; low ferritin indicates depleted iron stores.",
     "significance": "The most useful marker for iron-deficiency anemia diagnosis.",
-    "related": "ferritin"
+    "related": "ferritin",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Low = depleted iron stores (iron-deficiency anemia).",
+    "limitations": "Also an acute-phase reactant — can rise in inflammation."
   },
   "calprotectin": {
     "name": "Calprotectin",
     "what": "Calprotectin is a protein released by white blood cells in the gut during inflammation.",
     "significance": "Fecal calprotectin distinguishes inflammatory bowel disease (IBD) from functional disorders (IBS).",
-    "related": "calprotectin"
+    "related": "calprotectin",
+    "specimen": "Stool",
+    "interpretation": "Elevated = gut inflammation (supports IBD over IBS).",
+    "limitations": "Supports, not diagnoses; endoscopy is confirmatory."
   },
   "saa": {
     "name": "SAA (Serum Amyloid A)",
     "what": "Serum amyloid A is an acute-phase protein that rises rapidly during inflammation and infection.",
     "significance": "Used alongside CRP for infection/inflammation triage.",
-    "related": "saa"
+    "related": "saa",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = acute inflammation/infection.",
+    "limitations": "Non-specific — used alongside CRP."
   }
 }

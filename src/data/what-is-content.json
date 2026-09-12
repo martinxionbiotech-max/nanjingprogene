@@ -57,7 +57,10 @@
     "name": "Prostate-Specific Antigen (PSA)",
     "what": "PSA is a protein produced by prostate cells. It is normally present at low levels in blood but rises in prostate disease.",
     "significance": "PSA is used in prostate cancer screening and monitoring; elevated levels prompt further evaluation.",
-    "related": "psa"
+    "related": "psa",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = supports prostate cancer screening/monitoring.",
+    "limitations": "Rises in BPH and prostatitis; not diagnostic — use with imaging."
   },
   "afp": {
     "name": "Alpha-Fetoprotein (AFP)",
@@ -117,6 +120,9 @@
     "name": "Follicle-Stimulating Hormone (FSH)",
     "what": "FSH is a pituitary hormone that regulates ovarian function; levels rise as ovarian reserve declines.",
     "significance": "Elevated FSH indicates reduced ovarian reserve / menopause, used in fertility evaluation.",
-    "related": "fsh"
+    "related": "fsh",
+    "specimen": "Urine / blood",
+    "interpretation": "Elevated = supports menopause/ovarian assessment.",
+    "limitations": "Interpret with LH and clinical context."
   }
 }

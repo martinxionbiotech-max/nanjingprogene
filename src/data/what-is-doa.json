@@ -13,13 +13,21 @@
     "name": "Cocaine (Benzoylecgonine)",
     "what": "Cocaine is a stimulant; urine tests detect benzoylecgonine, its primary metabolite.",
     "significance": "Cocaine is a standard panel analyte in workplace and clinical drug screening (cut-offs 100–300 ng/mL).",
-    "related": "doa-coc"
+    "related": "doa-coc",
+    "specimen": "Urine",
+    "cutoff": "150–300 ng/mL",
+    "interpretation": "Positive = benzoylecgonine (cocaine metabolite) detected (presumptive).",
+    "limitations": "Presumptive — confirm by GC-MS/LC-MS."
   },
   "amphetamine": {
     "name": "Amphetamine",
     "what": "Amphetamine is a central-nervous-system stimulant (also prescribed for ADHD/narcolepsy).",
     "significance": "Screened in workplace panels; confirmatory testing distinguishes prescription use from misuse.",
-    "related": "doa-amp"
+    "related": "doa-amp",
+    "specimen": "Urine",
+    "cutoff": "500–1000 ng/mL",
+    "interpretation": "Positive = amphetamine detected (presumptive).",
+    "limitations": "Cross-reactivity with some sympathomimetics; confirm positives."
   },
   "methamphetamine": {
     "name": "Methamphetamine",
@@ -35,19 +43,31 @@
     "name": "Morphine",
     "what": "Morphine is a naturally occurring opiate analgesic; also a metabolite of heroin and codeine.",
     "significance": "Morphine screening detects opiate use and heroin/codeine exposure.",
-    "related": "doa-mop"
+    "related": "doa-mop",
+    "specimen": "Urine",
+    "cutoff": "300 ng/mL",
+    "interpretation": "Positive = morphine detected (presumptive).",
+    "limitations": "May reflect prescription opiates; confirm to identify source."
   },
   "opiates": {
     "name": "Opiates (Class)",
     "what": "Opiates are a class of naturally derived narcotic analgesics (morphine, codeine, heroin metabolites).",
     "significance": "Class-level screening flags opiate exposure; lab confirmation identifies the specific opiate.",
-    "related": "doa-opi"
+    "related": "doa-opi",
+    "specimen": "Urine",
+    "cutoff": "2000 ng/mL (morphine-based)",
+    "interpretation": "Positive = opiates detected (presumptive).",
+    "limitations": "Does not detect synthetic opioids (fentanyl, oxycodone); confirm positives."
   },
   "benzodiazepines": {
     "name": "Benzodiazepines",
     "what": "Benzodiazepines are sedative-hypnotic medications (e.g., diazepam, alprazolam) with misuse potential.",
     "significance": "Screened in workplace and clinical toxicology; cross-reactivity varies by specific benzo.",
-    "related": "doa-bzo"
+    "related": "doa-bzo",
+    "specimen": "Urine",
+    "cutoff": "300 ng/mL",
+    "interpretation": "Positive = benzodiazepines detected (presumptive).",
+    "limitations": "Cross-reactivity varies by benzodiazepine; confirm positives."
   },
   "fentanyl": {
     "name": "Fentanyl",
@@ -63,18 +83,30 @@
     "name": "Ketamine",
     "what": "Ketamine is a dissociative anesthetic with misuse potential.",
     "significance": "Screened in clinical and workplace settings; cut-off 1000 ng/mL.",
-    "related": "doa-ketamine"
+    "related": "doa-ketamine",
+    "specimen": "Urine",
+    "cutoff": "1000 ng/mL",
+    "interpretation": "Positive = ketamine detected (presumptive).",
+    "limitations": "Presumptive — confirm by GC-MS/LC-MS."
   },
   "methadone": {
     "name": "Methadone",
     "what": "Methadone is a long-acting opioid used in opioid-substitution therapy (also tested to confirm compliance).",
     "significance": "Screened both to detect misuse and to confirm adherence in treatment programs.",
-    "related": "doa-mtd"
+    "related": "doa-mtd",
+    "specimen": "Urine",
+    "cutoff": "300 ng/mL",
+    "interpretation": "Positive = methadone detected (presumptive).",
+    "limitations": "Detects methadone (not EDDP metabolite); confirm for compliance monitoring."
   },
   "xylazine": {
     "name": "Xylazine",
     "what": "Xylazine is a veterinary sedative that has emerged as an adulterant in the illicit opioid supply.",
     "significance": "Xylazine testing is increasingly relevant in toxicology due to its role in overdose cases.",
-    "related": "doa-xylazine"
+    "related": "doa-xylazine",
+    "specimen": "Urine",
+    "cutoff": "Assay-dependent",
+    "interpretation": "Positive = xylazine detected (presumptive).",
+    "limitations": "Emerging adulterant — confirm by LC-MS/MS; limited cross-reactivity data."
   }
 }
