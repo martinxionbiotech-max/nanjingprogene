@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Qualitative vs Quantitative Rapid Tests — What's the Difference? | Progene Bio"
+  description="Qualitative (yes/no line) vs quantitative (numeric reader) rapid tests — how they differ, when each is used, and the trade-offs."
+  canonical="/knowledge/qualitative-vs-quantitative/"
+>
+
+  <h1>Qualitative vs Quantitative Rapid Tests</h1>
+
+  <p><strong>Direct answer:</strong> A qualitative rapid test gives a yes/no answer — a visible line means "present", no line means "not detected". A quantitative (or semi-quantitative) rapid test measures how much of the analyte is present, outputting a number via an instrument reader. The choice depends on whether you need a presence/absence answer or a concentration.</p>
+
+  <h2>The difference</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th></th><th>Qualitative</th><th>Quantitative / Semi-quantitative</th></tr></thead>
+      <tbody>
+        <tr><th>Output</th><td>Positive / negative (line)</td><td>A concentration or signal value</td></tr>
+        <tr><th>Readout</th><td>Naked eye (visual)</td><td>Instrument reader (fluorescence)</td></tr>
+        <tr><th>Example</th><td>Pregnancy test, drug screen</td><td>CRP, troponin, PCT concentration</td></tr>
+        <tr><th>Equipment</th><td>None</td><td>Reader required</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>When each is used</h2>
+  <ul>
+    <li><strong>Qualitative</strong> — screening and yes/no decisions: pregnancy, infectious-disease screening, drug-of-abuse testing.</li>
+    <li><strong>Semi-quantitative</strong> — when a rough level matters, such as a visible line-intensity tier.</li>
+    <li><strong>Quantitative</strong> — when the concentration drives decisions: troponin (myocardial injury), CRP/PCT (infection severity), hormone levels.</li>
+  </ul>
+
+  <h2>The trade-offs</h2>
+  <ul>
+    <li><strong>Qualitative</strong> — cheap, instrument-free, fast, but no concentration and subjective line reading.</li>
+    <li><strong>Quantitative</strong> — objective, numeric, more informative, but requires a reader and higher cost.</li>
+  </ul>
+  <p>The move from qualitative to quantitative is exactly what a <a href="/knowledge/lfia-reader/">fluorescence reader</a> enables — the same strip chemistry, read by an instrument instead of the eye.</p>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is a semi-quantitative test?</strong> A test that gives a rough level (e.g., line intensity tiers) rather than a precise number or a bare yes/no.</p>
+    <p><strong>When do I need a quantitative test?</strong> When the concentration drives the clinical decision — for example, serial troponin or CRP levels.</p>
+    <p><strong>Are quantitative rapid tests as accurate as lab tests?</strong> They provide numeric results but may still differ from central-lab reference methods; confirm as appropriate.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
+  <ul>
+    <li><a href="/knowledge/lfia-reader/">What is an LFIA reader?</a></li>
+    <li><a href="/knowledge/technology/fia/">Fluorescence immunoassay (FIA)</a></li>
+    <li><a href="/knowledge/testing-methodologies/">Testing methodologies</a></li>
+    <li><a href="/comparisons/rapid-test-vs-elisa/">Rapid test vs ELISA</a></li>
+  </ul>
+
+  <p><a href="/knowledge/">← Knowledge base</a></p>
+  <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Qualitative vs Quantitative Rapid Tests",
+    "description": "Qualitative (yes/no line) vs quantitative (numeric reader) rapid tests — how they differ, when each is used, and the trade-offs."
+  })} />
+
+</BaseLayout>

@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="How Are Antibodies Used in Rapid Tests? — Capture vs Detection | Progene Bio"
+  description="How antibodies work in rapid diagnostic tests — capture vs detection antibodies, affinity, specificity, monoclonal vs polyclonal, and why they determine test performance."
+  canonical="/knowledge/antibodies/"
+>
+
+  <h1>How Are Antibodies Used in Rapid Tests?</h1>
+
+  <p><strong>Direct answer:</strong> Antibodies are the recognition molecules of an immunochromatographic rapid test. A <em>detection antibody</em>, conjugated to a label (colloidal gold, latex or fluorophore), binds the target in solution; a <em>capture antibody</em>, immobilized at the test line, binds the target–label complex and holds it in place to form a visible line. The quality of these antibodies determines the test's sensitivity, specificity and cross-reactivity.</p>
+
+  <h2>Two roles: capture and detection</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Role</th><th>Location</th><th>Function</th></tr></thead>
+      <tbody>
+        <tr><th>Detection antibody</th><td>Conjugated to a label, free in the conjugate pad</td><td>Binds the target and carries the label</td></tr>
+        <tr><th>Capture antibody</th><td>Immobilized at the test line</td><td>Binds the target–label complex and holds it in place</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>In a sandwich assay the two antibodies bind <em>different epitopes</em> of the same target. In a competitive assay, a single antibody (or a target analog) competes for a limited number of binding sites — the format choice depends on the target's size and structure.</p>
+
+  <h2>Affinity and specificity</h2>
+  <ul>
+    <li><strong>Affinity</strong> — how strongly an antibody binds its target; higher affinity allows detection of lower analyte concentrations (better sensitivity).</li>
+    <li><strong>Specificity</strong> — how selectively it binds the intended target versus related molecules; higher specificity reduces cross-reactivity (fewer false positives).</li>
+  </ul>
+
+  <h2>Monoclonal vs polyclonal antibodies</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Type</th><th>Origin</th><th>Characteristics</th></tr></thead>
+      <tbody>
+        <tr><th>Monoclonal</th><td>A single B-cell clone</td><td>One epitope; high specificity; consistent batches</td></tr>
+        <tr><th>Polyclonal</th><td>Multiple B-cell clones</td><td>Multiple epitopes; higher avidity; more tolerant of target variation</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Why antibody choice matters</h2>
+  <p>The antibody pair is the single largest determinant of test performance:</p>
+  <ul>
+    <li>A high-affinity, specific pair → high sensitivity and low cross-reactivity.</li>
+    <li>A cross-reactive antibody → false positives against related analytes.</li>
+    <li>Poor conjugate stability → weak, variable signal.</li>
+  </ul>
+  <p>This is why antibody screening and validation — affinity, specificity and cross-reactivity testing — is a core step in <a href="/knowledge/technology/conjugation/">conjugation</a> and assay development.</p>
+
+  <h2>What affects antibody-based performance</h2>
+  <ul>
+    <li>Antibody affinity and epitope choice</li>
+    <li>Conjugation conditions (pH, concentration, particle size)</li>
+    <li>Matrix interference (sample components that bind nonspecifically)</li>
+    <li>Reagent and conjugate stability</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li>Cross-reactivity can cause false positives against related molecules</li>
+    <li>Antibody quality varies between lots if not carefully controlled</li>
+    <li>Low-affinity antibodies miss low analyte levels (false negatives)</li>
+  </ul>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is the difference between capture and detection antibodies?</strong> The detection antibody is labeled and binds the target in solution; the capture antibody is immobilized at the test line and holds the complex in place.</p>
+    <p><strong>Why do rapid tests use two antibodies?</strong> The sandwich format needs two antibodies binding different epitopes to capture the target specifically and generate a signal.</p>
+    <p><strong>What causes antibody cross-reactivity?</strong> The antibody binds a related (non-target) molecule that shares a similar structure, producing a false positive.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
+  <ul>
+    <li><a href="/knowledge/immunochromatography/">What is immunochromatography?</a></li>
+    <li><a href="/knowledge/technology/conjugation/">Colloidal gold conjugation</a></li>
+    <li><a href="/knowledge/false-results/">Why do false positives and negatives occur?</a></li>
+    <li><a href="/comparisons/antigen-vs-antibody/">Antigen vs antibody</a></li>
+  </ul>
+
+  <p><a href="/knowledge/">← Knowledge base</a></p>
+  <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "How Are Antibodies Used in Rapid Tests?",
+    "description": "Capture vs detection antibodies, affinity, specificity and monoclonal vs polyclonal — how antibody choice determines rapid-test performance."
+  })} />
+
+</BaseLayout>

@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="What Is an LFIA Reader? — Fluorescence vs Colloidal Gold | Progene Bio"
+  description="What an LFIA reader is, how it reads a test strip, and when fluorescence (reader-based) replaces colloidal gold (visual) — quantification, sensitivity and trade-offs."
+  canonical="/knowledge/lfia-reader/"
+>
+
+  <h1>What Is an LFIA Reader?</h1>
+
+  <p><strong>Direct answer:</strong> An LFIA reader is an instrument that measures the signal of a lateral-flow test strip — typically fluorescence — and converts it into a numeric (quantitative or semi-quantitative) result. It replaces naked-eye line reading with objective, instrument-assisted detection, enabling concentration output that a visual colloidal-gold strip cannot provide.</p>
+
+  <h2>What a reader does</h2>
+  <ul>
+    <li>Excites a fluorescent label on the test and control lines.</li>
+    <li>Measures the emitted signal intensity.</li>
+    <li>Converts intensity to a concentration via a stored calibration curve.</li>
+    <li>Displays a numeric result, reducing subjective line interpretation.</li>
+  </ul>
+
+  <h2>Fluorescence vs colloidal gold</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th></th><th>Colloidal gold (visual)</th><th>Fluorescence (reader)</th></tr></thead>
+      <tbody>
+        <tr><th>Readout</th><td>Naked eye (qualitative)</td><td>Reader (quantitative)</td></tr>
+        <tr><th>Equipment</th><td>None</td><td>Fluorescence analyzer</td></tr>
+        <tr><th>Output</th><td>Positive / negative</td><td>Concentration</td></tr>
+        <tr><th>Cost</th><td>Lower</td><td>Higher</td></tr>
+        <tr><th>Best for</th><td>Screening, field use</td><td>Quantitative markers, objective results</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>When fluorescence replaces colloidal gold</h2>
+  <p>Choose fluorescence (reader-based) when:</p>
+  <ul>
+    <li>You need a <strong>concentration</strong>, not just presence/absence (e.g., CRP, troponin, PCT).</li>
+    <li>You need <strong>objective, reproducible</strong> results across operators.</li>
+    <li>You need <strong>higher sensitivity</strong> than a visual line can reliably provide.</li>
+    <li>You are doing <strong>serial monitoring</strong> where a trend matters.</li>
+  </ul>
+  <p>Choose colloidal gold when cost, portability and instrument-free operation matter most — screening and field settings.</p>
+
+  <h2>Trade-offs</h2>
+  <ul>
+    <li>Readers add instrument cost, calibration and QC requirements.</li>
+    <li>Fluorescence improves quantification and objectivity but does not remove assay-development fundamentals (antibody quality, conjugate stability).</li>
+  </ul>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is the difference between an LFIA reader and a visual test?</strong> A reader measures a fluorescent signal and outputs a number; a visual test relies on a naked-eye line.</p>
+    <p><strong>When should I use fluorescence instead of colloidal gold?</strong> When you need quantitative results, higher sensitivity or objective interpretation.</p>
+    <p><strong>Is a reader-based test more accurate?</strong> It is more objective and quantitative; accuracy still depends on the underlying assay.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
+  <ul>
+    <li><a href="/knowledge/technology/fia/">Fluorescence immunoassay (FIA)</a></li>
+    <li><a href="/knowledge/qualitative-vs-quantitative/">Qualitative vs quantitative</a></li>
+    <li><a href="/knowledge/colloidal-gold/">What is colloidal gold?</a></li>
+    <li><a href="/knowledge/testing-methodologies/">Testing methodologies</a></li>
+  </ul>
+
+  <p><a href="/knowledge/">← Knowledge base</a></p>
+  <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "What Is an LFIA Reader?",
+    "description": "An LFIA reader measures a fluorescent strip signal for quantitative output — when fluorescence replaces colloidal gold and the trade-offs."
+  })} />
+
+</BaseLayout>

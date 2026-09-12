@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Why Do False Positives and False Negatives Occur? | Progene Bio"
+  description="Why rapid tests give false positives and false negatives — cross-reactivity, window period, low analyte, matrix effects, hook effect and how to reduce them."
+  canonical="/knowledge/false-results/"
+>
+
+  <h1>Why Do False Positives and False Negatives Occur?</h1>
+
+  <p><strong>Direct answer:</strong> A false positive means the test reports positive when the condition is absent — usually from antibody cross-reactivity or interference. A false negative means the test reports negative when the condition is present — usually from testing outside the diagnostic window, low analyte concentration, or sample/storage problems. Both are inherent risks of any test and are managed through timing, quality control and confirmatory testing.</p>
+
+  <h2>Why false positives occur</h2>
+  <ul>
+    <li><strong>Cross-reactivity</strong> — the antibody binds a related (non-target) molecule with a similar structure.</li>
+    <li><strong>Interference</strong> — sample components (e.g., rheumatoid factor, heterophile antibodies) bind nonspecifically.</li>
+    <li><strong>Hook effect</strong> — very high analyte concentrations disrupt sandwich-complex formation, though this usually suppresses rather than creates signal.</li>
+    <li><strong>Contamination or mishandling</strong> — improper sample or reagent handling.</li>
+  </ul>
+
+  <h2>Why false negatives occur</h2>
+  <ul>
+    <li><strong>Window period</strong> — testing before the marker appears (antibody too early, antigen too late).</li>
+    <li><strong>Low analyte concentration</strong> — below the test's limit of detection.</li>
+    <li><strong>Matrix effects</strong> — sample components that reduce signal or block binding.</li>
+    <li><strong>Reagent or storage failure</strong> — humidity, heat, or expiry degrading the test.</li>
+    <li><strong>Hook effect</strong> — paradoxically weak signal at very high analyte levels.</li>
+  </ul>
+
+  <h2>The sensitivity/specificity trade-off</h2>
+  <p>False results are tied to the assay's <a href="/knowledge/sensitivity-specificity/">sensitivity and specificity</a>, which are in tension. A lower cut-off catches more true cases (fewer false negatives) but creates more false positives; a higher cut-off does the reverse. No test is perfect, which is why rapid tests are screening tools with defined <a href="/knowledge/cutoff/">cut-offs</a> and confirmation pathways.</p>
+
+  <h2>How false results are reduced</h2>
+  <ul>
+    <li><strong>Test at the right time</strong> — within the <a href="/knowledge/diagnostic-window/">diagnostic window</a>.</li>
+    <li><strong>Use the right specimen</strong> — as specified by the product.</li>
+    <li><strong>Confirm presumptive positives</strong> — by a reference method (PCR, GC-MS, RPR).</li>
+    <li><strong>Control the environment</strong> — proper <a href="/knowledge/storage-transport/">storage and handling</a>.</li>
+    <li><strong>Validate each device</strong> — via the internal control line.</li>
+  </ul>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is the most common cause of false positives?</strong> Antibody cross-reactivity with a related molecule.</p>
+    <p><strong>What is the most common cause of false negatives?</strong> Testing outside the diagnostic window or below the detection limit.</p>
+    <p><strong>Can a test be both sensitive and specific?</strong> Yes — but improving one often costs the other, so the cut-off is set for the intended use.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
+  <ul>
+    <li><a href="/knowledge/sensitivity-specificity/">Sensitivity &amp; specificity</a></li>
+    <li><a href="/knowledge/diagnostic-window/">The diagnostic window</a></li>
+    <li><a href="/knowledge/antibodies/">How antibodies are used in rapid tests</a></li>
+    <li><a href="/knowledge/screening-vs-confirmatory/">Screening vs confirmatory</a></li>
+  </ul>
+
+  <p><a href="/knowledge/">← Knowledge base</a></p>
+  <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Why Do False Positives and False Negatives Occur?",
+    "description": "Cross-reactivity, window period, low analyte, matrix effects and the hook effect — why rapid tests give false results and how to reduce them."
+  })} />
+
+</BaseLayout>
