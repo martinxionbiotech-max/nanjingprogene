@@ -55,27 +55,25 @@ const ceCount = products.products.filter(p => p.ce).length;
   <h2>Product Series ({series.length})</h2>
   <div class="card table-card">
     <table>
-      <thead><tr><th>Series</th><th>SKUs</th><th>Priority</th></tr></thead>
+      <thead><tr><th>Series</th><th>SKUs</th></tr></thead>
       <tbody>
         {series.map(s => (
           <tr>
             <td>{s.name}</td>
             <td>{s.sku_count ?? "expanding"}</td>
-            <td>{s.priority}</td>
           </tr>
         ))}
       </tbody>
     </table>
   </div>
 
-  <h2>Flagship Products (P1, {flagships.length})</h2>
+  <h2>Flagship Products ({flagships.length})</h2>
   <div class="product-grid">
     {flagships.map(p => (
       <a class="card product-card" href={`/products/${p.id}/`}>
         <strong>{p.name}</strong>
         <div class="product-meta">{p.target}</div>
         <div class="product-tags">
-          <span class="pill pill-p1">{p.priority}</span>
           {p.ce && <span class="pill pill-ce">CE</span>}
           {p.fda && <span class="pill pill-fda">FDA</span>}
         </div>
