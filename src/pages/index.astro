@@ -6,6 +6,8 @@ const series = products.series;
 const flagships = products.products.filter(p => p.priority === "P1");
 const hubs = products.hubs;
 const ceCount = products.products.filter(p => p.ce).length;
+const seriesCounts = {};
+products.products.forEach(p => { seriesCounts[p.series] = (seriesCounts[p.series] || 0) + 1; });
 ---
 
 <BaseLayout
@@ -55,12 +57,12 @@ const ceCount = products.products.filter(p => p.ce).length;
   <h2>Product Series ({series.length})</h2>
   <div class="card table-card">
     <table>
-      <thead><tr><th>Series</th><th>SKUs</th></tr></thead>
+      <thead><tr><th>Series</th><th>Catalog</th></tr></thead>
       <tbody>
         {series.map(s => (
           <tr>
             <td>{s.name}</td>
-            <td>{s.sku_count ?? "expanding"}</td>
+            <td>{s.sku_count != null ? `${s.sku_count} SKUs` : `${seriesCounts[s.id] ?? 0} ${(seriesCounts[s.id] ?? 0) === 1 ? "product" : "products"}`}</td>
           </tr>
         ))}
       </tbody>
