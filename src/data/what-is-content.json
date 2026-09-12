@@ -22,6 +22,9 @@
         "title": "Dengue NS1 vs IgM/IgG",
         "href": "/comparisons/dengue-ns1-vs-igg-igm/"
       }
+    ],
+    "references": [
+      "WHO. Dengue: guidelines for diagnosis, treatment, prevention and control."
     ]
   },
   "hbsag": {
@@ -43,6 +46,9 @@
         "title": "Hepatitis hub",
         "href": "/solutions/disease/hepatitis/"
       }
+    ],
+    "references": [
+      "WHO. Guidelines on hepatitis B and C testing."
     ]
   },
   "troponin": {
@@ -68,6 +74,9 @@
         "title": "Troponin I vs T",
         "href": "/comparisons/troponin-i-vs-t/"
       }
+    ],
+    "references": [
+      "Thygesen K et al. Fourth universal definition of myocardial infarction. Eur Heart J. 2019;40(3):237-269."
     ]
   },
   "d-dimer": {
@@ -89,6 +98,9 @@
         "title": "Cardiac markers hub",
         "href": "/solutions/disease/cardiac/"
       }
+    ],
+    "references": [
+      "Wells PS et al. Evaluation of D-dimer in the diagnosis of suspected deep-vein thrombosis. N Engl J Med. 2003."
     ]
   },
   "crp": {
@@ -110,6 +122,9 @@
         "title": "Cardiac markers hub",
         "href": "/solutions/disease/cardiac/"
       }
+    ],
+    "references": [
+      "WHO/CDC guidance on inflammatory markers in infection."
     ]
   },
   "pct": {
@@ -131,6 +146,9 @@
         "title": "Cardiac markers hub",
         "href": "/solutions/disease/cardiac/"
       }
+    ],
+    "references": [
+      "Procalcitonin-guided antibiotic stewardship guidance (clinical consensus)."
     ]
   },
   "psa": {
@@ -161,6 +179,9 @@
         "title": "Tumor markers hub",
         "href": "/solutions/disease/tumor/"
       }
+    ],
+    "references": [
+      "NCCN clinical practice guidelines on hepatocellular carcinoma."
     ]
   },
   "hcg": {
@@ -182,6 +203,9 @@
         "title": "Pregnancy & fertility",
         "href": "/solutions/scenario/pregnancy/"
       }
+    ],
+    "references": [
+      "Clinical guidance on quantitative and qualitative hCG testing."
     ]
   },
   "hiv-antibody": {
@@ -203,6 +227,9 @@
         "title": "HIV / STD hub",
         "href": "/solutions/disease/hiv-std/"
       }
+    ],
+    "references": [
+      "WHO. Consolidated guidelines on HIV testing services."
     ]
   },
   "hcv-antibody": {
@@ -224,6 +251,9 @@
         "title": "Hepatitis hub",
         "href": "/solutions/disease/hepatitis/"
       }
+    ],
+    "references": [
+      "WHO. Guidelines on hepatitis B and C testing."
     ]
   },
   "h-pylori-antigen": {
@@ -249,6 +279,9 @@
         "title": "H. pylori Ag vs Ab",
         "href": "/comparisons/hpylori-antigen-vs-antibody/"
       }
+    ],
+    "references": [
+      "Malfertheiner P et al. Management of Helicobacter pylori infection: Maastricht VI/Florence consensus report. Gut. 2022."
     ]
   },
   "lh": {
@@ -270,6 +303,9 @@
         "title": "Pregnancy & fertility",
         "href": "/solutions/scenario/pregnancy/"
       }
+    ],
+    "references": [
+      "Clinical guidance on ovulation prediction by LH surge."
     ]
   },
   "fsh": {

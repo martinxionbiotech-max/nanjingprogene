@@ -79,6 +79,13 @@ const related = products.products.find((p) => p.id === w.related);
     </div>
   )}
 
+  {w.references && w.references.length > 0 && (
+    <>
+      <h2>References</h2>
+      <ul class="small muted">{w.references.map((r) => <li>{r}</li>)}</ul>
+    </>
+  )}
+
   <p style="margin-top:16px;"><a href="/knowledge/">← Knowledge</a></p>
 
   <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
