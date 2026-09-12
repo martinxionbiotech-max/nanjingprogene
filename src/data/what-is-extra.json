@@ -1,0 +1,308 @@
+{
+  "hav-igm": {
+    "name": "Hepatitis A (HAV) IgM",
+    "what": "IgM antibody to hepatitis A virus",
+    "significance": "Indicates acute hepatitis A infection; used in outbreak and travel screening.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = recent HAV infection",
+    "limitations": "IgM timing affects sensitivity",
+    "related": "hav-igm"
+  },
+  "hev": {
+    "name": "Hepatitis E (HEV)",
+    "what": "Hepatitis E virus antibodies",
+    "significance": "Supports hepatitis E diagnosis, especially in endemic regions.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = HEV exposure",
+    "limitations": "Serology supportive; molecular confirmation where available",
+    "related": "hev"
+  },
+  "ebv": {
+    "name": "Epstein-Barr Virus (EBV)",
+    "what": "EBV antibodies (VCA/EBNA)",
+    "significance": "Supports infectious mononucleosis diagnosis.",
+    "specimen": "WB/S/P",
+    "interpretation": "Pattern distinguishes acute vs past",
+    "limitations": "Interpret with clinical context",
+    "related": "ebv"
+  },
+  "hiv-p24": {
+    "name": "HIV p24 Antigen",
+    "what": "HIV p24 capsid antigen",
+    "significance": "Appears before antibodies, narrowing the HIV window period.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = early HIV antigen",
+    "limitations": "Reactive requires confirmation",
+    "related": "hiv-p24"
+  },
+  "rotavirus": {
+    "name": "Rotavirus",
+    "what": "Rotavirus antigen",
+    "significance": "Leading cause of pediatric gastroenteritis.",
+    "specimen": "Feces",
+    "interpretation": "Positive = active shedding",
+    "limitations": "Antigen indicates active infection",
+    "related": "rotavirus"
+  },
+  "adenovirus": {
+    "name": "Adenovirus",
+    "what": "Adenovirus antigen",
+    "significance": "Causes respiratory and gastrointestinal infection.",
+    "specimen": "Feces/Swab",
+    "interpretation": "Positive = active infection",
+    "limitations": "Antigen indicates active infection",
+    "related": "adenovirus"
+  },
+  "norovirus": {
+    "name": "Norovirus",
+    "what": "Norovirus antigen",
+    "significance": "Leading cause of acute gastroenteritis outbreaks.",
+    "specimen": "Feces",
+    "interpretation": "Positive = active shedding",
+    "limitations": "Supports outbreak screening",
+    "related": "norovirus"
+  },
+  "c-difficile": {
+    "name": "Clostridium difficile",
+    "what": "C. difficile GDH + toxin A/B",
+    "significance": "Screens and confirms C. difficile infection (two-step).",
+    "specimen": "Feces",
+    "interpretation": "GDH sensitive; toxin confirms toxigenic",
+    "limitations": "GDH alone not specific",
+    "related": "c-diff-toxin"
+  },
+  "giardia": {
+    "name": "Giardia",
+    "what": "Giardia lamblia antigen",
+    "significance": "Common intestinal parasite causing diarrhea.",
+    "specimen": "Feces",
+    "interpretation": "Positive = active infection",
+    "limitations": "Antigen indicates active infection",
+    "related": "giardia"
+  },
+  "cryptosporidium": {
+    "name": "Cryptosporidium",
+    "what": "Cryptosporidium antigen",
+    "significance": "Causes waterborne diarrheal disease.",
+    "specimen": "Feces",
+    "interpretation": "Positive = active infection",
+    "limitations": "Antigen indicates active infection",
+    "related": "cryptosporidium"
+  },
+  "brucella": {
+    "name": "Brucella",
+    "what": "Brucella antibodies",
+    "significance": "Zoonotic bacterial infection; serology supports diagnosis.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = exposure",
+    "limitations": "Culture is reference",
+    "related": "brucella"
+  },
+  "campylobacter": {
+    "name": "Campylobacter",
+    "what": "Campylobacter antigen",
+    "significance": "Leading bacterial cause of gastroenteritis.",
+    "specimen": "Feces",
+    "interpretation": "Positive = active infection",
+    "limitations": "Screening aid",
+    "related": "campylobacter"
+  },
+  "legionella": {
+    "name": "Legionella pneumophila",
+    "what": "Legionella pneumophila antigen",
+    "significance": "Standard rapid test for Legionnaires disease.",
+    "specimen": "Urine",
+    "interpretation": "Positive = serogroup 1 antigen",
+    "limitations": "Detects serogroup 1 primarily",
+    "related": "legionella"
+  },
+  "mycoplasma-pn": {
+    "name": "Mycoplasma pneumoniae",
+    "what": "Mycoplasma pneumoniae IgM",
+    "significance": "Common cause of atypical pneumonia.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = recent infection",
+    "limitations": "Serology timing affects sensitivity",
+    "related": "mycoplasma"
+  },
+  "lyme": {
+    "name": "Lyme (Borrelia)",
+    "what": "Borrelia antibodies",
+    "significance": "Supports tick-borne Lyme diagnosis.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = exposure",
+    "limitations": "Two-tier testing recommended",
+    "related": "lyme"
+  },
+  "tetanus": {
+    "name": "Tetanus",
+    "what": "Clostridium tetani antibody",
+    "significance": "Assesses tetanus immunity status.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = immunity",
+    "limitations": "Interpret with vaccination history",
+    "related": "tetanus"
+  },
+  "strep-a": {
+    "name": "Group A Streptococcus (Strep A)",
+    "what": "Streptococcus pyogenes antigen",
+    "significance": "Rapid diagnosis of strep throat.",
+    "specimen": "Swab",
+    "interpretation": "Positive = Strep A present",
+    "limitations": "Culture is reference",
+    "related": "strep-a"
+  },
+  "rsv": {
+    "name": "Respiratory Syncytial Virus (RSV)",
+    "what": "RSV antigen",
+    "significance": "Major cause of infant/elderly respiratory infection.",
+    "specimen": "Swab",
+    "interpretation": "Positive = active infection",
+    "limitations": "Antigen indicates active infection",
+    "related": "rsv"
+  },
+  "ffn": {
+    "name": "Fetal Fibronectin (fFN)",
+    "what": "Fetal fibronectin in cervicovaginal secretion",
+    "significance": "Risk-stratifies preterm birth (high NPV).",
+    "specimen": "Cervicovaginal secretion",
+    "interpretation": "Negative = low preterm-birth risk",
+    "limitations": "Risk-stratification aid, not diagnostic",
+    "related": "ffn"
+  },
+  "igfbp-1": {
+    "name": "iGFBP-1",
+    "what": "Insulin-like growth factor binding protein-1",
+    "significance": "Preterm-birth risk stratification.",
+    "specimen": "Cervicovaginal secretion",
+    "interpretation": "Positive = elevated risk",
+    "limitations": "Risk-stratification aid",
+    "related": "igfbp-1"
+  },
+  "cmv": {
+    "name": "Cytomegalovirus (CMV)",
+    "what": "CMV IgG/IgM antibodies",
+    "significance": "TORCH panel member for pregnancy screening.",
+    "specimen": "WB/S/P",
+    "interpretation": "IgG = past; IgM = recent",
+    "limitations": "Interpret with gestational context",
+    "related": "cmv-igg-igm"
+  },
+  "rubella": {
+    "name": "Rubella",
+    "what": "Rubella virus IgG/IgM",
+    "significance": "Rubella IgG = immunity (critical pre-pregnancy).",
+    "specimen": "WB/S/P",
+    "interpretation": "IgG = immunity; IgM = recent",
+    "limitations": "Standard antenatal screening",
+    "related": "rubella"
+  },
+  "toxoplasma": {
+    "name": "Toxoplasma",
+    "what": "Toxoplasma gondii IgG/IgM",
+    "significance": "TORCH infection relevant to pregnancy.",
+    "specimen": "WB/S/P",
+    "interpretation": "IgG = past; IgM = recent",
+    "limitations": "Requires clinical context",
+    "related": "toxo"
+  },
+  "hsv": {
+    "name": "Herpes Simplex Virus (HSV)",
+    "what": "HSV 1/2 IgG/IgM antibodies",
+    "significance": "Supports herpes diagnosis and typing.",
+    "specimen": "WB/S/P",
+    "interpretation": "IgG = past; IgM = recent",
+    "limitations": "Cannot distinguish site",
+    "related": "hsv"
+  },
+  "chlamydia": {
+    "name": "Chlamydia",
+    "what": "Chlamydia trachomatis antigen",
+    "significance": "Most common bacterial STI; supports screening.",
+    "specimen": "Swab/Urine",
+    "interpretation": "Positive = active infection",
+    "limitations": "Confirm by molecular",
+    "related": "chlamydia"
+  },
+  "gonorrhea": {
+    "name": "Gonorrhea",
+    "what": "Neisseria gonorrhoeae antigen",
+    "significance": "Supports gonorrhea STI screening.",
+    "specimen": "Swab/Urine",
+    "interpretation": "Positive = active infection",
+    "limitations": "Confirm by culture/molecular",
+    "related": "gonorrhea"
+  },
+  "gbs": {
+    "name": "Group B Streptococcus (GBS)",
+    "what": "Group B Streptococcus antigen",
+    "significance": "Antenatal screening guides intrapartum prophylaxis.",
+    "specimen": "Swab",
+    "interpretation": "Positive = colonized",
+    "limitations": "Culture is reference",
+    "related": "strep-b"
+  },
+  "trichomonas": {
+    "name": "Trichomonas vaginalis",
+    "what": "Trichomonas vaginalis antigen",
+    "significance": "Common protozoan STI.",
+    "specimen": "Swab",
+    "interpretation": "Positive = active infection",
+    "limitations": "Screening aid",
+    "related": "trichomonas"
+  },
+  "nt-probnp": {
+    "name": "NT-proBNP",
+    "what": "N-terminal pro-B-type natriuretic peptide",
+    "significance": "Heart-failure biomarker; elevation indicates cardiac stress.",
+    "specimen": "WB/S/P",
+    "interpretation": "Elevated = cardiac stress",
+    "limitations": "POC is triage-grade",
+    "related": "nt-probnp"
+  },
+  "fob": {
+    "name": "Fecal Occult Blood (FOB)",
+    "what": "Fecal hemoglobin",
+    "significance": "Screens for colorectal bleeding.",
+    "specimen": "Feces",
+    "interpretation": "Positive = occult blood",
+    "limitations": "Positive needs colonoscopy",
+    "related": "fob"
+  },
+  "lactoferrin": {
+    "name": "Lactoferrin",
+    "what": "Fecal lactoferrin",
+    "significance": "Marks intestinal inflammation (IBD vs IBS).",
+    "specimen": "Feces",
+    "interpretation": "Elevated = inflammation",
+    "limitations": "Supports, not diagnoses",
+    "related": "lactoferrin"
+  },
+  "total-ige": {
+    "name": "Total IgE",
+    "what": "Total immunoglobulin E",
+    "significance": "Screens for allergic/atopic conditions.",
+    "specimen": "WB/S/P",
+    "interpretation": "Elevated = atopy",
+    "limitations": "Non-specific",
+    "related": "total-ige"
+  },
+  "microalbumin": {
+    "name": "Microalbumin",
+    "what": "Urinary microalbumin",
+    "significance": "Early marker of diabetic nephropathy.",
+    "specimen": "Urine",
+    "interpretation": "Elevated = early kidney damage",
+    "limitations": "Screening aid",
+    "related": "microalbumin"
+  },
+  "rheumatoid-factor": {
+    "name": "Rheumatoid Factor (RF)",
+    "what": "Rheumatoid factor antibody",
+    "significance": "Supports rheumatoid arthritis assessment.",
+    "specimen": "WB/S/P",
+    "interpretation": "Positive = supportive",
+    "limitations": "Non-specific",
+    "related": "rheumatoid-factor"
+  }
+}

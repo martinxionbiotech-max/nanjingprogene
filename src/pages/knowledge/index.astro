@@ -3,9 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import whatIs from '../../data/what-is-content.json';
 import whatIsDoa from '../../data/what-is-doa.json';
 import whatIsClinical from '../../data/what-is-clinical.json';
+import whatIsExtra from '../../data/what-is-extra.json';
 import technologyContent from '../../data/technology-content.json';
 
-const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical };
+const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical, ...whatIsExtra };
 
 const guides = [
   { title: "What Is IVD?", desc: "In vitro diagnostics explained.", href: "/knowledge/ivd/" },
