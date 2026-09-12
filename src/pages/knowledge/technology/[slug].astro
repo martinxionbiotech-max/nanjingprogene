@@ -23,6 +23,12 @@ const { slug, t } = Astro.props;
     <p>{t.what}</p>
     <h2>How it works</h2>
     <p>{t.how}</p>
+    {t.image && (
+      <figure style="margin:8px 0 0;">
+        <img src={t.image} width="803" height="450" alt={`${t.name} — flow diagram`} loading="lazy" style="width:100%;height:auto;border:1px solid #e5e9f0;border-radius:8px;" />
+        <figcaption style="font-size:.82rem;color:#64748b;">How a sample flows through an immunochromatographic test strip.</figcaption>
+      </figure>
+    )}
     <h2>Why it matters</h2>
     <p>{t.why_matters}</p>
   </div>

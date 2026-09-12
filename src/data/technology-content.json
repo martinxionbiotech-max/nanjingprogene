@@ -10,7 +10,8 @@
       "Nitrocellulose membrane — test and control lines",
       "Absorbent pad — wicks excess sample",
       "Backing card — structural support"
-    ]
+    ],
+    "image": "/images/test-strip-flow.jpg"
   },
   "conjugation": {
     "name": "Colloidal Gold Conjugation",
@@ -22,7 +23,8 @@
       "Antibody adsorption (passive conjugation)",
       "Stabilization and blocking",
       "Conjugate pad dispensing and drying"
-    ]
+    ],
+    "image": "/images/test-strip-flow.jpg"
   },
   "membrane": {
     "name": "Nitrocellulose Membrane & Test Lines",
@@ -33,7 +35,8 @@
       "Test line — capture antibody (analyte-specific)",
       "Control line — anti-species antibody (validity check)",
       "Membrane pore size — controls flow rate and line sharpness"
-    ]
+    ],
+    "image": "/images/test-strip-flow.jpg"
   },
   "fia": {
     "name": "Fluorescence Immunoassay (FIA)",
