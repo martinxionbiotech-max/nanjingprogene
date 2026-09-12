@@ -5,7 +5,12 @@
     "interpretation": "NS1 positive = acute infection; IgM/IgG positive = recent or past exposure. Flavivirus cross-reactivity (Zika) must be considered in serology.",
     "window": "NS1: day 1–7 of fever (early). IgM: ~day 3–5. IgG: later, persists.",
     "confirmatory": "RT-PCR (viral RNA) is the reference; paired serology on acute and convalescent samples.",
-    "false_considerations": "False negative: testing outside the marker window (IgM too early, NS1 too late). False positive: flavivirus cross-reactivity (Zika, yellow fever)."
+    "false_considerations": "False negative: testing outside the marker window (IgM too early, NS1 too late). False positive: flavivirus cross-reactivity (Zika, yellow fever).",
+    "clinical_context": "Caused by dengue virus (DENV 1–4), transmitted by Aedes mosquitoes. Symptoms: sudden high fever, severe headache, retro-orbital pain, myalgia and rash. An estimated 100–400 million infections occur annually (WHO).",
+    "workflow": "Clinically suspected dengue → NS1 antigen (early) or IgM/IgG (later) → confirm by PCR where available → classify severity to guide fluid management.",
+    "antigen_vs_antibody": "NS1 antigen detects the virus itself (active infection, day 1–7); IgM/IgG detect the immune response (from ~day 3–5). A combined NS1+IgM/IgG device covers the full window.",
+    "settings": "Rapid tests suit field clinics and outbreak response (instrument-free, minutes); reference labs confirm by PCR and serotype.",
+    "sources": "WHO dengue guidelines; CDC dengue clinical guidance."
   },
   "malaria": {
     "overview": "Malaria is a parasitic infection by Plasmodium species transmitted by Anopheles mosquitoes. WHO recommends rapid diagnostic tests (RDTs) where microscopy is unavailable.",
@@ -13,7 +18,12 @@
     "interpretation": "Pf-positive RDT + fever = treat for P. falciparum. HRP2 can persist after treatment; HRP2 gene deletions can cause false negatives.",
     "window": "RDTs detect antigen during active parasitemia, typically from symptom onset.",
     "confirmatory": "Microscopy (thin/thick smear) is the reference for species and parasitemia.",
-    "false_considerations": "False negative: low parasitemia or HRP2 gene deletion. False positive: persistent HRP2 antigenemia after treatment."
+    "false_considerations": "False negative: low parasitemia or HRP2 gene deletion. False positive: persistent HRP2 antigenemia after treatment.",
+    "clinical_context": "Caused by Plasmodium parasites (P. falciparum most severe, P. vivax with liver-stage relapse), transmitted by Anopheles mosquitoes. Symptoms: cyclic fever, chills, headache, anemia.",
+    "workflow": "Fever in an endemic area → rapid diagnostic test (RDT) or microscopy → identify species → treat (ACT, plus anti-relapse for P. vivax).",
+    "antigen_vs_antibody": "RDTs detect parasite antigens — HRP2 (P. falciparum) and pLDH (pan-Plasmodium). Serology is not used for acute diagnosis.",
+    "settings": "RDTs enable field diagnosis where microscopy is unavailable; microscopy remains the reference for parasitemia and species confirmation.",
+    "sources": "WHO malaria guidelines (2024); CDC malaria diagnosis."
   },
   "hiv-std": {
     "overview": "HIV and syphilis are bloodborne/sexually transmitted infections. Screening is standard in antenatal care, blood donation and key-population programs.",
@@ -21,7 +31,12 @@
     "interpretation": "A reactive HIV/syphilis antibody result is presumptive and must be confirmed per national algorithms (HIV: serial tests; syphilis: non-treponemal RPR titer).",
     "window": "HIV antibody: ~3–6 weeks (window period). Syphilis treponemal antibody: ~2–6 weeks.",
     "confirmatory": "HIV: serial/differentiation algorithm. Syphilis: non-treponemal RPR/VDRL titer for staging.",
-    "false_considerations": "False negative: window period before seroconversion. False positive: rare — always confirm per national algorithm."
+    "false_considerations": "False negative: window period before seroconversion. False positive: rare — always confirm per national algorithm.",
+    "clinical_context": "HIV (retrovirus) and syphilis (Treponema pallidum) are bloodborne/sexually transmitted. Screening is standard in antenatal care, blood donation and key-population programs.",
+    "workflow": "Antibody/antigen screening → reactive results confirmed by serial tests (HIV) or non-treponemal RPR titer (syphilis) → linkage to care.",
+    "antigen_vs_antibody": "HIV p24 antigen appears earlier than antibodies (narrows the window); treponemal syphilis antibodies persist after treatment.",
+    "settings": "Rapid tests serve antenatal clinics, blood banks and outreach; laboratory confirmation follows national algorithms.",
+    "sources": "WHO HIV testing services; CDC syphilis testing."
   },
   "hepatitis": {
     "overview": "Viral hepatitis (A/B/C/E) is a major global burden. HBsAg and anti-HCV are the core screening markers; HAV/HEV IgM indicate acute infection.",
@@ -29,7 +44,12 @@
     "interpretation": "HBsAg positive = HBV infection (acute or chronic). Anti-HCV positive = exposure, NOT active infection — confirm with HCV RNA.",
     "window": "HBsAg: earliest HBV marker. Anti-HCV: ~4–10 weeks after exposure.",
     "confirmatory": "Anti-HCV reactive → HCV RNA. HBsAg reactive → HBV DNA/panel.",
-    "false_considerations": "False negative: anti-HCV window period. False positive: anti-HCV persists after viral clearance."
+    "false_considerations": "False negative: anti-HCV window period. False positive: anti-HCV persists after viral clearance.",
+    "clinical_context": "Viral hepatitis (A/B/C/E) is a major global burden. HBsAg and anti-HCV are the core screening markers; HAV/HEV IgM indicate acute infection.",
+    "workflow": "Screen HBsAg + anti-HCV → confirm active infection (HBV DNA / HCV RNA) → stage liver disease and treat.",
+    "antigen_vs_antibody": "HBsAg is a viral antigen (active infection); anti-HCV is an antibody (exposure, not active infection — needs RNA confirmation).",
+    "settings": "Rapid tests suit screening programs and antenatal care; molecular confirmation is lab-based.",
+    "sources": "WHO hepatitis testing guidelines; CDC viral hepatitis."
   },
   "hpylori": {
     "overview": "Helicobacter pylori colonizes the gastric mucosa and is linked to gastritis, peptic ulcer and gastric cancer. Non-invasive testing supports test-and-treat strategies.",
@@ -37,7 +57,12 @@
     "interpretation": "Stool antigen detects active infection and is suitable for post-treatment confirmation; serology cannot distinguish active from past infection.",
     "window": "Stool antigen detectable during active colonization; PPI/antibiotic washout before testing.",
     "confirmatory": "Urea breath test or endoscopy with biopsy.",
-    "false_considerations": "False negative: recent PPI or antibiotic use suppresses antigen. False positive: antibody serology stays positive after eradication."
+    "false_considerations": "False negative: recent PPI or antibiotic use suppresses antigen. False positive: antibody serology stays positive after eradication.",
+    "clinical_context": "Helicobacter pylori colonizes gastric mucosa, linked to gastritis, peptic ulcer and gastric cancer. Non-invasive testing supports test-and-treat.",
+    "workflow": "Symptomatic patient → stool antigen (active) or urea breath test → treat → test-of-cure after eradication.",
+    "antigen_vs_antibody": "Stool antigen detects active infection (suitable for test-of-cure); antibody serology detects exposure and cannot distinguish active from past.",
+    "settings": "Stool antigen suits clinics running test-and-treat; urea breath test is the reference non-invasive test.",
+    "sources": "Maastricht VI/Florence consensus (2022); ACG H. pylori guideline."
   },
   "respiratory": {
     "overview": "COVID-19, influenza and RSV are the major seasonal respiratory viruses. Rapid antigen tests support syndromic diagnosis and triage.",
@@ -45,7 +70,12 @@
     "interpretation": "Antigen tests are fast but less sensitive than molecular; a negative result during high prevalence does not exclude infection.",
     "window": "Antigen best in the early symptomatic phase (first few days of symptoms).",
     "confirmatory": "RT-PCR for respiratory viruses.",
-    "false_considerations": "False negative: low viral load or late sampling. False positive: rare; confirm clinically or by PCR if discordant."
+    "false_considerations": "False negative: low viral load or late sampling. False positive: rare; confirm clinically or by PCR if discordant.",
+    "clinical_context": "COVID-19 (SARS-CoV-2), influenza A/B and RSV are the major seasonal respiratory viruses with overlapping symptoms.",
+    "workflow": "Syndromic presentation → multiplex antigen test (COVID/Flu/RSV) → PCR confirmation where needed → isolation/treatment decisions.",
+    "antigen_vs_antibody": "Antigen tests detect viral proteins (active infection); antibody tests are not used for acute respiratory diagnosis.",
+    "settings": "Multiplex antigen tests suit clinics and emergency departments; PCR is the lab reference.",
+    "sources": "WHO COVID-19 guidance; CDC influenza & RSV."
   },
   "cardiac": {
     "overview": "Cardiac biomarkers support the diagnosis of acute myocardial infarction and other cardiac conditions. Troponin is the preferred marker.",
@@ -53,7 +83,12 @@
     "interpretation": "Point-of-care assays are triage-grade; serial testing and clinical correlation are required. D-Dimer is for VTE exclusion, not diagnosis.",
     "window": "Troponin rises ~3–6 h after myocardial injury, peaks ~12–24 h.",
     "confirmatory": "Serial high-sensitivity troponin + ECG + clinical assessment.",
-    "false_considerations": "False negative: testing before the ~3–6 h troponin rise. False positive: non-MI causes of troponin elevation (renal failure, myocarditis)."
+    "false_considerations": "False negative: testing before the ~3–6 h troponin rise. False positive: non-MI causes of troponin elevation (renal failure, myocarditis).",
+    "clinical_context": "Acute myocardial infarction and heart failure drive cardiac biomarker testing. Troponin is the preferred marker; BNP/NT-proBNP for heart failure.",
+    "workflow": "Chest pain → serial troponin + ECG → diagnose MI (rise/fall pattern) → risk-stratify and treat.",
+    "antigen_vs_antibody": "Cardiac tests detect proteins (troponin, CK-MB, myoglobin), not antibodies — a key difference from infectious-disease serology.",
+    "settings": "POC troponin triages in emergency settings; high-sensitivity lab assays are the diagnostic standard.",
+    "sources": "ESC/ACC universal definition of MI; NICE chest pain guidance."
   },
   "doa-workplace": {
     "overview": "Drug-of-abuse testing supports workplace screening, clinical toxicology and rehabilitation programs. Urine is the standard specimen.",
@@ -61,7 +96,12 @@
     "interpretation": "Screening results are presumptive; any positive analyte requires confirmatory testing (GC-MS/LC-MS). Cut-offs align with regulatory (SAMHSA-style) standards.",
     "window": "Detection window varies by analyte (hours to days); urine is the standard specimen.",
     "confirmatory": "GC-MS / LC-MS for any presumptive positive.",
-    "false_considerations": "False negative: diluted or adulterated urine. False positive: cross-reactivity with related compounds."
+    "false_considerations": "False negative: diluted or adulterated urine. False positive: cross-reactivity with related compounds.",
+    "clinical_context": "Drug-of-abuse testing supports workplace screening, clinical toxicology and rehabilitation. Urine is the standard specimen.",
+    "workflow": "Screening (immunoassay) → any presumptive positive → confirmatory GC-MS/LC-MS → report per cut-offs.",
+    "antigen_vs_antibody": "DOA tests are competitive immunoassays detecting drug/metabolite, not antibody-based.",
+    "settings": "Workplace, occupational health and clinical toxicology; confirmation is laboratory-based.",
+    "sources": "SAMHSA guidelines; CLIA waived-testing standards."
   },
   "pregnancy-fertility": {
     "overview": "Reproductive hormone tests support pregnancy detection and fertility tracking.",
@@ -69,7 +109,12 @@
     "interpretation": "hCG positive = pregnancy; LH surge predicts ovulation ~24–36h later. fFN/iGFBP-1 are risk-stratification aids, not diagnostic.",
     "window": "hCG: from ~day of missed period. LH surge: mid-cycle, precedes ovulation ~24–36 h.",
     "confirmatory": "Quantitative hCG or ultrasound (pregnancy).",
-    "false_considerations": "False negative: testing before the hCG rise / LH surge. False positive: rare."
+    "false_considerations": "False negative: testing before the hCG rise / LH surge. False positive: rare.",
+    "clinical_context": "Reproductive hormone tests support pregnancy detection and fertility tracking across retail and clinical channels.",
+    "workflow": "hCG for pregnancy; LH surge for ovulation timing; FSH for ovarian reserve/menopause; fFN/iGFBP-1 for preterm-risk stratification.",
+    "antigen_vs_antibody": "These are hormone (antigen) tests, not antibody tests.",
+    "settings": "Retail (hCG/LH) and clinical (FSH, fFN, iGFBP-1) use; confirmation by ultrasound or quantitative hCG.",
+    "sources": "ACOG practice guidance; NICE fertility."
   },
   "tumor": {
     "overview": "Tumor markers are proteins associated with certain cancers, used in screening support and monitoring of high-risk groups.",
@@ -77,7 +122,12 @@
     "interpretation": "Elevated tumor markers are not diagnostic of cancer — imaging and confirmatory testing are required; markers also rise in benign conditions.",
     "window": "Not time-critical; used in screening support and serial monitoring.",
     "confirmatory": "Imaging and biopsy; markers are not diagnostic alone.",
-    "false_considerations": "False negative: non-secreting tumors. False positive: markers also rise in benign conditions."
+    "false_considerations": "False negative: non-secreting tumors. False positive: markers also rise in benign conditions.",
+    "clinical_context": "Tumor markers are proteins associated with certain cancers, used in screening support and monitoring, not standalone diagnosis.",
+    "workflow": "Elevated marker (PSA/AFP/CEA) → imaging + biopsy → confirmed diagnosis → serial monitoring.",
+    "antigen_vs_antibody": "Tumor-marker tests detect proteins (antigens); some autoimmune serology (RF) uses antibody detection.",
+    "settings": "Screening support and monitoring in clinics and labs; imaging/biopsy are definitive.",
+    "sources": "NCCN guidelines; national cancer-screening recommendations."
   },
   "tropical": {
     "overview": "Tropical and neglected diseases include chikungunya, Zika, leptospirosis, leishmaniasis, Chagas, filariasis, typhoid, cholera and tuberculosis.",
@@ -85,7 +135,12 @@
     "interpretation": "Serology cross-reactivity is common among tropical pathogens; results require epidemiological context and confirmation where available.",
     "window": "Varies by pathogen; serology typically detects antibodies 1–2+ weeks after onset.",
     "confirmatory": "PCR, culture, or paired serology depending on the pathogen.",
-    "false_considerations": "False negative: serology sampled before antibodies appear. False positive: cross-reactivity among tropical pathogens."
+    "false_considerations": "False negative: serology sampled before antibodies appear. False positive: cross-reactivity among tropical pathogens.",
+    "clinical_context": "Tropical and neglected diseases — chikungunya, Zika, leptospirosis, leishmaniasis, Chagas, filariasis, typhoid, cholera, TB — overlap in fever syndromes.",
+    "workflow": "Fever with travel/exposure history → serology or antigen testing → confirm by PCR/culture where available → epidemiological context required.",
+    "antigen_vs_antibody": "Serology (IgM/IgG) is common but cross-reactive; antigen tests (cholera O1/O139, typhoid) detect active pathogen.",
+    "settings": "Field and reference-laboratory testing; confirmation depends on the pathogen.",
+    "sources": "WHO neglected tropical disease and outbreak guidance."
   },
   "gastrointestinal": {
     "overview": "Gastrointestinal infections (viral, bacterial, parasitic) and inflammatory bowel markers are common point-of-care needs.",
@@ -93,6 +148,11 @@
     "interpretation": "Antigen detection indicates active shedding; calprotectin/lactoferrin support IBD vs functional distinction, not diagnosis alone.",
     "window": "Antigen detectable during active pathogen shedding.",
     "confirmatory": "Culture or molecular (PCR) testing where required.",
-    "false_considerations": "False negative: intermittent pathogen shedding. False positive: rare."
+    "false_considerations": "False negative: intermittent pathogen shedding. False positive: rare.",
+    "clinical_context": "Gastrointestinal infections (viral, bacterial, parasitic) and inflammatory markers are common point-of-care needs.",
+    "workflow": "Diarrhea → antigen testing (rotavirus/adenovirus/norovirus, C. difficile GDH+toxin, parasites) → culture/molecular confirmation where needed.",
+    "antigen_vs_antibody": "Antigen tests detect active shedding; calprotectin/lactoferrin measure gut inflammation (IBD vs IBS).",
+    "settings": "Clinics and labs; C. difficile uses a two-step GDH+toxin algorithm.",
+    "sources": "IDSA C. difficile guideline; WHO diarrheal-disease guidance."
   }
 }

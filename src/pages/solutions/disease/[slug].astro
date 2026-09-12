@@ -30,8 +30,14 @@ const faqs = faqContent[hub.id] ?? [];
     <>
       <h2>Overview</h2>
       <p>{dc.overview}</p>
+      <h2>Clinical Context</h2>
+      <p>{dc.clinical_context}</p>
       <h2>Diagnostic Markers &amp; Methods</h2>
       <p>{dc.methods}</p>
+      <h2>Antigen vs Antibody</h2>
+      <p>{dc.antigen_vs_antibody}</p>
+      <h2>Diagnostic Workflow</h2>
+      <p>{dc.workflow}</p>
       <h2>Testing Window</h2>
       <p>{dc.window}</p>
       <h2>Interpretation</h2>
@@ -40,6 +46,10 @@ const faqs = faqContent[hub.id] ?? [];
       <p>{dc.false_considerations}</p>
       <h2>Confirmatory Testing</h2>
       <p>{dc.confirmatory}</p>
+      <h2>Testing Settings</h2>
+      <p>{dc.settings}</p>
+      <h2>Sources</h2>
+      <p>{dc.sources}</p>
     </>
   )}
 
