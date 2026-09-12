@@ -75,6 +75,7 @@ const comparisonSlug = comparisonMap[product.id];
         <tr><th>Series</th><td>{series?.name ?? product.series}</td></tr>
         <tr><th>Method</th><td>{product.method}</td></tr>
         <tr><th>Specimen</th><td>{(product.specimen ?? []).join(" / ")}</td></tr>
+        <tr><th>Test time</th><td>10–15 min (product-specific)</td></tr>
         <tr><th>Storage</th><td>2–30 °C, sealed pouch with desiccant</td></tr>
         <tr><th>Shelf life</th><td>24 months (product-specific)</td></tr>
         <tr><th>Regulatory</th><td>{product.ce ? "CE (IVDD 98/79/EC)" : "Non-CE / registration in progress"}{product.fda ? " · FDA: available on request" : ""}</td></tr>
@@ -150,6 +151,19 @@ const comparisonSlug = comparisonMap[product.id];
         <tr><th>Clinical performance</th><td>Evaluation data (study population, reference method, agreement) available on request.</td></tr>
         <tr><th>Cross-reactivity</th><td>Documented per analyte — see limitations above.</td></tr>
         <tr><th>Documents</th><td>IFU · Datasheet · Certificate · Declaration of Conformity — request below.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Buyer Information</h2>
+    <table>
+      <tbody>
+        <tr><th>MOQ</th><td>Product-dependent — low MOQ available on specialty assays</td></tr>
+        <tr><th>OEM / private label</th><td>Custom branding, cut-off, panel and packaging</td></tr>
+        <tr><th>Samples</th><td>Available for evaluation — request via RFQ</td></tr>
+        <tr><th>Lead time</th><td>On request</td></tr>
+        <tr><th>Documents</th><td>IFU · Datasheet · COA · Validation report · CE files · Registration support</td></tr>
       </tbody>
     </table>
   </div>
