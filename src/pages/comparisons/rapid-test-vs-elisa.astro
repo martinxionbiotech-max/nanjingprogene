@@ -66,6 +66,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   
   <h2>Which test to choose</h2>
   <p>Choose a <strong>rapid test</strong> for single-patient point-of-care decisions; choose <strong>ELISA</strong> for batch laboratory throughput and semi-quantitative output.</p>
+
+  <div class="card">
+    <table>
+      <thead><tr><th>Scenario</th><th>Recommended</th></tr></thead>
+      <tbody>
+        <tr><td>Emergency triage</td><td><strong>Rapid test</strong></td></tr><tr><td>Remote clinic / field</td><td><strong>Rapid test</strong></td></tr><tr><td>High-volume laboratory</td><td><strong>ELISA</strong></td></tr><tr><td>Quantitative / semi-quantitative</td><td><strong>FIA or ELISA</strong></td></tr><tr><td>Confirmatory testing</td><td><strong>PCR / reference method</strong></td></tr><tr><td>Screening program</td><td><strong>Rapid test</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
   <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>
