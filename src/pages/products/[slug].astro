@@ -5,6 +5,10 @@ import skuCatalog from '../../data/sku-catalog.json';
 import productContent from '../../data/product-content.json';
 import productContentP2 from '../../data/product-content-p2.json';
 import productContentP3 from '../../data/product-content-p3.json';
+import whatIs from '../../data/what-is-content.json';
+import whatIsDoa from '../../data/what-is-doa.json';
+import whatIsClinical from '../../data/what-is-clinical.json';
+import whatIsExtra from '../../data/what-is-extra.json';
 
 export function getStaticPaths() {
   return products.products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
@@ -19,6 +23,21 @@ const matchTerms = product.name.replace(/ Rapid Test.*| Test.*| Rapid.*/g, "").t
 const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.toLowerCase().includes(t.toLowerCase()))).slice(0, 12);
 const productIndex = products.products.findIndex((p) => p.id === product.id);
 const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27) + 1)).padStart(2, "0")}.webp`;
+
+// Entity graph: product → disease hub / analyte / technology / comparison
+const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical, ...whatIsExtra };
+const analyteEntry = Object.entries(allWhatIs).find(([, w]) => w.related === product.id);
+const analyteSlug = analyteEntry?.[0];
+const hub = products.hubs.find((h) => h.products.includes(product.id));
+const techSlug = product.method === "fluorescence immunoassay" ? "fia" : "lateral-flow";
+const comparisonMap = {
+  "dengue-ns1": "ns1-vs-pcr", "dengue-igg-igm": "dengue-ns1-vs-igg-igm", "dengue-combo": "dengue-ns1-vs-igg-igm",
+  "malaria-pf": "malaria-pf-vs-pan", "malaria-pf-pan": "malaria-pf-vs-pan", "malaria-pf-pv": "malaria-pf-vs-pv",
+  "hiv-12": "hiv-vs-syphilis", "syphilis": "hiv-vs-syphilis",
+  "hpylori-ag": "hpylori-antigen-vs-antibody", "hpylori-ab": "hpylori-antigen-vs-antibody",
+  "troponin-i": "troponin-i-vs-t", "troponin-t": "troponin-i-vs-t",
+};
+const comparisonSlug = comparisonMap[product.id];
 ---
 
 <BaseLayout
@@ -133,6 +152,17 @@ const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27
         <tr><th>Documents</th><td>IFU · Datasheet · Certificate · Declaration of Conformity — request below.</td></tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="card">
+    <h2>Related knowledge</h2>
+    <ul style="margin:0;">
+      {hub && <li><a href={`/solutions/disease/${hub.id}/`}>Disease: {hub.name}</a></li>}
+      {analyteEntry && <li><a href={`/knowledge/analyte/${analyteSlug}/`}>Analyte: {analyteEntry[1].name}</a></li>}
+      <li><a href={`/knowledge/technology/${techSlug}/`}>Technology: {techSlug === "fia" ? "Fluorescence immunoassay" : "Colloidal gold lateral flow"}</a></li>
+      {comparisonSlug && <li><a href={`/comparisons/${comparisonSlug}/`}>Comparison guide</a></li>}
+      <li><a href="/oem/">OEM / ODM solution</a></li>
+    </ul>
   </div>
 
   <div class="card">
