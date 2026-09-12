@@ -240,6 +240,46 @@
       "Line width and density control",
       "Conjugate pad spraying",
       "Membrane coating inspection"
+    ],
+    "applications": [
+      "Dispensing test and control lines onto nitrocellulose",
+      "Spraying conjugate onto the conjugate pad",
+      "Controlling line width and density"
+    ],
+    "performance_factors": [
+      "Dispensing flow rate and line width",
+      "Antibody solution concentration",
+      "Membrane wettability",
+      "Line uniformity"
+    ],
+    "limitations": [
+      "Line-width variation affects readability",
+      "Inconsistent dispensing causes batch variation",
+      "Improper dispensing can damage the membrane"
+    ],
+    "faq": [
+      {
+        "q": "What is reagent dispensing?",
+        "a": "Precisely applying test/control-line antibodies onto the membrane and conjugate onto the conjugate pad."
+      },
+      {
+        "q": "Why does line sharpness matter?",
+        "a": "Sharp, uniform lines are easier to read and more reproducible across lots."
+      }
+    ],
+    "related": [
+      {
+        "title": "Nitrocellulose membrane",
+        "href": "/knowledge/technology/membrane/"
+      },
+      {
+        "title": "Colloidal gold lateral flow",
+        "href": "/knowledge/technology/lateral-flow/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "drying": {
@@ -251,6 +291,39 @@
       "Controlled temperature and humidity",
       "Residual moisture control",
       "Drying validation"
+    ],
+    "applications": [
+      "Fixing dispensed reagents before assembly",
+      "Controlling residual moisture for stability"
+    ],
+    "performance_factors": [
+      "Temperature and humidity control",
+      "Drying duration",
+      "Residual moisture level"
+    ],
+    "limitations": [
+      "Overdrying can denature antibodies",
+      "Residual moisture shortens shelf life"
+    ],
+    "faq": [
+      {
+        "q": "Why is controlled drying important?",
+        "a": "It fixes reagents without denaturing them and prevents moisture-related instability."
+      }
+    ],
+    "related": [
+      {
+        "title": "Reagent dispensing & line coating",
+        "href": "/knowledge/technology/reagent-dispensing/"
+      },
+      {
+        "title": "Stability & shelf life",
+        "href": "/knowledge/technology/stability/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "strip-assembly": {
@@ -262,6 +335,38 @@
       "Backing card",
       "Pad overlap control",
       "Lamination inspection"
+    ],
+    "applications": [
+      "Laminating sample pad, conjugate pad, membrane and absorbent pad onto a backing card"
+    ],
+    "performance_factors": [
+      "Pad overlap and alignment",
+      "Lamination pressure",
+      "Component positioning"
+    ],
+    "limitations": [
+      "Misalignment causes flow failure",
+      "Overlap variation affects reproducibility"
+    ],
+    "faq": [
+      {
+        "q": "What is strip assembly?",
+        "a": "Laminating the strip components onto a backing card with controlled overlap to drive capillary flow."
+      }
+    ],
+    "related": [
+      {
+        "title": "Colloidal gold lateral flow",
+        "href": "/knowledge/technology/lateral-flow/"
+      },
+      {
+        "title": "Cassette assembly",
+        "href": "/knowledge/technology/cassette-assembly/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "cassette-assembly": {
@@ -273,6 +378,39 @@
       "Strip cutting",
       "Cassette / panel loading",
       "Visual inspection"
+    ],
+    "applications": [
+      "Cutting laminated cards into strips",
+      "Loading strips into cassettes, panels or cups"
+    ],
+    "performance_factors": [
+      "Strip cutting accuracy",
+      "Cassette seating and orientation",
+      "Visual inspection"
+    ],
+    "limitations": [
+      "Improper seating causes invalid results",
+      "Cutting tolerance affects fit"
+    ],
+    "faq": [
+      {
+        "q": "What is cassette assembly?",
+        "a": "Cutting strips and loading them into housings with correct orientation and inspection."
+      }
+    ],
+    "related": [
+      {
+        "title": "Strip assembly & lamination",
+        "href": "/knowledge/technology/strip-assembly/"
+      },
+      {
+        "title": "Packaging & desiccant",
+        "href": "/knowledge/technology/packaging/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "packaging": {
@@ -284,6 +422,39 @@
       "Foil pouch sealing",
       "Desiccant",
       "Lot and expiry labeling"
+    ],
+    "applications": [
+      "Sealing devices in foil pouches with desiccant",
+      "Kit labeling with lot and expiry"
+    ],
+    "performance_factors": [
+      "Pouch sealing integrity",
+      "Desiccant type and quantity",
+      "Labeling accuracy"
+    ],
+    "limitations": [
+      "Humidity ingress shortens shelf life",
+      "Poor sealing compromises stability"
+    ],
+    "faq": [
+      {
+        "q": "Why is desiccant used?",
+        "a": "It absorbs residual moisture to protect reagent stability and extend shelf life."
+      }
+    ],
+    "related": [
+      {
+        "title": "Stability & shelf life",
+        "href": "/knowledge/technology/stability/"
+      },
+      {
+        "title": "Cassette assembly",
+        "href": "/knowledge/technology/cassette-assembly/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "stability": {
@@ -295,6 +466,43 @@
       "Real-time stability",
       "Accelerated aging",
       "Temperature and humidity stress"
+    ],
+    "applications": [
+      "Confirming performance across the labeled shelf life",
+      "Supporting no-cold-chain claims"
+    ],
+    "performance_factors": [
+      "Temperature and humidity stress",
+      "Real-time vs accelerated aging",
+      "Reagent degradation"
+    ],
+    "limitations": [
+      "Accelerated aging predicts but does not replace real-time data",
+      "Stability is formulation-dependent"
+    ],
+    "faq": [
+      {
+        "q": "What is stability testing?",
+        "a": "Confirming a test performs consistently across its storage range and shelf life."
+      },
+      {
+        "q": "What is accelerated aging?",
+        "a": "Elevated-temperature storage that predicts shelf life faster than real-time testing."
+      }
+    ],
+    "related": [
+      {
+        "title": "Packaging & desiccant",
+        "href": "/knowledge/technology/packaging/"
+      },
+      {
+        "title": "Quality control",
+        "href": "/knowledge/technology/qc/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "qc": {
@@ -306,6 +514,40 @@
       "Reference panel testing",
       "Internal control line",
       "Sensitivity / specificity verification"
+    ],
+    "applications": [
+      "Lot-level testing against reference panels",
+      "Verifying sensitivity, specificity and precision",
+      "Internal control-line validation"
+    ],
+    "performance_factors": [
+      "Reference panel quality",
+      "Testing frequency per lot",
+      "Control-line consistency"
+    ],
+    "limitations": [
+      "QC samples may not cover all real-world matrices",
+      "Sampling cannot guarantee every device"
+    ],
+    "faq": [
+      {
+        "q": "What is the internal control line for?",
+        "a": "It validates each device — distinguishing a true negative from a failed test."
+      }
+    ],
+    "related": [
+      {
+        "title": "Batch release & traceability",
+        "href": "/knowledge/technology/lot-release/"
+      },
+      {
+        "title": "Stability & shelf life",
+        "href": "/knowledge/technology/stability/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "lot-release": {
@@ -317,6 +559,39 @@
       "Release criteria",
       "Lot records",
       "Raw-material traceability"
+    ],
+    "applications": [
+      "Documented release of a manufactured lot",
+      "Lot-level traceability for recalls and audits"
+    ],
+    "performance_factors": [
+      "Release criteria",
+      "Lot record completeness",
+      "Raw-material traceability"
+    ],
+    "limitations": [
+      "Release criteria must be pre-defined",
+      "Traceability depends on record-keeping"
+    ],
+    "faq": [
+      {
+        "q": "What is batch release?",
+        "a": "The documented decision to release a lot after it meets specification and traceability requirements."
+      }
+    ],
+    "related": [
+      {
+        "title": "Quality control",
+        "href": "/knowledge/technology/qc/"
+      },
+      {
+        "title": "Stability & shelf life",
+        "href": "/knowledge/technology/stability/"
+      },
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      }
     ]
   },
   "oem-development": {
@@ -329,6 +604,40 @@
       "Cut-off design",
       "Re-validation",
       "Private-label packaging"
+    ],
+    "applications": [
+      "Custom formulation (analyte, cut-off)",
+      "Private-label branding and packaging",
+      "Registration support documents"
+    ],
+    "performance_factors": [
+      "Cut-off design",
+      "Re-validation after customization",
+      "Packaging and labeling"
+    ],
+    "limitations": [
+      "Customization must be re-validated",
+      "Changing cut-off or format changes performance"
+    ],
+    "faq": [
+      {
+        "q": "What is OEM/ODM development?",
+        "a": "Turning a buyer specification into a production-ready SKU, re-validated for cut-off, sensitivity and specificity."
+      }
+    ],
+    "related": [
+      {
+        "title": "IVD manufacturing",
+        "href": "/manufacturing/"
+      },
+      {
+        "title": "Colloidal gold lateral flow",
+        "href": "/knowledge/technology/lateral-flow/"
+      },
+      {
+        "title": "OEM / ODM",
+        "href": "/oem/"
+      }
     ]
   }
 }
