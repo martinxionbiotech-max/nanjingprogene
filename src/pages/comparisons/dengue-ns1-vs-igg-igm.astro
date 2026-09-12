@@ -4,13 +4,15 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="Dengue NS1 vs IgM/IgG Rapid Test — Which to Use When | Progene Bio"
-  description="Dengue NS1 antigen vs IgM/IgG antibody rapid tests — diagnostic window, specimen and how to choose. Combined NS1+IgM/IgG covers the widest window."
+  description="Dengue NS1 antigen vs IgM/IgG antibody rapid tests — diagnostic window, specimen, strengths, limitations and how to choose. Combined NS1+IgM/IgG covers the widest window."
   canonical="/comparisons/dengue-ns1-vs-igg-igm/"
 >
 
   <h1>Dengue NS1 vs IgM/IgG Rapid Tests</h1>
-  <p>Two different targets, two different phases of infection — and a combined device that covers both.</p>
 
+  <p><strong>Direct answer:</strong> NS1 antigen detects the dengue virus itself and is most useful in the first week of fever; IgM/IgG antibodies detect the immune response and become more reliable from about day 5 onward. A combined NS1 + IgM/IgG device covers the widest diagnostic window in a single test.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
       <thead><tr><th></th><th>NS1 Antigen</th><th>IgM/IgG Antibody</th></tr></thead>
@@ -18,23 +20,57 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <tr><th>What it detects</th><td>Viral NS1 protein (active virus)</td><td>Immune response to infection</td></tr>
         <tr><th>First detectable</th><td>Day 1 of fever</td><td>IgM ~day 3–5; IgG later</td></tr>
         <tr><th>Best window</th><td>First week (early acute)</td><td>Late acute / convalescent</td></tr>
+        <tr><th>Specimen</th><td>Whole blood / serum / plasma</td><td>Whole blood / serum / plasma</td></tr>
         <tr><th>What it tells you</th><td>Active infection</td><td>Exposure / past or secondary infection</td></tr>
-        <tr><th>Key caveat</th><td>Serotype-dependent sensitivity</td><td>Flavivirus cross-reactivity (Zika)</td></tr>
+        <tr><th>Key caveat</th><td>Serotype-dependent sensitivity</td><td>Flavivirus cross-reactivity (e.g., Zika)</td></tr>
       </tbody>
     </table>
   </div>
 
-  <h2>How to choose</h2>
+  <h2>What each method detects</h2>
   <ul>
-    <li><strong>Early presentation (≤7 days):</strong> NS1 antigen is the better first test.</li>
-    <li><strong>Later / convalescent:</strong> IgM/IgG serology adds value.</li>
-    <li><strong>Unknown timing:</strong> a combined NS1 + IgM/IgG device covers the widest window in one test.</li>
+    <li><strong>NS1 antigen</strong> is a non-structural protein secreted during viral replication — a direct marker of the virus, so a positive result reflects active infection.</li>
+    <li><strong>IgM/IgG antibodies</strong> are the host's immune response — a positive result reflects exposure, which can be a current, recent or past infection.</li>
   </ul>
 
-  <p>
-    Related products: <a href="/products/dengue-ns1/">Dengue NS1</a> ·
-    <a href="/products/dengue-igg-igm/">Dengue IgG/IgM</a> ·
-    <a href="/products/dengue-combo/">Dengue NS1 + IgG/IgM Combo</a>
-  </p>
+  <h2>Testing window</h2>
+  <p>NS1 is typically detectable from day 1 of fever through the first week. IgM appears around day 3–5 and IgG later. Outside the first week, serology (IgM/IgG) becomes the more useful marker.</p>
+
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>NS1:</strong> earliest detection, active-infection signal, fewer false positives from past infection.</li>
+    <li><strong>IgM/IgG:</strong> useful after the first week, supports primary-vs-secondary interpretation (IgG pattern).</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>NS1:</strong> sensitivity varies by serotype; may be negative later in the illness.</li>
+    <li><strong>IgM/IgG:</strong> cross-reactivity with other flaviviruses (Zika, yellow fever, Japanese encephalitis); antibody timing limits early detection.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>False negatives:</strong> testing outside the marker's window (NS1 too late, IgM too early); low viral load.</li>
+    <li><strong>False positives:</strong> flavivirus cross-reactivity (IgM/IgG); prior vaccination or past dengue (IgG).</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Rapid tests are screening-grade. Where confirmation is required, RT-PCR (RNA detection) is the reference, or paired serology on acute and convalescent samples.</p>
+
+  <h2>Procurement considerations</h2>
+  <ul>
+    <li>For distributors: a combined NS1 + IgM/IgG device reduces SKU count and covers the full window.</li>
+    <li>For tropical field programs: room-temperature-stable, instrument-free formats are preferred.</li>
+  </ul>
+
+  <h2>Related products</h2>
+  <ul>
+    <li><a href="/products/dengue-ns1/">Dengue NS1</a></li>
+    <li><a href="/products/dengue-igg-igm/">Dengue IgG/IgM</a></li>
+    <li><a href="/products/dengue-combo/">Dengue NS1 + IgG/IgM Combo</a></li>
+    <li><a href="/comparisons/ns1-vs-pcr/">NS1 vs PCR</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

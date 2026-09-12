@@ -10,6 +10,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
   <h1>Antigen vs Antibody Test</h1>
 
+  <p><strong>Direct answer:</strong> An antigen test detects the pathogen's own protein and indicates an active infection; an antibody test detects the host's immune response and indicates exposure — which may be current, recent or past. The right choice depends on the diagnostic window.</p>
+
+  <h2>Comparison table</h2>
   <div class="card">
     <table>
       <thead><tr><th></th><th>Antigen test</th><th>Antibody test</th></tr></thead>
@@ -22,12 +25,46 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </table>
   </div>
 
-  <h2>Key interpretation rule</h2>
+  <h2>What each method detects</h2>
   <ul>
-    <li>Antigen positive = the pathogen is likely present now.</li>
-    <li>Antibody positive = the person was exposed; may not indicate current infection (e.g., HCV antibody needs RNA confirmation).</li>
+    <li><strong>Antigen:</strong> a structural or secreted protein of the pathogen — present only while the pathogen is active.</li>
+    <li><strong>Antibody:</strong> IgM (recent) and IgG (later/past) produced by the immune system — can persist long after the infection clears.</li>
   </ul>
 
-  <p>Choosing the right marker depends on the diagnostic window — see <a href="/comparisons/dengue-ns1-vs-igg-igm/">Dengue NS1 vs IgM/IgG</a> for a worked example.</p>
+  <h2>Strengths</h2>
+  <ul>
+    <li><strong>Antigen:</strong> direct active-infection signal; fewer false positives from past exposure; detects early.</li>
+    <li><strong>Antibody:</strong> broader detection window; useful for immunity assessment (e.g., rubella IgG) and late presentation.</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li><strong>Antigen:</strong> may miss low pathogen load; narrow detection window.</li>
+    <li><strong>Antibody:</strong> cannot distinguish active from past infection alone (e.g., HCV antibody needs RNA confirmation); window period before antibodies appear.</li>
+  </ul>
+
+  <h2>False negative / positive considerations</h2>
+  <ul>
+    <li><strong>False negative:</strong> testing before the marker appears (antigen too early, antibody in the window period).</li>
+    <li><strong>False positive:</strong> antibody cross-reactivity or persistent antibodies from past infection.</li>
+  </ul>
+
+  <h2>Confirmatory testing</h2>
+  <p>Rapid antigen and antibody tests are screening-grade. Confirmation uses molecular (PCR/RNA) testing or laboratory reference methods, depending on the pathogen.</p>
+
+  <h2>Procurement considerations</h2>
+  <ul>
+    <li>Combined antigen + antibody devices (e.g., dengue NS1 + IgM/IgG) cover both phases in one SKU.</li>
+    <li>Confirm the marker and specimen match the intended use before ordering.</li>
+  </ul>
+
+  <h2>Related pages</h2>
+  <ul>
+    <li><a href="/comparisons/dengue-ns1-vs-igg-igm/">Dengue NS1 vs IgM/IgG</a></li>
+    <li><a href="/comparisons/igg-vs-igm/">IgG vs IgM</a></li>
+    <li><a href="/knowledge/analyte/hiv-antibody/">HIV antibody explainer</a></li>
+  </ul>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>
