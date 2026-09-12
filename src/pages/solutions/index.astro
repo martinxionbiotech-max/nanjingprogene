@@ -2,7 +2,6 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import products from '../../data/products.json';
 import appContent from '../../data/application-content.json';
----
 
 const apps = Object.entries(appContent).map(([slug, a]) => ({ slug, name: a.name, overview: a.overview }));
 ---
