@@ -38,6 +38,14 @@ const comparisonMap = {
   "troponin-i": "troponin-i-vs-t", "troponin-t": "troponin-i-vs-t",
 };
 const comparisonSlug = comparisonMap[product.id];
+const misconceptions = {
+  "doa": "A reactive drug-screen result is presumptive — it does not indicate impairment, timing of use or a diagnosis. Confirm positives by GC-MS/LC-MS.",
+  "infectious": "A negative rapid test does not always exclude infection — timing, specimen and pathogen load all matter. Follow up clinically where suspicion is high.",
+  "cardiac-tumor": "A single negative troponin does not rule out myocardial infarction — serial testing and clinical context are required. Elevated tumor markers are not diagnostic of cancer.",
+  "womens-health": "A negative pregnancy test before a missed period can be false — retest if the period is delayed.",
+  "veterinary": "Rapid veterinary tests are screening aids — confirm clinically and interpret with vaccination and exposure history.",
+  "other": "An elevated marker is not diagnostic on its own — interpret with clinical context and confirm by reference method.",
+};
 ---
 
 <BaseLayout
@@ -117,6 +125,12 @@ const comparisonSlug = comparisonMap[product.id];
           </tbody>
         </table>
       </div>
+
+      <h2>Common misconception</h2>
+      <p>{misconceptions[product.series] ?? "A reactive result is presumptive — confirm by the appropriate reference method."}</p>
+
+      <h2>Sources</h2>
+      <p>Screening results are presumptive, not diagnostic. Confirmatory testing follows WHO, CDC and national regulatory guidance — see <a href="/knowledge/screening-vs-confirmatory/">screening vs confirmatory</a>.</p>
     </>
   )}
 
