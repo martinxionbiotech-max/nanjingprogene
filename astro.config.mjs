@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// https://nanjingprogene.com (placeholder domain)
+// https://progenebio.net (placeholder domain)
 export default defineConfig({
-  site: 'https://nanjingprogene.com',
+  site: 'https://progenebio.net',
   output: 'static',
   build: { format: 'directory' },
   integrations: [sitemap()],
