@@ -4,31 +4,65 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="What Is IVD? — In Vitro Diagnostics Explained | Progene Bio"
-  description="What is IVD (in vitro diagnostics)? Tests performed on samples outside the body — blood, urine, swab — to detect diseases, conditions and infections."
+  description="What is IVD (in vitro diagnostics)? Tests performed on samples outside the body — blood, urine, swab — to detect disease. Categories, methods and regulatory context."
   canonical="/knowledge/ivd/"
 >
 
   <h1>What Is IVD?</h1>
-  <p><strong>Direct answer:</strong> IVD (in vitro diagnostics) is the testing of samples — blood, serum, plasma, urine, swab or stool — outside the human body to detect diseases, conditions or infections. "In vitro" means "in glass", i.e. outside the body.</p>
 
-  <h2>What it covers</h2>
+  <p><strong>Direct answer:</strong> IVD (in vitro diagnostics) is the analysis of samples taken from the human body — blood, serum, plasma, urine, saliva, swab or stool — performed <em>outside</em> the body ("in vitro" means "in glass") to detect diseases, conditions, infections or physiological states. It encompasses rapid tests, laboratory immunoassays, molecular diagnostics and clinical chemistry.</p>
+
+  <h2>Terminology</h2>
   <ul>
-    <li><strong>Rapid tests / POCT</strong> — lateral-flow and fluorescence tests giving results in minutes at the point of care.</li>
-    <li><strong>Laboratory immunoassays</strong> — ELISA, chemiluminescence for batch and quantitative testing.</li>
-    <li><strong>Molecular diagnostics</strong> — PCR and nucleic-acid amplification.</li>
-    <li><strong>Clinical chemistry &amp; urinalysis</strong> — reagent strips and analyzers.</li>
+    <li><strong>IVD</strong> — the broad category of out-of-body testing (reagents + instruments).</li>
+    <li><strong>In vivo diagnostics</strong> — imaging and tests performed inside the body (a contrast, not a synonym).</li>
+    <li><strong>POCT</strong> — a <em>subset</em> of IVD performed near the patient rather than in a central lab.</li>
   </ul>
 
-  <h2>Why it matters</h2>
-  <p>IVD underpins the majority of clinical decisions — screening, diagnosis, monitoring and treatment guidance — without needing to sample tissue from inside the body. For B2B buyers, IVD is the category that covers rapid tests, reagents and instruments.</p>
+  <h2>Categories of IVD</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Category</th><th>What it is</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><th>Rapid tests / POCT</th><td>Lateral-flow and fluorescence tests, results in minutes</td><td>Dengue NS1, pregnancy (hCG)</td></tr>
+        <tr><th>Laboratory immunoassays</th><td>ELISA, chemiluminescence — batch, quantitative</td><td>Hormone panels</td></tr>
+        <tr><th>Molecular diagnostics</th><td>PCR and nucleic-acid amplification</td><td>Viral RNA detection</td></tr>
+        <tr><th>Clinical chemistry &amp; urinalysis</th><td>Reagent strips and analyzers</td><td>Urine dipstick</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-  <h2>Related</h2>
+  <h2>How IVD fits clinical practice</h2>
+  <p>IVD underpins most clinical decisions — screening, diagnosis, monitoring and treatment guidance — without sampling tissue from inside the body. A test's value depends on <a href="/knowledge/sensitivity-specificity/">sensitivity and specificity</a> and the <a href="/knowledge/diagnostic-window/">diagnostic window</a>.</p>
+
+  <h2>Regulatory context</h2>
+  <p>IVD products are regulated medical devices. Market access requires quality systems (e.g., ISO 13485) and product registration (CE marking, FDA, NMPA or local registration), which vary by product and market.</p>
+
+  <h2>IVD in simple terms</h2>
+  <p>In vivo testing looks inside the body; in vitro testing takes a sample out and analyzes it in a tube, strip or instrument — which is why a finger-prick or swab can answer a clinical question in minutes.</p>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is the difference between IVD and POCT?</strong> IVD is the broad category of out-of-body testing; POCT is the subset performed near the patient.</p>
+    <p><strong>Are rapid tests IVD?</strong> Yes — lateral-flow rapid tests are a category of IVD.</p>
+    <p><strong>Why does IVD matter?</strong> It enables screening, diagnosis and monitoring without invasive tissue sampling.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
   <ul>
     <li><a href="/knowledge/poct/">What is POCT?</a></li>
     <li><a href="/knowledge/testing-methodologies/">Testing methodologies</a></li>
+    <li><a href="/knowledge/immunochromatography/">What is immunochromatography?</a></li>
   </ul>
 
   <p><a href="/knowledge/">← Knowledge base</a></p>
   <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "What Is IVD?",
+    "description": "IVD (in vitro diagnostics) is the analysis of samples outside the body to detect disease — covering rapid tests, laboratory immunoassays, molecular diagnostics and clinical chemistry."
+  })} />
 
 </BaseLayout>

@@ -9,25 +9,49 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 >
 
   <h1>What Is a Cut-off?</h1>
+
   <p><strong>Direct answer:</strong> A cut-off is the analyte concentration threshold that separates a positive (reactive) result from a negative (non-reactive) result. Samples at or above the cut-off read positive; below it, negative.</p>
 
-  <h2>How it works</h2>
+  <h2>How a cut-off works</h2>
   <ul>
     <li>The test is designed so the visible line appears only when the analyte concentration reaches the cut-off.</li>
     <li>Example: a THC urine test with a 50 ng/mL cut-off is positive only when THC metabolite is ≥ 50 ng/mL.</li>
-    <li>Cut-offs are set per analyte and align with regulatory standards (e.g., SAMHSA-style workplace thresholds).</li>
+    <li>Cut-offs are set per analyte and often align with regulatory standards (e.g., SAMHSA-style workplace thresholds).</li>
   </ul>
 
-  <h2>Why it matters</h2>
-  <p>The cut-off determines both false-positive and false-negative risk. A lower cut-off catches more true cases (higher sensitivity) but more false positives; a higher cut-off does the reverse. Buyers must confirm the cut-off matches their intended use (screening vs confirmation).</p>
+  <h2>The sensitivity/specificity trade-off</h2>
+  <p>The cut-off balances two kinds of error:</p>
+  <ul>
+    <li><strong>Lower cut-off</strong> — catches more true cases (higher sensitivity) but more false positives.</li>
+    <li><strong>Higher cut-off</strong> — fewer false positives (higher specificity) but more false negatives.</li>
+  </ul>
+  <p>Buyers must confirm the cut-off matches the intended use — a screening cut-off differs from a confirmation threshold.</p>
 
-  <h2>Related</h2>
+  <h2>Why it matters</h2>
+  <p>The cut-off determines the test's clinical meaning. A "positive" is only meaningful relative to its threshold, which is why cut-off values appear on datasheets and why regulatory programs specify them.</p>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is a cut-off value?</strong> The analyte concentration threshold that separates positive from negative results.</p>
+    <p><strong>Can a cut-off be changed?</strong> Yes — OEM/ODM formulations can be customized to a target cut-off for a specific market or program.</p>
+    <p><strong>Does a lower cut-off mean a better test?</strong> Not necessarily — it trades sensitivity against specificity, so the right cut-off depends on the intended use.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
   <ul>
     <li><a href="/knowledge/lod/">What is LoD?</a></li>
     <li><a href="/knowledge/sensitivity-specificity/">Sensitivity &amp; specificity</a></li>
+    <li><a href="/solutions/scenario/workplace-screening/">Workplace drug screening</a></li>
   </ul>
 
   <p><a href="/knowledge/">← Knowledge base</a></p>
   <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "What Is a Cut-off?",
+    "description": "A cut-off is the analyte concentration threshold that separates a positive from a negative rapid-test result."
+  })} />
 
 </BaseLayout>

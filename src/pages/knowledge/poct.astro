@@ -4,31 +4,69 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="What Is POCT? — Point-of-Care Testing Explained | Progene Bio"
-  description="What is POCT (point-of-care testing)? Diagnostic testing performed near the patient — rapid tests that give results in minutes at the bedside, clinic or field."
+  description="What is POCT (point-of-care testing)? Diagnostic testing near the patient — rapid results at the bedside, clinic, pharmacy or field, without a central laboratory."
   canonical="/knowledge/poct/"
 >
 
   <h1>What Is POCT?</h1>
-  <p><strong>Direct answer:</strong> POCT (point-of-care testing) is diagnostic testing performed near the patient — bedside, clinic, pharmacy or field — rather than in a central laboratory. It gives results in minutes, enabling immediate clinical decisions.</p>
+
+  <p><strong>Direct answer:</strong> POCT (point-of-care testing) is diagnostic testing performed near the patient — at the bedside, in a clinic, pharmacy or field — rather than in a central laboratory. It delivers results in minutes, enabling immediate clinical or operational decisions.</p>
 
   <h2>What defines POCT</h2>
   <ul>
     <li><strong>Proximity</strong> — testing where the patient is, not where the lab is.</li>
     <li><strong>Speed</strong> — results in minutes, not hours or days.</li>
     <li><strong>Simplicity</strong> — instrument-free or minimal-instrument operation.</li>
-    <li><strong>Sample</strong> — whole blood, swab, urine or saliva directly at the point of collection.</li>
+    <li><strong>Sample</strong> — whole blood, swab, urine or saliva at the point of collection.</li>
   </ul>
 
-  <h2>Why it matters</h2>
-  <p>POCT shortens the time to diagnosis and treatment — critical for infectious disease triage (dengue, malaria, respiratory), cardiac markers (troponin), pregnancy, and drug screening. For distributors, POCT rapid tests are the core of the lateral-flow IVD category.</p>
+  <h2>Where POCT is used</h2>
+  <ul>
+    <li><strong>Emergency and triage</strong> — cardiac markers (troponin), blood gas.</li>
+    <li><strong>Infectious disease</strong> — dengue, malaria, influenza, COVID, HIV screening.</li>
+    <li><strong>Primary care and pharmacy</strong> — Strep A, pregnancy, drug screening.</li>
+    <li><strong>Field and outbreak settings</strong> — instrument-free rapid tests.</li>
+    <li><strong>Occupational health</strong> — workplace drug testing.</li>
+  </ul>
 
-  <h2>Related</h2>
+  <h2>Advantages</h2>
+  <ul>
+    <li>Faster time to diagnosis and treatment</li>
+    <li>Decentralized — reaches settings without lab infrastructure</li>
+    <li>Low-skill, minimal-equipment operation</li>
+    <li>Potential room-temperature storage, depending on formulation</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li>Sensitivity may be lower than laboratory methods</li>
+    <li>Visual results can be subjective</li>
+    <li>Requires operator training and QC for reliable use</li>
+    <li>Results are screening-grade — confirmatory testing may be needed</li>
+  </ul>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>What is the difference between POCT and IVD?</strong> IVD is the broad category; POCT is the subset performed near the patient.</p>
+    <p><strong>Are all rapid tests POCT?</strong> Most are — a rapid test run near the patient is POCT.</p>
+    <p><strong>Is POCT as accurate as lab testing?</strong> It depends on the analyte and assay; confirmatory lab testing may be required for critical results.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
   <ul>
     <li><a href="/knowledge/ivd/">What is IVD?</a></li>
-    <li><a href="/knowledge/testing-methodologies/">Testing methodologies</a></li>
+    <li><a href="/knowledge/immunochromatography/">What is immunochromatography?</a></li>
+    <li><a href="/knowledge/screening-vs-confirmatory/">Screening vs confirmatory</a></li>
   </ul>
 
   <p><a href="/knowledge/">← Knowledge base</a></p>
   <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "What Is POCT?",
+    "description": "POCT (point-of-care testing) is diagnostic testing near the patient — rapid results at the bedside, clinic, pharmacy or field."
+  })} />
 
 </BaseLayout>

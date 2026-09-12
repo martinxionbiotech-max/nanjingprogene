@@ -4,33 +4,71 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <BaseLayout
   title="What Is Colloidal Gold? — The Label Behind Rapid Tests | Progene Bio"
-  description="What is colloidal gold? Gold nanoparticles used as the visible label in lateral-flow rapid tests — how they turn antigen-antibody binding into a red line."
+  description="What is colloidal gold? Gold nanoparticles (~40 nm) used as the visible reporter in lateral-flow tests — how they turn antibody binding into a red line."
   canonical="/knowledge/colloidal-gold/"
 >
 
   <h1>What Is Colloidal Gold?</h1>
-  <p><strong>Direct answer:</strong> Colloidal gold is a suspension of gold nanoparticles (typically ~40 nm) that produces the visible red line in lateral-flow rapid tests. Antibodies are conjugated to the gold particles, which then serve as the colored signal.</p>
+
+  <p><strong>Direct answer:</strong> Colloidal gold is a suspension of gold nanoparticles — typically around 40 nm — that serves as the visible reporter in lateral-flow rapid tests. Antibodies are adsorbed onto the gold surface; when the labeled complex accumulates at a capture line, the concentrated particles appear as a red line readable by eye.</p>
+
+  <h2>What colloidal gold is</h2>
+  <p>Colloidal gold consists of nanometre-scale metallic gold particles suspended in liquid. Their small size and surface chemistry make them an ideal label: they are dense enough to produce an intense color when concentrated, yet stable enough to conjugate to proteins.</p>
 
   <h2>Why gold</h2>
   <ul>
-    <li><strong>Visible</strong> — gold nanoparticles appear red at test concentrations, readable by eye.</li>
-    <li><strong>Stable</strong> — gold is inert and stable at room temperature.</li>
-    <li><strong>Conjugatable</strong> — antibodies adsorb onto gold particles by electrostatic interaction.</li>
+    <li><strong>Visible</strong> — gold nanoparticles appear red at test concentrations, readable without an instrument.</li>
+    <li><strong>Stable</strong> — gold is chemically inert and stable at room temperature.</li>
+    <li><strong>Conjugatable</strong> — antibodies adsorb onto the gold surface by electrostatic and hydrophobic interaction.</li>
+    <li><strong>High signal density</strong> — a small captured amount produces a clearly visible line.</li>
   </ul>
 
   <h2>How it produces the result</h2>
-  <p>Gold-labeled antibodies bind the target analyte; the labeled complex is captured at the test line, where accumulated gold particles form a visible red line. Line intensity reflects the amount of captured label.</p>
+  <ol>
+    <li>Antibodies are conjugated to gold nanoparticles (see <a href="/knowledge/technology/conjugation/">colloidal gold conjugation</a>).</li>
+    <li>The gold-labeled antibody binds the target analyte in the sample.</li>
+    <li>The labeled complex is captured at the test line by immobilized antibodies.</li>
+    <li>Accumulated gold forms a visible red line, whose intensity reflects the amount of captured label.</li>
+  </ol>
 
-  <h2>Why it matters</h2>
-  <p>Colloidal gold is why lateral-flow tests need no instrument and no cold chain — a key advantage for tropical and remote distribution. Particle size and conjugation quality directly affect sensitivity and line clarity.</p>
+  <h2>Particle size and performance</h2>
+  <p>Particle size influences signal and flow. Larger particles give stronger color but may flow less freely and bind less efficiently; smaller particles flow better but give weaker signal. The optimal size (~20–40 nm) balances signal intensity, conjugate stability and membrane flow — a formulation choice, not a fixed universal value.</p>
 
-  <h2>Related</h2>
+  <h2>Advantages</h2>
   <ul>
-    <li><a href="/knowledge/technology/conjugation/">Colloidal gold conjugation (technology)</a></li>
+    <li>Instrument-free visual detection</li>
+    <li>Room-temperature-stable label</li>
+    <li>Low-cost, scalable manufacturing</li>
+  </ul>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li>Visual readout is qualitative (faint lines are subjective)</li>
+    <li>Conjugation quality and particle aggregation affect reproducibility</li>
+  </ul>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="card">
+    <p><strong>Why is the line red?</strong> Gold nanoparticles appear red when concentrated at the capture line.</p>
+    <p><strong>What size are colloidal gold particles?</strong> Typically around 20–40 nm for lateral-flow tests, chosen to balance signal and flow.</p>
+    <p><strong>Is colloidal gold the only label?</strong> No — colored latex and fluorescent particles are also used; fluorescent labels enable reader-based quantification.</p>
+  </div>
+
+  <h2>Related knowledge</h2>
+  <ul>
+    <li><a href="/knowledge/technology/conjugation/">Colloidal gold conjugation</a></li>
     <li><a href="/knowledge/immunochromatography/">What is immunochromatography?</a></li>
+    <li><a href="/knowledge/technology/lateral-flow/">Colloidal gold lateral flow</a></li>
   </ul>
 
   <p><a href="/knowledge/">← Knowledge base</a></p>
   <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · Medical Device QA · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "What Is Colloidal Gold?",
+    "description": "Colloidal gold is a suspension of ~40 nm gold nanoparticles used as the visible reporter in lateral-flow rapid tests."
+  })} />
 
 </BaseLayout>
