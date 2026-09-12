@@ -19,6 +19,7 @@ const at = authorTakeApp[slug];
   canonical={`/solutions/application/${slug}/`}
 >
 
+  <p class="breadcrumb"><a href="/products/">← All products</a></p>
   <h1>{a.name}</h1>
   <p>{a.overview}</p>
 
@@ -28,17 +29,17 @@ const at = authorTakeApp[slug];
   </ul>
 
   <h2>Relevant products ({appProducts.length})</h2>
-  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+  <div class="product-grid">
     {appProducts.map((p) => (
-      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+      <a class="card product-card" href={`/products/${p.id}/`}>
         <strong>{p.name}</strong>
-        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
+        <div class="product-meta">{p.target}</div>
       </a>
     ))}
   </div>
 
   {at && (
-    <div class="card" style="border-left:4px solid #e8a33d; margin-top:20px;">
+    <div class="card card-accent">
       <h2>The Author's Take</h2>
       <p><strong>Position:</strong> {at.position}</p>
       <ul>{at.reasoning.map((r) => <li>{r}</li>)}</ul>
@@ -46,8 +47,8 @@ const at = authorTakeApp[slug];
     </div>
   )}
 
-  <div class="card" style="margin-top:20px;">
-    <p style="margin:0;"><strong>Building a program in this setting?</strong> <a href="/rfq/">Request a quote →</a></p>
+  <div class="card">
+    <p><strong>Building a program in this setting?</strong> <a href="/rfq/">Request a quote →</a></p>
   </div>
 
 </BaseLayout>

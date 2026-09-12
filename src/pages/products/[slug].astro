@@ -16,6 +16,8 @@ const content = productContent[product.id] ?? productContentP2[product.id];
 // rough match: SKUs whose product name contains the canonical target keyword
 const matchTerms = product.name.replace(/ Rapid Test.*| Test.*| Rapid.*/g, "").trim().split(" ").filter((w) => w.length > 3);
 const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.toLowerCase().includes(t.toLowerCase()))).slice(0, 12);
+const productIndex = products.products.findIndex((p) => p.id === product.id);
+const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27) + 1)).padStart(2, "0")}.webp`;
 ---
 
 <BaseLayout
@@ -24,8 +26,26 @@ const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.to
   canonical={`/products/${product.id}/`}
 >
 
-  <p><a href="/products/">← All products</a></p>
-  <h1>{product.name}</h1>
+  <p class="breadcrumb"><a href="/products/">← All products</a></p>
+
+  <header class="page-hero">
+    <div>
+      <p class="eyebrow">{series?.name ?? "Rapid Diagnostic Test"}</p>
+      <h1>{product.name}</h1>
+      <p class="lede">
+        Detects {product.target}. {product.method}. Specimen: {(product.specimen ?? []).join(" / ")}.
+      </p>
+    </div>
+    <figure class="page-hero-media">
+      <img
+        src={productImage}
+        width="1000"
+        height="1000"
+        alt={`${product.name} rapid diagnostic test — Progene Bio`}
+        loading="lazy"
+      />
+    </figure>
+  </header>
 
   <div class="card">
     <table>
@@ -83,8 +103,8 @@ const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.to
     </>
   )}
 
-  <div class="card" style="margin-top:20px;">
-    <p style="margin:0;"><strong>Request a quotation / sample</strong> — datasheet, IFU, MOQ and OEM/ODM options on request.</p>
+  <div class="card">
+    <p><strong>Request a quotation / sample</strong> — datasheet, IFU, MOQ and OEM/ODM options on request.</p>
   </div>
 
   <script type="application/ld+json" set:html={JSON.stringify({

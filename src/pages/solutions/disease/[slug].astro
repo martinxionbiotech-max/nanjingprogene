@@ -22,7 +22,7 @@ const faqs = faqContent[hub.id] ?? [];
   canonical={`/solutions/disease/${hub.id}/`}
 >
 
-  <p><a href="/">← Home</a></p>
+  <p class="breadcrumb"><a href="/">← Home</a></p>
   <h1>{hub.name}</h1>
   <p>Point-of-care rapid testing for {hub.name.toLowerCase()}. OEM/ODM manufacturer.</p>
 
@@ -38,7 +38,7 @@ const faqs = faqContent[hub.id] ?? [];
   )}
 
   {at && (
-    <div class="card" style="border-left:4px solid #e8a33d; margin-top:20px;">
+    <div class="card card-accent">
       <h2>The Author's Take</h2>
       <p><strong>Position:</strong> {at.position}</p>
       <ul>
@@ -63,20 +63,18 @@ const faqs = faqContent[hub.id] ?? [];
   )}
 
   <h2>Products ({hubProducts.length})</h2>
-  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+  <div class="product-grid">
     {hubProducts.map((p) => (
-      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+      <a class="card product-card" href={`/products/${p.id}/`}>
         <strong>{p.name}</strong>
-        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
-        <div style="margin-top:8px; font-size:.8rem;">
-          Specimen: {(p.specimen ?? []).join(" / ")}
-        </div>
+        <div class="product-meta">{p.target}</div>
+        <div class="product-meta">Specimen: {(p.specimen ?? []).join(" / ")}</div>
       </a>
     ))}
   </div>
 
-  <div class="card" style="margin-top:20px;">
-    <p style="margin:0;"><strong>Need a full {hub.name} testing panel?</strong> Request datasheets, IFU and OEM/ODM options.</p>
+  <div class="card">
+    <p><strong>Need a full {hub.name} testing panel?</strong> Request datasheets, IFU and OEM/ODM options.</p>
   </div>
 
 </BaseLayout>

@@ -5,6 +5,7 @@ import products from '../data/products.json';
 const series = products.series;
 const flagships = products.products.filter(p => p.priority === "P1");
 const hubs = products.hubs;
+const ceCount = products.products.filter(p => p.ce).length;
 ---
 
 <BaseLayout
@@ -12,16 +13,47 @@ const hubs = products.hubs;
   description="600+ IVD rapid test SKUs across 12 series — infectious disease, drug of abuse, cardiac & tumor markers, women's health. CE-certified, GMP facility in Nanjing. OEM/ODM."
 >
 
-  <section style="padding: 24px 0;">
-    <h1 style="font-size:1.9rem; margin:0 0 8px;">Your Trusted OEM/ODM Partner for IVD Rapid Tests</h1>
-    <p style="color:#4a5568; max-width:720px;">
-      Nanjing Progene Biotechnology designs and manufactures colloidal-gold rapid diagnostic tests and POCT devices.
-      600+ SKUs across 12 series, CE-certified, shipped worldwide from a GMP facility in Nanjing.
-    </p>
+  <section class="hero hero--split">
+    <div class="hero-copy">
+      <p class="eyebrow">Nanjing Progene Biotechnology</p>
+      <h1>Your Trusted OEM/ODM Partner for IVD Rapid Tests</h1>
+      <p class="hero-lead">
+        Nanjing Progene Biotechnology designs and manufactures colloidal-gold rapid diagnostic tests and POCT devices.
+        600+ SKUs across 12 series, CE-certified, shipped worldwide from a GMP facility in Nanjing.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-accent" href="/products/">Browse Product Catalog</a>
+        <a class="btn btn-outline-light" href="/rfq/">Request a Quote</a>
+      </div>
+      <dl class="hero-stats">
+        <div>
+          <dt>600+</dt>
+          <dd>IVD SKUs</dd>
+        </div>
+        <div>
+          <dt>{series.length}</dt>
+          <dd>Product Series</dd>
+        </div>
+        <div>
+          <dt>CE</dt>
+          <dd>{ceCount} Certified Lines</dd>
+        </div>
+      </dl>
+    </div>
+
+    <figure class="hero-media">
+      <img
+        src="/images/company-18.webp"
+        width="1400"
+        height="1050"
+        alt="Nanjing Progene GMP IVD manufacturing facility"
+        fetchpriority="high"
+      />
+    </figure>
   </section>
 
   <h2>Product Series ({series.length})</h2>
-  <div class="card">
+  <div class="card table-card">
     <table>
       <thead><tr><th>Series</th><th>SKUs</th><th>Priority</th></tr></thead>
       <tbody>
@@ -37,15 +69,15 @@ const hubs = products.hubs;
   </div>
 
   <h2>Flagship Products (P1, {flagships.length})</h2>
-  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px;">
+  <div class="product-grid">
     {flagships.map(p => (
-      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+      <a class="card product-card" href={`/products/${p.id}/`}>
         <strong>{p.name}</strong>
-        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
-        <div style="margin-top:8px;">
+        <div class="product-meta">{p.target}</div>
+        <div class="product-tags">
           <span class="pill pill-p1">{p.priority}</span>
-          {p.ce && <span class="pill pill-ce" style="margin-left:6px;">CE</span>}
-          {p.fda && <span class="pill" style="background:#e3f2fd;color:#0d47a1;margin-left:6px;">FDA</span>}
+          {p.ce && <span class="pill pill-ce">CE</span>}
+          {p.fda && <span class="pill pill-fda">FDA</span>}
         </div>
       </a>
     ))}
@@ -53,9 +85,9 @@ const hubs = products.hubs;
 
   <h2>Disease &amp; Topic Hubs ({hubs.length})</h2>
   <div class="card">
-    <ul style="columns:2; list-style:none; padding-left:0;">
+    <ul class="hub-list">
       {hubs.map(h => (
-        <li style="margin:4px 0;"><a href={`/solutions/disease/${h.id}/`}>{h.name}</a></li>
+        <li><a href={`/solutions/disease/${h.id}/`}>{h.name}</a></li>
       ))}
     </ul>
   </div>

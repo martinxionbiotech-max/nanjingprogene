@@ -1,5 +1,32 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const companyImages = [
+  { src: "/images/company-01.webp", width: 1400, height: 1049 },
+  { src: "/images/company-02.webp", width: 1400, height: 1049 },
+  { src: "/images/company-03.webp", width: 1400, height: 1049 },
+  { src: "/images/company-04.webp", width: 1400, height: 1049 },
+  { src: "/images/company-05.webp", width: 1400, height: 1050 },
+  { src: "/images/company-06.webp", width: 960, height: 1280 },
+  { src: "/images/company-07.webp", width: 1280, height: 1706 },
+  { src: "/images/company-08.webp", width: 960, height: 1280 },
+  { src: "/images/company-09.webp", width: 1400, height: 1050 },
+  { src: "/images/company-10.webp", width: 1400, height: 1049 },
+  { src: "/images/company-11.webp", width: 1400, height: 1049 },
+  { src: "/images/company-12.webp", width: 800, height: 408 },
+  { src: "/images/company-13.webp", width: 1400, height: 1049 },
+  { src: "/images/company-14.webp", width: 1400, height: 1049 },
+  { src: "/images/company-15.webp", width: 1400, height: 1049 },
+  { src: "/images/company-16.webp", width: 1400, height: 1050 },
+  { src: "/images/company-17.webp", width: 800, height: 478 },
+  { src: "/images/company-18.webp", width: 1400, height: 1050 },
+  { src: "/images/company-19.webp", width: 1400, height: 1050 },
+  { src: "/images/company-20.webp", width: 1400, height: 1050 },
+  { src: "/images/company-21.webp", width: 1400, height: 1050 },
+].map((image, index) => ({
+  ...image,
+  alt: `Nanjing Progene Biotechnology manufacturing facility — photo ${index + 1}`,
+}));
 ---
 
 <BaseLayout
@@ -8,13 +35,36 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   canonical="/about/"
 >
 
-  <h1>About Nanjing Progene Biotechnology</h1>
-  <p>
-    <strong>南京普诺基生物科技有限公司</strong> (Nanjing Progene Biotechnology Co., Ltd) designs and
-    manufactures in-vitro diagnostic (IVD) rapid tests and point-of-care testing (POCT) devices —
-    lateral-flow colloidal-gold tests across infectious disease, drug of abuse, cardiac &amp; tumor markers,
-    and women's health.
-  </p>
+  <header class="page-hero page-hero--single">
+    <div>
+      <p class="eyebrow">About Us</p>
+      <h1>About Nanjing Progene Biotechnology</h1>
+      <p class="lede">
+        <strong>南京普诺基生物科技有限公司</strong> (Nanjing Progene Biotechnology Co., Ltd) designs and
+        manufactures in-vitro diagnostic (IVD) rapid tests and point-of-care testing (POCT) devices —
+        lateral-flow colloidal-gold tests across infectious disease, drug of abuse, cardiac &amp; tumor markers,
+        and women's health.
+      </p>
+    </div>
+  </header>
+
+  <section class="gallery-section">
+    <h2>Inside the Nanjing Facility</h2>
+    <div class="gallery-grid">
+      {companyImages.map((image) => (
+        <figure>
+          <img
+            src={image.src}
+            width={image.width}
+            height={image.height}
+            alt={image.alt}
+            loading="lazy"
+          />
+          <figcaption>GMP manufacturing · Nanjing</figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
 
   <h2>Company Profile</h2>
   <div class="card">
@@ -42,7 +92,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <tr><td>NMPA</td><td>Class I filing (第一类医疗器械备案)</td></tr>
       </tbody>
     </table>
-    <p style="font-size:.82rem;color:#64748b;margin-top:8px;">
+    <p class="small muted">
       Certification status reflects the company's published claims; certificate numbers and scope are
       available on request for buyer qualification.
     </p>

@@ -5,20 +5,34 @@ import products from '../../data/products.json';
 
 <BaseLayout title="Product Catalog — IVD Rapid Tests | Progene Bio" description="Full IVD rapid test catalog: 600+ SKUs across 12 series. Infectious disease, drug of abuse, cardiac & tumor markers, women's health.">
 
-  <h1>Product Catalog</h1>
-  <p>12 series · 600+ SKUs · OEM/ODM private label available.</p>
+  <header class="page-hero">
+    <div>
+      <p class="eyebrow">Product Catalog</p>
+      <h1>IVD Rapid Tests &amp; POCT Devices</h1>
+      <p class="lede">12 series · 600+ SKUs · OEM/ODM private label available.</p>
+    </div>
+    <figure class="page-hero-media">
+      <img
+        src="/images/products-11.webp"
+        width="1000"
+        height="1000"
+        alt="Progene Bio rapid diagnostic test product line"
+        loading="lazy"
+      />
+    </figure>
+  </header>
 
   {products.series.map((s) => {
     const seriesProducts = products.products.filter((p) => p.series === s.id);
     return (
       <section class="card">
-        <h2 style="margin:0 0 8px;">{s.name}</h2>
-        <p style="margin:0 0 10px; color:#4a5568; font-size:.9rem;">
+        <h2>{s.name}</h2>
+        <p class="muted small">
           {s.sku_count ? `${s.sku_count} SKUs` : "Expanding"} · {s.method}
         </p>
-        <ul style="columns:2; list-style:none; padding-left:0; margin:0;">
+        <ul class="hub-list">
           {seriesProducts.map((p) => (
-            <li style="margin:3px 0;"><a href={`/products/${p.id}/`}>{p.name}</a></li>
+            <li><a href={`/products/${p.id}/`}>{p.name}</a></li>
           ))}
         </ul>
       </section>

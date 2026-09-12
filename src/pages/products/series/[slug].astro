@@ -17,6 +17,8 @@ const keyProducts = (sc.key_products ?? [])
   .map((id) => products.products.find((p) => p.id === id))
   .filter(Boolean);
 const allSeriesProducts = products.products.filter((p) => p.series === slug);
+const seriesIndex = products.series.findIndex((s) => s.id === slug);
+const seriesImage = `/images/products-${String(((Math.max(0, seriesIndex) % 27) + 1)).padStart(2, "0")}.webp`;
 ---
 
 <BaseLayout
@@ -25,9 +27,24 @@ const allSeriesProducts = products.products.filter((p) => p.series === slug);
   canonical={`/products/series/${slug}/`}
 >
 
-  <p><a href="/products/">← All products</a></p>
-  <h1>{sc.name}</h1>
-  <p>{sc.overview}</p>
+  <p class="breadcrumb"><a href="/products/">← All products</a></p>
+
+  <header class="page-hero">
+    <div>
+      <p class="eyebrow">Product Series</p>
+      <h1>{sc.name}</h1>
+      <p class="lede">{sc.overview}</p>
+    </div>
+    <figure class="page-hero-media">
+      <img
+        src={seriesImage}
+        width="1000"
+        height="1000"
+        alt={`${sc.name} rapid diagnostic test line — Progene Bio`}
+        loading="lazy"
+      />
+    </figure>
+  </header>
 
   <div class="card">
     <table>
@@ -45,12 +62,12 @@ const allSeriesProducts = products.products.filter((p) => p.series === slug);
   </ul>
 
   <h2>Key Products ({allSeriesProducts.length})</h2>
-  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+  <div class="product-grid">
     {allSeriesProducts.map((p) => (
-      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+      <a class="card product-card" href={`/products/${p.id}/`}>
         <strong>{p.name}</strong>
-        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
-        <div style="margin-top:8px; font-size:.8rem;">Specimen: {(p.specimen ?? []).join(" / ")}</div>
+        <div class="product-meta">{p.target}</div>
+        <div class="product-meta">Specimen: {(p.specimen ?? []).join(" / ")}</div>
       </a>
     ))}
   </div>
@@ -70,11 +87,11 @@ const allSeriesProducts = products.products.filter((p) => p.series === slug);
   )}
 
   {at && (
-    <div class="card" style="border-left:4px solid #e8a33d; margin-top:20px;">
+    <div class="card card-accent">
       <h2>The Author's Take</h2>
       <p><strong>Position:</strong> {at.position}</p>
       <ul>{at.reasoning.map((r) => <li>{r}</li>)}</ul>
-      <p style="font-size:.82rem;color:#64748b;">Buyer-advisor editorial guidance — not a substitute for product IFU or local regulatory requirements.</p>
+      <p class="small muted">Buyer-advisor editorial guidance — not a substitute for product IFU or local regulatory requirements.</p>
     </div>
   )}
 
@@ -83,17 +100,17 @@ const allSeriesProducts = products.products.filter((p) => p.series === slug);
       <h2>Frequently Asked Questions</h2>
       <div class="card">
         {faqs.map((f) => (
-          <div style="margin-bottom:12px;">
-            <h3 style="margin:0 0 4px; font-size:1rem;">{f.q}</h3>
-            <p style="margin:0;">{f.a}</p>
+          <div>
+            <h3>{f.q}</h3>
+            <p>{f.a}</p>
           </div>
         ))}
       </div>
     </>
   )}
 
-  <div class="card" style="margin-top:20px;">
-    <p style="margin:0;"><strong>Need a custom panel or private label?</strong> <a href="/rfq/">Request a quote →</a></p>
+  <div class="card">
+    <p><strong>Need a custom panel or private label?</strong> <a href="/rfq/">Request a quote →</a></p>
   </div>
 
 </BaseLayout>

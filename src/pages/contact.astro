@@ -8,19 +8,41 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   canonical="/contact/"
 >
 
-  <h1>Contact Us</h1>
+  <header class="page-hero page-hero--single">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h1>Contact Us</h1>
+      <p class="lede">
+        Quotations, samples, datasheets and OEM/ODM project support from Nanjing Progene Biotechnology.
+      </p>
+    </div>
+  </header>
 
   <div class="card">
     <table>
       <tbody>
         <tr><th>Company</th><td>Nanjing Progene Biotechnology Co., Ltd</td></tr>
         <tr><th>Address</th><td>No. 26, Hengguang Road, Qixia District, Nanjing, Jiangsu, China</td></tr>
-        <tr><th>Email</th><td>info@progenebio.com</td></tr>
-        <tr><th>Phone</th><td>+86-25-66044660</td></tr>
+        <tr><th>Email</th><td><a href="mailto:info@progenebio.com">info@progenebio.com</a></td></tr>
+        <tr><th>Phone</th><td><a href="tel:+862566044660">+86-25-66044660</a></td></tr>
         <tr><th>WhatsApp</th><td>Available on request</td></tr>
         <tr><th>Website</th><td>progenebio.com</td></tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="card" style="display:flex; gap:20px; align-items:center; flex-wrap:wrap;">
+    <img
+      src="/images/whatsapp-qr.png"
+      width="568"
+      height="596"
+      alt="Progene Bio WhatsApp QR code"
+      loading="lazy"
+      style="width:140px;height:147px;object-fit:contain;background:#fff;border:1px solid #dfe6f0;border-radius:10px;padding:4px;"
+    />
+    <p style="margin:0; max-width:520px;">
+      <strong>Fastest route:</strong> scan the WhatsApp QR or <a href="/rfq/">submit an RFQ →</a>.
+    </p>
   </div>
 
   <h2>What we can help with</h2>
@@ -30,9 +52,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <li>OEM/ODM &amp; private label projects</li>
     <li>Registration support (CE, country registration)</li>
   </ul>
-
-  <p style="margin-top:16px;">
-    <strong>Fastest route:</strong> <a href="/rfq/">submit an RFQ →</a>
-  </p>
 
 </BaseLayout>

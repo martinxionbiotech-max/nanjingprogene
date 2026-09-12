@@ -9,8 +9,13 @@ import products from '../data/products.json';
   canonical="/rfq/"
 >
 
-  <h1>Request a Quote</h1>
-  <p>Our team responds within 24 hours with formulation options, MOQ and pricing.</p>
+  <header class="page-hero page-hero--single">
+    <div>
+      <p class="eyebrow">RFQ</p>
+      <h1>Request a Quote</h1>
+      <p class="lede">Our team responds within 24 hours with formulation options, MOQ and pricing.</p>
+    </div>
+  </header>
 
   <div class="card">
     <form name="rfq" method="POST" action="/rfq/thanks/" data-netlify="true" netlify>
@@ -58,7 +63,7 @@ import products from '../data/products.json';
       <input type="email" name="email" placeholder="Email" style="width:100%;padding:8px;margin-bottom:8px;" />
       <input type="text" name="company" placeholder="Company" style="width:100%;padding:8px;margin-bottom:12px;" />
 
-      <button type="submit" style="background:#0f1f3d;color:#fff;border:none;padding:10px 22px;border-radius:6px;font-size:1rem;cursor:pointer;">Submit RFQ</button>
+      <button class="btn btn-navy" type="submit">Submit RFQ</button>
     </form>
   </div>
 
