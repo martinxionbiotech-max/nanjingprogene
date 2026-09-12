@@ -120,6 +120,7 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
       <div class="wrap">
         <p>© {new Date().getFullYear()} Nanjing Progene Biotechnology Co., Ltd</p>
         <p>IVD rapid tests · POCT · OEM/ODM</p>
+        <p style="font-size:.8rem;color:#8a94a6;">We use only essential cookies. See our <a href="/privacy/">Privacy Policy</a>.</p>
       </div>
     </div>
   </footer>
@@ -158,6 +159,13 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
         "description": description,
         "isPartOf": { "@id": site + "/#website" },
         "about": { "@id": site + "/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": site },
+          { "@type": "ListItem", "position": 2, "name": title, "item": url }
+        ]
       }
     ]
   })} />
