@@ -59,6 +59,13 @@ const { slug, t } = Astro.props;
     </>
   )}
 
+  {t.failure_modes && (
+    <>
+      <h2>Common failure modes</h2>
+      <ul>{t.failure_modes.map((f) => <li>{f}</li>)}</ul>
+    </>
+  )}
+
   {t.faq && t.faq.length > 0 && (
     <>
       <h2>Frequently Asked Questions</h2>

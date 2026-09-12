@@ -306,6 +306,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Line-width variation from inconsistent flow rate",
+      "Membrane damage from improper dispensing",
+      "Uneven coating causing batch-to-batch variation"
     ]
   },
   "drying": {
@@ -354,6 +359,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Overdrying denatures antibodies",
+      "Residual moisture shortens shelf life",
+      "Inconsistent drying across a batch"
     ]
   },
   "strip-assembly": {
@@ -401,6 +411,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Pad misalignment causes flow failure",
+      "Overlap error interrupts capillary flow",
+      "Inconsistent lamination pressure"
     ]
   },
   "cassette-assembly": {
@@ -449,6 +464,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Improper strip seating causes invalid results",
+      "Orientation error misroutes the sample",
+      "Cutting tolerance affects fit"
     ]
   },
   "packaging": {
@@ -497,6 +517,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Humidity ingress through a poor seal",
+      "Desiccant saturation over storage",
+      "Labeling errors (lot / expiry)"
     ]
   },
   "stability": {
@@ -549,6 +574,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Reagent degradation at temperature extremes",
+      "Humidity damage to membranes",
+      "Performance drift before expiry"
     ]
   },
   "qc": {
@@ -598,6 +628,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Sampling gaps — QC samples may not cover all matrices",
+      "Reference-panel mismatch",
+      "Control-line inconsistency"
     ]
   },
   "lot-release": {
@@ -646,6 +681,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Incomplete lot records",
+      "Traceability gaps from raw material to device",
+      "Release without defined criteria"
     ]
   },
   "oem-development": {
@@ -696,6 +736,11 @@
     "references": [
       "Posthuma-Trumpie GA, Korf J, van Amerongen A. Lateral flow (immuno)assay: its strengths, weaknesses, opportunities and threats. Anal Bioanal Chem. 2009;393(2):569-582.",
       "胶体金免疫层析法定性检测试剂技术审评要点（NMPA technical review）. ivdmat.com."
+    ],
+    "failure_modes": [
+      "Unvalidated customization (cut-off / format change)",
+      "Cut-off mismatch with the target market",
+      "Packaging or labeling noncompliance"
     ]
   }
 }
