@@ -1,0 +1,22 @@
+{
+  "infectious": {
+    "position": "Don't build your infectious-disease line SKU-by-SKU — lead with the combos (dengue NS1+IgM/IgG, malaria Pf/Pan) that widen the diagnostic window and cut your inventory and registration burden.",
+    "reasoning": ["Combined devices cover early and late phases in one SKU, reducing the number of products to stock and document.", "Tropical and field buyers prioritize room-temperature stability and instrument-free formats.", "Confirm CE scope per product line before committing to a regulated market."]
+  },
+  "doa": {
+    "position": "Lead with the multi-panel cup with adulteration checks — it is the highest-value DOA SKU for workplace programs, not the single-analyte strip.",
+    "reasoning": ["Panel cups with pH/specific-gravity/oxidant strips detect tampering at the point of collection.", "SAMHSA-style cut-offs make the product defensible in regulated workplace testing.", "Every positive is presumptive — sell the confirmatory workflow, not just the strip."]
+  },
+  "cardiac-tumor": {
+    "position": "Position cardiac rapid tests as triage tools and tumor markers as monitoring aids — overselling either one will backfire on you and your buyers.",
+    "reasoning": ["POC cardiac markers are triage-grade; high-sensitivity lab assays remain the clinical standard.", "Tumor markers rise in benign conditions too — they support monitoring, not standalone diagnosis.", "Hospitals buy panels (troponin + CK-MB + myoglobin + D-dimer), so bundle rather than sell single markers."]
+  },
+  "womens-health": {
+    "position": "For pregnancy and fertility tests, compete on packaging and private label, not on the chemistry — hCG and LH are commodity tests, so retail differentiation is the real moat.",
+    "reasoning": ["hCG/LH/FSH are high-volume, low-complexity — buyers choose on price, brand and shelf presence.", "Private-label retail packaging is where the margin is.", "fFN/iGFBP-1 are risk-stratification aids, not diagnostics — label them accordingly."]
+  },
+  "other": {
+    "position": "Bundle the specialty assays into a single supplier relationship — the value of this series is catalog fill, not any single hero product.",
+    "reasoning": ["H. pylori, CRP, FOB and ferritin are steady high-turnover assays for primary care and pharmacy.", "Low-MOQ, mixed-format supply lets a distributor fill gaps without managing multiple vendors.", "One trusted source across many SKUs is the procurement story to sell."]
+  }
+}

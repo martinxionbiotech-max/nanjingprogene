@@ -2,6 +2,8 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import products from '../../../data/products.json';
 import seriesContent from '../../../data/series-content.json';
+import authorTakeSeries from '../../../data/author-take-series.json';
+import faqSeries from '../../../data/faq-series.json';
 
 export function getStaticPaths() {
   return Object.entries(seriesContent).map(([slug, sc]) => ({ params: { slug }, props: { slug, sc } }));
@@ -9,6 +11,8 @@ export function getStaticPaths() {
 
 const { slug, sc } = Astro.props;
 const seriesMeta = products.series.find((s) => s.id === slug);
+const at = authorTakeSeries[slug];
+const faqs = faqSeries[slug] ?? [];
 const keyProducts = (sc.key_products ?? [])
   .map((id) => products.products.find((p) => p.id === id))
   .filter(Boolean);
@@ -62,6 +66,29 @@ const allSeriesProducts = products.products.filter((p) => p.series === slug);
           <li><a href={`/comparisons/${c.slug}/`}>{c.title}</a></li>
         ))}
       </ul>
+    </>
+  )}
+
+  {at && (
+    <div class="card" style="border-left:4px solid #e8a33d; margin-top:20px;">
+      <h2>The Author's Take</h2>
+      <p><strong>Position:</strong> {at.position}</p>
+      <ul>{at.reasoning.map((r) => <li>{r}</li>)}</ul>
+      <p style="font-size:.82rem;color:#64748b;">Buyer-advisor editorial guidance — not a substitute for product IFU or local regulatory requirements.</p>
+    </div>
+  )}
+
+  {faqs.length > 0 && (
+    <>
+      <h2>Frequently Asked Questions</h2>
+      <div class="card">
+        {faqs.map((f) => (
+          <div style="margin-bottom:12px;">
+            <h3 style="margin:0 0 4px; font-size:1rem;">{f.q}</h3>
+            <p style="margin:0;">{f.a}</p>
+          </div>
+        ))}
+      </div>
     </>
   )}
 

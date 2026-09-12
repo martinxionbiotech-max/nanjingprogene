@@ -1,0 +1,22 @@
+{
+  "hospital-clinic": {
+    "position": "Sell speed-to-triage, not lab replacement — the hospital buyer's problem is minutes-to-decision, and that is exactly what a POC rapid test solves.",
+    "reasoning": ["Emergency departments triage chest pain and fever faster with POC cardiac and infectious markers.", "Position the test as reducing central-lab load and enabling immediate treatment decisions.", "Never claim it replaces the lab — high-sensitivity confirmatory testing is the standard."]
+  },
+  "pharmacy-retail": {
+    "position": "In retail, shelf presence and packaging sell the product, not the spec sheet — optimize for the end consumer, not the clinician.",
+    "reasoning": ["hCG/LH are impulse and repeat-purchase products; clear, appealing retail packaging wins.", "Simple visual readout and private-label branding are the levers.", "Keep the consumer messaging simple — the buyer is not a lab tech."]
+  },
+  "workplace-drug": {
+    "position": "Sell the tamper-evident cup and the confirmatory workflow, not just a strip — that is the defensible, higher-margin product.",
+    "reasoning": ["Adulteration checks (pH, specific gravity, oxidants) protect the integrity of the sample.", "A documented presumptive-to-confirmatory workflow is what makes a program legally defensible.", "Bulk and panel pricing win workplace programs."]
+  },
+  "blood-bank-antenatal": {
+    "position": "In blood-bank and antenatal screening, documentation and the confirmation pathway are as important as the device itself.",
+    "reasoning": ["HBsAg/HCV/HIV/syphilis screens must map to a documented confirmation algorithm.", "Combo cassettes reduce hands-on steps in high-throughput settings.", "Supply CE/ISO certificates, validation data and COA up front — buyers in this segment demand it."]
+  },
+  "public-health": {
+    "position": "Field programs buy documentation, stability and bulk supply — the test's clinical spec matters less than its logistics reliability.",
+    "reasoning": ["Room-temperature-stable, instrument-free kits survive remote and tropical distribution.", "NGO and tender buyers need full documentation (certificates, validation, COA) before bidding.", "Bulk supply with consistent lot-to-lot quality is the winning pitch."]
+  }
+}

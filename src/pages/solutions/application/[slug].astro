@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import products from '../../../data/products.json';
 import appContent from '../../../data/application-content.json';
+import authorTakeApp from '../../../data/author-take-application.json';
 
 export function getStaticPaths() {
   return Object.entries(appContent).map(([slug, a]) => ({ params: { slug }, props: { slug, a } }));
@@ -9,6 +10,7 @@ export function getStaticPaths() {
 
 const { slug, a } = Astro.props;
 const appProducts = (a.products ?? []).map((id) => products.products.find((p) => p.id === id)).filter(Boolean);
+const at = authorTakeApp[slug];
 ---
 
 <BaseLayout
@@ -34,6 +36,15 @@ const appProducts = (a.products ?? []).map((id) => products.products.find((p) =>
       </a>
     ))}
   </div>
+
+  {at && (
+    <div class="card" style="border-left:4px solid #e8a33d; margin-top:20px;">
+      <h2>The Author's Take</h2>
+      <p><strong>Position:</strong> {at.position}</p>
+      <ul>{at.reasoning.map((r) => <li>{r}</li>)}</ul>
+      <p style="font-size:.82rem;color:#64748b;">Buyer-advisor editorial guidance — not a substitute for product IFU or local regulatory requirements.</p>
+    </div>
+  )}
 
   <div class="card" style="margin-top:20px;">
     <p style="margin:0;"><strong>Building a program in this setting?</strong> <a href="/rfq/">Request a quote →</a></p>

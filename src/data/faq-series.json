@@ -1,0 +1,25 @@
+{
+  "infectious": [
+    {"q": "How do I choose which infectious disease tests to stock?", "a": "Start with the high-burden combos — dengue NS1+IgM/IgG, malaria Pf/Pan, HBsAg/HCV/HIV/syphilis combos — then add single markers for regional demand. Combo devices reduce SKU count and widen diagnostic coverage."},
+    {"q": "Are your infectious disease tests CE-marked?", "a": "Selected lines carry CE marking (self-declaration under IVDD 98/79/EC via our EU Authorized Representative). Confirm the specific product's scope before ordering for a regulated market."},
+    {"q": "Do the tests need cold chain?", "a": "No — colloidal-gold lateral-flow tests are room-temperature stable, ideal for tropical and remote distribution."}
+  ],
+  "doa": [
+    {"q": "Can you build a custom drug-testing panel?", "a": "Yes — as an OEM/ODM manufacturer we configure custom analyte panels, cut-offs, branding and cup formats (up to 14 analytes)."},
+    {"q": "What cut-off levels do you use?", "a": "Cut-offs align with SAMHSA-style standards (e.g., THC 50 ng/mL, cocaine 150–300 ng/mL, amphetamine/methamphetamine 500–1000 ng/mL) and are configurable per market."},
+    {"q": "Are DOA tests FDA or CE marked?", "a": "Selected DOA lines carry CE marking; some analytes (AMP, BZO, COC, THC, MET, MOP) are listed as FDA lines on the company site — request the specific 510(k)/CE documentation."}
+  ],
+  "cardiac-tumor": [
+    {"q": "Are cardiac markers quantitative or qualitative?", "a": "Most are qualitative or semi-quantitative lateral-flow devices for triage; some markers are also available in fluorescence quantitative formats on request."},
+    {"q": "Which cardiac panel should I start with?", "a": "Troponin I + CK-MB + Myoglobin is the standard POC cardiac panel; add D-dimer for thrombosis assessment."},
+    {"q": "Are tumor markers diagnostic?", "a": "No — PSA, AFP and CEA are screening/monitoring aids that require imaging and confirmatory testing."}
+  ],
+  "womens-health": [
+    {"q": "What retail packaging options do you offer?", "a": "Private-label retail packaging, including midstream, cassette and strip formats, with custom branding."},
+    {"q": "Are hCG and LH tests CE/FDA marked?", "a": "hCG and LH lines carry CE marking and are listed as FDA lines on the company site — request specific documentation."}
+  ],
+  "other": [
+    {"q": "Can I mix formats in one order?", "a": "Yes — cassette, strip and device formats can be combined to meet MOQ efficiently."},
+    {"q": "What is the MOQ for specialty assays?", "a": "Low MOQ is available for the specialty 'Other' series — request current MOQ and lead time."}
+  ]
+}
