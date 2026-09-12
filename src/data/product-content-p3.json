@@ -244,5 +244,137 @@
     "clinical_context": "Combined HBV/HCV screening.",
     "limitations": "Anti-HCV indicates exposure, not active infection.",
     "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "cmv-igg-igm": {
+    "intended_use": "Qualitative detection of Cytomegalovirus IgG/IgM antibodies.",
+    "clinical_context": "CMV is part of the TORCH panel for pregnancy screening; IgG indicates past exposure, IgM recent infection.",
+    "limitations": "Interpret IgG/IgM with clinical and gestational context.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "rubella": {
+    "intended_use": "Qualitative detection of Rubella virus IgG/IgM antibodies.",
+    "clinical_context": "Rubella IgG indicates immunity — critical before pregnancy; IgM indicates recent infection.",
+    "limitations": "Rubella immunity testing is standard in antenatal screening.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "toxo": {
+    "intended_use": "Qualitative detection of Toxoplasma gondii IgG/IgM antibodies.",
+    "clinical_context": "Toxoplasmosis is a TORCH infection relevant to pregnancy.",
+    "limitations": "IgG/IgM interpretation requires clinical context.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "torch": {
+    "intended_use": "Qualitative detection of Toxoplasma + Rubella + CMV + HSV antibodies.",
+    "clinical_context": "Combined TORCH panel screens the four major congenital-infection pathogens in one test.",
+    "limitations": "Each marker follows its own interpretation.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "hsv": {
+    "intended_use": "Qualitative detection of Herpes simplex virus 1/2 IgG/IgM antibodies.",
+    "clinical_context": "HSV 1/2 serology supports herpes diagnosis and typing.",
+    "limitations": "Cannot reliably distinguish oral vs genital site.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "chlamydia": {
+    "intended_use": "Qualitative detection of Chlamydia trachomatis antigen.",
+    "clinical_context": "Chlamydia is the most common bacterial STI; antigen detection supports screening.",
+    "limitations": "Confirmatory molecular testing recommended.",
+    "procurement": "Specimen: Swab / Urine. Format: cassette. CE-marked line."
+  },
+  "gonorrhea": {
+    "intended_use": "Qualitative detection of Neisseria gonorrhoeae antigen.",
+    "clinical_context": "Gonorrhea antigen detection supports STI screening.",
+    "limitations": "Culture/molecular confirmation recommended.",
+    "procurement": "Specimen: Swab / Urine. Format: cassette. CE-marked line."
+  },
+  "gc-chlamydia-combo": {
+    "intended_use": "Qualitative detection of N. gonorrhoeae + C. trachomatis antigens.",
+    "clinical_context": "Combined GC/chlamydia screening for the two most common bacterial STIs.",
+    "limitations": "Confirmatory testing recommended.",
+    "procurement": "Specimen: Swab / Urine. Format: cassette. CE-marked line."
+  },
+  "strep-b": {
+    "intended_use": "Qualitative detection of Group B Streptococcus antigen.",
+    "clinical_context": "GBS screening in late pregnancy guides intrapartum antibiotic prophylaxis.",
+    "limitations": "Antigen detection is a screening aid; culture is the reference.",
+    "procurement": "Specimen: Swab. Format: cassette. CE-marked line."
+  },
+  "trichomonas": {
+    "intended_use": "Qualitative detection of Trichomonas vaginalis antigen.",
+    "clinical_context": "Trichomonas is a common protozoan STI.",
+    "limitations": "Antigen detection is a screening aid.",
+    "procurement": "Specimen: Swab. Format: cassette. CE-marked line."
+  },
+  "candida": {
+    "intended_use": "Qualitative detection of Candida albicans antigen.",
+    "clinical_context": "Candida antigen detection supports yeast-infection diagnosis.",
+    "limitations": "Antigen detection is a screening aid.",
+    "procurement": "Specimen: Swab. Format: cassette. CE-marked line."
+  },
+  "vaginal-ph": {
+    "intended_use": "Qualitative detection of Vaginal pH.",
+    "clinical_context": "Vaginal pH elevation supports bacterial-vaginosis screening.",
+    "limitations": "pH alone is a screening aid, not diagnostic.",
+    "procurement": "Specimen: Swab. Format: cassette. CE-marked line."
+  },
+  "nt-probnp": {
+    "intended_use": "Qualitative detection of N-terminal pro-B-type natriuretic peptide.",
+    "clinical_context": "NT-proBNP is a heart-failure biomarker; elevated levels indicate cardiac stress.",
+    "limitations": "POC qualitative result is triage-grade; quantitative lab assay is the standard.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "hb-hp": {
+    "intended_use": "Qualitative detection of Fecal hemoglobin + haptoglobin.",
+    "clinical_context": "Combined Hb+Hp improves sensitivity for upper and lower GI bleeding.",
+    "limitations": "Positive result requires colonoscopy follow-up.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "calprotectin-fob": {
+    "intended_use": "Qualitative detection of Fecal calprotectin + occult blood.",
+    "clinical_context": "Combined inflammation (calprotectin) and bleeding (FOB) markers.",
+    "limitations": "Screening aid; not diagnostic.",
+    "procurement": "Specimen: Feces. Format: cassette. CE-marked line."
+  },
+  "microalbumin": {
+    "intended_use": "Qualitative detection of Urinary microalbumin.",
+    "clinical_context": "Microalbuminuria is an early marker of diabetic nephropathy and kidney damage.",
+    "limitations": "Semi-quantitative POC result is a screening aid.",
+    "procurement": "Specimen: Urine. Format: cassette. CE-marked line."
+  },
+  "rheumatoid-factor": {
+    "intended_use": "Qualitative detection of Rheumatoid factor.",
+    "clinical_context": "Rheumatoid factor supports autoimmune arthritis assessment.",
+    "limitations": "RF is non-specific — elevated in other conditions.",
+    "procurement": "Specimen: WB / Serum / Plasma. Format: cassette. CE-marked line."
+  },
+  "sp-10": {
+    "intended_use": "Qualitative detection of SP-10 sperm marker.",
+    "clinical_context": "SP-10 is a sperm-specific marker used in male-fertility assessment.",
+    "limitations": "Interpret with clinical fertility evaluation.",
+    "procurement": "Specimen: Semen. Format: cassette. CE-marked line."
+  },
+  "sperm-concentration": {
+    "intended_use": "Qualitative detection of Sperm concentration.",
+    "clinical_context": "Sperm-concentration testing supports male-fertility assessment.",
+    "limitations": "Screening aid; full semen analysis is the reference.",
+    "procurement": "Specimen: Semen. Format: cassette. CE-marked line."
+  },
+  "blood-stain": {
+    "intended_use": "Qualitative detection of Blood (hemoglobin).",
+    "clinical_context": "Blood-stain detection for forensic and clinical applications.",
+    "limitations": "Presumptive detection; confirm with lab method.",
+    "procurement": "Specimen: Swab / Other. Format: cassette. CE-marked line."
+  },
+  "semen-detection": {
+    "intended_use": "Qualitative detection of Semen (PSA).",
+    "clinical_context": "Semen detection via prostate-specific antigen for forensic applications.",
+    "limitations": "Presumptive detection.",
+    "procurement": "Specimen: Swab / Other. Format: cassette. CE-marked line."
+  },
+  "breast-milk-alcohol": {
+    "intended_use": "Qualitative detection of Alcohol in breast milk.",
+    "clinical_context": "Detects alcohol in breast milk to guide feeding decisions.",
+    "limitations": "Screening aid.",
+    "procurement": "Specimen: Breast milk. Format: cassette. CE-marked line."
   }
 }

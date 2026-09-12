@@ -1818,6 +1818,311 @@
       ],
       "ce": true,
       "priority": "P3"
+    },
+    {
+      "id": "cmv-igg-igm",
+      "name": "CMV IgG/IgM Rapid Test",
+      "series": "womens-health",
+      "target": "Cytomegalovirus IgG/IgM antibodies",
+      "disease": "Cytomegalovirus (TORCH)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "rubella",
+      "name": "Rubella IgG/IgM Rapid Test",
+      "series": "womens-health",
+      "target": "Rubella virus IgG/IgM antibodies",
+      "disease": "Rubella (TORCH)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "toxo",
+      "name": "Toxoplasma IgG/IgM Rapid Test",
+      "series": "womens-health",
+      "target": "Toxoplasma gondii IgG/IgM antibodies",
+      "disease": "Toxoplasmosis (TORCH)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "torch",
+      "name": "ToRCH IgG/IgM Combo Rapid Test",
+      "series": "womens-health",
+      "target": "Toxoplasma + Rubella + CMV + HSV antibodies",
+      "disease": "TORCH screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "hsv",
+      "name": "HSV 1/2 IgG/IgM Rapid Test",
+      "series": "womens-health",
+      "target": "Herpes simplex virus 1/2 IgG/IgM antibodies",
+      "disease": "Herpes simplex",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "chlamydia",
+      "name": "Chlamydia Rapid Test",
+      "series": "womens-health",
+      "target": "Chlamydia trachomatis antigen",
+      "disease": "Chlamydia (STI)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab",
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "gonorrhea",
+      "name": "Gonorrhea Rapid Test",
+      "series": "womens-health",
+      "target": "Neisseria gonorrhoeae antigen",
+      "disease": "Gonorrhea (STI)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab",
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "gc-chlamydia-combo",
+      "name": "Gonorrhea + Chlamydia Combo Rapid Test",
+      "series": "womens-health",
+      "target": "N. gonorrhoeae + C. trachomatis antigens",
+      "disease": "Gonorrhea/Chlamydia co-screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab",
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "strep-b",
+      "name": "Group B Streptococcus (GBS) Rapid Test",
+      "series": "womens-health",
+      "target": "Group B Streptococcus antigen",
+      "disease": "Group B strep (antenatal)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "trichomonas",
+      "name": "Trichomonas Vaginalis Rapid Test",
+      "series": "womens-health",
+      "target": "Trichomonas vaginalis antigen",
+      "disease": "Trichomoniasis (STI)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "candida",
+      "name": "Candida albicans Rapid Test",
+      "series": "womens-health",
+      "target": "Candida albicans antigen",
+      "disease": "Candidiasis (yeast infection)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "vaginal-ph",
+      "name": "Vaginal pH Rapid Test",
+      "series": "womens-health",
+      "target": "Vaginal pH",
+      "disease": "Bacterial vaginosis screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "nt-probnp",
+      "name": "NT-proBNP Rapid Test",
+      "series": "cardiac-tumor",
+      "target": "N-terminal pro-B-type natriuretic peptide",
+      "disease": "Heart failure",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "hb-hp",
+      "name": "Fecal Hemoglobin + Haptoglobin (Hb+Hp) Combo Rapid Test",
+      "series": "cardiac-tumor",
+      "target": "Fecal hemoglobin + haptoglobin",
+      "disease": "Colorectal screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "calprotectin-fob",
+      "name": "Calprotectin + FOB Combo Rapid Test",
+      "series": "cardiac-tumor",
+      "target": "Fecal calprotectin + occult blood",
+      "disease": "IBD / colorectal screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Feces"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "microalbumin",
+      "name": "Micro-Albumin Rapid Test",
+      "series": "other",
+      "target": "Urinary microalbumin",
+      "disease": "Early kidney damage",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Urine"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "rheumatoid-factor",
+      "name": "Rheumatoid Factor (RF) Rapid Test",
+      "series": "other",
+      "target": "Rheumatoid factor",
+      "disease": "Rheumatoid arthritis (supportive)",
+      "method": "colloidal-gold",
+      "specimen": [
+        "WB",
+        "Serum",
+        "Plasma"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "sp-10",
+      "name": "SP-10 Male Fertility Rapid Test",
+      "series": "other",
+      "target": "SP-10 sperm marker",
+      "disease": "Male fertility",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Semen"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "sperm-concentration",
+      "name": "Sperm Concentration Rapid Test",
+      "series": "other",
+      "target": "Sperm concentration",
+      "disease": "Male fertility",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Semen"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "blood-stain",
+      "name": "Blood Stain Detection Rapid Test",
+      "series": "other",
+      "target": "Blood (hemoglobin)",
+      "disease": "Forensic / occult blood",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab",
+        "Other"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "semen-detection",
+      "name": "Human Semen Detection Rapid Test",
+      "series": "other",
+      "target": "Semen (PSA)",
+      "disease": "Forensic",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Swab",
+        "Other"
+      ],
+      "ce": true,
+      "priority": "P3"
+    },
+    {
+      "id": "breast-milk-alcohol",
+      "name": "Breast Milk Alcohol Rapid Test",
+      "series": "other",
+      "target": "Alcohol in breast milk",
+      "disease": "Maternal alcohol screening",
+      "method": "colloidal-gold",
+      "specimen": [
+        "Breast milk"
+      ],
+      "ce": true,
+      "priority": "P3"
     }
   ],
   "hubs": [
