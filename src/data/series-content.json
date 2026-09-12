@@ -19,8 +19,7 @@
     "key_products": ["doa-thc", "doa-coc", "doa-amp", "doa-met", "doa-mop", "doa-opi", "doa-bzo", "doa-multi-panel", "doa-fentanyl"],
     "buyer_angle": "Workplace screening programs, occupational health and clinical toxicology — SAMHSA-style cut-offs, CE/FDA lines, private-label custom panels.",
     "related_comparisons": [
-      {"slug": "rapid-test-vs-elisa", "title": "Rapid Test vs ELISA"},
-      {"slug": "screening-vs-confirmatory", "title": "Screening vs Confirmatory"}
+      {"slug": "rapid-test-vs-elisa", "title": "Rapid Test vs ELISA"}
     ]
   },
   "cardiac-tumor": {
