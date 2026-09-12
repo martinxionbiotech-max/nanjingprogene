@@ -3,9 +3,10 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import products from '../../../data/products.json';
 import whatIs from '../../../data/what-is-content.json';
 import whatIsDoa from '../../../data/what-is-doa.json';
+import whatIsClinical from '../../../data/what-is-clinical.json';
 
 export function getStaticPaths() {
-  const allWhatIs = { ...whatIs, ...whatIsDoa };
+  const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical };
   return Object.entries(allWhatIs).map(([slug, w]) => ({ params: { slug }, props: { slug, w } }));
 }
 

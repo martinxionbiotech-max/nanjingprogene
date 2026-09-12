@@ -1,0 +1,62 @@
+{
+  "myoglobin": {
+    "name": "Myoglobin",
+    "what": "Myoglobin is a muscle protein released into blood when muscle — including heart muscle — is damaged.",
+    "significance": "It rises earliest after myocardial injury but has low cardiac specificity; used as an early marker in multi-marker panels.",
+    "related": "myoglobin"
+  },
+  "ck-mb": {
+    "name": "CK-MB (Creatine Kinase-MB)",
+    "what": "CK-MB is a cardiac-specific isoenzyme of creatine kinase, released when heart muscle is injured.",
+    "significance": "A classic cardiac marker, largely superseded by troponin but still used in some protocols.",
+    "related": "ck-mb"
+  },
+  "h-fabp": {
+    "name": "H-FABP (Heart Fatty Acid-Binding Protein)",
+    "what": "H-FABP is a small cytoplasmic protein abundant in heart muscle, released early after myocardial injury.",
+    "significance": "Used as an early cardiac marker in some panels, alongside troponin.",
+    "related": "h-fabp"
+  },
+  "cea": {
+    "name": "CEA (Carcinoembryonic Antigen)",
+    "what": "CEA is a glycoprotein normally produced during fetal development; levels rise in some cancers, especially colorectal cancer.",
+    "significance": "Used in colorectal cancer monitoring and, with other markers, screening support.",
+    "related": "cea"
+  },
+  "hba1c": {
+    "name": "HbA1c (Glycated Hemoglobin)",
+    "what": "HbA1c is hemoglobin with glucose attached, reflecting average blood glucose over the preceding 2–3 months.",
+    "significance": "The standard marker for diabetes diagnosis and long-term glucose control monitoring.",
+    "related": "hba1c"
+  },
+  "vitamin-d": {
+    "name": "Vitamin D (25-OH)",
+    "what": "25-hydroxyvitamin D is the main circulating form of vitamin D, reflecting body stores.",
+    "significance": "Used to screen for vitamin D deficiency.",
+    "related": "vitamin-d"
+  },
+  "tsh": {
+    "name": "TSH (Thyroid-Stimulating Hormone)",
+    "what": "TSH is a pituitary hormone that controls thyroid hormone production; it is the first-line thyroid function test.",
+    "significance": "Abnormal TSH indicates hypothyroidism (high TSH) or hyperthyroidism (low TSH).",
+    "related": "tsh"
+  },
+  "ferritin": {
+    "name": "Ferritin",
+    "what": "Ferritin is the body's iron-storage protein; low ferritin indicates depleted iron stores.",
+    "significance": "The most useful marker for iron-deficiency anemia diagnosis.",
+    "related": "ferritin"
+  },
+  "calprotectin": {
+    "name": "Calprotectin",
+    "what": "Calprotectin is a protein released by white blood cells in the gut during inflammation.",
+    "significance": "Fecal calprotectin distinguishes inflammatory bowel disease (IBD) from functional disorders (IBS).",
+    "related": "calprotectin"
+  },
+  "saa": {
+    "name": "SAA (Serum Amyloid A)",
+    "what": "Serum amyloid A is an acute-phase protein that rises rapidly during inflammation and infection.",
+    "significance": "Used alongside CRP for infection/inflammation triage.",
+    "related": "saa"
+  }
+}
