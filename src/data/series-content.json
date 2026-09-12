@@ -2,53 +2,144 @@
   "infectious": {
     "name": "Infectious Disease Rapid Tests",
     "overview": "Lateral-flow tests for the high-burden infections that clinics and public-health programs screen daily — dengue, malaria, HIV, hepatitis, H. pylori, syphilis, respiratory and tropical pathogens.",
-    "sub_categories": ["Viral (HIV, hepatitis, dengue, respiratory)", "Bacterial (H. pylori, Strep A, cholera, typhoid)", "Parasitic (malaria, giardia, cryptosporidium)", "Tropical (chikungunya, zika, leptospira, leishmania)"],
-    "key_products": ["dengue-combo", "malaria-pf-pan", "hiv-12", "hbsag", "hcv", "hpylori-ag", "syphilis", "influenza-ab", "covid-flu-rsv", "strep-a"],
+    "sub_categories": [
+      "Viral (HIV, hepatitis, dengue, respiratory)",
+      "Bacterial (H. pylori, Strep A, cholera, typhoid)",
+      "Parasitic (malaria, giardia, cryptosporidium)",
+      "Tropical (chikungunya, zika, leptospira, leishmania)"
+    ],
+    "key_products": [
+      "dengue-combo",
+      "malaria-pf-pan",
+      "hiv-12",
+      "hbsag",
+      "hcv",
+      "hpylori-ag",
+      "syphilis",
+      "influenza-ab",
+      "covid-flu-rsv",
+      "strep-a"
+    ],
     "buyer_angle": "Distributors, NGOs, government tenders and aid programs — combined panels, CE-marked lines, tropical/remote distribution (room-temperature stable).",
     "related_comparisons": [
-      {"slug": "dengue-ns1-vs-igg-igm", "title": "Dengue NS1 vs IgM/IgG"},
-      {"slug": "antigen-vs-antibody", "title": "Antigen vs Antibody"},
-      {"slug": "rapid-test-vs-pcr", "title": "Rapid Test vs PCR"},
-      {"slug": "igg-vs-igm", "title": "IgG vs IgM"}
+      {
+        "slug": "dengue-ns1-vs-igg-igm",
+        "title": "Dengue NS1 vs IgM/IgG"
+      },
+      {
+        "slug": "antigen-vs-antibody",
+        "title": "Antigen vs Antibody"
+      },
+      {
+        "slug": "rapid-test-vs-pcr",
+        "title": "Rapid Test vs PCR"
+      },
+      {
+        "slug": "igg-vs-igm",
+        "title": "IgG vs IgM"
+      }
     ]
   },
   "doa": {
     "name": "Drug of Abuse (DOA) Rapid Tests",
     "overview": "The most complete drug-testing line — 400+ SKUs from single-analyte dipsticks to integrated 14-panel screening cups, for workplace, clinical and rehabilitation screening.",
-    "sub_categories": ["Single analyte (THC, COC, AMP, MET, MOP/OPI, BZO, fentanyl…)", "Multi-panel cups (2–14 analytes)", "Adulteration checks (pH, specific gravity, oxidants)"],
-    "key_products": ["doa-thc", "doa-coc", "doa-amp", "doa-met", "doa-mop", "doa-opi", "doa-bzo", "doa-multi-panel", "doa-fentanyl"],
-    "buyer_angle": "Workplace screening programs, occupational health and clinical toxicology — SAMHSA-style cut-offs, CE/FDA lines, private-label custom panels.",
+    "sub_categories": [
+      "Single analyte (THC, COC, AMP, MET, MOP/OPI, BZO, fentanyl…)",
+      "Multi-panel cups (2–14 analytes)",
+      "Adulteration checks (pH, specific gravity, oxidants)"
+    ],
+    "key_products": [
+      "doa-thc",
+      "doa-coc",
+      "doa-amp",
+      "doa-met",
+      "doa-mop",
+      "doa-opi",
+      "doa-bzo",
+      "doa-multi-panel",
+      "doa-fentanyl"
+    ],
+    "buyer_angle": "Workplace screening programs, occupational health and clinical toxicology — SAMHSA-style cut-offs, CE-marked lines (FDA status per product on request), private-label custom panels.",
     "related_comparisons": [
-      {"slug": "rapid-test-vs-elisa", "title": "Rapid Test vs ELISA"}
+      {
+        "slug": "rapid-test-vs-elisa",
+        "title": "Rapid Test vs ELISA"
+      }
     ]
   },
   "cardiac-tumor": {
     "name": "Cardiac & Tumor Marker Rapid Tests",
     "overview": "Point-of-care cardiac biomarkers (troponin, CK-MB, myoglobin, D-dimer, CRP, PCT, SAA) and tumor markers (PSA, AFP, CEA) for triage and monitoring.",
-    "sub_categories": ["Cardiac injury (troponin I/T, CK-MB, myoglobin, H-FABP)", "Thrombosis (D-dimer)", "Inflammation (CRP, PCT, SAA)", "Tumor markers (PSA, AFP, CEA)"],
-    "key_products": ["troponin-i", "ck-mb", "myoglobin", "d-dimer", "crp", "pct", "psa", "afp"],
+    "sub_categories": [
+      "Cardiac injury (troponin I/T, CK-MB, myoglobin, H-FABP)",
+      "Thrombosis (D-dimer)",
+      "Inflammation (CRP, PCT, SAA)",
+      "Tumor markers (PSA, AFP, CEA)"
+    ],
+    "key_products": [
+      "troponin-i",
+      "ck-mb",
+      "myoglobin",
+      "d-dimer",
+      "crp",
+      "pct",
+      "psa",
+      "afp"
+    ],
     "buyer_angle": "Hospitals, laboratories and clinics — triage-grade POC assays with fluorescence quantitative formats available.",
     "related_comparisons": [
-      {"slug": "troponin-i-vs-t", "title": "Troponin I vs T"},
-      {"slug": "rapid-test-vs-elisa", "title": "Rapid Test vs ELISA"}
+      {
+        "slug": "troponin-i-vs-t",
+        "title": "Troponin I vs T"
+      },
+      {
+        "slug": "rapid-test-vs-elisa",
+        "title": "Rapid Test vs ELISA"
+      }
     ]
   },
   "womens-health": {
     "name": "Women's Health Rapid Tests",
     "overview": "Pregnancy and fertility hormone tests — hCG, LH, FSH, fFN, iGFBP-1 — for clinics, retail and home use.",
-    "sub_categories": ["Pregnancy (hCG)", "Ovulation & fertility (LH, FSH)", "Preterm risk (fFN, iGFBP-1)"],
-    "key_products": ["hcg", "lh", "fsh", "ffn", "igfbp-1", "hpv-16-18"],
-    "buyer_angle": "Clinics, pharmacy retail and distributors — high-volume, CE/FDA lines.",
+    "sub_categories": [
+      "Pregnancy (hCG)",
+      "Ovulation & fertility (LH, FSH)",
+      "Preterm risk (fFN, iGFBP-1)"
+    ],
+    "key_products": [
+      "hcg",
+      "lh",
+      "fsh",
+      "ffn",
+      "igfbp-1",
+      "hpv-16-18"
+    ],
+    "buyer_angle": "Clinics, pharmacy retail and distributors — high-volume, CE-marked lines (FDA status per product on request).",
     "related_comparisons": []
   },
   "other": {
     "name": "Other Rapid Tests",
     "overview": "High-turnover specialty assays — H. pylori, CRP, mononucleosis, occult blood, ferritin, HbA1c, vitamin D — for primary care and pharmacy.",
-    "sub_categories": ["Gastrointestinal (H. pylori, FOB, calprotectin, lactoferrin)", "Metabolic (HbA1c, vitamin D, ferritin, TSH)", "Inflammation (CRP, SAA, IgE)"],
-    "key_products": ["hpylori-ab", "fob", "ferritin", "hba1c", "vitamin-d", "tsh", "calprotectin"],
+    "sub_categories": [
+      "Gastrointestinal (H. pylori, FOB, calprotectin, lactoferrin)",
+      "Metabolic (HbA1c, vitamin D, ferritin, TSH)",
+      "Inflammation (CRP, SAA, IgE)"
+    ],
+    "key_products": [
+      "hpylori-ab",
+      "fob",
+      "ferritin",
+      "hba1c",
+      "vitamin-d",
+      "tsh",
+      "calprotectin"
+    ],
     "buyer_angle": "Primary care and pharmacy — low-MOQ, mixed-format catalog fill.",
     "related_comparisons": [
-      {"slug": "hpylori-antigen-vs-antibody", "title": "H. pylori Antigen vs Antibody"}
+      {
+        "slug": "hpylori-antigen-vs-antibody",
+        "title": "H. pylori Antigen vs Antibody"
+      }
     ]
   }
 }

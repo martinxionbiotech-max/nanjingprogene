@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import products from '../../../data/products.json';
+import oemContent from '../../../data/oem-content.json';
+
+export function getStaticPaths() {
+  return Object.entries(oemContent).map(([slug, o]) => ({ params: { slug }, props: { slug, o } }));
+}
+
+const { slug, o } = Astro.props;
+const oemProducts = (o.products ?? []).map((id) => products.products.find((p) => p.id === id)).filter(Boolean);
+---
+
+<BaseLayout
+  title={`${o.name} — OEM/ODM Manufacturer | Progene Bio`}
+  description={`${o.name}: ${o.overview}`}
+  canonical={`/oem/${slug}/`}
+>
+
+  <p><a href="/oem/">← OEM/ODM overview</a></p>
+  <h1>{o.name}</h1>
+  <p>{o.overview}</p>
+
+  <h2>Capabilities</h2>
+  <ul>{o.capabilities.map((c) => <li>{c}</li>)}</ul>
+
+  <h2>Relevant products ({oemProducts.length})</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:12px;">
+    {oemProducts.map((p) => (
+      <a class="card" href={`/products/${p.id}/`} style="display:block;">
+        <strong>{p.name}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{p.target}</div>
+      </a>
+    ))}
+  </div>
+
+  <div class="card" style="margin-top:20px;">
+    <p style="margin:0;"><strong>Start an OEM/ODM project →</strong> <a href="/rfq/">Request a quote</a></p>
+  </div>
+
+</BaseLayout>

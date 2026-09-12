@@ -1,6 +1,5 @@
 {
   "test_principle": "Colloidal-gold immunochromatography (lateral flow). The device captures the target analyte (antigen or antibody) on a membrane via labeled antibodies, producing a visible test line within minutes. Qualitative or semi-quantitative, intended as a screening/triage aid — not a replacement for confirmatory laboratory testing.",
-
   "dengue-ns1": {
     "intended_use": "Qualitative detection of Dengue NS1 antigen for early diagnosis of dengue virus infection.",
     "clinical_context": "NS1 antigen is detectable from day 1 of fever through early convalescence — before IgM reliably appears. NS1 antigen tests are most useful in the first week of illness (WHO recommends combined NS1 + IgM testing to cover acute and later phases).",
@@ -131,7 +130,7 @@
     "intended_use": "Detection of human chorionic gonadotropin (hCG) for pregnancy.",
     "clinical_context": "hCG is the standard pregnancy hormone; rapid tests detect early pregnancy from urine or serum.",
     "limitations": "Very early or ectopic pregnancy may give low/negative results; confirm clinically.",
-    "procurement": "Specimen: urine / serum. Format: dipstick / midstream / cassette. CE/FDA line."
+    "procurement": "Specimen: urine / serum. Format: dipstick / midstream / cassette. CE-marked line (FDA status per product on request)."
   },
   "lh": {
     "intended_use": "Detection of luteinizing hormone (LH) surge for ovulation prediction.",
@@ -151,12 +150,52 @@
     "limitations": "Not diagnostic alone — imaging and confirmatory testing required; elevated in other liver conditions.",
     "procurement": "Specimen: whole blood / serum / plasma. Format: cassette. CE-marked line."
   },
-  "doa-thc": { "intended_use": "Detection of Δ9-THC-COOH (cannabis metabolite) in urine for drug screening.", "clinical_context": "Workplace and clinical drug-of-abuse screening. Cut-off typically 50 ng/mL.", "limitations": "Screening result — presumptive positive requires confirmatory (GC-MS/LC-MS).", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
-  "doa-coc": { "intended_use": "Detection of benzoylecgonine (cocaine metabolite) in urine.", "clinical_context": "Cocaine screening; cut-offs 100–300 ng/mL.", "limitations": "Presumptive positive requires confirmation.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
-  "doa-amp": { "intended_use": "Detection of amphetamine in urine.", "clinical_context": "Amphetamine screening; cut-offs 300–1000 ng/mL.", "limitations": "Cross-reactivity with some sympathomimetics possible; confirm positives.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
-  "doa-met": { "intended_use": "Detection of methamphetamine in urine.", "clinical_context": "Methamphetamine screening; cut-off 1000 ng/mL.", "limitations": "Presumptive positive requires confirmation.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
-  "doa-mop": { "intended_use": "Detection of morphine in urine.", "clinical_context": "Opiate (morphine) screening; cut-off 300 ng/mL.", "limitations": "Positive may reflect prescription opiates; confirm to identify source.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
-  "doa-opi": { "intended_use": "Detection of opiates in urine.", "clinical_context": "Opiate-class screening; cut-off 2000 ng/mL.", "limitations": "Class-level test — confirm specific opiate by lab method.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line." },
-  "doa-bzo": { "intended_use": "Detection of benzodiazepines in urine.", "clinical_context": "Benzodiazepine screening; cut-offs 100–300 ng/mL.", "limitations": "Cross-reactivity varies by benzodiazepine; confirm positives.", "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE/FDA line." },
-  "doa-multi-panel": { "intended_use": "Integrated multi-drug screening cup (2–14 analytes) with adulteration checks.", "clinical_context": "Workplace and clinical multi-panel screening with built-in adulteration strips (pH, specific gravity, oxidants).", "limitations": "Panel is presumptive; any positive analyte requires confirmatory testing.", "procurement": "Specimen: urine. Format: cup, 2–14 panel. CE-marked line." }
+  "doa-thc": {
+    "intended_use": "Detection of Δ9-THC-COOH (cannabis metabolite) in urine for drug screening.",
+    "clinical_context": "Workplace and clinical drug-of-abuse screening. Cut-off typically 50 ng/mL.",
+    "limitations": "Screening result — presumptive positive requires confirmatory (GC-MS/LC-MS).",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line (FDA status per product on request)."
+  },
+  "doa-coc": {
+    "intended_use": "Detection of benzoylecgonine (cocaine metabolite) in urine.",
+    "clinical_context": "Cocaine screening; cut-offs 100–300 ng/mL.",
+    "limitations": "Presumptive positive requires confirmation.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line (FDA status per product on request)."
+  },
+  "doa-amp": {
+    "intended_use": "Detection of amphetamine in urine.",
+    "clinical_context": "Amphetamine screening; cut-offs 300–1000 ng/mL.",
+    "limitations": "Cross-reactivity with some sympathomimetics possible; confirm positives.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line (FDA status per product on request)."
+  },
+  "doa-met": {
+    "intended_use": "Detection of methamphetamine in urine.",
+    "clinical_context": "Methamphetamine screening; cut-off 1000 ng/mL.",
+    "limitations": "Presumptive positive requires confirmation.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line (FDA status per product on request)."
+  },
+  "doa-mop": {
+    "intended_use": "Detection of morphine in urine.",
+    "clinical_context": "Opiate (morphine) screening; cut-off 300 ng/mL.",
+    "limitations": "Positive may reflect prescription opiates; confirm to identify source.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line (FDA status per product on request)."
+  },
+  "doa-opi": {
+    "intended_use": "Detection of opiates in urine.",
+    "clinical_context": "Opiate-class screening; cut-off 2000 ng/mL.",
+    "limitations": "Class-level test — confirm specific opiate by lab method.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
+  },
+  "doa-bzo": {
+    "intended_use": "Detection of benzodiazepines in urine.",
+    "clinical_context": "Benzodiazepine screening; cut-offs 100–300 ng/mL.",
+    "limitations": "Cross-reactivity varies by benzodiazepine; confirm positives.",
+    "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line (FDA status per product on request)."
+  },
+  "doa-multi-panel": {
+    "intended_use": "Integrated multi-drug screening cup (2–14 analytes) with adulteration checks.",
+    "clinical_context": "Workplace and clinical multi-panel screening with built-in adulteration strips (pH, specific gravity, oxidants).",
+    "limitations": "Panel is presumptive; any positive analyte requires confirmatory testing.",
+    "procurement": "Specimen: urine. Format: cup, 2–14 panel. CE-marked line."
+  }
 }

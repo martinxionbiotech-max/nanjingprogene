@@ -1,0 +1,26 @@
+{
+  "drug-test": {
+    "name": "Drug-of-Abuse (DOA) Test OEM",
+    "overview": "Custom drug-screening devices — single analytes and integrated multi-panel cups — built to your analyte panel, cut-offs and branding for workplace and clinical channels.",
+    "capabilities": ["Custom panels up to 14 analytes", "SAMHSA-style cut-offs (configurable)", "Tamper-evident cups with adulteration checks", "Private label packaging and IFU"],
+    "products": ["doa-thc", "doa-coc", "doa-amp", "doa-met", "doa-mop", "doa-opi", "doa-bzo", "doa-multi-panel"]
+  },
+  "infectious-disease": {
+    "name": "Infectious Disease Test OEM",
+    "overview": "Custom infectious-disease rapid tests — dengue, malaria, HIV, hepatitis, H. pylori, respiratory and tropical pathogens — for distributors, NGOs and tender programs.",
+    "capabilities": ["Combined panels (e.g., dengue NS1+IgM/IgG, malaria Pf/Pan)", "Blood / serum / plasma / swab formats", "CE-marked lines with registration support", "Room-temperature-stable formats"],
+    "products": ["dengue-combo", "malaria-pf-pan", "hiv-12", "hbsag", "hcv", "hpylori-ag", "syphilis", "influenza-ab"]
+  },
+  "cardiac": {
+    "name": "Cardiac & Tumor Marker Test OEM",
+    "overview": "Custom cardiac and tumor-marker rapid tests — troponin, CK-MB, myoglobin, D-dimer, CRP, PSA, AFP — for hospitals, labs and clinics.",
+    "capabilities": ["Cardiac panels (troponin + CK-MB + myoglobin + D-dimer)", "Semi-quantitative and fluorescence quantitative formats", "Private label and custom packaging"],
+    "products": ["troponin-i", "ck-mb", "myoglobin", "d-dimer", "crp", "pct", "psa", "afp"]
+  },
+  "womens-health": {
+    "name": "Women's Health Test OEM",
+    "overview": "Custom pregnancy and fertility tests — hCG, LH, FSH, fFN, iGFBP-1 — for retail, pharmacy and clinical channels.",
+    "capabilities": ["Retail-ready packaging (midstream, cassette, strip)", "Private label branding", "High-volume production"],
+    "products": ["hcg", "lh", "fsh", "ffn", "igfbp-1", "hpv-16-18"]
+  }
+}
