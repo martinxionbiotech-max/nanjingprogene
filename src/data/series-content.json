@@ -141,5 +141,92 @@
         "title": "H. pylori Antigen vs Antibody"
       }
     ]
+  },
+  "veterinary": {
+    "name": "Veterinary Diagnostic Tests",
+    "overview": "Point-of-care tests for companion animals and livestock — canine, feline and bovine — built on the same lateral-flow platform as human diagnostics.",
+    "sub_categories": [
+      "Canine (heartworm, parvovirus, distemper)",
+      "Feline (FeLV, FIV)",
+      "Livestock (bovine pregnancy, mastitis)"
+    ],
+    "key_products": [
+      "canine-heartworm",
+      "canine-parvovirus",
+      "canine-distemper",
+      "feline-felv-fiv",
+      "bovine-pregnancy",
+      "bovine-mastitis"
+    ],
+    "buyer_angle": "Animal-health distributors and clinics — instrument-free, whole-blood/serum/fecal formats, OEM/private label. Catalog on request (line actively expanding).",
+    "related_comparisons": []
+  },
+  "urine-analysis": {
+    "name": "Urine Analysis Reagent Strips",
+    "overview": "Multi-parameter urinalysis reagent strips (up to 10 parameters) for clinics, laboratories and retail pharmacy.",
+    "sub_categories": [
+      "10-parameter strips",
+      "Custom parameter combinations"
+    ],
+    "key_products": [
+      "urine-reagent-strip"
+    ],
+    "buyer_angle": "Clinics, labs and retail — private-label strips, custom parameter sets, bulk supply. Catalog on request.",
+    "related_comparisons": []
+  },
+  "fia": {
+    "name": "Fluorescence Immunoassay (FIA)",
+    "overview": "Quantitative rapid tests read by a fluorescence analyzer — upgrading from qualitative triage to numeric results.",
+    "sub_categories": [
+      "Quantitative cardiac / hormone / inflammation markers"
+    ],
+    "key_products": [
+      "fia-quantitative"
+    ],
+    "buyer_angle": "Hospitals and labs needing quantitative POC results — paired with the AFR fluorescence analyzer. Catalog on request.",
+    "related_comparisons": []
+  },
+  "lfia-reader": {
+    "name": "LFIA Reader",
+    "overview": "A portable lateral-flow reader that reports objective intensity or semi-quantitative values, removing visual-read subjectivity.",
+    "sub_categories": [
+      "Colloidal-gold cassette reading",
+      "Fluorescence cassette reading"
+    ],
+    "key_products": [
+      "lfia-reader"
+    ],
+    "buyer_angle": "Clinics needing objective readout — compatible with colloidal-gold and fluorescence cassettes; OEM/private label. Specifications on request.",
+    "related_comparisons": []
+  },
+  "urine-analyzer": {
+    "name": "Urine Analyzer (AUR)",
+    "overview": "Automated urine analyzer for our multi-parameter reagent strips.",
+    "sub_categories": [],
+    "key_products": [
+      "urine-analyzer"
+    ],
+    "buyer_angle": "Labs and clinics automating urinalysis — specifications and compatibility on request.",
+    "related_comparisons": []
+  },
+  "reader-analyzer": {
+    "name": "Reader Analyzer (ATR)",
+    "overview": "Lateral-flow cassette reader analyzer for objective strip interpretation.",
+    "sub_categories": [],
+    "key_products": [
+      "reader-analyzer"
+    ],
+    "buyer_angle": "Instrument for LFIA cassettes — specifications on request.",
+    "related_comparisons": []
+  },
+  "fluorescence-analyzer": {
+    "name": "Fluorescence Analyzer (AFR)",
+    "overview": "Fluorescence analyzer for FIA quantitative tests.",
+    "sub_categories": [],
+    "key_products": [
+      "fluorescence-analyzer"
+    ],
+    "buyer_angle": "Instrument paired with FIA quantitative lines — specifications on request.",
+    "related_comparisons": []
   }
 }
