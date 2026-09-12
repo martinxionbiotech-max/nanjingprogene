@@ -30,6 +30,19 @@ import products from '../data/products.json';
         <option value="other">Other / multiple products</option>
       </select>
 
+      <p><strong>Target analyte / specimen</strong></p>
+      <input type="text" name="analyte_specimen" placeholder="e.g., Dengue NS1 — whole blood" style="width:100%;padding:8px;" />
+
+      <p><strong>Test format</strong></p>
+      <select name="format" style="width:100%;padding:8px;">
+        <option>Cassette</option>
+        <option>Strip / Dipstick</option>
+        <option>Midstream</option>
+        <option>Panel cup</option>
+        <option>Device</option>
+        <option>Not sure</option>
+      </select>
+
       <p><strong>Buyer type</strong></p>
       <select name="buyer_type" style="width:100%;padding:8px;">
         <option>Distributor</option>
@@ -49,6 +62,23 @@ import products from '../data/products.json';
         <option>FDA 510(k)</option>
         <option>Other / country registration</option>
         <option>None specified</option>
+      </select>
+
+      <p><strong>Private label / packaging</strong></p>
+      <select name="private_label" style="width:100%;padding:8px;">
+        <option>OEM private label (custom branding)</option>
+        <option>ODM custom panel/formulation</option>
+        <option>Standard Progene packaging</option>
+        <option>Not sure</option>
+      </select>
+
+      <p><strong>Documentation needed</strong></p>
+      <select name="documentation" style="width:100%;padding:8px;">
+        <option>IFU + datasheet</option>
+        <option>CE files / technical dossier</option>
+        <option>Validation / COA</option>
+        <option>Full registration dossier</option>
+        <option>Not sure</option>
       </select>
 
       <p><strong>Estimated annual volume</strong></p>
