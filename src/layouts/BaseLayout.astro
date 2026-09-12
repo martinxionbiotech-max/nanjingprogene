@@ -152,6 +152,15 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
         "name": "Nanjing Progene Bio",
         "url": site,
         "publisher": { "@id": site + "/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": url + "/#webpage",
+        "url": url,
+        "name": title,
+        "description": description,
+        "isPartOf": { "@id": site + "/#website" },
+        "about": { "@id": site + "/#organization" }
       }
     ]
   })} />

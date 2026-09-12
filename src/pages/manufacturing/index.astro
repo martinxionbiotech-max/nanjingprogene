@@ -78,4 +78,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <strong>Start an OEM/ODM project →</strong> <a href="/rfq/">Request a quote</a>
   </p>
 
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "Colloidal-gold lateral-flow rapid test manufacturing process",
+    "step": [
+      { "@type": "HowToStep", "name": "Raw materials", "text": "Antibodies and membranes qualified before production." },
+      { "@type": "HowToStep", "name": "Membrane preparation", "text": "Test and control lines dispensed on nitrocellulose." },
+      { "@type": "HowToStep", "name": "Conjugate preparation", "text": "Colloidal gold conjugated to detection antibodies." },
+      { "@type": "HowToStep", "name": "Reagent dispensing and drying", "text": "Conjugate and sample pads prepared." },
+      { "@type": "HowToStep", "name": "Strip assembly", "text": "Pads laminated onto backing card." },
+      { "@type": "HowToStep", "name": "Cassette assembly", "text": "Strips cut and loaded into cassettes or panels." },
+      { "@type": "HowToStep", "name": "Packaging", "text": "Sealed pouch with desiccant and kit labeling." },
+      { "@type": "HowToStep", "name": "QC and batch release", "text": "Lot-level traceability and validation before release." }
+    ]
+  })} />
+
 </BaseLayout>
