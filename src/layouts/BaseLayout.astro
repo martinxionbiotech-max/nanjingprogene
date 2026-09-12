@@ -6,11 +6,13 @@ interface Props {
   title: string;
   description?: string;
   canonical?: string;
+  noindex?: boolean;
 }
 const {
   title,
   description = "Nanjing Progene Biotechnology — IVD rapid test & POCT OEM/ODM manufacturer. 600+ SKUs, CE-certified, GMP facility in Nanjing.",
   canonical,
+  noindex = false,
 } = Astro.props;
 
 const site = "https://nanjingprogene.com";
@@ -25,6 +27,7 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={url} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
