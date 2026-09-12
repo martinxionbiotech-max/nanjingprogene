@@ -1,0 +1,51 @@
+{
+  "_disclosure": "This is the buyer-advisor view of the technical team — editorial guidance, not a substitute for product IFU or local regulatory requirements.",
+  "dengue": {
+    "position": "For a distributor sourcing dengue rapid tests, stock the combined NS1 + IgM/IgG device rather than single-marker tests — it covers the full diagnostic window and cuts your rejection risk.",
+    "reasoning": ["NS1 catches the first week; IgM/IgG covers the later serology window — a combo widens coverage in one SKU.", "Fewer SKUs to stock and document means lower inventory and registration burden.", "Tropical markets want room-temperature-stable kits with CE — confirm both before you commit."]
+  },
+  "malaria": {
+    "position": "Buy the species-differentiating Pf/Pan test, not a Pf-only device — malaria treatment depends on species, and Pf-only misses P. vivax.",
+    "reasoning": ["Pf/Pan distinguishes falciparum from other species, which changes treatment.", "HRP2-only tests can miss falciparum in HRP2-deletion regions — a Pan line adds a safety net.", "Field programs value instrument-free, room-temperature-stable formats."]
+  },
+  "hiv-std": {
+    "position": "Treat every reactive HIV or syphilis rapid result as presumptive — your program is only as defensible as its confirmation pathway.",
+    "reasoning": ["Antibody tests have a window period and false-reactive risk; serial confirmation is non-negotiable.", "Combined HIV/syphilis devices reduce steps in antenatal and blood-bank screening.", "Document the national confirmation algorithm before you sell into a new market."]
+  },
+  "hepatitis": {
+    "position": "When sourcing hepatitis tests, separate screening from confirmation — anti-HCV is a screen, not a diagnosis, and your buyers must understand that.",
+    "reasoning": ["HBsAg detects active or chronic HBV; anti-HCV only indicates exposure — reflex to HCV RNA is required.", "Blood-bank and antenatal programs run HBsAg/HCV/HIV/syphilis combos for throughput.", "Selling a clear 'screen vs confirm' story protects you and your buyers from misuse."]
+  },
+  "hpylori": {
+    "position": "Prefer the stool antigen test over serology for H. pylori — it detects active infection and works for test-of-cure, which serology cannot.",
+    "reasoning": ["Antibody tests stay positive after treatment; stool antigen confirms eradication.", "Test-and-treat decisions need active-infection detection, not exposure history.", "PPI/antibiotic timing affects stool antigen — put that caveat on your datasheet."]
+  },
+  "respiratory": {
+    "position": "Sell the multiplex COVID/Flu/RSV combo, not single-target antigen tests — winter syndromic demand makes the combo the higher-margin, higher-utility SKU.",
+    "reasoning": ["Three viruses present identically; a combo resolves the differential in one test.", "Antigen tests are fast but less sensitive — set buyer expectations and offer PCR confirmation.", "Seasonal demand means inventory planning, not just product choice."]
+  },
+  "cardiac": {
+    "position": "Position cardiac rapid tests as triage tools, not lab replacements — the value is speed-to-triage, and overselling accuracy will backfire.",
+    "reasoning": ["Troponin is the reference marker; POC qualitative assays are for early triage, with serial lab confirmation.", "D-dimer is for VTE exclusion — a negative result is the clinical value.", "Hospitals buy panels (troponin + CK-MB + myoglobin + D-dimer) more than single markers."]
+  },
+  "doa-workplace": {
+    "position": "Lead with the multi-panel cup with adulteration checks — it is the highest-value DOA SKU for workplace programs, not the single-analyte strip.",
+    "reasoning": ["Panel cups with pH/specific-gravity/oxidant strips detect tampering at the point of collection.", "SAMHSA-style cut-offs make your product defensible in regulated workplace programs.", "Every positive is presumptive — sell the confirmatory workflow, not just the strip."]
+  },
+  "pregnancy-fertility": {
+    "position": "For pregnancy/fertility, compete on packaging and private label, not on the chemistry — hCG and LH are commodity tests, so retail differentiation is the moat.",
+    "reasoning": ["hCG/LH/FSH are high-volume, low-complexity — buyers choose on price, brand and packaging.", "Private-label retail packaging is the margin lever.", "fFN/iGFBP-1 are risk-stratification aids, not diagnostics — label them accordingly."]
+  },
+  "tumor": {
+    "position": "Sell tumor markers as monitoring aids, never as standalone cancer tests — the honest framing is the only sustainable one.",
+    "reasoning": ["PSA/AFP/CEA rise in benign conditions too; imaging and confirmatory testing are required.", "Overclaiming a cancer-screening use creates regulatory and reputational risk.", "High-risk surveillance and monitoring are the legitimate, defensible use cases."]
+  },
+  "tropical": {
+    "position": "In tropical serology, lead with the cross-reactivity caveat — buyers who understand flavivirus overlap are buyers who don't return product.",
+    "reasoning": ["Dengue/Zika/chikungunya serology cross-reacts; interpretation needs epidemiological context.", "Field programs value room-temperature stability and instrument-free formats above all.", "Bulk/tender supply with full documentation is where the margin is."]
+  },
+  "gastrointestinal": {
+    "position": "Bundle the gastro panel — rota/adeno/noro combo plus calprotectin — because primary-care buyers want one supplier for the whole GI screen.",
+    "reasoning": ["Viral gastro combos cover the common pediatric pathogens in one device.", "Calprotectin/lactoferrin add the IBD-vs-functional distinction that GPs ask for.", "Low-MOQ, mixed-format catalog fill is the value for smaller distributors."]
+  }
+}
