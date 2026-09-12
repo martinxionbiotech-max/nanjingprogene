@@ -26,9 +26,9 @@ import products from '../../data/products.json';
     const seriesProducts = products.products.filter((p) => p.series === s.id);
     return (
       <section class="card">
-        <h2>{s.name}</h2>
+        <h2><a href={`/products/series/${s.id}/`}>{s.name}</a></h2>
         <p class="muted small">
-          {s.sku_count ? `${s.sku_count} SKUs` : "Expanding"} · {s.method}
+          {s.sku_count ? `${s.sku_count} SKUs` : `${seriesProducts.length} products`} · {s.method}
         </p>
         <ul class="hub-list">
           {seriesProducts.map((p) => (

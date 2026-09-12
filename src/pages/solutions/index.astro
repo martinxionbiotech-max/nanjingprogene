@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import products from '../../data/products.json';
+import appContent from '../../data/application-content.json';
+---
+
+const apps = Object.entries(appContent).map(([slug, a]) => ({ slug, name: a.name, overview: a.overview }));
+---
+
+<BaseLayout
+  title="Diagnostic Solutions — Disease Hubs & Applications | Progene Bio"
+  description="IVD diagnostic solutions by disease and application — dengue, malaria, HIV, hepatitis, H. pylori and point-of-care settings."
+  canonical="/solutions/"
+>
+
+  <h1>Diagnostic Solutions</h1>
+
+  <h2>By Disease</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px;">
+    {products.hubs.map((h) => (
+      <a class="card" href={`/solutions/disease/${h.id}/`} style="display:block; padding:12px 14px;">
+        <strong style="font-size:.95rem;">{h.name}</strong>
+      </a>
+    ))}
+  </div>
+
+  <h2>By Application Setting</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {apps.map((a) => (
+      <a class="card" href={`/solutions/application/${a.slug}/`} style="display:block;">
+        <strong>{a.name}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{a.overview}</div>
+      </a>
+    ))}
+  </div>
+
+</BaseLayout>

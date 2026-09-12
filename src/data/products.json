@@ -1525,21 +1525,6 @@
       "priority": "P3"
     },
     {
-      "id": "hev-igg-igm",
-      "name": "HEV IgG/IgM Rapid Test",
-      "series": "infectious",
-      "target": "Hepatitis E virus antibodies",
-      "disease": "Hepatitis E",
-      "method": "colloidal-gold",
-      "specimen": [
-        "Whole blood",
-        "Serum",
-        "Plasma"
-      ],
-      "ce": true,
-      "priority": "P3"
-    },
-    {
       "id": "ebv",
       "name": "EBV Antibody Rapid Test",
       "series": "infectious",
@@ -1682,21 +1667,6 @@
       "method": "colloidal-gold",
       "specimen": [
         "Urine"
-      ],
-      "ce": true,
-      "priority": "P3"
-    },
-    {
-      "id": "mycoplasma-pn",
-      "name": "Mycoplasma pneumoniae IgM Rapid Test",
-      "series": "infectious",
-      "target": "Mycoplasma pneumoniae IgM",
-      "disease": "Atypical pneumonia",
-      "method": "colloidal-gold",
-      "specimen": [
-        "Whole blood",
-        "Serum",
-        "Plasma"
       ],
       "ce": true,
       "priority": "P3"

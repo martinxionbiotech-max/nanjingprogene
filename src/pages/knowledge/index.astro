@@ -18,6 +18,13 @@ const guides = [
   { title: "Supplier Evaluation Checklist", desc: "How to evaluate an IVD rapid test supplier.", href: "/knowledge/procurement-guide/" },
 ];
 
+const technology = [
+  { title: "Colloidal Gold Lateral Flow", desc: "How lateral-flow immunoassay works.", href: "/knowledge/technology/lateral-flow/" },
+  { title: "Colloidal Gold Conjugation", desc: "Antibody–gold nanoparticle conjugation.", href: "/knowledge/technology/conjugation/" },
+  { title: "Nitrocellulose Membrane", desc: "Test and control lines.", href: "/knowledge/technology/membrane/" },
+  { title: "Fluorescence Immunoassay (FIA)", desc: "Quantitative readout.", href: "/knowledge/technology/fia/" },
+];
+
 const analytes = Object.entries(allWhatIs).sort((a, b) => a[1].name.localeCompare(b[1].name));
 ---
 
@@ -45,6 +52,16 @@ const analytes = Object.entries(allWhatIs).sort((a, b) => a[1].name.localeCompar
     {analytes.map(([slug, w]) => (
       <a class="card" href={`/knowledge/analyte/${slug}/`} style="display:block; padding:12px 14px;">
         <strong style="font-size:.95rem;">{w.name}</strong>
+      </a>
+    ))}
+  </div>
+
+  <h2>Diagnostic Technology</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {technology.map((g) => (
+      <a class="card" href={g.href} style="display:block;">
+        <strong>{g.title}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{g.desc}</div>
       </a>
     ))}
   </div>

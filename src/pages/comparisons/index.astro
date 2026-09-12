@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+const comparisons = [
+  { slug: "antigen-vs-antibody", title: "Antigen vs Antibody Test" },
+  { slug: "cassette-vs-dipstick", title: "Cassette vs Dipstick (Strip) Test" },
+  { slug: "covid-vs-flu-vs-rsv", title: "COVID-19 vs Influenza vs RSV" },
+  { slug: "dengue-ns1-vs-igg-igm", title: "Dengue NS1 vs IgM/IgG" },
+  { slug: "hiv-vs-syphilis", title: "HIV vs Syphilis Test" },
+  { slug: "hpylori-antigen-vs-antibody", title: "H. pylori Antigen vs Antibody" },
+  { slug: "igg-vs-igm", title: "IgG vs IgM Antibody Test" },
+  { slug: "malaria-pf-vs-pan", title: "Malaria Pf vs Pf/Pan" },
+  { slug: "malaria-pf-vs-pv", title: "Malaria P. falciparum vs P. vivax" },
+  { slug: "ns1-vs-pcr", title: "Dengue NS1 vs PCR" },
+  { slug: "rapid-test-vs-elisa", title: "Rapid Test vs ELISA" },
+  { slug: "rapid-test-vs-pcr", title: "Rapid Test vs PCR" },
+  { slug: "troponin-i-vs-t", title: "Troponin I vs Troponin T" },
+];
+---
+
+<BaseLayout
+  title="Rapid Test Comparisons — Antigen vs Antibody, NS1 vs PCR | Progene Bio"
+  description="Side-by-side rapid test comparisons — antigen vs antibody, IgG vs IgM, NS1 vs PCR, rapid test vs ELISA/PCR, and more."
+  canonical="/comparisons/"
+>
+
+  <h1>Rapid Test Comparisons</h1>
+  <p>Side-by-side comparisons to help you choose the right marker, method and format.</p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {comparisons.map((c) => (
+      <a class="card" href={`/comparisons/${c.slug}/`} style="display:block;">
+        <strong>{c.title}</strong>
+      </a>
+    ))}
+  </div>
+
+</BaseLayout>

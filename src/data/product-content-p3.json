@@ -119,12 +119,6 @@
     "limitations": "Screening result — a presumptive positive requires confirmatory testing (GC-MS/LC-MS).",
     "procurement": "Specimen: urine. Format: cassette / dipstick / panel. CE-marked line."
   },
-  "hev-igg-igm": {
-    "intended_use": "Qualitative detection of Hepatitis E virus antibodies.",
-    "clinical_context": "HEV serology supports hepatitis E diagnosis, especially in endemic regions.",
-    "limitations": "Serology is supportive; molecular confirmation where available.",
-    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
-  },
   "ebv": {
     "intended_use": "Qualitative detection of Epstein-Barr virus antibodies (VCA/EBNA).",
     "clinical_context": "EBV serology supports mononucleosis diagnosis.",
@@ -190,12 +184,6 @@
     "clinical_context": "S. pneumoniae urinary antigen supports pneumococcal pneumonia diagnosis.",
     "limitations": "Antigen detection is a supportive aid.",
     "procurement": "Specimen: Urine. Format: cassette. CE-marked line."
-  },
-  "mycoplasma-pn": {
-    "intended_use": "Qualitative detection of Mycoplasma pneumoniae IgM.",
-    "clinical_context": "M. pneumoniae is a common cause of atypical pneumonia.",
-    "limitations": "Serology timing affects sensitivity.",
-    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
   },
   "lyme": {
     "intended_use": "Qualitative detection of Borrelia antibodies.",
@@ -376,5 +364,11 @@
     "clinical_context": "Detects alcohol in breast milk to guide feeding decisions.",
     "limitations": "Screening aid.",
     "procurement": "Specimen: Breast milk. Format: cassette. CE-marked line."
+  },
+  "hev": {
+    "intended_use": "Qualitative detection of Hepatitis E virus antibodies.",
+    "clinical_context": "HEV serology supports hepatitis E diagnosis, especially in endemic regions.",
+    "limitations": "Serology is supportive; molecular confirmation where available.",
+    "procurement": "Specimen: Whole blood / Serum / Plasma. Format: cassette. CE-marked line."
   }
 }
