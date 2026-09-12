@@ -1,0 +1,71 @@
+{
+  "fever": {
+    "name": "Fever",
+    "overview": "Fever is a syndromic presentation shared by dengue, malaria, influenza, COVID-19, typhoid and chikungunya. The right test depends on geography, exposure history and symptom timing.",
+    "biomarkers": [
+      "Dengue NS1 (early) / IgM-IgG (later)",
+      "Malaria Pf HRP2 / Pan pLDH",
+      "Influenza A+B antigen",
+      "SARS-CoV-2 antigen",
+      "Typhoid IgG/IgM",
+      "Chikungunya IgG/IgM"
+    ],
+    "products": ["dengue-ns1", "dengue-igg-igm", "malaria-pf-pan", "influenza-ab", "covid-ag", "typhoid", "chikungunya"],
+    "workflow": "Travel/exposure history → select pathogen tests → rapid antigen/serology → confirm by PCR or microscopy where needed.",
+    "confirmatory": "PCR (dengue, COVID, influenza), microscopy (malaria), culture (typhoid)."
+  },
+  "chest-pain": {
+    "name": "Chest Pain",
+    "overview": "Chest pain raises acute coronary syndrome. Cardiac biomarkers — troponin first, with CK-MB and myoglobin as adjuncts — support diagnosis; D-Dimer excludes venous thromboembolism.",
+    "biomarkers": [
+      "Troponin I / T",
+      "CK-MB",
+      "Myoglobin",
+      "D-Dimer (thrombosis exclusion)"
+    ],
+    "products": ["troponin-i", "troponin-t", "ck-mb", "myoglobin", "d-dimer"],
+    "workflow": "Serial troponin + ECG → diagnose myocardial infarction (rise/fall pattern) → rule out pulmonary embolism with D-Dimer.",
+    "confirmatory": "High-sensitivity troponin + ECG + clinical assessment."
+  },
+  "suspected-hepatitis": {
+    "name": "Suspected Hepatitis",
+    "overview": "Jaundice or elevated liver enzymes raise viral hepatitis. Screen HBsAg + anti-HCV; HAV IgM and HEV cover acute presentations.",
+    "biomarkers": [
+      "HBsAg (active HBV)",
+      "Anti-HCV (exposure)",
+      "HAV IgM (acute hepatitis A)",
+      "HEV IgG/IgM"
+    ],
+    "products": ["hbsag", "hcv", "hav-igm", "hev"],
+    "workflow": "Screen HBsAg + anti-HCV → confirm active infection (HBV DNA / HCV RNA) → acute markers HAV IgM / HEV.",
+    "confirmatory": "HBV DNA / HCV RNA molecular testing."
+  },
+  "pregnancy": {
+    "name": "Pregnancy & Fertility",
+    "overview": "Reproductive hormone tests support pregnancy detection and fertility tracking across retail and clinical channels.",
+    "biomarkers": [
+      "hCG (pregnancy)",
+      "LH (ovulation timing)",
+      "FSH (ovarian reserve)",
+      "fFN / iGFBP-1 (preterm risk)"
+    ],
+    "products": ["hcg", "lh", "fsh", "ffn", "igfbp-1"],
+    "workflow": "hCG for pregnancy detection; LH surge for ovulation timing; fFN/iGFBP-1 for preterm-risk stratification.",
+    "confirmatory": "Ultrasound or quantitative hCG."
+  },
+  "workplace-screening": {
+    "name": "Workplace Drug Screening",
+    "overview": "Workplace drug testing screens for common drugs of abuse in urine, with any presumptive positive confirmed in the laboratory.",
+    "biomarkers": [
+      "THC (marijuana)",
+      "Cocaine (COC)",
+      "Amphetamine (AMP)",
+      "Methamphetamine (MET)",
+      "Morphine / Opiates (MOP/OPI)",
+      "Multi-drug panel cup"
+    ],
+    "products": ["doa-thc", "doa-coc", "doa-amp", "doa-met", "doa-mop", "doa-multi-panel"],
+    "workflow": "Screen with immunoassay → confirm presumptive positives by GC-MS/LC-MS.",
+    "confirmatory": "GC-MS / LC-MS."
+  }
+}

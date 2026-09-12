@@ -2,8 +2,10 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import products from '../../data/products.json';
 import appContent from '../../data/application-content.json';
+import scenarios from '../../data/clinical-scenario.json';
 
 const apps = Object.entries(appContent).map(([slug, a]) => ({ slug, name: a.name, overview: a.overview }));
+const scenarioList = Object.entries(scenarios).map(([slug, s]) => ({ slug, name: s.name, overview: s.overview }));
 ---
 
 <BaseLayout
@@ -19,6 +21,16 @@ const apps = Object.entries(appContent).map(([slug, a]) => ({ slug, name: a.name
     {products.hubs.map((h) => (
       <a class="card" href={`/solutions/disease/${h.id}/`} style="display:block; padding:12px 14px;">
         <strong style="font-size:.95rem;">{h.name}</strong>
+      </a>
+    ))}
+  </div>
+
+  <h2>By Clinical Scenario</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;">
+    {scenarioList.map((s) => (
+      <a class="card" href={`/solutions/scenario/${s.slug}/`} style="display:block;">
+        <strong>{s.name}</strong>
+        <div style="margin-top:6px; font-size:.85rem; color:#4a5568;">{s.overview}</div>
       </a>
     ))}
   </div>

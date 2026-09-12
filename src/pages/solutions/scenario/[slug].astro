@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import products from '../../../data/products.json';
+import scenarios from '../../../data/clinical-scenario.json';
+
+export function getStaticPaths() {
+  return Object.entries(scenarios).map(([slug, s]) => ({ params: { slug }, props: { slug, s } }));
+}
+
+const { slug, s } = Astro.props;
+const scenarioProducts = products.products.filter((p) => s.products.includes(p.id));
+---
+
+<BaseLayout
+  title={`${s.name} — Which Rapid Test to Use | Progene Bio`}
+  description={`${s.name} diagnostic testing — recommended biomarkers, rapid tests and confirmatory pathway. ${s.overview}`}
+  canonical={`/solutions/scenario/${slug}/`}
+>
+
+  <h1>{s.name} Testing</h1>
+
+  <p><strong>Direct answer:</strong> {s.overview}</p>
+
+  <h2>Recommended biomarkers</h2>
+  <ul>
+    {s.biomarkers.map((b) => <li>{b}</li>)}
+  </ul>
+
+  <h2>Diagnostic workflow</h2>
+  <p>{s.workflow}</p>
+
+  <h2>Confirmatory testing</h2>
+  <p>{s.confirmatory}</p>
+
+  <h2>Relevant products</h2>
+  <div class="product-grid">
+    {scenarioProducts.map((p) => (
+      <a class="card product-card" href={`/products/${p.id}/`}>
+        <strong>{p.name}</strong>
+        <div class="product-meta">{p.target}</div>
+      </a>
+    ))}
+  </div>
+
+  <p style="font-size:.82rem;color:#64748b;">Rapid tests are screening aids — a reactive result is presumptive. Confirm per the pathway above. Last reviewed: 2026-09-12.</p>
+
+</BaseLayout>
