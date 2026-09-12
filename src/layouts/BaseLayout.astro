@@ -10,7 +10,7 @@ interface Props {
 }
 const {
   title,
-  description = "Nanjing Progene Biotechnology — IVD rapid test & POCT OEM/ODM manufacturer. 600+ SKUs, CE-certified, GMP facility in Nanjing.",
+  description = "Nanjing Progene Biopharmaceutical — IVD rapid test & POCT OEM/ODM manufacturer. 600+ SKUs, CE-certified, GMP facility in Nanjing.",
   canonical,
   noindex = false,
 } = Astro.props;
@@ -37,12 +37,12 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="/" aria-label="Nanjing Progene Biotechnology — home">
+      <a class="brand" href="/" aria-label="Nanjing Progene Biopharmaceutical — home">
         <img
           src="/images/logo-en.png"
           width="3754"
           height="1060"
-          alt="Nanjing Progene Biotechnology logo — 南京普诺基生物科技有限公司"
+          alt="Nanjing Progene Biopharmaceutical logo — 南京普诺基生物医药有限公司"
         />
       </a>
 
@@ -77,12 +77,12 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
           src="/images/logo-en.png"
           width="3754"
           height="1060"
-          alt="Nanjing Progene Biotechnology logo"
+          alt="Nanjing Progene Biopharmaceutical logo"
           loading="lazy"
         />
         <p>
-          Nanjing Progene Biotechnology Co., Ltd<br />
-          南京普诺基生物科技有限公司
+          Nanjing Progene Biopharmaceutical Co., Ltd<br />
+          南京普诺基生物医药有限公司
         </p>
         <p>IVD rapid test &amp; POCT OEM/ODM manufacturer. GMP facility in Nanjing, China.</p>
       </div>
@@ -124,7 +124,7 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
 
     <div class="footer-bottom">
       <div class="wrap">
-        <p>© {new Date().getFullYear()} Nanjing Progene Biotechnology Co., Ltd</p>
+        <p>© {new Date().getFullYear()} Nanjing Progene Biopharmaceutical Co., Ltd</p>
         <p>IVD rapid tests · POCT · OEM/ODM</p>
         <p style="font-size:.8rem;color:#8a94a6;">We use only essential cookies. See our <a href="/privacy/">Privacy Policy</a>.</p>
       </div>
@@ -137,8 +137,8 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
       {
         "@type": "Organization",
         "@id": site + "/#organization",
-        "name": "Nanjing Progene Biotechnology Co., Ltd",
-        "alternateName": "南京普诺基生物科技有限公司",
+        "name": "Nanjing Progene Biopharmaceutical Co., Ltd",
+        "alternateName": "南京普诺基生物医药有限公司",
         "url": site,
         "email": "martin@senobiocorp.com",
         "telephone": "+86 17731388498",
