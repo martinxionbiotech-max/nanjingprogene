@@ -3,7 +3,11 @@
     "name": "THC (Cannabis)",
     "what": "THC (tetrahydrocannabinol) is the main psychoactive component of cannabis. Urine tests detect its metabolite (Δ9-THC-COOH), which persists after use.",
     "significance": "THC is the most common drug screened in workplace testing; cut-off typically 50 ng/mL.",
-    "related": "doa-thc"
+    "related": "doa-thc",
+    "specimen": "Urine",
+    "cutoff": "50 ng/mL",
+    "interpretation": "Positive = THC metabolite (Δ9-THC-COOH) detected above cut-off (presumptive). Negative = below cut-off.",
+    "limitations": "Presumptive result — confirm positives by GC-MS/LC-MS. Passively-exposed individuals may rarely screen positive."
   },
   "cocaine": {
     "name": "Cocaine (Benzoylecgonine)",
@@ -21,7 +25,11 @@
     "name": "Methamphetamine",
     "what": "Methamphetamine is a potent illicit stimulant (crystal meth).",
     "significance": "A standard workplace-screening analyte; cut-off 1000 ng/mL.",
-    "related": "doa-met"
+    "related": "doa-met",
+    "specimen": "Urine",
+    "cutoff": "500–1000 ng/mL",
+    "interpretation": "Positive = methamphetamine detected (presumptive). Negative = below cut-off.",
+    "limitations": "Cross-reactivity with some sympathomimetics possible; confirm positives by GC-MS/LC-MS."
   },
   "morphine": {
     "name": "Morphine",
@@ -45,7 +53,11 @@
     "name": "Fentanyl",
     "what": "Fentanyl is a highly potent synthetic opioid driving the current opioid crisis.",
     "significance": "Fentanyl screening is critical due to its potency and prevalence as an adulterant.",
-    "related": "doa-fentanyl"
+    "related": "doa-fentanyl",
+    "specimen": "Urine",
+    "cutoff": "Low ng/mL (assay-dependent)",
+    "interpretation": "Positive = fentanyl detected (presumptive). Negative = below cut-off.",
+    "limitations": "Does not detect all fentanyl analogs; confirm positives by LC-MS/MS."
   },
   "ketamine": {
     "name": "Ketamine",

@@ -27,6 +27,30 @@ const related = products.products.find((p) => p.id === w.related);
     <p>{w.what}</p>
     <h2>Why it matters</h2>
     <p>{w.significance}</p>
+    {w.specimen && (
+      <>
+        <h2>Specimen</h2>
+        <p>{w.specimen}</p>
+      </>
+    )}
+    {w.cutoff && (
+      <>
+        <h2>Cut-off</h2>
+        <p>{w.cutoff}</p>
+      </>
+    )}
+    {w.interpretation && (
+      <>
+        <h2>Interpretation</h2>
+        <p>{w.interpretation}</p>
+      </>
+    )}
+    {w.limitations && (
+      <>
+        <h2>Limitations</h2>
+        <p>{w.limitations}</p>
+      </>
+    )}
   </div>
 
   {related && (
@@ -39,5 +63,7 @@ const related = products.products.find((p) => p.id === w.related);
   )}
 
   <p style="margin-top:16px;"><a href="/knowledge/">← Knowledge</a></p>
+
+  <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
 
 </BaseLayout>

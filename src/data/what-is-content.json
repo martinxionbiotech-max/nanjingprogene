@@ -3,37 +3,55 @@
     "name": "Dengue NS1 Antigen",
     "what": "NS1 is a non-structural protein secreted by the dengue virus during replication. Unlike antibodies, it is a direct viral product, so its presence indicates active viral replication.",
     "significance": "NS1 is detectable from the first day of fever, before IgM antibodies appear — making it the earliest serological marker of acute dengue.",
-    "related": "dengue-ns1"
+    "related": "dengue-ns1",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Positive = dengue NS1 antigen detected (acute infection). Negative = below detection limit.",
+    "limitations": "Best in the first week; sensitivity varies by serotype; a negative result does not exclude dengue."
   },
   "hbsag": {
     "name": "Hepatitis B Surface Antigen (HBsAg)",
     "what": "HBsAg is a protein on the surface of the hepatitis B virus. It is the earliest marker to appear after HBV infection.",
     "significance": "A positive HBsAg indicates HBV infection (acute or chronic). It is the core marker for blood-bank and antenatal screening.",
-    "related": "hbsag"
+    "related": "hbsag",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Positive = HBsAg detected (active HBV infection, acute or chronic).",
+    "limitations": "Does not distinguish acute from chronic; correlate with other HBV markers."
   },
   "troponin": {
     "name": "Cardiac Troponin (cTnI / cTnT)",
     "what": "Troponin is a regulatory protein complex in cardiac muscle. Cardiac-specific isoforms (troponin I and troponin T) are released into blood when heart muscle is damaged.",
     "significance": "Cardiac troponin is the preferred biomarker for diagnosing acute myocardial infarction (heart attack).",
-    "related": "troponin-i"
+    "related": "troponin-i",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = myocardial injury; negative = below threshold.",
+    "limitations": "POC qualitative troponin is triage-grade; serial high-sensitivity testing is the standard; rises in non-MI conditions."
   },
   "d-dimer": {
     "name": "D-Dimer",
     "what": "D-dimer is a fibrin-degradation product — a protein fragment produced when a blood clot is broken down.",
     "significance": "A negative D-dimer helps rule out venous thromboembolism (VTE) in low-risk patients; a positive result is non-specific.",
-    "related": "d-dimer"
+    "related": "d-dimer",
+    "specimen": "Whole blood / plasma",
+    "interpretation": "Negative = VTE unlikely (high negative predictive value). Positive = non-specific, needs imaging.",
+    "limitations": "Positive result is non-specific (surgery, pregnancy, inflammation); used for VTE exclusion, not diagnosis."
   },
   "crp": {
     "name": "C-Reactive Protein (CRP)",
     "what": "CRP is an acute-phase protein produced by the liver in response to inflammation or infection.",
     "significance": "Rapid CRP supports infection/inflammation triage and antibiotic-stewardship decisions in primary care.",
-    "related": "crp"
+    "related": "crp",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = systemic inflammation or infection; low = unlikely significant inflammation.",
+    "limitations": "Non-specific — does not localize or identify the cause of inflammation."
   },
   "pct": {
     "name": "Procalcitonin (PCT)",
     "what": "Procalcitonin is a precursor of calcitonin that rises markedly in systemic bacterial infection and sepsis, but much less in viral infection.",
     "significance": "PCT helps distinguish bacterial from viral infection and guides antibiotic decisions.",
-    "related": "pct"
+    "related": "pct",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = supports bacterial infection/sepsis; low = less likely bacterial.",
+    "limitations": "Supportive marker — interpret with clinical context; not a standalone diagnosis."
   },
   "psa": {
     "name": "Prostate-Specific Antigen (PSA)",
@@ -45,37 +63,55 @@
     "name": "Alpha-Fetoprotein (AFP)",
     "what": "AFP is a fetal protein that falls to low levels after birth but rises again in some liver cancers.",
     "significance": "AFP is a tumor marker associated with hepatocellular carcinoma, used in high-risk surveillance.",
-    "related": "afp"
+    "related": "afp",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Elevated = supports hepatocellular carcinoma monitoring (or other conditions).",
+    "limitations": "Not diagnostic — rises in benign liver disease and pregnancy; use with imaging."
   },
   "hcg": {
     "name": "Human Chorionic Gonadotropin (hCG)",
     "what": "hCG is a hormone produced by the placenta shortly after implantation — the standard pregnancy hormone.",
     "significance": "Detection of hCG in urine or blood is the basis of pregnancy tests.",
-    "related": "hcg"
+    "related": "hcg",
+    "specimen": "Urine / serum",
+    "interpretation": "Positive = pregnancy likely. Negative = below detection threshold.",
+    "limitations": "Testing too early can give false negative; certain tumors also raise hCG."
   },
   "hiv-antibody": {
     "name": "HIV-1/2 Antibodies",
     "what": "Antibodies are the immune system's response to HIV infection, appearing weeks after exposure (the window period).",
     "significance": "HIV antibody tests are the standard first-line screening; a reactive result is presumptive and needs confirmation.",
-    "related": "hiv-12"
+    "related": "hiv-12",
+    "specimen": "Whole blood / serum / plasma / oral fluid",
+    "interpretation": "Reactive = HIV antibodies detected (presumptive). Non-reactive = not detected.",
+    "limitations": "Window period ~3–6 weeks; reactive results require confirmation per national algorithm."
   },
   "hcv-antibody": {
     "name": "Hepatitis C Antibodies (Anti-HCV)",
     "what": "Anti-HCV antibodies indicate exposure to the hepatitis C virus — current or past infection.",
     "significance": "A positive anti-HCV does not confirm active infection; HCV RNA testing is required to confirm.",
-    "related": "hcv"
+    "related": "hcv",
+    "specimen": "Whole blood / serum / plasma",
+    "interpretation": "Reactive = HCV antibodies detected (exposure). Non-reactive = not detected.",
+    "limitations": "Anti-HCV indicates exposure, not active infection — confirm with HCV RNA."
   },
   "h-pylori-antigen": {
     "name": "H. pylori Antigen",
     "what": "H. pylori antigen in stool is a direct marker of active Helicobacter pylori colonization of the stomach.",
     "significance": "Stool antigen detects active infection and is suitable for post-treatment (test-of-cure) confirmation.",
-    "related": "hpylori-ag"
+    "related": "hpylori-ag",
+    "specimen": "Stool",
+    "interpretation": "Positive = H. pylori antigen detected (active infection). Negative = not detected.",
+    "limitations": "Recent PPI/antibiotic use can cause false negatives; suitable for test-of-cure."
   },
   "lh": {
     "name": "Luteinizing Hormone (LH)",
     "what": "LH is a pituitary hormone that surges sharply just before ovulation.",
     "significance": "Detecting the LH surge predicts ovulation ~24–36 hours later, supporting fertility tracking.",
-    "related": "lh"
+    "related": "lh",
+    "specimen": "Urine",
+    "interpretation": "Surge = ovulation expected within ~24–36 h (fertile window).",
+    "limitations": "Surge timing varies; individual cycle patterns differ."
   },
   "fsh": {
     "name": "Follicle-Stimulating Hormone (FSH)",
