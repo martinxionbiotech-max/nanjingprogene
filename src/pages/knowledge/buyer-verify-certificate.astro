@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="How to Verify an IVD Certificate — CE, ISO, FDA, NMPA | Progene Bio"
+  description="How to verify an IVD certificate — check the holder name, issuing body, registration number and validity. A buyer's guide to authenticating CE, ISO 13485, FDA and NMPA documents."
+  canonical="/knowledge/buyer-verify-certificate/"
+>
+
+  <p><a href="/knowledge/">← Knowledge base</a></p>
+  <h1>How to Verify an IVD Certificate</h1>
+
+  <p><strong>Direct answer:</strong> Verify an IVD certificate by confirming three things — the certificate is in the <strong>supplier's own name</strong>, the <strong>issuing body</strong> is legitimate, and the <strong>registration/certificate number</strong> can be cross-checked against the issuing authority's database. A certificate that fails any of these is not evidence.</p>
+
+  <h2>How to verify each certificate type</h2>
+  <ul>
+    <li><strong>ISO 13485</strong> — check the certification body (e.g., a recognized registrar), the scope, and the certificate number against the body's public directory.</li>
+    <li><strong>CE marking</strong> — check the conformity procedure: Annex III self-declaration (no Notified Body) vs a Notified Body number for higher classes. Request the EC Declaration of Conformity and the authorized representative.</li>
+    <li><strong>FDA</strong> — distinguish device listing (establishment registration) from 510(k) clearance. A 510(k) has a K-number you can look up in the FDA database; a listing is not a clearance.</li>
+    <li><strong>NMPA</strong> — a registration number (注册证编号) is checkable against the NMPA database.</li>
+  </ul>
+
+  <h2>Red flags</h2>
+  <ul>
+    <li>Certificate in a different company's name.</li>
+    <li>No certificate number, or a number that does not resolve.</li>
+    <li>"FDA approved" or "FDA cleared" without a 510(k) K-number.</li>
+    <li>An expired certificate or one that does not cover your product.</li>
+  </ul>
+
+  <h2>The Author's Take</h2>
+  <p><strong>Position:</strong> In my view, "we have CE and ISO" is not verification — the certificate number and the issuing body are, and a buyer who does not cross-check them is accepting a logo instead of evidence.</p>
+  <p><strong>Reasoning:</strong> Certificates are easy to copy and hard to verify, which is why the number and the holder name matter more than the logo. A supplier who can produce the number and point you to the issuing body's directory is a supplier whose certificates you can trust.</p>
+  <p><strong>Disclosure:</strong> This is my editorial view as an IVD manufacturer's regulatory team, not a legal statement.</p>
+
+  <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-13</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "How to Verify an IVD Certificate",
+    "description": "Verify an IVD certificate by checking the holder name, issuing body and registration number against the authority's database."
+  })} />
+
+</BaseLayout>
