@@ -20,6 +20,28 @@ import products from '../data/products.json';
   <div class="card">
     <form method="POST" action="/rfq/submit">
 
+      <p><strong>What are you looking for?</strong></p>
+      <select name="intent" style="width:100%;padding:8px;">
+        <option>Existing product</option>
+        <option>Private label (OEM)</option>
+        <option>ODM custom panel / formulation</option>
+        <option>New assay development</option>
+        <option>Distributorship</option>
+        <option>Registration support</option>
+        <option>Not sure</option>
+      </select>
+
+      <p><strong>Product category</strong></p>
+      <select name="category" style="width:100%;padding:8px;">
+        <option>Infectious disease</option>
+        <option>Drug of abuse (DOA)</option>
+        <option>Cardiac &amp; tumor markers</option>
+        <option>Women's health</option>
+        <option>Veterinary</option>
+        <option>POCT instrument / FIA</option>
+        <option>Other / multiple</option>
+      </select>
+
       <p><strong>Product</strong></p>
       <select name="product" style="width:100%;padding:8px;">
         <option value="">— Select a product (or specify below) —</option>
@@ -52,13 +74,22 @@ import products from '../data/products.json';
         <option>OEM / private label</option>
       </select>
 
-      <p><strong>Destination country</strong></p>
-      <input type="text" name="country" style="width:100%;padding:8px;" />
+      <p><strong>Target market</strong></p>
+      <select name="market" style="width:100%;padding:8px;margin-bottom:8px;">
+        <option>European Union</option>
+        <option>Southeast Asia</option>
+        <option>Middle East</option>
+        <option>Africa</option>
+        <option>Latin America</option>
+        <option>North America</option>
+        <option>Other</option>
+      </select>
+      <input type="text" name="country" placeholder="Specific country (optional)" style="width:100%;padding:8px;" />
 
       <p><strong>Certification requirement</strong></p>
       <select name="certification" style="width:100%;padding:8px;">
         <option>CE</option>
-        <option>FDA 510(k)</option>
+        <option>FDA listing / 510(k)</option>
         <option>Other / country registration</option>
         <option>None specified</option>
       </select>
