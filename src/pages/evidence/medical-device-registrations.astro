@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Medical Device Registrations — NMPA Class II | Progene Bio"
+  description="Nanjing Progene Biotechnology medical-device registrations — NMPA Class II products (insulin and urine microalbumin quantum-dot immunofluorescence assays), verified against Chinese medical-device databases."
+  canonical="/evidence/medical-device-registrations/"
+>
+
+  <p><a href="/evidence/certifications/">← Certifications &amp; regulatory</a></p>
+  <h1>Medical Device Registrations</h1>
+  <p class="lede">NMPA Class II product registrations for Nanjing Progene Biotechnology, cross-checked against Chinese medical-device databases.</p>
+
+  <h2>Registered products</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Product</th><th>Registration number</th><th>Method</th><th>Class</th></tr></thead>
+      <tbody>
+        <tr><th>Insulin assay kit (胰岛素测定试剂盒)</th><td>苏械注准 20252400015</td><td>Quantum-dot immunofluorescence</td><td>II (IVD)</td></tr>
+        <tr><th>Urine microalbumin assay kit (尿微量白蛋白测定试剂盒)</th><td>苏械注准 20252400223</td><td>Quantum-dot immunofluorescence</td><td>II (IVD)</td></tr>
+        <tr><th>hCG test kit (人绒毛膜促性腺激素检测试剂盒)</th><td>Class II — Jiangsu MPA</td><td>Colloidal gold</td><td>II (IVD)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Manufacturing license</h2>
+  <div class="card">
+    <table>
+      <tbody>
+        <tr><th>License number</th><td>苏药监械生产许20240173号 (Jiangsu medical device production license)</td></tr>
+        <tr><th>Holder</th><td>Nanjing Progene Biotechnology Co., Ltd</td></tr>
+        <tr><th>Legal representative</th><td>Cao Lei (曹雷)</td></tr>
+        <tr><th>Production address</th><td>No. 26, Hengguang Road, Nanjing Economic and Technological Development Zone</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Verification sources</h2>
+  <ul>
+    <li>Yaozh Medical Device Data (药智医械数据, db.yaozh.com) — NMPA registration records</li>
+    <li>Wuxu Medical Device Data (戊戌数据) — manufacturer and registration records</li>
+    <li>VBData (动脉网) — NMPA Class II approval records</li>
+  </ul>
+  <p class="muted">Registration numbers are recorded as published in Chinese medical-device databases; verify the current status in the NMPA database before relying on them for a purchase decision.</p>
+
+  <p style="font-size:.82rem;color:#64748b;border-top:1px solid #e5e9f0;padding-top:10px;margin-top:16px;">By <strong>Progene Bio Regulatory Affairs Team</strong> · <a href="/disclaimer/">Medical disclaimer</a> · Last reviewed: 2026-09-13</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Medical Device Registrations — NMPA Class II",
+    "description": "NMPA Class II registrations for Nanjing Progene Biotechnology — insulin and urine microalbumin quantum-dot immunofluorescence assays."
+  })} />
+
+</BaseLayout>
