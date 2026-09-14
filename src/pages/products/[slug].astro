@@ -211,8 +211,15 @@ const misconceptions = {
     "name": product.name,
     "description": `Rapid test for ${product.target}. ${product.method}.`,
     "category": series?.name ?? product.series,
+    "image": new URL(productImage, "https://progenebio.net").href,
     "brand": { "@type": "Brand", "name": "Progene Bio" },
-    "manufacturer": { "@type": "Organization", "name": "Nanjing Progene Biotechnology Co., Ltd" }
+    "manufacturer": { "@type": "Organization", "name": "Nanjing Progene Biotechnology Co., Ltd" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "offerCount": 1
+    }
   })} />
 
 </BaseLayout>
