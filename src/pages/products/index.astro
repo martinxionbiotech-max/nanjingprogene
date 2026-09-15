@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import products from '../../data/products.json';
 ---
 
-<BaseLayout title="Product Catalog — IVD Rapid Tests | Progene Bio" description="Full IVD rapid test catalog: 600+ SKUs across 12 series. Infectious disease, drug of abuse, cardiac & tumor markers, women's health.">
+<BaseLayout title="Product Catalog — IVD Rapid Tests | Progene Bio" description="Full IVD rapid test catalog: 600+ SKUs across 12 series. Infectious disease, drug of abuse, cardiac & tumor markers, women's health." pageType="CollectionPage" crumbName="Product Catalog">
 
   <header class="page-hero">
     <div>
@@ -38,5 +38,19 @@ import products from '../../data/products.json';
       </section>
     );
   })}
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": "https://progenebio.net/products/#catalog",
+    "name": "IVD rapid test product catalog",
+    "numberOfItems": products.series.length,
+    "itemListElement": products.series.map((s, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": s.name,
+      "url": `https://progenebio.net/products/series/${s.id}/`
+    }))
+  })} />
 
 </BaseLayout>

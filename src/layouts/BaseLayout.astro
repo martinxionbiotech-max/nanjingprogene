@@ -7,16 +7,45 @@ interface Props {
   description?: string;
   canonical?: string;
   noindex?: boolean;
+  /** schema.org @type for the WebPage node (WebPage / ItemPage / CollectionPage / AboutPage…) */
+  pageType?: string;
+  /** optional breadcrumb trail below Home, e.g. [{ name: 'Products', href: '/products/' }] */
+  breadcrumbs?: { name: string; href: string }[];
+  /** label used for the final breadcrumb when it differs from the title */
+  crumbName?: string;
 }
 const {
   title,
   description = "Nanjing Progene Biotechnology — IVD rapid test & POCT OEM/ODM manufacturer. 600+ SKUs, CE-certified, GMP facility in Nanjing.",
   canonical,
   noindex = false,
+  pageType = "WebPage",
+  breadcrumbs = [],
+  crumbName,
 } = Astro.props;
 
 const site = "https://progenebio.net";
 const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathname, site).href;
+const pageId = url.replace(/\/+$/, "") + "/#webpage";
+
+// BreadcrumbList: Home → optional intermediate trails → current page
+const crumbList: any[] = [
+  { "@type": "ListItem", position: 1, name: "Home", item: site + "/" },
+  ...breadcrumbs.map((b, i) => ({
+    "@type": "ListItem",
+    position: i + 2,
+    name: b.name,
+    item: new URL(b.href, site).href,
+  })),
+];
+if (crumbList[crumbList.length - 1].item !== url) {
+  crumbList.push({
+    "@type": "ListItem",
+    position: crumbList.length + 1,
+    name: crumbName ?? title.split(" | ")[0].split(" — ")[0],
+    item: url,
+  });
+}
 ---
 
 <!doctype html>
@@ -143,13 +172,34 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
         "url": site,
         "email": "martin@senobiocorp.com",
         "telephone": "+86 17731388498",
+        "logo": {
+          "@type": "ImageObject",
+          "url": site + "/images/logo-en.png",
+          "width": 3754,
+          "height": 1060
+        },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "No. 26, Hengguang Road",
           "addressLocality": "Nanjing",
           "addressRegion": "Jiangsu",
           "addressCountry": "CN"
-        }
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "sales",
+            "email": "martin@senobiocorp.com",
+            "telephone": "+86 17731388498",
+            "availableLanguage": ["en", "zh"],
+            "areaServed": "Worldwide"
+          }
+        ],
+        "hasCredential": [
+          { "@type": "Certification", "name": "ISO 13485:2016 quality management system" },
+          { "@type": "Certification", "name": "CE marking (IVDD 98/79/EC)" },
+          { "@type": "Certification", "name": "NMPA Class II medical device registration" }
+        ]
       },
       {
         "@type": "WebSite",
@@ -159,8 +209,8 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
         "publisher": { "@id": site + "/#organization" }
       },
       {
-        "@type": "WebPage",
-        "@id": url + "/#webpage",
+        "@type": pageType,
+        "@id": pageId,
         "url": url,
         "name": title,
         "description": description,
@@ -169,10 +219,8 @@ const url = canonical ? new URL(canonical, site).href : new URL(Astro.url.pathna
       },
       {
         "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": site },
-          { "@type": "ListItem", "position": 2, "name": title, "item": url }
-        ]
+        "@id": url + "#breadcrumbs",
+        "itemListElement": crumbList
       }
     ]
   })} />

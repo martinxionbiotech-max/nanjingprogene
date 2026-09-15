@@ -9,6 +9,7 @@ import whatIs from '../../data/what-is-content.json';
 import whatIsDoa from '../../data/what-is-doa.json';
 import whatIsClinical from '../../data/what-is-clinical.json';
 import whatIsExtra from '../../data/what-is-extra.json';
+import skuMap from '../../data/product-sku-map.json';
 
 export function getStaticPaths() {
   return products.products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
@@ -23,6 +24,14 @@ const matchTerms = product.name.replace(/ Rapid Test.*| Test.*| Rapid.*/g, "").t
 const relatedSkus = seriesSkus.filter((s) => matchTerms.some((t) => s.product.toLowerCase().includes(t.toLowerCase()))).slice(0, 12);
 const productIndex = products.products.findIndex((p) => p.id === product.id);
 const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27) + 1)).padStart(2, "0")}.webp`;
+
+// schema.org identity + catalog number (only when the catalog match is unambiguous)
+const site = "https://progenebio.net";
+const productUrl = new URL(`/products/${product.id}/`, site).href;
+const productNodeId = productUrl.replace(/\/+$/, "") + "/#product";
+const catalogSku = (skuMap as Record<string, string>)[product.id];
+const specimenList = (product.specimen ?? []).join(" / ");
+const regulatory = product.ce ? "CE (IVDD 98/79/EC)" : "Non-CE / registration in progress";
 
 // Entity graph: product → disease hub / analyte / technology / comparison
 const allWhatIs = { ...whatIs, ...whatIsDoa, ...whatIsClinical, ...whatIsExtra };
@@ -50,8 +59,14 @@ const misconceptions = {
 
 <BaseLayout
   title={`${product.name} — ${series?.name ?? ""} | Progene Bio`}
-  description={`${product.name} — detects ${product.target}. ${product.method}. Specimen: ${(product.specimen ?? []).join("/")}. OEM/ODM IVD manufacturer.`}
+  description={`${product.name} — detects ${product.target}. ${product.method}. Specimen: ${specimenList}. OEM/ODM IVD manufacturer.`}
   canonical={`/products/${product.id}/`}
+  pageType="ItemPage"
+  crumbName={product.name}
+  breadcrumbs={[
+    { name: "Products", href: "/products/" },
+    { name: series?.name ?? product.series, href: `/products/series/${product.series}/` },
+  ]}
 >
 
   <p class="breadcrumb"><a href="/products/">← All products</a></p>
@@ -208,17 +223,36 @@ const misconceptions = {
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Product",
+    "@id": productNodeId,
     "name": product.name,
-    "description": `Rapid test for ${product.target}. ${product.method}.`,
+    "url": productUrl,
+    "description": `Rapid immunochromatographic test for ${product.target}, used in the assessment of ${product.disease}. ${product.method}. Specimen: ${specimenList}.`,
+    "image": [new URL(productImage, site).href],
     "category": series?.name ?? product.series,
-    "image": new URL(productImage, "https://progenebio.net").href,
-    "brand": { "@type": "Brand", "name": "Progene Bio" },
-    "manufacturer": { "@type": "Organization", "name": "Nanjing Progene Biotechnology Co., Ltd" },
+    "brand": { "@type": "Brand", "@id": site + "/#brand", "name": "Progene Bio" },
+    "manufacturer": { "@id": site + "/#organization" },
+    "mainEntityOfPage": { "@id": productUrl.replace(/\/+$/, "") + "/#webpage" },
+    "audience": {
+      "@type": "BusinessAudience",
+      "audienceType": "IVD distributors, clinical laboratories, public-health programmes and OEM/ODM buyers"
+    },
+    "additionalProperty": [
+      { "@type": "PropertyValue", "name": "Method", "value": product.method },
+      { "@type": "PropertyValue", "name": "Specimen", "value": specimenList },
+      { "@type": "PropertyValue", "name": "Target / analyte", "value": product.target },
+      { "@type": "PropertyValue", "name": "Regulatory status", "value": regulatory },
+      { "@type": "PropertyValue", "name": "OEM / ODM", "value": "Available — private label and custom panels" },
+      { "@type": "PropertyValue", "name": "Supply model", "value": "Quotation-based B2B supply — MOQ, price and lead time on request" }
+    ],
+    ...(catalogSku ? { "sku": catalogSku } : {}),
     "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "USD",
+      "@type": "Offer",
+      "@id": productUrl.replace(/\/+$/, "") + "/#offer",
+      "url": site + "/rfq/",
       "availability": "https://schema.org/InStock",
-      "offerCount": 1
+      "itemCondition": "https://schema.org/NewCondition",
+      "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+      "seller": { "@id": site + "/#organization" }
     }
   })} />
 

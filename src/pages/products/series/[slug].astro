@@ -25,6 +25,11 @@ const seriesImage = `/images/products-${String(((Math.max(0, seriesIndex) % 27) 
   title={`${sc.name} — OEM/ODM Manufacturer | Progene Bio`}
   description={`${sc.name}: ${sc.overview}`}
   canonical={`/products/series/${slug}/`}
+  pageType="CollectionPage"
+  crumbName={sc.name}
+  breadcrumbs={[
+    { name: "Products", href: "/products/" },
+  ]}
 >
 
   <p class="breadcrumb"><a href="/products/">← All products</a></p>
@@ -114,5 +119,19 @@ const seriesImage = `/images/products-${String(((Math.max(0, seriesIndex) % 27) 
   </div>
 
   <p style="font-size:.82rem;color:#64748b;">Last reviewed: 2026-09-12</p>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `https://progenebio.net/products/series/${slug}/#products`,
+    "name": `${sc.name} — rapid test product line`,
+    "numberOfItems": allSeriesProducts.length,
+    "itemListElement": allSeriesProducts.map((p, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": p.name,
+      "url": `https://progenebio.net/products/${p.id}/`
+    }))
+  })} />
 
 </BaseLayout>
