@@ -209,6 +209,22 @@ if (crumbList[crumbList.length - 1].item !== url) {
         "publisher": { "@id": site + "/#organization" }
       },
       {
+        // EEAT: the byline entity behind the site's technical content
+        "@type": "Organization",
+        "@id": site + "/about/team/#team",
+        "name": "Progene Tech Team",
+        "description": "The technical, regulatory-affairs and product-application team at Nanjing Progene Biotechnology that researches, writes and reviews the technical content on this site.",
+        "url": site + "/about/team/",
+        "parentOrganization": { "@id": site + "/#organization" },
+        "knowsAbout": [
+          "In vitro diagnostics (IVD)",
+          "Lateral-flow immunoassay (LFIA)",
+          "Immunochromatography",
+          "Point-of-care testing (POCT)",
+          "IVD regulatory affairs (CE IVDD/IVDR, ISO 13485, NMPA registration)"
+        ]
+      },
+      {
         "@type": pageType,
         "@id": pageId,
         "url": url,

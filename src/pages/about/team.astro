@@ -8,9 +8,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   canonical="/about/team/"
 >
 
-  <p><a href="/about-us/">← About Progene Bio</a></p>
+  <p><a href="/about/">← About Progene Bio</a></p>
   <h1>Technical &amp; Regulatory Team</h1>
   <p class="lede">The expertise behind this site's technical content. Named teams, each with a defined scope, so readers can judge the authority behind a page.</p>
+
+  <p>All technical content on this site is authored and reviewed by <strong>Progene Tech Team</strong> — Nanjing Progene Biotechnology's collective byline for the three teams below.</p>
 
   <h2>Regulatory Affairs Team</h2>
   <p><strong>Expertise:</strong> IVD regulation, ISO 13485 quality management, CE conformity (IVDD/IVDR), and medical-device registration in China and international markets.</p>
@@ -32,8 +34,13 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "Progene Bio Technical & Regulatory Team",
-    "description": "The regulatory, technical and product teams behind Progene Bio's technical content."
+    "@id": "https://progenebio.net/about/team/#webpage",
+    "url": "https://progenebio.net/about/team/",
+    "name": "Progene Tech Team — Technical & Regulatory Team",
+    "description": "The regulatory, technical and product teams behind Progene Bio's technical content.",
+    "isPartOf": { "@id": "https://progenebio.net/#website" },
+    "about": { "@id": "https://progenebio.net/about/team/#team" },
+    "mainEntity": { "@id": "https://progenebio.net/about/team/#team" }
   })} />
 
 </BaseLayout>

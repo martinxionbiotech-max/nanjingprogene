@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page not found (404) | Progene Bio"
+  description="The page you requested does not exist. Browse the IVD rapid test catalog, the technical knowledge base, or contact the Progene Bio team directly."
+  canonical="/404/"
+  noindex={true}
+  crumbName="Page not found"
+>
+  <header class="page-hero">
+    <div>
+      <p class="eyebrow">Error 404</p>
+      <h1>That page doesn't exist</h1>
+      <p class="lede">
+        The URL may be mistyped, or the page may have been renamed. Nothing was lost — use the
+        links below, or ask us directly and we'll point you to the right document.
+      </p>
+    </div>
+  </header>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Where to go next</h2>
+    <ul>
+      <li><a href="/products/">Product catalog</a> — 12 series, 600+ IVD rapid test SKUs</li>
+      <li><a href="/knowledge/">Technical knowledge base</a> — immunoassay principles, cut-off, LoD, interpretation</li>
+      <li><a href="/comparisons/">Comparisons</a> — rapid test vs ELISA/PCR, antigen vs antibody, IgG vs IgM</li>
+      <li><a href="/solutions/">Diagnostic solutions</a> — by disease, clinical scenario and application</li>
+      <li><a href="/manufacturing/">Manufacturing &amp; quality</a> — GMP facility, ISO 13485, CE-marked lines</li>
+      <li><a href="/evidence/certifications/">Certifications &amp; regulatory evidence</a></li>
+      <li><a href="/faq/">FAQ</a> · <a href="/contact/">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <p><strong>Looking for a datasheet, IFU, certificate or quotation?</strong></p>
+    <p style="margin:10px 0 0;">
+      <a class="btn" href="/rfq/">Request a quote →</a>
+    </p>
+  </div>
+</BaseLayout>
