@@ -28,7 +28,7 @@ const productImage = `/images/products-${String(((Math.max(0, productIndex) % 27
 // schema.org identity + catalog number (only when the catalog match is unambiguous)
 const site = "https://progenebio.net";
 const productUrl = new URL(`/products/${product.id}/`, site).href;
-const productNodeId = productUrl.replace(/\/+$/, "") + "/#product";
+const productNodeId = productUrl.replace(/\/+$/, "") + "/#ivd-test";
 const catalogSku = (skuMap as Record<string, string>)[product.id];
 const specimenList = (product.specimen ?? []).join(" / ");
 const regulatory = product.ce ? "CE (IVDD 98/79/EC)" : "Non-CE / registration in progress";
@@ -222,38 +222,33 @@ const misconceptions = {
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Product",
+    // IVD 快速检测试剂盒：MedicalDevice（医疗器械）+ MedicalTest（体外检测）——两者均属 MedicalEntity，
+    // 不是 Product，因此不会进入 Google「商家信息 / 商品摘要」评估（该两类富结果都强制要求价格，
+    // 而本站为报价制 B2B，页面与数据中没有任何价格，不能杜撰）。
+    "@type": ["MedicalDevice", "MedicalTest"],
     "@id": productNodeId,
     "name": product.name,
     "url": productUrl,
-    "description": `Rapid immunochromatographic test for ${product.target}, used in the assessment of ${product.disease}. ${product.method}. Specimen: ${specimenList}.`,
+    "description": `Rapid immunochromatographic test for ${product.target}, used in the assessment of ${product.disease}. Method: ${product.method}. Specimen: ${specimenList}.`,
     "image": [new URL(productImage, site).href],
-    "category": series?.name ?? product.series,
-    "brand": { "@type": "Brand", "@id": site + "/#brand", "name": "Progene Bio" },
     "manufacturer": { "@id": site + "/#organization" },
+    "brand": { "@type": "Brand", "@id": site + "/#brand", "name": "Progene Bio" },
+    ...(catalogSku ? { "sku": catalogSku } : {}),
+    "usedToDiagnose": { "@type": "MedicalCondition", "name": product.disease },
+    "legalStatus": regulatory,
     "mainEntityOfPage": { "@id": productUrl.replace(/\/+$/, "") + "/#webpage" },
-    "audience": {
-      "@type": "BusinessAudience",
-      "audienceType": "IVD distributors, clinical laboratories, public-health programmes and OEM/ODM buyers"
-    },
-    "additionalProperty": [
+    // 页面可见的技术事实（靶标/样本/方法/法规/供给模式）——用 identifier 承载 PropertyValue，
+    // 这是 Google 官方推荐的结构化事实写法（无需 price 相关字段）。
+    "identifier": [
+      { "@type": "PropertyValue", "name": "Product line", "value": series?.name ?? product.series },
       { "@type": "PropertyValue", "name": "Method", "value": product.method },
       { "@type": "PropertyValue", "name": "Specimen", "value": specimenList },
       { "@type": "PropertyValue", "name": "Target / analyte", "value": product.target },
       { "@type": "PropertyValue", "name": "Regulatory status", "value": regulatory },
+      { "@type": "PropertyValue", "name": "Intended users", "value": "IVD distributors, clinical laboratories, public-health programmes" },
       { "@type": "PropertyValue", "name": "OEM / ODM", "value": "Available — private label and custom panels" },
       { "@type": "PropertyValue", "name": "Supply model", "value": "Quotation-based B2B supply — MOQ, price and lead time on request" }
-    ],
-    ...(catalogSku ? { "sku": catalogSku } : {}),
-    "offers": {
-      "@type": "Offer",
-      "@id": productUrl.replace(/\/+$/, "") + "/#offer",
-      "url": site + "/rfq/",
-      "availability": "https://schema.org/InStock",
-      "itemCondition": "https://schema.org/NewCondition",
-      "businessFunction": "http://purl.org/goodrelations/v1#Sell",
-      "seller": { "@id": site + "/#organization" }
-    }
+    ]
   })} />
 
 </BaseLayout>
