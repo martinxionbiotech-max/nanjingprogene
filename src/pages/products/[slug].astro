@@ -38,14 +38,20 @@ const SERIES_PRICE: Record<string, { low: number; high: number }> = {
   infectious: { low: 20, high: 40 },        // 传染病
   "cardiac-tumor": { low: 40, high: 60 },   // 心肌（含肿瘤）标志物
   fia: { low: 120, high: 220 },             // 荧光定量
-  // 以下系列未单独定价 → 暂沿用目录区间，待细化
-  doa: { low: 80, high: 350 },
-  "womens-health": { low: 80, high: 350 },
-  other: { low: 80, high: 350 },
-  veterinary: { low: 80, high: 350 },
+  doa: { low: 40, high: 120 },              // 滥用药物筛查
+  "womens-health": { low: 50, high: 90 },   // 女性健康
+  other: { low: 20, high: 360 },            // 其他快速检测
+  veterinary: { low: 10, high: 360 },       // 兽医诊断
+  "lfia-reader": { low: 800, high: 3000 },          // 仪器
+  "urine-analyzer": { low: 800, high: 3000 },       // 仪器
+  "reader-analyzer": { low: 800, high: 3000 },      // 仪器
+  "fluorescence-analyzer": { low: 800, high: 3000 },// 仪器
 };
-// 仪器 / 尿液分析试纸：无给定价格，不出价格也不声明 Product（不编造价格）
-const NO_PRICE_SERIES = new Set(["urine-analysis", "lfia-reader", "urine-analyzer", "reader-analyzer", "fluorescence-analyzer"]);
+// 仪器类（价格措辞与试剂盒不同）
+const INSTRUMENT_SERIES = new Set(["lfia-reader", "urine-analyzer", "reader-analyzer", "fluorescence-analyzer"]);
+const isInstrument = INSTRUMENT_SERIES.has(product.series);
+// 尿液分析试纸：未给定区间 → 不出价格、不声明 Product（不编造价格）
+const NO_PRICE_SERIES = new Set(["urine-analysis"]);
 const priceRange = NO_PRICE_SERIES.has(product.series) ? null : (SERIES_PRICE[product.series] ?? { low: 80, high: 350 });
 const priceText = priceRange ? `USD ${priceRange.low}\u2013${priceRange.high}` : null;
 
@@ -119,7 +125,7 @@ const misconceptions = {
         <tr><th>Shelf life</th><td>Documented in datasheet (typically 24 months)</td></tr>
         <tr><th>Regulatory</th><td>{product.ce ? "CE (IVDD 98/79/EC)" : "Non-CE / registration in progress"}{product.fda ? " · FDA listed" : ""}</td></tr>
         {priceText && (
-          <tr><th>Indicative price</th><td>{priceText} — final pricing depends on kit size, format, panel configuration and OEM/ODM scope (confirmed on quotation)</td></tr>
+          <tr><th>Indicative price</th><td>{priceText} — {isInstrument ? "final pricing depends on configuration and OEM/ODM scope" : "final pricing depends on kit size, format, panel configuration and OEM/ODM scope"} (confirmed on quotation)</td></tr>
         )}
         <tr><th>OEM/ODM</th><td>Available — private label &amp; custom panel</td></tr>
       </tbody>
@@ -209,7 +215,7 @@ const misconceptions = {
     <table>
       <tbody>
         {priceText && (
-          <tr><th>Price</th><td>Indicative range <strong>{priceText}</strong> — depends on kit size, format and OEM/ODM scope; confirmed on quotation</td></tr>
+          <tr><th>Price</th><td>Indicative range <strong>{priceText}</strong> — {isInstrument ? "depends on configuration and OEM/ODM scope" : "depends on kit size, format and OEM/ODM scope"}; confirmed on quotation</td></tr>
         )}
         <tr><th>MOQ</th><td>Product-dependent — low MOQ available on specialty assays</td></tr>
         <tr><th>OEM / private label</th><td>Custom branding, cut-off, panel and packaging</td></tr>
