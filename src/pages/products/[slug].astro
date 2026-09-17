@@ -102,6 +102,7 @@ const misconceptions = {
         <tr><th>Storage</th><td>Documented in datasheet (typically 2–30 °C, sealed)</td></tr>
         <tr><th>Shelf life</th><td>Documented in datasheet (typically 24 months)</td></tr>
         <tr><th>Regulatory</th><td>{product.ce ? "CE (IVDD 98/79/EC)" : "Non-CE / registration in progress"}{product.fda ? " · FDA listed" : ""}</td></tr>
+        <tr><th>Indicative price</th><td>USD 80–350 — final pricing depends on kit size, format, panel configuration and OEM/ODM scope (confirmed on quotation)</td></tr>
         <tr><th>OEM/ODM</th><td>Available — private label &amp; custom panel</td></tr>
       </tbody>
     </table>
@@ -189,6 +190,7 @@ const misconceptions = {
     <h2>Buyer Information</h2>
     <table>
       <tbody>
+        <tr><th>Price</th><td>Indicative range <strong>USD 80–350</strong> — depends on kit size, format and OEM/ODM scope; confirmed on quotation</td></tr>
         <tr><th>MOQ</th><td>Product-dependent — low MOQ available on specialty assays</td></tr>
         <tr><th>OEM / private label</th><td>Custom branding, cut-off, panel and packaging</td></tr>
         <tr><th>Samples</th><td>Available for evaluation — request via RFQ</td></tr>
@@ -222,10 +224,9 @@ const misconceptions = {
 
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    // IVD 快速检测试剂盒：MedicalDevice（医疗器械）+ MedicalTest（体外检测）——两者均属 MedicalEntity，
-    // 不是 Product，因此不会进入 Google「商家信息 / 商品摘要」评估（该两类富结果都强制要求价格，
-    // 而本站为报价制 B2B，页面与数据中没有任何价格，不能杜撰）。
-    "@type": ["MedicalDevice", "MedicalTest"],
+    // Product（Google 商品抓取入口）+ IVD 医学实体类型；
+    // 价格用 AggregateOffer 的 lowPrice/highPrice 表达区间（80–350 USD），与页面可见价格一致。
+    "@type": ["Product", "MedicalDevice", "MedicalTest"],
     "@id": productNodeId,
     "name": product.name,
     "url": productUrl,
@@ -239,6 +240,31 @@ const misconceptions = {
     "mainEntityOfPage": { "@id": productUrl.replace(/\/+$/, "") + "/#webpage" },
     // 页面可见的技术事实（靶标/样本/方法/法规/供给模式）——用 identifier 承载 PropertyValue，
     // 这是 Google 官方推荐的结构化事实写法（无需 price 相关字段）。
+    "offers": {
+      "@type": "AggregateOffer",
+      "@id": productUrl.replace(/\/+$/, "") + "/#offer",
+      "url": productUrl,
+      "priceCurrency": "USD",
+      "lowPrice": 80,
+      "highPrice": 350,
+      // priceSpecification.price 一并给出：GSC「商家信息/商品摘要」要求 price 或 priceSpecification.price，
+      // 区间语义同时由 AggregateOffer.lowPrice/highPrice 与 PriceSpecification.minPrice/maxPrice 表达。
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 80,
+        "priceCurrency": "USD",
+        "minPrice": 80,
+        "maxPrice": 350
+      },
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+      "seller": { "@id": site + "/#organization" }
+    },
+    "audience": {
+      "@type": "BusinessAudience",
+      "audienceType": "IVD distributors, clinical laboratories, public-health programmes and OEM/ODM buyers"
+    },
     "identifier": [
       { "@type": "PropertyValue", "name": "Product line", "value": series?.name ?? product.series },
       { "@type": "PropertyValue", "name": "Method", "value": product.method },
@@ -247,7 +273,7 @@ const misconceptions = {
       { "@type": "PropertyValue", "name": "Regulatory status", "value": regulatory },
       { "@type": "PropertyValue", "name": "Intended users", "value": "IVD distributors, clinical laboratories, public-health programmes" },
       { "@type": "PropertyValue", "name": "OEM / ODM", "value": "Available — private label and custom panels" },
-      { "@type": "PropertyValue", "name": "Supply model", "value": "Quotation-based B2B supply — MOQ, price and lead time on request" }
+      { "@type": "PropertyValue", "name": "Supply model", "value": "Indicative price range USD 80–350 per order; MOQ and lead time confirmed on quotation" }
     ]
   })} />
 
